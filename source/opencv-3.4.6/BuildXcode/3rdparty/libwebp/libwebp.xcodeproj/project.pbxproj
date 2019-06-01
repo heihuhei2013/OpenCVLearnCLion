@@ -1,0 +1,1349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F934E862E004479C9F85A73C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				9FC7960325484AA9895964B5 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				945CAAB83772449180418899 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 266747EC263741A5B3CEE6D0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C536AEB26B984EA68F81319B /* CMake Rules */,
+			);
+			dependencies = (
+				2AD548F0715F451793E55EA2 /* PBXTargetDependency */,
+				DA0CD075DE9A473EB7A43464 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BBCFBABA7D9543248EC42E3F /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				E53ABBE0E2954F84A474F6E1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3AC7604CBF79404E9158D918 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 26EC67181CAC4C18A5ED33FB /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				A3AB32EC0DF1475DB36CAE73 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A5A4E1FBA7B40698711DAB9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				800BA182538740789AC37779 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		057003AC256E4D8381A978FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_rescale_enc.c */ = {isa = PBXBuildFile; fileRef = A9F5486B467B46E48FC66AAF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_rescale_enc.c */; };
+		06D9444B138C4EFDA854DD9A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/common_dec.h */ = {isa = PBXBuildFile; fileRef = 5020BDD70679437F8FF3266B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/common_dec.h */; };
+		0793A778C44546B3B1AD8B4D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_neon.c */ = {isa = PBXBuildFile; fileRef = BBF08EAE509645D3A0084041 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_neon.c */; };
+		0844E83F121442B89387FFD3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */ = {isa = PBXBuildFile; fileRef = 940894136CB34AB9ACE273E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */; };
+		0EAF95C2FD0A49B98B2087E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/buffer_dec.c */ = {isa = PBXBuildFile; fileRef = 272AD3AFA419479C9D67DAA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/buffer_dec.c */; };
+		0F524E26BAF64A7B820AAD08 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/webp_enc.c */ = {isa = PBXBuildFile; fileRef = B6993B37981442CF92BB8D53 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/webp_enc.c */; };
+		0F80AF566D154A3B8F5B775B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.h */ = {isa = PBXBuildFile; fileRef = 3F2D8610D0034DD9B4D5E7C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.h */; };
+		0FADC4E9D7F044F889EFBC3D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips32.c */ = {isa = PBXBuildFile; fileRef = 1981ABB671F040FAAD8E61B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips32.c */; };
+		0FBC0BA33BE94355BDAACA92 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.c */ = {isa = PBXBuildFile; fileRef = CC7AC222AAF646D29B097701 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.c */; };
+		1470C4EDB805484F8B3770EA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/alpha_enc.c */ = {isa = PBXBuildFile; fileRef = 2FF2C637C6174C3FA200B0AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/alpha_enc.c */; };
+		154A5203736541DE85E6B4D1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.h */ = {isa = PBXBuildFile; fileRef = 30B7F878F21043EDAD311311 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.h */; };
+		15AE9085A0FE44F0B1C4F814 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.h */ = {isa = PBXBuildFile; fileRef = 239E39DFD9E34E29A18D65E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.h */; };
+		170B9E71F85A429BB065BD8B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_csp_enc.c */ = {isa = PBXBuildFile; fileRef = 9B363F9C108B45CAA9E13C97 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_csp_enc.c */; };
+		17E5BBB17D874BB0874182C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.c */ = {isa = PBXBuildFile; fileRef = C98FC5DA258442B0A2E6B191 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.c */; };
+		1847E9095060494D838F3843 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost.c */ = {isa = PBXBuildFile; fileRef = C71051F6000D4FFDA538E133 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost.c */; };
+		1879E80D830C44EF87E1F6FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxi.h */ = {isa = PBXBuildFile; fileRef = CD7C5780E4C04ABD9683BBD4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxi.h */; };
+		19E672539A2F45F2A77DAF7E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 48E5BEBDBFA648658E57CE2D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */; };
+		1BA25A7A39AF415C826081A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.h */ = {isa = PBXBuildFile; fileRef = F95967C30028405DA538BAAA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.h */; };
+		1C25C235D18F4F118E890A2B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse41.c */ = {isa = PBXBuildFile; fileRef = 7FFC9CDF7D734F1894955611 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse41.c */; };
+		1FAD6953FC21416C8B750B5D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.h */ = {isa = PBXBuildFile; fileRef = 06B6B12BB58C499481B4421C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.h */; };
+		20347F34280949DF890AC839 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alpha_dec.c */ = {isa = PBXBuildFile; fileRef = D925B703C5A94A4DA9CBCA64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alpha_dec.c */; };
+		20F8E41EAD8044D2ADCCB5C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse2.c */ = {isa = PBXBuildFile; fileRef = 87EB85B64E0841E6B2F87B07 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse2.c */; };
+		2245D6CAF2DD47DBABD5905B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/analysis_enc.c */ = {isa = PBXBuildFile; fileRef = F51C04B564E546AD91FB98EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/analysis_enc.c */; };
+		226E36DC8E2A415596680AC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_sse2.c */ = {isa = PBXBuildFile; fileRef = 9C026A0940FC4FB1A1E71A6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_sse2.c */; };
+		2319780710954CA3A7DEE81B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.c */ = {isa = PBXBuildFile; fileRef = 96F4FB86F28643A7A456B03F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.c */; };
+		24B7D1AAE69D44EEAFE4B2C3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/mux_types.h */ = {isa = PBXBuildFile; fileRef = B9F6DFCA93484C529E3809F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/mux_types.h */; };
+		24DAA618599F4FD69CA6FC11 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dsp.h */ = {isa = PBXBuildFile; fileRef = 98EC87D0007E443EACC85904 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dsp.h */; };
+		2512D44F69214E20B5E7CF1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.c */ = {isa = PBXBuildFile; fileRef = 979FAE44706147DA8B86665E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.c */; };
+		252F9C9691C14A8DB4148A5D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */ = {isa = PBXBuildFile; fileRef = E64BE355C11745F8926598FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */; };
+		25546EE39DE7436280D8C2BA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_msa.c */ = {isa = PBXBuildFile; fileRef = E5ABB3909C8544A0B59F8C98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_msa.c */; };
+		25FC4C3CC50941BF957F9AC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8l_dec.c */ = {isa = PBXBuildFile; fileRef = FEB8D318C4CC41FA94E7A73F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8l_dec.c */; };
+		2F51919D29044B9EAA7C07F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.h */ = {isa = PBXBuildFile; fileRef = CC4016477AE040AE90460775 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.h */; };
+		33A2C3E2D8214AF1934DD6AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/mux.h */ = {isa = PBXBuildFile; fileRef = AE74EA0558444CC6B220787A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/mux.h */; };
+		33F968E7E2D247778D157CB0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse41.c */ = {isa = PBXBuildFile; fileRef = 9915E3C51E6842498B794EAB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse41.c */; };
+		36C10994985047E4ACA207B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_tools_enc.c */ = {isa = PBXBuildFile; fileRef = 7A72E92A216E4B98AF42CCB1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_tools_enc.c */; };
+		3705CFD4117643CAB21E6562 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse2.c */ = {isa = PBXBuildFile; fileRef = 5986E539372142F3B4DDA80D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse2.c */; };
+		3772210A134B44339C946713 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/anim_decode.c */ = {isa = PBXBuildFile; fileRef = 62209AE9981345158D341C95 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/anim_decode.c */; };
+		394DC9871D514D1BBF970B06 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */ = {isa = PBXBuildFile; fileRef = E832C836FD7E48E082872FB2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */; };
+		3ABE9687EF9B4B20A986D985 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webp_dec.c */ = {isa = PBXBuildFile; fileRef = E477AA90744E4949BFF6BBDA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webp_dec.c */; };
+		3C15A80192F84F77BAD42090 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/frame_enc.c */ = {isa = PBXBuildFile; fileRef = 05A6375148ED4A32AD2E8DB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/frame_enc.c */; };
+		42E3B55A966C4611A9346D1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips32.c */ = {isa = PBXBuildFile; fileRef = 5A110D762579496EBFB31796 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips32.c */; };
+		446A6DB952B74C54A91DDEAA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.h */ = {isa = PBXBuildFile; fileRef = 5C734C6D02DF4D85AAC790D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.h */; };
+		46A4230B68624378B16197B1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */ = {isa = PBXBuildFile; fileRef = 6F4A36DAE69D4B93885BF8C4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */; };
+		4715A4196F8A4C7D85CDB6CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/filter_enc.c */ = {isa = PBXBuildFile; fileRef = 684FB6C634394E36BF639F57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/filter_enc.c */; };
+		4857E7D317CE455E88AA84AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_sse2.c */ = {isa = PBXBuildFile; fileRef = 7E92005E59DB40E49AFF5438 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_sse2.c */; };
+		494C2A41B2B847D189F15208 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/msa_macro.h */ = {isa = PBXBuildFile; fileRef = 0B566550E5F84F06BE3F7639 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/msa_macro.h */; };
+		4AA821607C90432B8A2B6488 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 7E807918680D4602848482E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */; };
+		4AEC76B4D62141A49452395B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/endian_inl_utils.h */ = {isa = PBXBuildFile; fileRef = 5C7B6D2D107B4C9DA8B49B12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/endian_inl_utils.h */; };
+		4AFF2A9B6823481FBC2F4229 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8li_enc.h */ = {isa = PBXBuildFile; fileRef = 4E6E69320A63442BB154960B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8li_enc.h */; };
+		4C6C591B01BC465ABCB060CB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */ = {isa = PBXBuildFile; fileRef = DDC9513B877548A9BB53A528 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */; };
+		4E50ABA5EB08449B9FEE1E85 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/quant_dec.c */ = {isa = PBXBuildFile; fileRef = 82FDFBC02C574CC1B7F6F26F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/quant_dec.c */; };
+		4F33B38A90FD4FA0A2AAE2BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cpu.c */ = {isa = PBXBuildFile; fileRef = 67DD78216B9D419E840968F4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cpu.c */; };
+		5262EAB008244A2F9605C044 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/neon.h */ = {isa = PBXBuildFile; fileRef = 089FD794368F4A7C996B3DEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/neon.h */; };
+		52631043164B4428B7E95EA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.h */ = {isa = PBXBuildFile; fileRef = 4EE1DDED65104E2881DBA7FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.h */; };
+		555B01D4BC4A434FA1D78352 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/mips_macro.h */ = {isa = PBXBuildFile; fileRef = 7F63891A853D4AE7BF020836 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/mips_macro.h */; };
+		57222F680D354085B081546F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_avx2.c */ = {isa = PBXBuildFile; fileRef = EBEF0AB9DF4847B59D454EBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_avx2.c */; };
+		580870AEA7A14BC4935D7D6B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/common_sse2.h */ = {isa = PBXBuildFile; fileRef = 1035D5731C9B4525995DAE12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/common_sse2.h */; };
+		589F9CB9CC16484891120D5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8l_enc.c */ = {isa = PBXBuildFile; fileRef = FCBF4F7C24FA45368526BF6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8l_enc.c */; };
+		58F0B5BBB2A54659825E21FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/tree_enc.c */ = {isa = PBXBuildFile; fileRef = D61F3E2F1E19484EB8A49B42 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/tree_enc.c */; };
+		5914046EADF2448D975598E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.h */ = {isa = PBXBuildFile; fileRef = 01D959FF46714F2D9D61E755 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.h */; };
+		619CD028207E45D1900901EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler.c */ = {isa = PBXBuildFile; fileRef = 7D49532BDEE04F6BB2F172C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler.c */; };
+		61E117616B7E4C7DA0A7917F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_msa.c */ = {isa = PBXBuildFile; fileRef = 7507715B3C774C35951250E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_msa.c */; };
+		61EBA48B33B545DBA3C7A407 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */ = {isa = PBXBuildFile; fileRef = D017369B0CAD40B6B1B4F809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */; };
+		64293C944EF94E5AA2F6630A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_sse2.c */ = {isa = PBXBuildFile; fileRef = F757BA2B710D44F49BC39B0D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_sse2.c */; };
+		69053E2C290C4CDDA828A63E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/animi.h */ = {isa = PBXBuildFile; fileRef = D1942442B02049388B402AFA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/animi.h */; };
+		697EF34D105E4DA6A1C78CAF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */ = {isa = PBXBuildFile; fileRef = 1FB48752B7B947BC986F9D05 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */; };
+		6A3AB12E767B422DBFCA74A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_msa.c */ = {isa = PBXBuildFile; fileRef = A537E03F6115462CAA75C3AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_msa.c */; };
+		6B1D8AC7879F4D6BBD37B41D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F5AA015F7A35481DA2E51245 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/CMakeLists.txt */; };
+		6BAA52A6E2E34B1BB62D714D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.c */ = {isa = PBXBuildFile; fileRef = 580C9724BE004850BDC96215 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.c */; };
+		70BE238ED2814677A749140F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_msa.c */ = {isa = PBXBuildFile; fileRef = 1141BC5B33144744A5192D15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_msa.c */; };
+		72C13931EC7A45CA8D97D5A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.c */ = {isa = PBXBuildFile; fileRef = B59CEAE087604D23B94D98FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.c */; };
+		72C30FA3295B4528BADAD398 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8li_dec.h */ = {isa = PBXBuildFile; fileRef = 3DFC7A1AC0804437903A4B7A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8li_dec.h */; };
+		73B598927C0846C782743C02 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.h */ = {isa = PBXBuildFile; fileRef = 31BDA9E701A04E26AC91AA1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.h */; };
+		79488E62F59D4585AAC0EEDE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8i_dec.h */ = {isa = PBXBuildFile; fileRef = BDC3E0090D2A4CE6AC5EF9A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8i_dec.h */; };
+		79A63B7EDFE7448C8A1B5E48 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.c */ = {isa = PBXBuildFile; fileRef = C4FE70C0FBBE490D890E6D1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.c */; };
+		79DBA65888234A469DAB47F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec.c */ = {isa = PBXBuildFile; fileRef = 29137DE104774855AB159EC4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec.c */; };
+		7DFA843983014E6D83F35DCA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.h */ = {isa = PBXBuildFile; fileRef = 199BD4953C9C4E78BABC77BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.h */; };
+		7E2B3E67BB3F4C8691875D57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */ = {isa = PBXBuildFile; fileRef = 700355E2922D41688D4B3315 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */; };
+		7F806F674DCE46C898345213 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_neon.c */ = {isa = PBXBuildFile; fileRef = 3C7F6AB0F6ED4DE4954A9A61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_neon.c */; };
+		7FA3068A7AD54F07950A592E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/predictor_enc.c */ = {isa = PBXBuildFile; fileRef = 556C92A71CA540B39639E6AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/predictor_enc.c */; };
+		810A9B766629410BAFAE19F4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/demux.h */ = {isa = PBXBuildFile; fileRef = 7F0C909AE7154C0C9BA6822E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/demux.h */; };
+		81AF2C4A31334E38A51D1A06 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/types.h */ = {isa = PBXBuildFile; fileRef = C1B5E4321BA34B189386E5FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/types.h */; };
+		82253CA1E5844F1E9C09C857 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8i_enc.h */ = {isa = PBXBuildFile; fileRef = 7A9A60A8F2A74937839740A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8i_enc.h */; };
+		84B6062D53EB43219760BEF5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/io_dec.c */ = {isa = PBXBuildFile; fileRef = 4771D58CCB564E5FA8E1223B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/io_dec.c */; };
+		850031E4D33C42358E8F180D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/iterator_enc.c */ = {isa = PBXBuildFile; fileRef = DD6C1EB28C4B4324B256B8D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/iterator_enc.c */; };
+		8728E0D528D74F34BD654009 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse2.c */ = {isa = PBXBuildFile; fileRef = F99446CF879447F7B584D93A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse2.c */; };
+		8823AFAD936C4048930EA39E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips32.c */ = {isa = PBXBuildFile; fileRef = CECF32F0AA55460F8D6DE131 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips32.c */; };
+		89E47E11D28446BC98E188CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxedit.c */ = {isa = PBXBuildFile; fileRef = 75DF7C8F92074AD0A9935D38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxedit.c */; };
+		8BE0DBBC1FC84290BC854ACF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/anim_encode.c */ = {isa = PBXBuildFile; fileRef = 69734366B10C4E4B9790FE6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/anim_encode.c */; };
+		8D0DBC6E745541168C187669 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.h */ = {isa = PBXBuildFile; fileRef = A3132483397748C796C53543 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.h */; };
+		8F0A68E968584F4B91B68369 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.h */ = {isa = PBXBuildFile; fileRef = BA06CA80AA794F43B7C1E9AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.h */; };
+		939A35322A7C49E68C6777F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alphai_dec.h */ = {isa = PBXBuildFile; fileRef = F0676E734F634159A7A144CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alphai_dec.h */; };
+		9426F04B216D43D79FDD7730 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.c */ = {isa = PBXBuildFile; fileRef = BD374B2A82C24AB29E4086ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.c */; };
+		95F957C8E2184EFCBAED3BB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/common_sse41.h */ = {isa = PBXBuildFile; fileRef = E5561B56AA60472CA8FDB70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/common_sse41.h */; };
+		97A66B8A3CE54D3195A5101A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/frame_dec.c */ = {isa = PBXBuildFile; fileRef = 41DE90CFBB12423B88DF451E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/frame_dec.c */; };
+		99B2D732A0CB43C6B5D04256 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_inl_utils.h */ = {isa = PBXBuildFile; fileRef = 3FE3C8BF013C441498030F5E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_inl_utils.h */; };
+		9A13332AC1DF47AF868F8B9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.c */ = {isa = PBXBuildFile; fileRef = 7F5BDC61AC0345FF88FED974 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.c */; };
+		9BE0A5B3100240F7878BE4CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/decode.h */ = {isa = PBXBuildFile; fileRef = E7773CE8A1E043E4AA37EA75 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/decode.h */; };
+		A12447E7766B4181B8F5F04A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/encode.h */ = {isa = PBXBuildFile; fileRef = 093C12B5F7FA4CC398548AF7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/encode.h */; };
+		A276CF4323204D40892479F8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.h */ = {isa = PBXBuildFile; fileRef = 2B695A6B93A142599DA567C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.h */; };
+		AA904640E90C4459A1155357 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/quant_enc.c */ = {isa = PBXBuildFile; fileRef = C9B53288519F40349688F933 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/quant_enc.c */; };
+		AB2AC1CAACF045C9A7503D08 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/tree_dec.c */ = {isa = PBXBuildFile; fileRef = CE53CBD204824E68AABCC939 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/tree_dec.c */; };
+		ABF46DBB77B14988BBF3D2D3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_common.h */ = {isa = PBXBuildFile; fileRef = CEDBBA1FB6824DF8A4A95476 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_common.h */; };
+		AF261F608D5C4B049EE39F6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/idec_dec.c */ = {isa = PBXBuildFile; fileRef = 364298000EA64005AD4ABEC2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/idec_dec.c */; };
+		AF922B9693FB4A23A7D870D3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/near_lossless_enc.c */ = {isa = PBXBuildFile; fileRef = 58A19420BF3D458D991DCDC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/near_lossless_enc.c */; };
+		B0467A73BFB94D6C926AEB8D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.h */ = {isa = PBXBuildFile; fileRef = 12421C2ED51740B0BBFC38ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.h */; };
+		B3A94F9AAF3C4CA18D98034E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc.c */ = {isa = PBXBuildFile; fileRef = 8AEC4316DA064D18B3CBFFD6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc.c */; };
+		B3D8D5F8A18C4F688BC716C7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_clip_tables.c */ = {isa = PBXBuildFile; fileRef = B86D8D8280CE4D1A9451DF59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_clip_tables.c */; };
+		B7254AF0272E4BA3B6790924 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 2CB6D83605504CDFABCE267D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */; };
+		B845004DFFC94BF8A8DEE2E8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_msa.c */ = {isa = PBXBuildFile; fileRef = 56197941FE104E4280AFAD98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_msa.c */; };
+		B851CD342B984C3BA4173CD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse41.c */ = {isa = PBXBuildFile; fileRef = 464333876AAB43F4A07545C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse41.c */; };
+		BCBEA3E98B304E22B4D807DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxread.c */ = {isa = PBXBuildFile; fileRef = 0E00C5E2FFE64592A7E6C646 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxread.c */; };
+		BDCC484258664094A9470294 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */ = {isa = PBXBuildFile; fileRef = 8B37B57E70494E2899DD5EE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */; };
+		BDE56696A3EE4834964B72CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim_sse2.c */ = {isa = PBXBuildFile; fileRef = 5AEBD7ED5DB24B458F638A86 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim_sse2.c */; };
+		BE531C9D4691456DAF17F0D5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_msa.c */ = {isa = PBXBuildFile; fileRef = 75F8A92AB0B643558A86CCB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_msa.c */; };
+		C03AA15C0EA543E1AD9F38C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_neon.c */ = {isa = PBXBuildFile; fileRef = 88D3B3D9070C4CAF8F696C2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_neon.c */; };
+		C1618B8AEE1A4426A959EBD5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters.c */ = {isa = PBXBuildFile; fileRef = 6182948E222D4A3A8F99AEF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters.c */; };
+		C1B2D6FCCAEC43A0B78BFFAD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 8B4167053C134287897309AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */; };
+		C1E59FEDF5CC4BBC9A65E715 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */ = {isa = PBXBuildFile; fileRef = BA12A52B4963467684D66572 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */; };
+		C31AEE5FBC7E45D582220500 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/format_constants.h */ = {isa = PBXBuildFile; fileRef = DE083BA73C22421D94C83936 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/format_constants.h */; };
+		C5258181A73D4DA3854C4B10 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 6819E6DD1FCC4ED197F3FCE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */; };
+		CA7A3B5F81FA4C2185230AA1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.c */ = {isa = PBXBuildFile; fileRef = 67C0B829AE804A41AC1ACC3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.c */; };
+		CD11EBAC25684DF8A8CB01EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_neon.c */ = {isa = PBXBuildFile; fileRef = 2C7B16DC75274CE2887AD842 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_neon.c */; };
+		CD71E1C4939C47829E121984 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.c */ = {isa = PBXBuildFile; fileRef = 9FFD7D964C134FF2B43BF0B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.c */; };
+		CD94E60D7FBC44768D6A07A1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing.c */ = {isa = PBXBuildFile; fileRef = 32A988D160064BB98D7A3973 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing.c */; };
+		CEA1BB4DDD0F424B91B45F1E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.c */ = {isa = PBXBuildFile; fileRef = AD0FE9CD90684629A7AF9CF4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.c */; };
+		D3B000FB66D34AA39FF7463D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webpi_dec.h */ = {isa = PBXBuildFile; fileRef = EFF692940B9E44DF866D03F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webpi_dec.h */; };
+		D4E5DE4BABC84DD597D10292 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.h */ = {isa = PBXBuildFile; fileRef = 405A15BB9C114F36BDBEBC2C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.h */; };
+		D570D0B19F29433DAFDBDD08 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim.c */ = {isa = PBXBuildFile; fileRef = 9C2840ED3F00458DA59C4385 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim.c */; };
+		DA429DCEF04F44D59781474B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.c */ = {isa = PBXBuildFile; fileRef = C6C1EAE3CDA54D41B5D693A9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.c */; };
+		DA8AD78B1B5F45619938D136 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.c */ = {isa = PBXBuildFile; fileRef = E51E1D6DA15C4D4BBC0C7689 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.c */; };
+		DDE747A37DD3488E97A1B2A7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.c */ = {isa = PBXBuildFile; fileRef = A1EA7EBA5E6546A6913435DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.c */; };
+		DEAE36D17205436A98FC644E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_sse2.c */ = {isa = PBXBuildFile; fileRef = 437A44A7C6D540929E6F67DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_sse2.c */; };
+		DEFB990AA7FB4151AC41EC33 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse2.c */ = {isa = PBXBuildFile; fileRef = 2425F33A2E044D1EBA43982B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse2.c */; };
+		E27C14B3E17140B7B873A67D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 07CCE4288EB345CFB5983C78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */; };
+		E3379CADD0CB4945B35DBD9F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.h */ = {isa = PBXBuildFile; fileRef = B58EA3A4CA794E9CA1E4AE22 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.h */; };
+		E49E55C175E441F1A258047C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/config_enc.c */ = {isa = PBXBuildFile; fileRef = 7CE6DDB3BCB8406A9B93B58D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/config_enc.c */; };
+		E553DE564D8E4966BBA5D786 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_psnr_enc.c */ = {isa = PBXBuildFile; fileRef = DB803D2E598946F3818969F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_psnr_enc.c */; };
+		E60F02297F3246FF9DB76738 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/syntax_enc.c */ = {isa = PBXBuildFile; fileRef = FB9BD7396E14408A8AD296FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/syntax_enc.c */; };
+		E691E265DCAC46C2B1BFE6F8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.c */ = {isa = PBXBuildFile; fileRef = E1B05703F558409BA335AAF2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.c */; };
+		E7C918ADFCC64D82A955DA63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = F777C92578A04CB0B24833BA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */; };
+		E860805C8BE749D29C317779 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = DD0745C6CF404768AD43492D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */; };
+		E92AC1C38C8B46258FF7E584 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips32.c */ = {isa = PBXBuildFile; fileRef = 1E339325D6BD4413B1AE0B5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips32.c */; };
+		E95CC24B1C57439B81514746 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse41.c */ = {isa = PBXBuildFile; fileRef = 46E71534DAB44503A1394952 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse41.c */; };
+		ECAFE38FC00440AAB517C2DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling.c */ = {isa = PBXBuildFile; fileRef = B9FA2CA882134EBD87E760D1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling.c */; };
+		EE2086DF7D2C4999987A8F7A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_neon.c */ = {isa = PBXBuildFile; fileRef = 874D2873BFEC45D59C9B228D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_neon.c */; };
+		EFED857B261742428D109085 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_neon.c */ = {isa = PBXBuildFile; fileRef = C49D8E379DA042338E33F8FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_neon.c */; };
+		F0CB67A5624340D4850B0662 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips32.c */ = {isa = PBXBuildFile; fileRef = 3FB477F0308640F6BA9A7CA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips32.c */; };
+		F1507CBFFC4244E5B2C365DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxinternal.c */ = {isa = PBXBuildFile; fileRef = 77C7FC06C497431788BB9E6F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxinternal.c */; };
+		F29E243E48B241F1ABDBED4A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/token_enc.c */ = {isa = PBXBuildFile; fileRef = AB6CA49DA6F54B64A6436AB8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/token_enc.c */; };
+		F4581956546C4C1CA6B07353 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 21E05A74B258477C97879634 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */; };
+		F4D839205D664F9CA891A01E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc.c */ = {isa = PBXBuildFile; fileRef = D75179214F9B4F91A1A279F9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc.c */; };
+		F7E6A8AFC5604F62908960B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.h */ = {isa = PBXBuildFile; fileRef = D9E2EFA91965479B8198809C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.h */; };
+		F814FB6D766B4D55AECB826C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_neon.c */ = {isa = PBXBuildFile; fileRef = AAFDF97518BA4939B6A90B58 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_neon.c */; };
+		F8BD5D6F08CF43DA80302218 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.c */ = {isa = PBXBuildFile; fileRef = 3FDFABB031294A19B8A9C11F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.c */; };
+		F94A85F592964A66AD65FDB8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */ = {isa = PBXBuildFile; fileRef = 1729C1A8DFDA4E72AB05636B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */; };
+		F9AB9011A2394E6ABAE78159 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/demux.c */ = {isa = PBXBuildFile; fileRef = 6BFF46EE5A5846A3AC2D0001 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/demux.c */; };
+		FC3ACB48CC2541CCAEB13AFC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_enc.c */ = {isa = PBXBuildFile; fileRef = 96284E9F85BB431499EA60B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_enc.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		289314ECAF3C4862B4DF1D0D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DBA39BF6A2C64A33AB4C935A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1D57F6045F61460EBA13D580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA9198A6ABD42BD925A5626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		328BCDAC9A8144EEBBA266D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA9198A6ABD42BD925A5626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		3E0F8962E476408E85A5ACDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA9198A6ABD42BD925A5626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C1C81253504F6381A19AAE;
+			remoteInfo = libwebp;
+		};
+		D2937684434D428C84AAD470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA9198A6ABD42BD925A5626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		DAD9FB8D7451413E973B801D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AA9198A6ABD42BD925A5626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D959FF46714F2D9D61E755 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color_cache_utils.h; path = src/utils/color_cache_utils.h; sourceTree = SOURCE_ROOT; };
+		05A6375148ED4A32AD2E8DB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/frame_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = frame_enc.c; path = src/enc/frame_enc.c; sourceTree = SOURCE_ROOT; };
+		06B6B12BB58C499481B4421C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = src/utils/utils.h; sourceTree = SOURCE_ROOT; };
+		07CCE4288EB345CFB5983C78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_mips_dsp_r2.c; path = src/dsp/lossless_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		089FD794368F4A7C996B3DEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/neon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = neon.h; path = src/dsp/neon.h; sourceTree = SOURCE_ROOT; };
+		093C12B5F7FA4CC398548AF7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/encode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = encode.h; path = src/webp/encode.h; sourceTree = SOURCE_ROOT; };
+		0B566550E5F84F06BE3F7639 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/msa_macro.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = msa_macro.h; path = src/dsp/msa_macro.h; sourceTree = SOURCE_ROOT; };
+		0E00C5E2FFE64592A7E6C646 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxread.c; path = src/mux/muxread.c; sourceTree = SOURCE_ROOT; };
+		1035D5731C9B4525995DAE12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/common_sse2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common_sse2.h; path = src/dsp/common_sse2.h; sourceTree = SOURCE_ROOT; };
+		1141BC5B33144744A5192D15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_msa.c; path = src/dsp/upsampling_msa.c; sourceTree = SOURCE_ROOT; };
+		12421C2ED51740B0BBFC38ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman_utils.h; path = src/utils/huffman_utils.h; sourceTree = SOURCE_ROOT; };
+		1729C1A8DFDA4E72AB05636B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_mips_dsp_r2.c; path = src/dsp/dec_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		1981ABB671F040FAAD8E61B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_mips32.c; path = src/dsp/rescaler_mips32.c; sourceTree = SOURCE_ROOT; };
+		199BD4953C9C4E78BABC77BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = histogram_enc.h; path = src/enc/histogram_enc.h; sourceTree = SOURCE_ROOT; };
+		1E339325D6BD4413B1AE0B5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_mips32.c; path = src/dsp/dec_mips32.c; sourceTree = SOURCE_ROOT; };
+		1FB48752B7B947BC986F9D05 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_sse41.c; path = src/dsp/alpha_processing_sse41.c; sourceTree = SOURCE_ROOT; };
+		21E05A74B258477C97879634 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_mips_dsp_r2.c; path = src/dsp/cost_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		239E39DFD9E34E29A18D65E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8_dec.h; path = src/dec/vp8_dec.h; sourceTree = SOURCE_ROOT; };
+		2425F33A2E044D1EBA43982B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_sse2.c; path = src/dsp/enc_sse2.c; sourceTree = SOURCE_ROOT; };
+		272AD3AFA419479C9D67DAA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/buffer_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer_dec.c; path = src/dec/buffer_dec.c; sourceTree = SOURCE_ROOT; };
+		29137DE104774855AB159EC4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec.c; path = src/dsp/dec.c; sourceTree = SOURCE_ROOT; };
+		2B695A6B93A142599DA567C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = backward_references_enc.h; path = src/enc/backward_references_enc.h; sourceTree = SOURCE_ROOT; };
+		2C7B16DC75274CE2887AD842 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_neon.c; path = src/dsp/dec_neon.c; sourceTree = SOURCE_ROOT; };
+		2CB6D83605504CDFABCE267D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_mips_dsp_r2.c; path = src/dsp/upsampling_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		2FF2C637C6174C3FA200B0AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/alpha_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_enc.c; path = src/enc/alpha_enc.c; sourceTree = SOURCE_ROOT; };
+		30B7F878F21043EDAD311311 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant_levels_dec_utils.h; path = src/utils/quant_levels_dec_utils.h; sourceTree = SOURCE_ROOT; };
+		31BDA9E701A04E26AC91AA1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_reader_utils.h; path = src/utils/bit_reader_utils.h; sourceTree = SOURCE_ROOT; };
+		32A988D160064BB98D7A3973 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing.c; path = src/dsp/alpha_processing.c; sourceTree = SOURCE_ROOT; };
+		364298000EA64005AD4ABEC2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/idec_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = idec_dec.c; path = src/dec/idec_dec.c; sourceTree = SOURCE_ROOT; };
+		3C7F6AB0F6ED4DE4954A9A61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_neon.c; path = src/dsp/rescaler_neon.c; sourceTree = SOURCE_ROOT; };
+		3DFC7A1AC0804437903A4B7A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8li_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8li_dec.h; path = src/dec/vp8li_dec.h; sourceTree = SOURCE_ROOT; };
+		3F2D8610D0034DD9B4D5E7C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filters_utils.h; path = src/utils/filters_utils.h; sourceTree = SOURCE_ROOT; };
+		3FB477F0308640F6BA9A7CA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_mips32.c; path = src/dsp/cost_mips32.c; sourceTree = SOURCE_ROOT; };
+		3FDFABB031294A19B8A9C11F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless.c; path = src/dsp/lossless.c; sourceTree = SOURCE_ROOT; };
+		3FE3C8BF013C441498030F5E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_inl_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_reader_inl_utils.h; path = src/utils/bit_reader_inl_utils.h; sourceTree = SOURCE_ROOT; };
+		405A15BB9C114F36BDBEBC2C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rescaler_utils.h; path = src/utils/rescaler_utils.h; sourceTree = SOURCE_ROOT; };
+		41DE90CFBB12423B88DF451E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/frame_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = frame_dec.c; path = src/dec/frame_dec.c; sourceTree = SOURCE_ROOT; };
+		437A44A7C6D540929E6F67DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_sse2.c; path = src/dsp/cost_sse2.c; sourceTree = SOURCE_ROOT; };
+		464333876AAB43F4A07545C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_sse41.c; path = src/dsp/upsampling_sse41.c; sourceTree = SOURCE_ROOT; };
+		46E71534DAB44503A1394952 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_sse41.c; path = src/dsp/yuv_sse41.c; sourceTree = SOURCE_ROOT; };
+		4771D58CCB564E5FA8E1223B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/io_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io_dec.c; path = src/dec/io_dec.c; sourceTree = SOURCE_ROOT; };
+		48E5BEBDBFA648658E57CE2D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_mips_dsp_r2.c; path = src/dsp/yuv_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		4E6E69320A63442BB154960B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8li_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8li_enc.h; path = src/enc/vp8li_enc.h; sourceTree = SOURCE_ROOT; };
+		4EE1DDED65104E2881DBA7FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_writer_utils.h; path = src/utils/bit_writer_utils.h; sourceTree = SOURCE_ROOT; };
+		5020BDD70679437F8FF3266B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/common_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common_dec.h; path = src/dec/common_dec.h; sourceTree = SOURCE_ROOT; };
+		556C92A71CA540B39639E6AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/predictor_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = predictor_enc.c; path = src/enc/predictor_enc.c; sourceTree = SOURCE_ROOT; };
+		56197941FE104E4280AFAD98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_msa.c; path = src/dsp/dec_msa.c; sourceTree = SOURCE_ROOT; };
+		580C9724BE004850BDC96215 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv.c; path = src/dsp/yuv.c; sourceTree = SOURCE_ROOT; };
+		58A19420BF3D458D991DCDC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/near_lossless_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = near_lossless_enc.c; path = src/enc/near_lossless_enc.c; sourceTree = SOURCE_ROOT; };
+		5986E539372142F3B4DDA80D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_sse2.c; path = src/dsp/dec_sse2.c; sourceTree = SOURCE_ROOT; };
+		5A110D762579496EBFB31796 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_mips32.c; path = src/dsp/yuv_mips32.c; sourceTree = SOURCE_ROOT; };
+		5AEBD7ED5DB24B458F638A86 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ssim_sse2.c; path = src/dsp/ssim_sse2.c; sourceTree = SOURCE_ROOT; };
+		5C734C6D02DF4D85AAC790D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = thread_utils.h; path = src/utils/thread_utils.h; sourceTree = SOURCE_ROOT; };
+		5C7B6D2D107B4C9DA8B49B12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/endian_inl_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = endian_inl_utils.h; path = src/utils/endian_inl_utils.h; sourceTree = SOURCE_ROOT; };
+		6182948E222D4A3A8F99AEF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters.c; path = src/dsp/filters.c; sourceTree = SOURCE_ROOT; };
+		62209AE9981345158D341C95 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/anim_decode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = anim_decode.c; path = src/demux/anim_decode.c; sourceTree = SOURCE_ROOT; };
+		67C0B829AE804A41AC1ACC3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_utils.c; path = src/utils/rescaler_utils.c; sourceTree = SOURCE_ROOT; };
+		67DD78216B9D419E840968F4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cpu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cpu.c; path = src/dsp/cpu.c; sourceTree = SOURCE_ROOT; };
+		6819E6DD1FCC4ED197F3FCE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_mips_dsp_r2.c; path = src/dsp/rescaler_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		684FB6C634394E36BF639F57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/filter_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filter_enc.c; path = src/enc/filter_enc.c; sourceTree = SOURCE_ROOT; };
+		69734366B10C4E4B9790FE6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/anim_encode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = anim_encode.c; path = src/mux/anim_encode.c; sourceTree = SOURCE_ROOT; };
+		6BFF46EE5A5846A3AC2D0001 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/demux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = demux.c; path = src/demux/demux.c; sourceTree = SOURCE_ROOT; };
+		6F4A36DAE69D4B93885BF8C4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_neon.c; path = src/dsp/alpha_processing_neon.c; sourceTree = SOURCE_ROOT; };
+		700355E2922D41688D4B3315 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_msa.c; path = src/dsp/lossless_enc_msa.c; sourceTree = SOURCE_ROOT; };
+		70191B7E6A854B6DAA7062E5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7507715B3C774C35951250E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_msa.c; path = src/dsp/lossless_msa.c; sourceTree = SOURCE_ROOT; };
+		75DF7C8F92074AD0A9935D38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxedit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxedit.c; path = src/mux/muxedit.c; sourceTree = SOURCE_ROOT; };
+		75F8A92AB0B643558A86CCB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_msa.c; path = src/dsp/enc_msa.c; sourceTree = SOURCE_ROOT; };
+		77C7FC06C497431788BB9E6F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxinternal.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxinternal.c; path = src/mux/muxinternal.c; sourceTree = SOURCE_ROOT; };
+		7A72E92A216E4B98AF42CCB1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_tools_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_tools_enc.c; path = src/enc/picture_tools_enc.c; sourceTree = SOURCE_ROOT; };
+		7A9A60A8F2A74937839740A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8i_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8i_enc.h; path = src/enc/vp8i_enc.h; sourceTree = SOURCE_ROOT; };
+		7CE6DDB3BCB8406A9B93B58D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/config_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = config_enc.c; path = src/enc/config_enc.c; sourceTree = SOURCE_ROOT; };
+		7D49532BDEE04F6BB2F172C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler.c; path = src/dsp/rescaler.c; sourceTree = SOURCE_ROOT; };
+		7E807918680D4602848482E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_mips_dsp_r2.c; path = src/dsp/alpha_processing_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		7E92005E59DB40E49AFF5438 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_sse2.c; path = src/dsp/rescaler_sse2.c; sourceTree = SOURCE_ROOT; };
+		7F0C909AE7154C0C9BA6822E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/demux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = demux.h; path = src/webp/demux.h; sourceTree = SOURCE_ROOT; };
+		7F5BDC61AC0345FF88FED974 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8_dec.c; path = src/dec/vp8_dec.c; sourceTree = SOURCE_ROOT; };
+		7F63891A853D4AE7BF020836 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/mips_macro.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mips_macro.h; path = src/dsp/mips_macro.h; sourceTree = SOURCE_ROOT; };
+		7FFC9CDF7D734F1894955611 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_sse41.c; path = src/dsp/dec_sse41.c; sourceTree = SOURCE_ROOT; };
+		82FDFBC02C574CC1B7F6F26F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/quant_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_dec.c; path = src/dec/quant_dec.c; sourceTree = SOURCE_ROOT; };
+		83F8D032A64F404EBAE59C4A /* libwebp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibwebp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		874D2873BFEC45D59C9B228D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_neon.c; path = src/dsp/enc_neon.c; sourceTree = SOURCE_ROOT; };
+		87EB85B64E0841E6B2F87B07 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_sse2.c; path = src/dsp/upsampling_sse2.c; sourceTree = SOURCE_ROOT; };
+		88D3B3D9070C4CAF8F696C2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_neon.c; path = src/dsp/upsampling_neon.c; sourceTree = SOURCE_ROOT; };
+		8AEC4316DA064D18B3CBFFD6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc.c; path = src/dsp/lossless_enc.c; sourceTree = SOURCE_ROOT; };
+		8B37B57E70494E2899DD5EE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_sse41.c; path = src/dsp/lossless_enc_sse41.c; sourceTree = SOURCE_ROOT; };
+		8B4167053C134287897309AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_mips_dsp_r2.c; path = src/dsp/filters_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		940894136CB34AB9ACE273E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_mips32.c; path = src/dsp/lossless_enc_mips32.c; sourceTree = SOURCE_ROOT; };
+		96284E9F85BB431499EA60B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_enc.c; path = src/enc/picture_enc.c; sourceTree = SOURCE_ROOT; };
+		96F4FB86F28643A7A456B03F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = thread_utils.c; path = src/utils/thread_utils.c; sourceTree = SOURCE_ROOT; };
+		979FAE44706147DA8B86665E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = backward_references_enc.c; path = src/enc/backward_references_enc.c; sourceTree = SOURCE_ROOT; };
+		98EC87D0007E443EACC85904 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dsp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dsp.h; path = src/dsp/dsp.h; sourceTree = SOURCE_ROOT; };
+		9915E3C51E6842498B794EAB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse41.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_sse41.c; path = src/dsp/enc_sse41.c; sourceTree = SOURCE_ROOT; };
+		9B363F9C108B45CAA9E13C97 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_csp_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_csp_enc.c; path = src/enc/picture_csp_enc.c; sourceTree = SOURCE_ROOT; };
+		9C026A0940FC4FB1A1E71A6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_sse2.c; path = src/dsp/filters_sse2.c; sourceTree = SOURCE_ROOT; };
+		9C2840ED3F00458DA59C4385 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ssim.c; path = src/dsp/ssim.c; sourceTree = SOURCE_ROOT; };
+		9FFD7D964C134FF2B43BF0B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = random_utils.c; path = src/utils/random_utils.c; sourceTree = SOURCE_ROOT; };
+		A1EA7EBA5E6546A6913435DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman_encode_utils.c; path = src/utils/huffman_encode_utils.c; sourceTree = SOURCE_ROOT; };
+		A3132483397748C796C53543 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman_encode_utils.h; path = src/utils/huffman_encode_utils.h; sourceTree = SOURCE_ROOT; };
+		A537E03F6115462CAA75C3AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler_msa.c; path = src/dsp/rescaler_msa.c; sourceTree = SOURCE_ROOT; };
+		A9F5486B467B46E48FC66AAF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_rescale_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_rescale_enc.c; path = src/enc/picture_rescale_enc.c; sourceTree = SOURCE_ROOT; };
+		AAFDF97518BA4939B6A90B58 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_neon.c; path = src/dsp/filters_neon.c; sourceTree = SOURCE_ROOT; };
+		AB6CA49DA6F54B64A6436AB8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/token_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = token_enc.c; path = src/enc/token_enc.c; sourceTree = SOURCE_ROOT; };
+		AD0FE9CD90684629A7AF9CF4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = utils.c; path = src/utils/utils.c; sourceTree = SOURCE_ROOT; };
+		AE74EA0558444CC6B220787A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/mux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mux.h; path = src/webp/mux.h; sourceTree = SOURCE_ROOT; };
+		B58EA3A4CA794E9CA1E4AE22 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cost_enc.h; path = src/enc/cost_enc.h; sourceTree = SOURCE_ROOT; };
+		B59CEAE087604D23B94D98FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_utils.c; path = src/utils/filters_utils.c; sourceTree = SOURCE_ROOT; };
+		B6993B37981442CF92BB8D53 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/webp_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = webp_enc.c; path = src/enc/webp_enc.c; sourceTree = SOURCE_ROOT; };
+		B86D8D8280CE4D1A9451DF59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_clip_tables.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_clip_tables.c; path = src/dsp/dec_clip_tables.c; sourceTree = SOURCE_ROOT; };
+		B9F6DFCA93484C529E3809F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/mux_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mux_types.h; path = src/webp/mux_types.h; sourceTree = SOURCE_ROOT; };
+		B9FA2CA882134EBD87E760D1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling.c; path = src/dsp/upsampling.c; sourceTree = SOURCE_ROOT; };
+		BA06CA80AA794F43B7C1E9AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yuv.h; path = src/dsp/yuv.h; sourceTree = SOURCE_ROOT; };
+		BA12A52B4963467684D66572 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_neon.c; path = src/dsp/lossless_enc_neon.c; sourceTree = SOURCE_ROOT; };
+		BBF08EAE509645D3A0084041 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_neon.c; path = src/dsp/yuv_neon.c; sourceTree = SOURCE_ROOT; };
+		BD374B2A82C24AB29E4086ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = color_cache_utils.c; path = src/utils/color_cache_utils.c; sourceTree = SOURCE_ROOT; };
+		BDC3E0090D2A4CE6AC5EF9A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8i_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8i_dec.h; path = src/dec/vp8i_dec.h; sourceTree = SOURCE_ROOT; };
+		C1B5E4321BA34B189386E5FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = src/webp/types.h; sourceTree = SOURCE_ROOT; };
+		C49D8E379DA042338E33F8FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_neon.c; path = src/dsp/lossless_neon.c; sourceTree = SOURCE_ROOT; };
+		C4FE70C0FBBE490D890E6D1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_levels_utils.c; path = src/utils/quant_levels_utils.c; sourceTree = SOURCE_ROOT; };
+		C6C1EAE3CDA54D41B5D693A9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman_utils.c; path = src/utils/huffman_utils.c; sourceTree = SOURCE_ROOT; };
+		C71051F6000D4FFDA538E133 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost.c; path = src/dsp/cost.c; sourceTree = SOURCE_ROOT; };
+		C98FC5DA258442B0A2E6B191 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bit_reader_utils.c; path = src/utils/bit_reader_utils.c; sourceTree = SOURCE_ROOT; };
+		C9B53288519F40349688F933 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/quant_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_enc.c; path = src/enc/quant_enc.c; sourceTree = SOURCE_ROOT; };
+		CC4016477AE040AE90460775 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random_utils.h; path = src/utils/random_utils.h; sourceTree = SOURCE_ROOT; };
+		CC7AC222AAF646D29B097701 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost_enc.c; path = src/enc/cost_enc.c; sourceTree = SOURCE_ROOT; };
+		CD7C5780E4C04ABD9683BBD4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = muxi.h; path = src/mux/muxi.h; sourceTree = SOURCE_ROOT; };
+		CE53CBD204824E68AABCC939 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/tree_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tree_dec.c; path = src/dec/tree_dec.c; sourceTree = SOURCE_ROOT; };
+		CECF32F0AA55460F8D6DE131 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips32.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_mips32.c; path = src/dsp/enc_mips32.c; sourceTree = SOURCE_ROOT; };
+		CEDBBA1FB6824DF8A4A95476 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lossless_common.h; path = src/dsp/lossless_common.h; sourceTree = SOURCE_ROOT; };
+		D017369B0CAD40B6B1B4F809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_levels_dec_utils.c; path = src/utils/quant_levels_dec_utils.c; sourceTree = SOURCE_ROOT; };
+		D1942442B02049388B402AFA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/animi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = animi.h; path = src/mux/animi.h; sourceTree = SOURCE_ROOT; };
+		D61F3E2F1E19484EB8A49B42 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/tree_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tree_enc.c; path = src/enc/tree_enc.c; sourceTree = SOURCE_ROOT; };
+		D75179214F9B4F91A1A279F9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc.c; path = src/dsp/enc.c; sourceTree = SOURCE_ROOT; };
+		D925B703C5A94A4DA9CBCA64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alpha_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_dec.c; path = src/dec/alpha_dec.c; sourceTree = SOURCE_ROOT; };
+		D9E2EFA91965479B8198809C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lossless.h; path = src/dsp/lossless.h; sourceTree = SOURCE_ROOT; };
+		DB803D2E598946F3818969F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_psnr_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture_psnr_enc.c; path = src/enc/picture_psnr_enc.c; sourceTree = SOURCE_ROOT; };
+		DD0745C6CF404768AD43492D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_mips_dsp_r2.c; path = src/dsp/enc_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		DD6C1EB28C4B4324B256B8D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/iterator_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iterator_enc.c; path = src/enc/iterator_enc.c; sourceTree = SOURCE_ROOT; };
+		DDC9513B877548A9BB53A528 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_sse2.c; path = src/dsp/lossless_enc_sse2.c; sourceTree = SOURCE_ROOT; };
+		DE083BA73C22421D94C83936 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/format_constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = format_constants.h; path = src/webp/format_constants.h; sourceTree = SOURCE_ROOT; };
+		E1B05703F558409BA335AAF2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = histogram_enc.c; path = src/enc/histogram_enc.c; sourceTree = SOURCE_ROOT; };
+		E477AA90744E4949BFF6BBDA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webp_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = webp_dec.c; path = src/dec/webp_dec.c; sourceTree = SOURCE_ROOT; };
+		E51E1D6DA15C4D4BBC0C7689 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bit_writer_utils.c; path = src/utils/bit_writer_utils.c; sourceTree = SOURCE_ROOT; };
+		E5561B56AA60472CA8FDB70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/common_sse41.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common_sse41.h; path = src/dsp/common_sse41.h; sourceTree = SOURCE_ROOT; };
+		E5ABB3909C8544A0B59F8C98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_msa.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters_msa.c; path = src/dsp/filters_msa.c; sourceTree = SOURCE_ROOT; };
+		E64BE355C11745F8926598FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha_processing_sse2.c; path = src/dsp/alpha_processing_sse2.c; sourceTree = SOURCE_ROOT; };
+		E7773CE8A1E043E4AA37EA75 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/decode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decode.h; path = src/webp/decode.h; sourceTree = SOURCE_ROOT; };
+		E832C836FD7E48E082872FB2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = backward_references_cost_enc.c; path = src/enc/backward_references_cost_enc.c; sourceTree = SOURCE_ROOT; };
+		EBEF0AB9DF4847B59D454EBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_avx2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_avx2.c; path = src/dsp/enc_avx2.c; sourceTree = SOURCE_ROOT; };
+		EFF692940B9E44DF866D03F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webpi_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = webpi_dec.h; path = src/dec/webpi_dec.h; sourceTree = SOURCE_ROOT; };
+		F0676E734F634159A7A144CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alphai_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = alphai_dec.h; path = src/dec/alphai_dec.h; sourceTree = SOURCE_ROOT; };
+		F51C04B564E546AD91FB98EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/analysis_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = analysis_enc.c; path = src/enc/analysis_enc.c; sourceTree = SOURCE_ROOT; };
+		F5AA015F7A35481DA2E51245 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F757BA2B710D44F49BC39B0D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_sse2.c; path = src/dsp/lossless_sse2.c; sourceTree = SOURCE_ROOT; };
+		F777C92578A04CB0B24833BA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless_enc_mips_dsp_r2.c; path = src/dsp/lossless_enc_mips_dsp_r2.c; sourceTree = SOURCE_ROOT; };
+		F95967C30028405DA538BAAA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant_levels_utils.h; path = src/utils/quant_levels_utils.h; sourceTree = SOURCE_ROOT; };
+		F99446CF879447F7B584D93A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv_sse2.c; path = src/dsp/yuv_sse2.c; sourceTree = SOURCE_ROOT; };
+		FB9BD7396E14408A8AD296FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/syntax_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = syntax_enc.c; path = src/enc/syntax_enc.c; sourceTree = SOURCE_ROOT; };
+		FCBF4F7C24FA45368526BF6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8l_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8l_enc.c; path = src/enc/vp8l_enc.c; sourceTree = SOURCE_ROOT; };
+		FEB8D318C4CC41FA94E7A73F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8l_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8l_dec.c; path = src/dec/vp8l_dec.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		38120EAFC77447A49ED7D4EE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				928D62B6C41545678F0C4959 /* CMake Rules */,
+				70191B7E6A854B6DAA7062E5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		56B594A535E54988AF6F07D3 = {
+			isa = PBXGroup;
+			children = (
+				BE7C2FEA79B3493BBA30DDCA /* 3rdparty */,
+				38120EAFC77447A49ED7D4EE /* ALL_BUILD */,
+				7B3FA4C3736041B085E62182 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6453FF68192C458BA0834910 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D925B703C5A94A4DA9CBCA64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alpha_dec.c */,
+				272AD3AFA419479C9D67DAA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/buffer_dec.c */,
+				41DE90CFBB12423B88DF451E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/frame_dec.c */,
+				364298000EA64005AD4ABEC2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/idec_dec.c */,
+				4771D58CCB564E5FA8E1223B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/io_dec.c */,
+				82FDFBC02C574CC1B7F6F26F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/quant_dec.c */,
+				CE53CBD204824E68AABCC939 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/tree_dec.c */,
+				7F5BDC61AC0345FF88FED974 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.c */,
+				FEB8D318C4CC41FA94E7A73F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8l_dec.c */,
+				E477AA90744E4949BFF6BBDA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webp_dec.c */,
+				62209AE9981345158D341C95 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/anim_decode.c */,
+				6BFF46EE5A5846A3AC2D0001 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/demux.c */,
+				32A988D160064BB98D7A3973 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing.c */,
+				7E807918680D4602848482E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */,
+				6F4A36DAE69D4B93885BF8C4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */,
+				E64BE355C11745F8926598FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */,
+				1FB48752B7B947BC986F9D05 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */,
+				C71051F6000D4FFDA538E133 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost.c */,
+				3FB477F0308640F6BA9A7CA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips32.c */,
+				21E05A74B258477C97879634 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */,
+				437A44A7C6D540929E6F67DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_sse2.c */,
+				67DD78216B9D419E840968F4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cpu.c */,
+				29137DE104774855AB159EC4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec.c */,
+				B86D8D8280CE4D1A9451DF59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_clip_tables.c */,
+				1E339325D6BD4413B1AE0B5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips32.c */,
+				1729C1A8DFDA4E72AB05636B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */,
+				56197941FE104E4280AFAD98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_msa.c */,
+				2C7B16DC75274CE2887AD842 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_neon.c */,
+				5986E539372142F3B4DDA80D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse2.c */,
+				7FFC9CDF7D734F1894955611 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse41.c */,
+				D75179214F9B4F91A1A279F9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc.c */,
+				EBEF0AB9DF4847B59D454EBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_avx2.c */,
+				CECF32F0AA55460F8D6DE131 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips32.c */,
+				DD0745C6CF404768AD43492D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */,
+				75F8A92AB0B643558A86CCB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_msa.c */,
+				874D2873BFEC45D59C9B228D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_neon.c */,
+				2425F33A2E044D1EBA43982B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse2.c */,
+				9915E3C51E6842498B794EAB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse41.c */,
+				6182948E222D4A3A8F99AEF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters.c */,
+				8B4167053C134287897309AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */,
+				E5ABB3909C8544A0B59F8C98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_msa.c */,
+				AAFDF97518BA4939B6A90B58 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_neon.c */,
+				9C026A0940FC4FB1A1E71A6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_sse2.c */,
+				3FDFABB031294A19B8A9C11F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.c */,
+				8AEC4316DA064D18B3CBFFD6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc.c */,
+				940894136CB34AB9ACE273E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */,
+				F777C92578A04CB0B24833BA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */,
+				700355E2922D41688D4B3315 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */,
+				BA12A52B4963467684D66572 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */,
+				DDC9513B877548A9BB53A528 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */,
+				8B37B57E70494E2899DD5EE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */,
+				07CCE4288EB345CFB5983C78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */,
+				7507715B3C774C35951250E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_msa.c */,
+				C49D8E379DA042338E33F8FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_neon.c */,
+				F757BA2B710D44F49BC39B0D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_sse2.c */,
+				7D49532BDEE04F6BB2F172C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler.c */,
+				1981ABB671F040FAAD8E61B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips32.c */,
+				6819E6DD1FCC4ED197F3FCE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */,
+				A537E03F6115462CAA75C3AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_msa.c */,
+				3C7F6AB0F6ED4DE4954A9A61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_neon.c */,
+				7E92005E59DB40E49AFF5438 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_sse2.c */,
+				9C2840ED3F00458DA59C4385 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim.c */,
+				5AEBD7ED5DB24B458F638A86 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim_sse2.c */,
+				B9FA2CA882134EBD87E760D1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling.c */,
+				2CB6D83605504CDFABCE267D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */,
+				1141BC5B33144744A5192D15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_msa.c */,
+				88D3B3D9070C4CAF8F696C2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_neon.c */,
+				87EB85B64E0841E6B2F87B07 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse2.c */,
+				464333876AAB43F4A07545C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse41.c */,
+				580C9724BE004850BDC96215 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.c */,
+				5A110D762579496EBFB31796 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips32.c */,
+				48E5BEBDBFA648658E57CE2D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */,
+				BBF08EAE509645D3A0084041 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_neon.c */,
+				F99446CF879447F7B584D93A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse2.c */,
+				46E71534DAB44503A1394952 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse41.c */,
+				2FF2C637C6174C3FA200B0AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/alpha_enc.c */,
+				F51C04B564E546AD91FB98EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/analysis_enc.c */,
+				E832C836FD7E48E082872FB2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */,
+				979FAE44706147DA8B86665E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.c */,
+				7CE6DDB3BCB8406A9B93B58D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/config_enc.c */,
+				CC7AC222AAF646D29B097701 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.c */,
+				684FB6C634394E36BF639F57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/filter_enc.c */,
+				05A6375148ED4A32AD2E8DB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/frame_enc.c */,
+				E1B05703F558409BA335AAF2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.c */,
+				DD6C1EB28C4B4324B256B8D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/iterator_enc.c */,
+				58A19420BF3D458D991DCDC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/near_lossless_enc.c */,
+				9B363F9C108B45CAA9E13C97 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_csp_enc.c */,
+				96284E9F85BB431499EA60B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_enc.c */,
+				DB803D2E598946F3818969F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_psnr_enc.c */,
+				A9F5486B467B46E48FC66AAF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_rescale_enc.c */,
+				7A72E92A216E4B98AF42CCB1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_tools_enc.c */,
+				556C92A71CA540B39639E6AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/predictor_enc.c */,
+				C9B53288519F40349688F933 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/quant_enc.c */,
+				FB9BD7396E14408A8AD296FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/syntax_enc.c */,
+				AB6CA49DA6F54B64A6436AB8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/token_enc.c */,
+				D61F3E2F1E19484EB8A49B42 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/tree_enc.c */,
+				FCBF4F7C24FA45368526BF6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8l_enc.c */,
+				B6993B37981442CF92BB8D53 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/webp_enc.c */,
+				69734366B10C4E4B9790FE6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/anim_encode.c */,
+				75DF7C8F92074AD0A9935D38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxedit.c */,
+				77C7FC06C497431788BB9E6F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxinternal.c */,
+				0E00C5E2FFE64592A7E6C646 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxread.c */,
+				C98FC5DA258442B0A2E6B191 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.c */,
+				E51E1D6DA15C4D4BBC0C7689 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.c */,
+				BD374B2A82C24AB29E4086ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.c */,
+				B59CEAE087604D23B94D98FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.c */,
+				A1EA7EBA5E6546A6913435DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.c */,
+				C6C1EAE3CDA54D41B5D693A9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.c */,
+				D017369B0CAD40B6B1B4F809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */,
+				C4FE70C0FBBE490D890E6D1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.c */,
+				9FFD7D964C134FF2B43BF0B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.c */,
+				67C0B829AE804A41AC1ACC3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.c */,
+				96F4FB86F28643A7A456B03F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.c */,
+				AD0FE9CD90684629A7AF9CF4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7439AA32DC6444DF90613520 /* libwebp */ = {
+			isa = PBXGroup;
+			children = (
+				6453FF68192C458BA0834910 /* Source Files */,
+				8A75A65C51CE43C5854C7DD8 /* Header Files */,
+				F5AA015F7A35481DA2E51245 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = libwebp;
+			sourceTree = "<group>";
+		};
+		7B3FA4C3736041B085E62182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F8D032A64F404EBAE59C4A /* libwebp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A75A65C51CE43C5854C7DD8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0676E734F634159A7A144CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alphai_dec.h */,
+				5020BDD70679437F8FF3266B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/common_dec.h */,
+				239E39DFD9E34E29A18D65E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.h */,
+				BDC3E0090D2A4CE6AC5EF9A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8i_dec.h */,
+				3DFC7A1AC0804437903A4B7A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8li_dec.h */,
+				EFF692940B9E44DF866D03F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webpi_dec.h */,
+				1035D5731C9B4525995DAE12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/common_sse2.h */,
+				E5561B56AA60472CA8FDB70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/common_sse41.h */,
+				98EC87D0007E443EACC85904 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dsp.h */,
+				D9E2EFA91965479B8198809C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.h */,
+				CEDBBA1FB6824DF8A4A95476 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_common.h */,
+				7F63891A853D4AE7BF020836 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/mips_macro.h */,
+				0B566550E5F84F06BE3F7639 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/msa_macro.h */,
+				089FD794368F4A7C996B3DEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/neon.h */,
+				BA06CA80AA794F43B7C1E9AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.h */,
+				2B695A6B93A142599DA567C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.h */,
+				B58EA3A4CA794E9CA1E4AE22 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.h */,
+				199BD4953C9C4E78BABC77BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.h */,
+				7A9A60A8F2A74937839740A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8i_enc.h */,
+				4E6E69320A63442BB154960B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8li_enc.h */,
+				D1942442B02049388B402AFA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/animi.h */,
+				CD7C5780E4C04ABD9683BBD4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxi.h */,
+				3FE3C8BF013C441498030F5E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_inl_utils.h */,
+				31BDA9E701A04E26AC91AA1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.h */,
+				4EE1DDED65104E2881DBA7FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.h */,
+				01D959FF46714F2D9D61E755 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.h */,
+				5C7B6D2D107B4C9DA8B49B12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/endian_inl_utils.h */,
+				3F2D8610D0034DD9B4D5E7C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.h */,
+				A3132483397748C796C53543 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.h */,
+				12421C2ED51740B0BBFC38ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.h */,
+				30B7F878F21043EDAD311311 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.h */,
+				F95967C30028405DA538BAAA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.h */,
+				CC4016477AE040AE90460775 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.h */,
+				405A15BB9C114F36BDBEBC2C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.h */,
+				5C734C6D02DF4D85AAC790D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.h */,
+				06B6B12BB58C499481B4421C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.h */,
+				E7773CE8A1E043E4AA37EA75 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/decode.h */,
+				7F0C909AE7154C0C9BA6822E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/demux.h */,
+				093C12B5F7FA4CC398548AF7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/encode.h */,
+				DE083BA73C22421D94C83936 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/format_constants.h */,
+				AE74EA0558444CC6B220787A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/mux.h */,
+				B9F6DFCA93484C529E3809F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/mux_types.h */,
+				C1B5E4321BA34B189386E5FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/webp/types.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		928D62B6C41545678F0C4959 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BE7C2FEA79B3493BBA30DDCA /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				7439AA32DC6444DF90613520 /* libwebp */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50C1C81253504F6381A19AAE /* libwebp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE37E8982E7C407895E26133 /* Build configuration list for PBXNativeTarget "libwebp" */;
+			buildPhases = (
+				DA79786D889345A6BD919795 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B23C60B5310B4212A9FCEF1B /* PBXTargetDependency */,
+			);
+			name = libwebp;
+			productName = libwebp;
+			productReference = 83F8D032A64F404EBAE59C4A /* libwebp */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AA9198A6ABD42BD925A5626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 843608F60FA74CC089A83BDB /* Build configuration list for PBXProject "libwebp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				289314ECAF3C4862B4DF1D0D /* Debug */,
+				DBA39BF6A2C64A33AB4C935A /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 56B594A535E54988AF6F07D3;
+			projectDirPath = ../../../3rdparty/libwebp;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				50C1C81253504F6381A19AAE /* libwebp */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F673AA37A7A4B4198892F1B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		11634DF8BC5243D981351C07 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1D0CBFE4760D47BFADCBBAAC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		73D6923022FE46E3BB7F7B2C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		800BA182538740789AC37779 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9FC7960325484AA9895964B5 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A3AB32EC0DF1475DB36CAE73 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C536AEB26B984EA68F81319B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E53ABBE0E2954F84A474F6E1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FBECDBEB219942C29BBDAE4D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA79786D889345A6BD919795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20347F34280949DF890AC839 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/alpha_dec.c */,
+				0EAF95C2FD0A49B98B2087E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/buffer_dec.c */,
+				97A66B8A3CE54D3195A5101A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/frame_dec.c */,
+				AF261F608D5C4B049EE39F6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/idec_dec.c */,
+				84B6062D53EB43219760BEF5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/io_dec.c */,
+				4E50ABA5EB08449B9FEE1E85 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/quant_dec.c */,
+				AB2AC1CAACF045C9A7503D08 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/tree_dec.c */,
+				9A13332AC1DF47AF868F8B9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8_dec.c */,
+				25FC4C3CC50941BF957F9AC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/vp8l_dec.c */,
+				3ABE9687EF9B4B20A986D985 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dec/webp_dec.c */,
+				3772210A134B44339C946713 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/anim_decode.c */,
+				F9AB9011A2394E6ABAE78159 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/demux/demux.c */,
+				CD94E60D7FBC44768D6A07A1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing.c */,
+				4AA821607C90432B8A2B6488 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c */,
+				46A4230B68624378B16197B1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_neon.c */,
+				252F9C9691C14A8DB4148A5D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse2.c */,
+				697EF34D105E4DA6A1C78CAF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/alpha_processing_sse41.c */,
+				1847E9095060494D838F3843 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost.c */,
+				F0CB67A5624340D4850B0662 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips32.c */,
+				F4581956546C4C1CA6B07353 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_mips_dsp_r2.c */,
+				DEAE36D17205436A98FC644E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cost_sse2.c */,
+				4F33B38A90FD4FA0A2AAE2BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/cpu.c */,
+				79DBA65888234A469DAB47F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec.c */,
+				B3D8D5F8A18C4F688BC716C7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_clip_tables.c */,
+				E92AC1C38C8B46258FF7E584 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips32.c */,
+				F94A85F592964A66AD65FDB8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_mips_dsp_r2.c */,
+				B845004DFFC94BF8A8DEE2E8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_msa.c */,
+				CD11EBAC25684DF8A8CB01EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_neon.c */,
+				3705CFD4117643CAB21E6562 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse2.c */,
+				1C25C235D18F4F118E890A2B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/dec_sse41.c */,
+				F4D839205D664F9CA891A01E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc.c */,
+				57222F680D354085B081546F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_avx2.c */,
+				8823AFAD936C4048930EA39E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips32.c */,
+				E860805C8BE749D29C317779 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c */,
+				BE531C9D4691456DAF17F0D5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_msa.c */,
+				EE2086DF7D2C4999987A8F7A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_neon.c */,
+				DEFB990AA7FB4151AC41EC33 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse2.c */,
+				33F968E7E2D247778D157CB0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/enc_sse41.c */,
+				C1618B8AEE1A4426A959EBD5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters.c */,
+				C1B2D6FCCAEC43A0B78BFFAD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_mips_dsp_r2.c */,
+				25546EE39DE7436280D8C2BA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_msa.c */,
+				F814FB6D766B4D55AECB826C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_neon.c */,
+				226E36DC8E2A415596680AC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/filters_sse2.c */,
+				F8BD5D6F08CF43DA80302218 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless.c */,
+				B3A94F9AAF3C4CA18D98034E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc.c */,
+				0844E83F121442B89387FFD3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips32.c */,
+				E7C918ADFCC64D82A955DA63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c */,
+				7E2B3E67BB3F4C8691875D57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_msa.c */,
+				C1E59FEDF5CC4BBC9A65E715 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_neon.c */,
+				4C6C591B01BC465ABCB060CB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse2.c */,
+				BDCC484258664094A9470294 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c */,
+				E27C14B3E17140B7B873A67D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_mips_dsp_r2.c */,
+				61E117616B7E4C7DA0A7917F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_msa.c */,
+				EFED857B261742428D109085 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_neon.c */,
+				64293C944EF94E5AA2F6630A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/lossless_sse2.c */,
+				619CD028207E45D1900901EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler.c */,
+				0FADC4E9D7F044F889EFBC3D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips32.c */,
+				C5258181A73D4DA3854C4B10 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_mips_dsp_r2.c */,
+				6A3AB12E767B422DBFCA74A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_msa.c */,
+				7F806F674DCE46C898345213 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_neon.c */,
+				4857E7D317CE455E88AA84AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/rescaler_sse2.c */,
+				D570D0B19F29433DAFDBDD08 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim.c */,
+				BDE56696A3EE4834964B72CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/ssim_sse2.c */,
+				ECAFE38FC00440AAB517C2DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling.c */,
+				B7254AF0272E4BA3B6790924 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_mips_dsp_r2.c */,
+				70BE238ED2814677A749140F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_msa.c */,
+				C03AA15C0EA543E1AD9F38C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_neon.c */,
+				20F8E41EAD8044D2ADCCB5C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse2.c */,
+				B851CD342B984C3BA4173CD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/upsampling_sse41.c */,
+				6BAA52A6E2E34B1BB62D714D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv.c */,
+				42E3B55A966C4611A9346D1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips32.c */,
+				19E672539A2F45F2A77DAF7E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_mips_dsp_r2.c */,
+				0793A778C44546B3B1AD8B4D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_neon.c */,
+				8728E0D528D74F34BD654009 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse2.c */,
+				E95CC24B1C57439B81514746 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/dsp/yuv_sse41.c */,
+				1470C4EDB805484F8B3770EA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/alpha_enc.c */,
+				2245D6CAF2DD47DBABD5905B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/analysis_enc.c */,
+				394DC9871D514D1BBF970B06 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_cost_enc.c */,
+				2512D44F69214E20B5E7CF1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/backward_references_enc.c */,
+				E49E55C175E441F1A258047C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/config_enc.c */,
+				0FBC0BA33BE94355BDAACA92 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/cost_enc.c */,
+				4715A4196F8A4C7D85CDB6CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/filter_enc.c */,
+				3C15A80192F84F77BAD42090 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/frame_enc.c */,
+				E691E265DCAC46C2B1BFE6F8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/histogram_enc.c */,
+				850031E4D33C42358E8F180D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/iterator_enc.c */,
+				AF922B9693FB4A23A7D870D3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/near_lossless_enc.c */,
+				170B9E71F85A429BB065BD8B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_csp_enc.c */,
+				FC3ACB48CC2541CCAEB13AFC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_enc.c */,
+				E553DE564D8E4966BBA5D786 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_psnr_enc.c */,
+				057003AC256E4D8381A978FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_rescale_enc.c */,
+				36C10994985047E4ACA207B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/picture_tools_enc.c */,
+				7FA3068A7AD54F07950A592E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/predictor_enc.c */,
+				AA904640E90C4459A1155357 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/quant_enc.c */,
+				E60F02297F3246FF9DB76738 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/syntax_enc.c */,
+				F29E243E48B241F1ABDBED4A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/token_enc.c */,
+				58F0B5BBB2A54659825E21FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/tree_enc.c */,
+				589F9CB9CC16484891120D5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/vp8l_enc.c */,
+				0F524E26BAF64A7B820AAD08 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/enc/webp_enc.c */,
+				8BE0DBBC1FC84290BC854ACF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/anim_encode.c */,
+				89E47E11D28446BC98E188CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxedit.c */,
+				F1507CBFFC4244E5B2C365DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxinternal.c */,
+				BCBEA3E98B304E22B4D807DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/mux/muxread.c */,
+				17E5BBB17D874BB0874182C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_reader_utils.c */,
+				DA8AD78B1B5F45619938D136 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/bit_writer_utils.c */,
+				9426F04B216D43D79FDD7730 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/color_cache_utils.c */,
+				72C13931EC7A45CA8D97D5A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/filters_utils.c */,
+				DDE747A37DD3488E97A1B2A7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_encode_utils.c */,
+				DA429DCEF04F44D59781474B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/huffman_utils.c */,
+				61EBA48B33B545DBA3C7A407 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_dec_utils.c */,
+				79A63B7EDFE7448C8A1B5E48 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/quant_levels_utils.c */,
+				CD71E1C4939C47829E121984 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/random_utils.c */,
+				CA7A3B5F81FA4C2185230AA1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/rescaler_utils.c */,
+				2319780710954CA3A7DEE81B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/thread_utils.c */,
+				CEA1BB4DDD0F424B91B45F1E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp/src/utils/utils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD548F0715F451793E55EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 328BCDAC9A8144EEBBA266D6 /* PBXContainerItemProxy */;
+		};
+		3AC7604CBF79404E9158D918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 1D57F6045F61460EBA13D580 /* PBXContainerItemProxy */;
+		};
+		945CAAB83772449180418899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = D2937684434D428C84AAD470 /* PBXContainerItemProxy */;
+		};
+		B23C60B5310B4212A9FCEF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = DAD9FB8D7451413E973B801D /* PBXContainerItemProxy */;
+		};
+		DA0CD075DE9A473EB7A43464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50C1C81253504F6381A19AAE /* libwebp */;
+			targetProxy = 3E0F8962E476408E85A5ACDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043606C26F234916B6F6C900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2A5C5F16F10B46D0A933A0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		40811F89A5DB4F3A8379C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		43546F2E21564426BD0FBE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4EB6B6E4FFC94B92B3CBE7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WEBP_USE_THREAD);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-variable -Wno-unused-function -Wno-shadow -Wno-missing-prototypes -Wno-missing-declarations -Wno-implicit-fallthrough         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwebp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5105850E6B89474398290537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		54E31C6B5D554DBEA45B86AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp/build";
+			};
+			name = Debug;
+		};
+		7F49F4594FD0479F8E0F5B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B241018462FC457DBCEDD1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp/build";
+			};
+			name = Release;
+		};
+		B435099849E44269B5A45FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BFC8736C54FC4FC6B6B56B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CFEFD8BC18ED46238455244B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",WEBP_USE_THREAD);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libwebp","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-variable -Wno-unused-function -Wno-shadow -Wno-missing-prototypes -Wno-missing-declarations -Wno-implicit-fallthrough     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwebp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E0AB936901064D62A24C0BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F48B8A08A3214B42A1F8CE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libwebp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266747EC263741A5B3CEE6D0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AB936901064D62A24C0BB6 /* Debug */,
+				2A5C5F16F10B46D0A933A0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26EC67181CAC4C18A5ED33FB /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5105850E6B89474398290537 /* Debug */,
+				43546F2E21564426BD0FBE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A5A4E1FBA7B40698711DAB9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48B8A08A3214B42A1F8CE10 /* Debug */,
+				043606C26F234916B6F6C900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		843608F60FA74CC089A83BDB /* Build configuration list for PBXProject "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E31C6B5D554DBEA45B86AB /* Debug */,
+				B241018462FC457DBCEDD1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BBCFBABA7D9543248EC42E3F /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F49F4594FD0479F8E0F5B45 /* Debug */,
+				B435099849E44269B5A45FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE37E8982E7C407895E26133 /* Build configuration list for PBXNativeTarget "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB6B6E4FFC94B92B3CBE7FD /* Debug */,
+				CFEFD8BC18ED46238455244B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F934E862E004479C9F85A73C /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC8736C54FC4FC6B6B56B02 /* Debug */,
+				40811F89A5DB4F3A8379C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AA9198A6ABD42BD925A5626 /* Project object */;
+}

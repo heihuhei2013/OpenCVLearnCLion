@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 348B0CEFFD9149A3B16D4577 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				8ECB3B2C156647FABD9B6A90 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				AF34F91BA2274F539989F6D5 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A74FA0345534EDABBB1003B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				869F07B980AC411EAB6A0D52 /* CMake Rules */,
+			);
+			dependencies = (
+				9E3CEC73255C4645AC8BEFD9 /* PBXTargetDependency */,
+				A3FA307A0AB8447788BB00E4 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5C18897536444F71916EB713 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				FE63BBD8200148738F13A0B3 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A85FAA93C52F4231B10FF5EE /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7ECB39DDC9D644CBB1748978 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				653DEFC29AA640F0A6E3D21E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D62085FB7A5D4342A053E29C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B201A5594AA141F5913681A1 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		059A8F5D71AE4D478D519C87 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_split.c */ = {isa = PBXBuildFile; fileRef = FF4A59717F334E638981ED76 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_split.c */; };
+		0E0F6D47650749F1BADF5C15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_transform.h */ = {isa = PBXBuildFile; fileRef = 49621A91EF604FA6AB8490AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_transform.h */; };
+		0EE9D50080AD413F9F9C9E56 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_op.h */ = {isa = PBXBuildFile; fileRef = 24D4BE2C36AC4B9E89B828B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_op.h */; };
+		160033BD02C246E4ADB62582 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_filter.hpp */ = {isa = PBXBuildFile; fileRef = DCFC675FFFD44ADE8E986134 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_filter.hpp */; };
+		1824064E65F74930B8205000 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_make_border.c */ = {isa = PBXBuildFile; fileRef = 358B762A0FC94ACDAE524DB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_make_border.c */; };
+		2328F5DEB4CD40E0B744907A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image.c */ = {isa = PBXBuildFile; fileRef = 29C7523A963C4258B435AE53 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image.c */; };
+		2552CCE35BC84635832DF4AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_general.c */ = {isa = PBXBuildFile; fileRef = ECAF51358CD9458D9F81A0B6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_general.c */; };
+		2916D356B3DA43A4B0B231BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_bilateral.c */ = {isa = PBXBuildFile; fileRef = CACF7564B6C34028A399F369 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_bilateral.c */; };
+		307766B8FCF84BE7A475A71F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_morphology.c */ = {isa = PBXBuildFile; fileRef = 7A7F3D407C5C424289589619 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_morphology.c */; };
+		34A2E3FF1C1241839F5D79A3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_rotate.c */ = {isa = PBXBuildFile; fileRef = 29CF652CC0084A1188A4926C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_rotate.c */; };
+		48A7C0B3B9314DF8ADC6F638 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_scale.c */ = {isa = PBXBuildFile; fileRef = E7BA1BDA96AF4988945525A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_scale.c */; };
+		4A2284BCB3934DB9AA4A657D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_rgbs.c */ = {isa = PBXBuildFile; fileRef = E72C6922DFE14F3ABD8897CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_rgbs.c */; };
+		549F883AD935481FADDC4875 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_filter.h */ = {isa = PBXBuildFile; fileRef = 30ED4FEC5FAA46C0A540D071 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_filter.h */; };
+		591D37B8C6C64091948185B1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image.h */ = {isa = PBXBuildFile; fileRef = 75CD3C9F992B45EAB5DD7E34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image.h */; };
+		5E113102736444A4BBC83554 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_swap_channels.c */ = {isa = PBXBuildFile; fileRef = 1D2A669E5B9B464DAC281169 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_swap_channels.c */; };
+		600891B550124F2D9DBCACBC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy.c */ = {isa = PBXBuildFile; fileRef = A9CADE9A526D4B5C8A27D099 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy.c */; };
+		64A3A9D35913454CB34E1AB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set_channel.c */ = {isa = PBXBuildFile; fileRef = F83CE7CACA4D4907ACB913AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set_channel.c */; };
+		6E3760C52F784EDD9F71616C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_owni.h */ = {isa = PBXBuildFile; fileRef = F584AF6250E947848BA88498 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_owni.h */; };
+		7143B82439054D2E85E0F542 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_core.h */ = {isa = PBXBuildFile; fileRef = C2D1C67D6E1E4D93BFEA1429 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_core.h */; };
+		7C85FBB4D6AA4EF4B6A6F3E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_core.c */ = {isa = PBXBuildFile; fileRef = 0D36BCDE03F44487A239F134 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_core.c */; };
+		81B0F52FC5094DA18525D4E4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set.c */ = {isa = PBXBuildFile; fileRef = A67A41077BA84ECDAEDFD686 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set.c */; };
+		89BEFFB3C2B242BDAEC6B7DD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_gaussian.c */ = {isa = PBXBuildFile; fileRef = 2AEB6717C91045E2B493DB64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_gaussian.c */; };
+		8B058398DB8E4083B3966E1E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_ll.h */ = {isa = PBXBuildFile; fileRef = DE42FBAE8A7F4F4B8EB1D596 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_ll.h */; };
+		8C90F348F4A142CA93F21869 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_box.c */ = {isa = PBXBuildFile; fileRef = 155CD8B10A6F471CAA68EA35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_box.c */; };
+		92B0C09E7BB04569814547C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_channel.c */ = {isa = PBXBuildFile; fileRef = 9855BC1FC4394FD4A12BA866 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_channel.c */; };
+		94C79BB40C44499FA7D47638 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw.hpp */ = {isa = PBXBuildFile; fileRef = 79BE1473D1F841F296A056EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw.hpp */; };
+		95FE4E95E0A94B36BBC3F387 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_color.h */ = {isa = PBXBuildFile; fileRef = DC1F0B52D6F747F1831E8B22 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_color.h */; };
+		A06BB8B29562423F97BD2367 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_resize.c */ = {isa = PBXBuildFile; fileRef = E620146125F143799C33AC0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_resize.c */; };
+		A34CA121638340F5B04CE5AB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_scharr.c */ = {isa = PBXBuildFile; fileRef = 79F1FBFE23564B1288C06761 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_scharr.c */; };
+		AA7B9FA2F2934E1F98CB10AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_sobel.c */ = {isa = PBXBuildFile; fileRef = 7F66213AC10F4BDE8E25AFA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_sobel.c */; };
+		B7BE49BAA0824DF480691A3C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_laplacian.c */ = {isa = PBXBuildFile; fileRef = 8E21BF61AD6747DAA893E1A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_laplacian.c */; };
+		BA2D9E5B79544245BD6985AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_color.hpp */ = {isa = PBXBuildFile; fileRef = 791A3C18950E4D9C835CB5C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_color.hpp */; };
+		C0DFC0EF38B94AD4A3C4365C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_version.h */ = {isa = PBXBuildFile; fileRef = B4889F6324C1402EB45182CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_version.h */; };
+		CB8DF3196B08487E999BA8D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_mirror.c */ = {isa = PBXBuildFile; fileRef = 89F4AB0449654D0FA75BDFB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_mirror.c */; };
+		CC8A42473BDE4FD18EDB4017 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_all.c */ = {isa = PBXBuildFile; fileRef = B399A8EFC5894D338ABF8A84 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_all.c */; };
+		CCD7148F6D1148429C87CFD4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_merge.c */ = {isa = PBXBuildFile; fileRef = 8319A98FAEF24A25876D4C61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_merge.c */; };
+		CD34087B40474EAEA4A36034 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_op.hpp */ = {isa = PBXBuildFile; fileRef = BB70130C1014463C89DC3B4F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_op.hpp */; };
+		D519729EC6414EBAAF46A499 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_core.hpp */ = {isa = PBXBuildFile; fileRef = 94C2D41E800F4A0BB34B7E71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_core.hpp */; };
+		D6A2DE030A74424B90D35A54 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_own.h */ = {isa = PBXBuildFile; fileRef = 146424EA78764FD8B1A483B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_own.h */; };
+		DD3614774A3B4BE0AEF606C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_transform.hpp */ = {isa = PBXBuildFile; fileRef = 695923E7528D4E7E91D61E02 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_transform.hpp */; };
+		DEB8A11D5D244485B620D9E8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_own.c */ = {isa = PBXBuildFile; fileRef = EBB718BC3E6E4295818CD37E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_own.c */; };
+		E835E5147B7148FB9F8BBEEC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_warpaffine.c */ = {isa = PBXBuildFile; fileRef = 23BD774379BB4302B27B325E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_warpaffine.c */; };
+		EE39FB2EA5484AB7A302DFB3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_config.h */ = {isa = PBXBuildFile; fileRef = BCFAC09880684BFEB974485F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_config.h */; };
+		EF0840BC00494BCF93E3FE4A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A5F37803E9934A9D9A8FDCF3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/CMakeLists.txt */; };
+		EF88D7C96BE94FC2817C00AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image.hpp */ = {isa = PBXBuildFile; fileRef = 18EC10463F4F4E37924F95A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image.hpp */; };
+		F22B461620F14BC4843A3FE6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw.h */ = {isa = PBXBuildFile; fileRef = A28009CFC7B942B2BCE739DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw.h */; };
+		FECF191C9F3A494182D45E25 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_canny.c */ = {isa = PBXBuildFile; fileRef = A88E666E97C74818B201E942 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_canny.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		29379CD9BAE84128B63B5084 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D8F72136FCD64E1D8B92D0E5 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1E1BEF31D84A4F60A6AA5269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7B7760B2574E549ED7A059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		6A24780E25454933BBF10E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7B7760B2574E549ED7A059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		746512FB606B4BCEAB976783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7B7760B2574E549ED7A059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		9F0E228DD1A843CE937BC2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7B7760B2574E549ED7A059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65913C71E2334F819C83B690;
+			remoteInfo = ippiw;
+		};
+		A4CE1FD73DE74F2A843A0417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7B7760B2574E549ED7A059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D36BCDE03F44487A239F134 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_core.c; path = src/iw_core.c; sourceTree = SOURCE_ROOT; };
+		146424EA78764FD8B1A483B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_own.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_own.h; path = include/iw_own.h; sourceTree = SOURCE_ROOT; };
+		155CD8B10A6F471CAA68EA35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_box.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_box.c; path = src/iw_image_filter_box.c; sourceTree = SOURCE_ROOT; };
+		18EC10463F4F4E37924F95A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image.hpp; path = "include/iw++/iw_image.hpp"; sourceTree = SOURCE_ROOT; };
+		1D2A669E5B9B464DAC281169 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_swap_channels.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_swap_channels.c; path = src/iw_image_op_swap_channels.c; sourceTree = SOURCE_ROOT; };
+		23BD774379BB4302B27B325E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_warpaffine.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_transform_warpaffine.c; path = src/iw_image_transform_warpaffine.c; sourceTree = SOURCE_ROOT; };
+		244FE56A728749F68ECB1314 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		24D4BE2C36AC4B9E89B828B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_op.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image_op.h; path = include/iw/iw_image_op.h; sourceTree = SOURCE_ROOT; };
+		29C7523A963C4258B435AE53 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image.c; path = src/iw_image.c; sourceTree = SOURCE_ROOT; };
+		29CF652CC0084A1188A4926C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_rotate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_transform_rotate.c; path = src/iw_image_transform_rotate.c; sourceTree = SOURCE_ROOT; };
+		2AEB6717C91045E2B493DB64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_gaussian.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_gaussian.c; path = src/iw_image_filter_gaussian.c; sourceTree = SOURCE_ROOT; };
+		30ED4FEC5FAA46C0A540D071 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_filter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image_filter.h; path = include/iw/iw_image_filter.h; sourceTree = SOURCE_ROOT; };
+		358B762A0FC94ACDAE524DB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_make_border.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy_make_border.c; path = src/iw_image_op_copy_make_border.c; sourceTree = SOURCE_ROOT; };
+		49621A91EF604FA6AB8490AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_transform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image_transform.h; path = include/iw/iw_image_transform.h; sourceTree = SOURCE_ROOT; };
+		695923E7528D4E7E91D61E02 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image_transform.hpp; path = "include/iw++/iw_image_transform.hpp"; sourceTree = SOURCE_ROOT; };
+		75CD3C9F992B45EAB5DD7E34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image.h; path = include/iw/iw_image.h; sourceTree = SOURCE_ROOT; };
+		791A3C18950E4D9C835CB5C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image_color.hpp; path = "include/iw++/iw_image_color.hpp"; sourceTree = SOURCE_ROOT; };
+		79BE1473D1F841F296A056EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw.hpp; path = "include/iw++/iw.hpp"; sourceTree = SOURCE_ROOT; };
+		79F1FBFE23564B1288C06761 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_scharr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_scharr.c; path = src/iw_image_filter_scharr.c; sourceTree = SOURCE_ROOT; };
+		7A7F3D407C5C424289589619 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_morphology.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_morphology.c; path = src/iw_image_filter_morphology.c; sourceTree = SOURCE_ROOT; };
+		7D6DE28258164819B78094C5 /* ippiw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libippiw.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F66213AC10F4BDE8E25AFA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_sobel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_sobel.c; path = src/iw_image_filter_sobel.c; sourceTree = SOURCE_ROOT; };
+		8319A98FAEF24A25876D4C61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_merge.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy_merge.c; path = src/iw_image_op_copy_merge.c; sourceTree = SOURCE_ROOT; };
+		89F4AB0449654D0FA75BDFB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_mirror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_transform_mirror.c; path = src/iw_image_transform_mirror.c; sourceTree = SOURCE_ROOT; };
+		8E21BF61AD6747DAA893E1A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_laplacian.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_laplacian.c; path = src/iw_image_filter_laplacian.c; sourceTree = SOURCE_ROOT; };
+		94C2D41E800F4A0BB34B7E71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_core.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_core.hpp; path = "include/iw++/iw_core.hpp"; sourceTree = SOURCE_ROOT; };
+		9855BC1FC4394FD4A12BA866 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_channel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy_channel.c; path = src/iw_image_op_copy_channel.c; sourceTree = SOURCE_ROOT; };
+		A28009CFC7B942B2BCE739DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw.h; path = include/iw/iw.h; sourceTree = SOURCE_ROOT; };
+		A5F37803E9934A9D9A8FDCF3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A67A41077BA84ECDAEDFD686 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_set.c; path = src/iw_image_op_set.c; sourceTree = SOURCE_ROOT; };
+		A88E666E97C74818B201E942 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_canny.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_canny.c; path = src/iw_image_filter_canny.c; sourceTree = SOURCE_ROOT; };
+		A9CADE9A526D4B5C8A27D099 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy.c; path = src/iw_image_op_copy.c; sourceTree = SOURCE_ROOT; };
+		B399A8EFC5894D338ABF8A84 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_all.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_color_convert_all.c; path = src/iw_image_color_convert_all.c; sourceTree = SOURCE_ROOT; };
+		B4889F6324C1402EB45182CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_version.h; path = include/iw/iw_version.h; sourceTree = SOURCE_ROOT; };
+		BB70130C1014463C89DC3B4F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_op.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image_op.hpp; path = "include/iw++/iw_image_op.hpp"; sourceTree = SOURCE_ROOT; };
+		BCFAC09880684BFEB974485F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_config.h; path = include/iw_config.h; sourceTree = SOURCE_ROOT; };
+		C2D1C67D6E1E4D93BFEA1429 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_core.h; path = include/iw/iw_core.h; sourceTree = SOURCE_ROOT; };
+		CACF7564B6C34028A399F369 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_bilateral.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_bilateral.c; path = src/iw_image_filter_bilateral.c; sourceTree = SOURCE_ROOT; };
+		DC1F0B52D6F747F1831E8B22 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_image_color.h; path = include/iw/iw_image_color.h; sourceTree = SOURCE_ROOT; };
+		DCFC675FFFD44ADE8E986134 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_filter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = iw_image_filter.hpp; path = "include/iw++/iw_image_filter.hpp"; sourceTree = SOURCE_ROOT; };
+		DE42FBAE8A7F4F4B8EB1D596 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_ll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_ll.h; path = include/iw/iw_ll.h; sourceTree = SOURCE_ROOT; };
+		E620146125F143799C33AC0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_resize.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_transform_resize.c; path = src/iw_image_transform_resize.c; sourceTree = SOURCE_ROOT; };
+		E72C6922DFE14F3ABD8897CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_rgbs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_color_convert_rgbs.c; path = src/iw_image_color_convert_rgbs.c; sourceTree = SOURCE_ROOT; };
+		E7BA1BDA96AF4988945525A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_scale.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_scale.c; path = src/iw_image_op_scale.c; sourceTree = SOURCE_ROOT; };
+		EBB718BC3E6E4295818CD37E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_own.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_own.c; path = src/iw_own.c; sourceTree = SOURCE_ROOT; };
+		ECAF51358CD9458D9F81A0B6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_general.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_filter_general.c; path = src/iw_image_filter_general.c; sourceTree = SOURCE_ROOT; };
+		F584AF6250E947848BA88498 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_owni.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iw_owni.h; path = include/iw_owni.h; sourceTree = SOURCE_ROOT; };
+		F83CE7CACA4D4907ACB913AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set_channel.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_set_channel.c; path = src/iw_image_op_set_channel.c; sourceTree = SOURCE_ROOT; };
+		FF4A59717F334E638981ED76 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_split.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iw_image_op_copy_split.c; path = src/iw_image_op_copy_split.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C7997B6B77E41738A4084CA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D36BCDE03F44487A239F134 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_core.c */,
+				29C7523A963C4258B435AE53 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image.c */,
+				B399A8EFC5894D338ABF8A84 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_all.c */,
+				E72C6922DFE14F3ABD8897CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_rgbs.c */,
+				CACF7564B6C34028A399F369 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_bilateral.c */,
+				155CD8B10A6F471CAA68EA35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_box.c */,
+				A88E666E97C74818B201E942 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_canny.c */,
+				2AEB6717C91045E2B493DB64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_gaussian.c */,
+				ECAF51358CD9458D9F81A0B6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_general.c */,
+				8E21BF61AD6747DAA893E1A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_laplacian.c */,
+				7A7F3D407C5C424289589619 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_morphology.c */,
+				79F1FBFE23564B1288C06761 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_scharr.c */,
+				7F66213AC10F4BDE8E25AFA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_sobel.c */,
+				A9CADE9A526D4B5C8A27D099 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy.c */,
+				9855BC1FC4394FD4A12BA866 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_channel.c */,
+				358B762A0FC94ACDAE524DB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_make_border.c */,
+				8319A98FAEF24A25876D4C61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_merge.c */,
+				FF4A59717F334E638981ED76 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_split.c */,
+				E7BA1BDA96AF4988945525A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_scale.c */,
+				A67A41077BA84ECDAEDFD686 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set.c */,
+				F83CE7CACA4D4907ACB913AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set_channel.c */,
+				1D2A669E5B9B464DAC281169 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_swap_channels.c */,
+				89F4AB0449654D0FA75BDFB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_mirror.c */,
+				E620146125F143799C33AC0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_resize.c */,
+				29CF652CC0084A1188A4926C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_rotate.c */,
+				23BD774379BB4302B27B325E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_warpaffine.c */,
+				EBB718BC3E6E4295818CD37E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_own.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		378950B2CDD64919A8B2D3C0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				79BE1473D1F841F296A056EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw.hpp */,
+				94C2D41E800F4A0BB34B7E71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_core.hpp */,
+				18EC10463F4F4E37924F95A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image.hpp */,
+				791A3C18950E4D9C835CB5C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_color.hpp */,
+				DCFC675FFFD44ADE8E986134 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_filter.hpp */,
+				BB70130C1014463C89DC3B4F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_op.hpp */,
+				695923E7528D4E7E91D61E02 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw++/iw_image_transform.hpp */,
+				A28009CFC7B942B2BCE739DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw.h */,
+				C2D1C67D6E1E4D93BFEA1429 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_core.h */,
+				75CD3C9F992B45EAB5DD7E34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image.h */,
+				DC1F0B52D6F747F1831E8B22 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_color.h */,
+				30ED4FEC5FAA46C0A540D071 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_filter.h */,
+				24D4BE2C36AC4B9E89B828B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_op.h */,
+				49621A91EF604FA6AB8490AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_image_transform.h */,
+				DE42FBAE8A7F4F4B8EB1D596 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_ll.h */,
+				B4889F6324C1402EB45182CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw/iw_version.h */,
+				BCFAC09880684BFEB974485F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_config.h */,
+				146424EA78764FD8B1A483B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_own.h */,
+				F584AF6250E947848BA88498 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include/iw_owni.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		75CB1280177442D6BA8EDC67 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				E6A26D4C7F6548C89B4BF18F /* ippiw */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		7EE6ABD16AB645EA95F9CDDA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC6957020544CC83B038C0 /* CMake Rules */,
+				244FE56A728749F68ECB1314 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8DBC6957020544CC83B038C0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9FF466659699410F982D212C = {
+			isa = PBXGroup;
+			children = (
+				75CB1280177442D6BA8EDC67 /* 3rdparty */,
+				7EE6ABD16AB645EA95F9CDDA /* ALL_BUILD */,
+				E661472010C14A56B35CC00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E661472010C14A56B35CC00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D6DE28258164819B78094C5 /* ippiw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6A26D4C7F6548C89B4BF18F /* ippiw */ = {
+			isa = PBXGroup;
+			children = (
+				1C7997B6B77E41738A4084CA /* Source Files */,
+				378950B2CDD64919A8B2D3C0 /* Header Files */,
+				A5F37803E9934A9D9A8FDCF3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/CMakeLists.txt */,
+			);
+			name = ippiw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65913C71E2334F819C83B690 /* ippiw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5C4B10BDAB458EAAA61B87 /* Build configuration list for PBXNativeTarget "ippiw" */;
+			buildPhases = (
+				D5D6C99CFCC346ECA8DBA0AF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB6EB55457444DEBAE0FC6B /* PBXTargetDependency */,
+			);
+			name = ippiw;
+			productName = ippiw;
+			productReference = 7D6DE28258164819B78094C5 /* ippiw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7B7760B2574E549ED7A059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 3BC979997F0247F59BC4A909 /* Build configuration list for PBXProject "ippiw" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D8F72136FCD64E1D8B92D0E5 /* Debug */,
+				29379CD9BAE84128B63B5084 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9FF466659699410F982D212C;
+			projectDirPath = ../ippicv/ippicv_mac/iw;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				65913C71E2334F819C83B690 /* ippiw */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0877486052154DE093877006 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		653DEFC29AA640F0A6E3D21E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6CBE9061DCB640CAB0230C37 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		869F07B980AC411EAB6A0D52 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8ECB3B2C156647FABD9B6A90 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B201A5594AA141F5913681A1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		BB538A6C328241EAB2796FB0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CC1800485DCB40EA9AA7AE09 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D08D9780E405473F989C9430 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FE63BBD8200148738F13A0B3 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D6C99CFCC346ECA8DBA0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C85FBB4D6AA4EF4B6A6F3E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_core.c */,
+				2328F5DEB4CD40E0B744907A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image.c */,
+				CC8A42473BDE4FD18EDB4017 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_all.c */,
+				4A2284BCB3934DB9AA4A657D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_color_convert_rgbs.c */,
+				2916D356B3DA43A4B0B231BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_bilateral.c */,
+				8C90F348F4A142CA93F21869 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_box.c */,
+				FECF191C9F3A494182D45E25 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_canny.c */,
+				89BEFFB3C2B242BDAEC6B7DD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_gaussian.c */,
+				2552CCE35BC84635832DF4AA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_general.c */,
+				B7BE49BAA0824DF480691A3C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_laplacian.c */,
+				307766B8FCF84BE7A475A71F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_morphology.c */,
+				A34CA121638340F5B04CE5AB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_scharr.c */,
+				AA7B9FA2F2934E1F98CB10AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_filter_sobel.c */,
+				600891B550124F2D9DBCACBC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy.c */,
+				92B0C09E7BB04569814547C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_channel.c */,
+				1824064E65F74930B8205000 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_make_border.c */,
+				CCD7148F6D1148429C87CFD4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_merge.c */,
+				059A8F5D71AE4D478D519C87 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_copy_split.c */,
+				48A7C0B3B9314DF8ADC6F638 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_scale.c */,
+				81B0F52FC5094DA18525D4E4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set.c */,
+				64A3A9D35913454CB34E1AB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_set_channel.c */,
+				5E113102736444A4BBC83554 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_op_swap_channels.c */,
+				CB8DF3196B08487E999BA8D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_mirror.c */,
+				A06BB8B29562423F97BD2367 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_resize.c */,
+				34A2E3FF1C1241839F5D79A3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_rotate.c */,
+				E835E5147B7148FB9F8BBEEC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_image_transform_warpaffine.c */,
+				DEB8A11D5D244485B620D9E8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/src/iw_own.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DB6EB55457444DEBAE0FC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 6A24780E25454933BBF10E92 /* PBXContainerItemProxy */;
+		};
+		9E3CEC73255C4645AC8BEFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = A4CE1FD73DE74F2A843A0417 /* PBXContainerItemProxy */;
+		};
+		A3FA307A0AB8447788BB00E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65913C71E2334F819C83B690 /* ippiw */;
+			targetProxy = 9F0E228DD1A843CE937BC2B0 /* PBXContainerItemProxy */;
+		};
+		A85FAA93C52F4231B10FF5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 1E1BEF31D84A4F60A6AA5269 /* PBXContainerItemProxy */;
+		};
+		AF34F91BA2274F539989F6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 746512FB606B4BCEAB976783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C2ACEC6C9A42CBB1EA5C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2851DF01EF1741799EDC057D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		36E6C25BDA174233BBFEE0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3CB9778671EE43488F398E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6191E61E733B4C45A261CEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw/build";
+			};
+			name = Release;
+		};
+		794836CE8F954406A99F8754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		82ABC682121F447DA76CD0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IW_BUILD,ICV_BASE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-missing-braces -Wno-missing-field-initializers -Wno-self-assign         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ippiw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8755CB1398BC443B8BFD5304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9419E26C5A2E4E9CB80F7ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		94E5426118EA42C98F71E78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BA32BA4BF4EC4B5ABDB82318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C9510BC65BDA41E29C299F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E47E5A29FE4142FABB04A488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IW_BUILD,ICV_BASE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-missing-braces -Wno-missing-field-initializers -Wno-self-assign     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ippiw;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EB07312D460E413897300706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippiw/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		348B0CEFFD9149A3B16D4577 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794836CE8F954406A99F8754 /* Debug */,
+				36E6C25BDA174233BBFEE0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3BC979997F0247F59BC4A909 /* Build configuration list for PBXProject "ippiw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB07312D460E413897300706 /* Debug */,
+				6191E61E733B4C45A261CEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A74FA0345534EDABBB1003B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9510BC65BDA41E29C299F96 /* Debug */,
+				94E5426118EA42C98F71E78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C18897536444F71916EB713 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB9778671EE43488F398E61 /* Debug */,
+				BA32BA4BF4EC4B5ABDB82318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D5C4B10BDAB458EAAA61B87 /* Build configuration list for PBXNativeTarget "ippiw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82ABC682121F447DA76CD0F3 /* Debug */,
+				E47E5A29FE4142FABB04A488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7ECB39DDC9D644CBB1748978 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9419E26C5A2E4E9CB80F7ED9 /* Debug */,
+				8755CB1398BC443B8BFD5304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D62085FB7A5D4342A053E29C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C2ACEC6C9A42CBB1EA5C19 /* Debug */,
+				2851DF01EF1741799EDC057D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7B7760B2574E549ED7A059 /* Project object */;
+}

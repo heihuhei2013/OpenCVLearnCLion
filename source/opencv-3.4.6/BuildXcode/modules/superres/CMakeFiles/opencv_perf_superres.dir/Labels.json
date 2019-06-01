@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/superres/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/superres/perf/perf_superres.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_superres",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/superres/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_superres",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_superres",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_superres"
+	}
+}

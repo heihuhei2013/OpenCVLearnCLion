@@ -1,0 +1,21 @@
+# Target labels
+ Main
+ opencv_videoio
+ PerfTest
+# Source files and their labels
+/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/perf/perf_input.cpp
+ Main
+ opencv_videoio
+ PerfTest
+/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/perf/perf_main.cpp
+ Main
+ opencv_videoio
+ PerfTest
+/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/perf/perf_output.cpp
+ Main
+ opencv_videoio
+ PerfTest
+/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/perf/perf_precomp.hpp
+ Main
+ opencv_videoio
+ PerfTest

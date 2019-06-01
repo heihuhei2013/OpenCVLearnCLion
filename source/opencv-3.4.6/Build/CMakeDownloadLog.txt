@@ -1,0 +1,5 @@
+#use_cache "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/.cache"
+#do_unpack "ippicv_2019_mac_intel64_general_20180723.tgz" "fe6b2bb75ae0e3f19ad3ae1a31dfa4a2" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/32e315a5b106a7b89dbed51c28f8120a48b368b4/ippicv/ippicv_2019_mac_intel64_general_20180723.tgz" "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/Build/3rdparty/ippicv"
+#check_md5 "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/.cache/ippicv/fe6b2bb75ae0e3f19ad3ae1a31dfa4a2-ippicv_2019_mac_intel64_general_20180723.tgz"
+#mkdir "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/Build/3rdparty/ippicv"
+#unpack "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/Build/3rdparty/ippicv" "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/.cache/ippicv/fe6b2bb75ae0e3f19ad3ae1a31dfa4a2-ippicv_2019_mac_intel64_general_20180723.tgz"

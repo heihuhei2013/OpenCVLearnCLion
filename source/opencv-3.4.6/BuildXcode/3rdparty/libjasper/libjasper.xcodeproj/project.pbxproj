@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1280045348A1438BAFA4287E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				4540B12D1D864D41ADCB30D3 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7389EF4FC3954EE0BBF40158 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CFCFC90EC0F34358A5125293 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B4C2D978917A4CD292F7D7AC /* CMake Rules */,
+			);
+			dependencies = (
+				057ED93F2C484BC9B4525F87 /* PBXTargetDependency */,
+				4CBEB7DB83C74A5DA50CA563 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C86D307D92D44F50935F4F23 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				642A08B2FB8C441183447DE5 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				87BB062429064F1A80045003 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BAAC3CAF206648F5A3B8B2D4 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				3A1136F1804944B9B8E7912B /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 007D6FDBCB374D279F3B4244 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				44299DF07E0D4457AC5EE0E1 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00522BDF0E6C441ABC3BF21D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jasper.h */ = {isa = PBXBuildFile; fileRef = 83FB128CDC7E445895FFEB29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jasper.h */; };
+		00E0B943190E4019AFB6A685 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.c */ = {isa = PBXBuildFile; fileRef = F402D583A1B24EB683461988 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.c */; };
+		01B6AC041F4E426BB00AB702 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_image.h */ = {isa = PBXBuildFile; fileRef = 3D08947A819A492E8D019CE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_image.h */; };
+		0421F4FC366B40C3B048602A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.h */ = {isa = PBXBuildFile; fileRef = 9F7AE18649B148B3B0F24D7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.h */; };
+		04A7C252B14F48E489CE83DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.c */ = {isa = PBXBuildFile; fileRef = 6B913D0FAEC347DF88C2DC18 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.c */; };
+		09E42BEB7D104EEF914246B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_iccdata.c */ = {isa = PBXBuildFile; fileRef = 7108C5D18AE14104AE8DC126 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_iccdata.c */; };
+		09FCB87CA3FF468E95D1B5AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.h */ = {isa = PBXBuildFile; fileRef = B4956F596B604DCABA4E40FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.h */; };
+		0A8DF7479ADE4E619BCE2CEB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.h */ = {isa = PBXBuildFile; fileRef = A2080FDEC4DB4507BDD81B43 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.h */; };
+		0F55BCE1DE0B4C22B062F9E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_malloc.c */ = {isa = PBXBuildFile; fileRef = EB53267A75EA496B974C2C59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_malloc.c */; };
+		0F6A4680DCD64F189F6A997D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.c */ = {isa = PBXBuildFile; fileRef = BE1132C78D7C423088FD5676 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.c */; };
+		1826A54AE1394710AD361CD7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.c */ = {isa = PBXBuildFile; fileRef = 71FA787CA5E7466BA26A1CEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.c */; };
+		23F97152E6C9453CB067A61D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.h */ = {isa = PBXBuildFile; fileRef = B902487A9A5F49DD9A5BC5C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.h */; };
+		252590970D4D40F1BEC4F0F4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.h */ = {isa = PBXBuildFile; fileRef = F432037DE9574C678299733F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.h */; };
+		27B4AAF96C52461C8B6FB7FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_string.h */ = {isa = PBXBuildFile; fileRef = 6828B8ADAB684991935672C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_string.h */; };
+		27CD6350A72841CDAD693538 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.h */ = {isa = PBXBuildFile; fileRef = 295262AD6E704BEA95657008 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.h */; };
+		2BA248D2FAAF492A8EB92D1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_config2.h */ = {isa = PBXBuildFile; fileRef = 4D145676C6774066A877F3D8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_config2.h */; };
+		2F0ECB577A89496283B8572D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_cm.c */ = {isa = PBXBuildFile; fileRef = 414F5753DA374CB990AE120B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_cm.c */; };
+		31CC3DA8F61349C8B2D6DFB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_icc.h */ = {isa = PBXBuildFile; fileRef = 27952A182BD94579A2BF7124 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_icc.h */; };
+		3234E6FC34FD49E091094D61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_init.h */ = {isa = PBXBuildFile; fileRef = 8623285988DC4D658109C319 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_init.h */; };
+		3A604C4AE3AC4EBA92EE53DE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_types.h */ = {isa = PBXBuildFile; fileRef = B61E3538D2C14174B2A84577 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_types.h */; };
+		3CDD633DB152462B83DB116D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.h */ = {isa = PBXBuildFile; fileRef = 304A216C8EA24F24B2F93B20 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.h */; };
+		3DA68FC2A84F440497C79899 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 24DD178347BB458ABC7DFA16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/CMakeLists.txt */; };
+		43988322268243B196A6862F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_cm.h */ = {isa = PBXBuildFile; fileRef = FB95038D3AE94FA4B3D94CA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_cm.h */; };
+		49626041A3154C6292BDEA2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_math.h */ = {isa = PBXBuildFile; fileRef = FB214026E28E49F28C6A1344 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_math.h */; };
+		4A287349BB144CA79CC518C7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.h */ = {isa = PBXBuildFile; fileRef = D595B998D07440E7B8C09FB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.h */; };
+		4D4317CF92BE41DB878E90FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_image.c */ = {isa = PBXBuildFile; fileRef = E3BDBD7151374F01BCBE11AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_image.c */; };
+		4EB43CFE554A483BB7C72E70 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_getopt.h */ = {isa = PBXBuildFile; fileRef = 6C2D54EF3C00488F8B072863 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_getopt.h */; };
+		4F20A9BDADE84E17AA6DAF8F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.h */ = {isa = PBXBuildFile; fileRef = D6EE593C04D6479EA09D0537 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.h */; };
+		5348B4BEBC114A0A9FCCE6D6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.c */ = {isa = PBXBuildFile; fileRef = A560231D82C64693AE6A595E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.c */; };
+		550D0519D8144E59B6C92736 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.c */ = {isa = PBXBuildFile; fileRef = D7DFA7B61C5C49959C557BC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.c */; };
+		59FC633D10644E4182EDEF01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.c */ = {isa = PBXBuildFile; fileRef = 0A21ED85C4F24B3888140FA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.c */; };
+		64AF8EED2D4D43349CA4ABD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_string.c */ = {isa = PBXBuildFile; fileRef = 92F19D2E7DFA4EAD8B0484A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_string.c */; };
+		67910FF64E124C63B3B4B218 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cod.h */ = {isa = PBXBuildFile; fileRef = 35EF36BAAA2645598ACDC55C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cod.h */; };
+		6D9A528156964A5F8E6A7496 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.h */ = {isa = PBXBuildFile; fileRef = E1C535FB47594C7D9D7A0D35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.h */; };
+		74C952970A9D4F6FBC67E5D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tmr.c */ = {isa = PBXBuildFile; fileRef = 9D4357F9C1A24F358667235C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tmr.c */; };
+		753789D1EDF942BABE35913E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_enc.c */ = {isa = PBXBuildFile; fileRef = 4A5F08CFD8094DD28AA886FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_enc.c */; };
+		759FB213EC5D491CA7C4B2ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_fix.h */ = {isa = PBXBuildFile; fileRef = FD0627C86AE346E1AB3B80F9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_fix.h */; };
+		7707A719341A437085DCD050 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.h */ = {isa = PBXBuildFile; fileRef = 4D3060AABF1740738B5CEB2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.h */; };
+		77286327ED08444EAFE42AA1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.h */ = {isa = PBXBuildFile; fileRef = CD16ACF1E12445E0A2C09F39 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.h */; };
+		794D2BA6550647079F27C6FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.c */ = {isa = PBXBuildFile; fileRef = A6B93E1ED36C46CC9CC2E809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.c */; };
+		7AE1895DA13A4BB4BA51ACA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.c */ = {isa = PBXBuildFile; fileRef = F44FD1E85DA5428593106F78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.c */; };
+		83ADE3835D12427CB9502412 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tvp.c */ = {isa = PBXBuildFile; fileRef = AD08583A38844F4D97AE6014 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tvp.c */; };
+		8C24385E0E0F43ECBB977955 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.h */ = {isa = PBXBuildFile; fileRef = CAEE44EF4A2E40A5A4B0AC5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.h */; };
+		90867A2DD07C4EC8AFC424AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.h */ = {isa = PBXBuildFile; fileRef = DE5D10B849A645E5925ABB6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.h */; };
+		937FE8EB6E084F858950D58E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.c */ = {isa = PBXBuildFile; fileRef = EE8EED98E6424FEFA538663C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.c */; };
+		94AC1E69CC7443EBB57E5D01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_version.c */ = {isa = PBXBuildFile; fileRef = 20EB9F28A388467FA5D63F5A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_version.c */; };
+		9716B9ADB8A049C091357394 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_stream.h */ = {isa = PBXBuildFile; fileRef = 61C2A0A87D8F41A09DCAEBBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_stream.h */; };
+		976701A18CC74BCFB8B88526 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.c */ = {isa = PBXBuildFile; fileRef = 8B343225BC51484FA1F1ED02 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.c */; };
+		986609FA0DBD43A4BF53A1FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.c */ = {isa = PBXBuildFile; fileRef = A11B066564AF491B8F3991C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.c */; };
+		A0B01E20709543719F4B75FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.c */ = {isa = PBXBuildFile; fileRef = C7DFC7F2650849AB906106D5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.c */; };
+		A286758AEFF44E548FA2CFA8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.h */ = {isa = PBXBuildFile; fileRef = 6867386987E0442B9B1000EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.h */; };
+		A5011003262D4191A4104FEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.c */ = {isa = PBXBuildFile; fileRef = 99047A081BE34AA1B31DB256 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.c */; };
+		A70D08C617C34445B8E19BDB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_debug.h */ = {isa = PBXBuildFile; fileRef = CA1E302F13E34FB3A7E0DB0E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_debug.h */; };
+		A8599938AE9643E1B612BB97 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_init.c */ = {isa = PBXBuildFile; fileRef = 821DEB55026D42438F921EC0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_init.c */; };
+		AB8EEE2C74B14B5E907F8AB8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.h */ = {isa = PBXBuildFile; fileRef = 554BD74D8E664BBB87CC45B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.h */; };
+		B1F27FBBADB442188B65C8B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_getopt.c */ = {isa = PBXBuildFile; fileRef = D7978D7C0ADE457ABA83F80B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_getopt.c */; };
+		B30B68443AC249BC9F022410 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_tmr.h */ = {isa = PBXBuildFile; fileRef = A1368C13A6364681B2233966 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_tmr.h */; };
+		B84C12A6DE6449FFB3EFF388 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.c */ = {isa = PBXBuildFile; fileRef = 7CD31647951E4F7CAE54F793 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.c */; };
+		BD5B435533E54F1A8C1B2096 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_tvp.h */ = {isa = PBXBuildFile; fileRef = 27570859C61D4C56AC57EA93 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_tvp.h */; };
+		BFAABCADC71F4AEA9983AE30 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.h */ = {isa = PBXBuildFile; fileRef = 5CC5563440AE41F58D9B1423 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.h */; };
+		BFE9A81CF6934E98B854DDC3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_config.h */ = {isa = PBXBuildFile; fileRef = E9C8D94F257640D3B37E1546 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_config.h */; };
+		C141773E5310426F806417AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.c */ = {isa = PBXBuildFile; fileRef = 43E2AA21EDB2488695E9C5C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.c */; };
+		C30FC474C5974AFA9E6E2A2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_flt.h */ = {isa = PBXBuildFile; fileRef = 527249DDAB684BA78E12C557 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_flt.h */; };
+		C3140A2184224D13825D6E4C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.c */ = {isa = PBXBuildFile; fileRef = 66EC3B822AB944BDABC5E4E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.c */; };
+		C36928FA025947A89AF96E0D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.h */ = {isa = PBXBuildFile; fileRef = E65E8038F2D94BDD84A83A46 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.h */; };
+		C6F7380CC1054662993A8659 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_fix.h */ = {isa = PBXBuildFile; fileRef = 3084813BE9514D89B992D073 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_fix.h */; };
+		C962A266B752434CA00490B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.h */ = {isa = PBXBuildFile; fileRef = 3D5D2D151BCD4F8287A062B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.h */; };
+		CECC3EE7584D482483091CEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_seq.h */ = {isa = PBXBuildFile; fileRef = 6FE8A2CBBFEF4A5E9AD8B346 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_seq.h */; };
+		D0EF713E9893447297AAB842 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_version.h */ = {isa = PBXBuildFile; fileRef = 80C9055F620343D7AF62056B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_version.h */; };
+		D1D809A3DFFE47379120A47D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_debug.c */ = {isa = PBXBuildFile; fileRef = 6C74DEC66CE14C78AA109388 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_debug.c */; };
+		D93DD2983BFD42ACBC1F31D3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.h */ = {isa = PBXBuildFile; fileRef = 55754DEA08D14926A5F8BE41 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.h */; };
+		E10D61691AD84DB0A069FBDC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.c */ = {isa = PBXBuildFile; fileRef = 3A563660FAAF472187F8A5AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.c */; };
+		EB9BC71F003541198EEF6810 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_stream.c */ = {isa = PBXBuildFile; fileRef = EC7260EEE5BB499284F8A265 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_stream.c */; };
+		F02EDA81C8074A999E892424 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.c */ = {isa = PBXBuildFile; fileRef = B48936EBF8CB45E9AD2E9A39 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.c */; };
+		F1652B6F7CE94B829BA1161A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.c */ = {isa = PBXBuildFile; fileRef = 6D600B336A0A4FEA84D48CBE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.c */; };
+		F2A55FE5A4EA455A920B1EAB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.c */ = {isa = PBXBuildFile; fileRef = D5171458BE9C43F9B91FA33D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.c */; };
+		F4667398D71A4B6E8A1F4045 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.h */ = {isa = PBXBuildFile; fileRef = F638156186DE44609181F657 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.h */; };
+		F7C713C1A02F4F5290F550D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_icc.c */ = {isa = PBXBuildFile; fileRef = 87BAD4C286B24F0EA43A6D49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_icc.c */; };
+		FD39BA0EA03542998E898C9F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_malloc.h */ = {isa = PBXBuildFile; fileRef = C29DF56BDD434ECC881D7E74 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_malloc.h */; };
+		FE6B09DF4A634839BB567A7D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_seq.c */ = {isa = PBXBuildFile; fileRef = EF333514D16B437DB1E1F429 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_seq.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		B50B3855D55C4A2E8016C636 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C9DD589E60384704ABF68B3A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7B85BCE32DAA4BA59CC94FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC81BE2A6B694DFCA22498E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 649996A0BE354BD584FB05A9;
+			remoteInfo = libjasper;
+		};
+		959A4C492E3F4C16AD600957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC81BE2A6B694DFCA22498E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		B339D9023300472282420910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC81BE2A6B694DFCA22498E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		C124DD9B1ADD4CDB90841E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC81BE2A6B694DFCA22498E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		F2368E3E77C744508EBAEF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC81BE2A6B694DFCA22498E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A21ED85C4F24B3888140FA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_cs.c; path = jpc_cs.c; sourceTree = SOURCE_ROOT; };
+		20EB9F28A388467FA5D63F5A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_version.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_version.c; path = jas_version.c; sourceTree = SOURCE_ROOT; };
+		230BF9B08C6646B3A564F271 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		24DD178347BB458ABC7DFA16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		27570859C61D4C56AC57EA93 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_tvp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_tvp.h; path = jasper/jas_tvp.h; sourceTree = SOURCE_ROOT; };
+		27952A182BD94579A2BF7124 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_icc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_icc.h; path = jasper/jas_icc.h; sourceTree = SOURCE_ROOT; };
+		295262AD6E704BEA95657008 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t1dec.h; path = jpc_t1dec.h; sourceTree = SOURCE_ROOT; };
+		304A216C8EA24F24B2F93B20 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t1enc.h; path = jpc_t1enc.h; sourceTree = SOURCE_ROOT; };
+		3084813BE9514D89B992D073 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_fix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_fix.h; path = jasper/jas_fix.h; sourceTree = SOURCE_ROOT; };
+		35EF36BAAA2645598ACDC55C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_cod.h; path = jpc_cod.h; sourceTree = SOURCE_ROOT; };
+		3A563660FAAF472187F8A5AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t2enc.c; path = jpc_t2enc.c; sourceTree = SOURCE_ROOT; };
+		3D08947A819A492E8D019CE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_image.h; path = jasper/jas_image.h; sourceTree = SOURCE_ROOT; };
+		3D5D2D151BCD4F8287A062B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_mqcod.h; path = jpc_mqcod.h; sourceTree = SOURCE_ROOT; };
+		414F5753DA374CB990AE120B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_cm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_cm.c; path = jas_cm.c; sourceTree = SOURCE_ROOT; };
+		43E2AA21EDB2488695E9C5C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jp2_cod.c; path = jp2_cod.c; sourceTree = SOURCE_ROOT; };
+		4A5F08CFD8094DD28AA886FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jp2_enc.c; path = jp2_enc.c; sourceTree = SOURCE_ROOT; };
+		4D145676C6774066A877F3D8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_config2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_config2.h; path = jasper/jas_config2.h; sourceTree = SOURCE_ROOT; };
+		4D3060AABF1740738B5CEB2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_tagtree.h; path = jpc_tagtree.h; sourceTree = SOURCE_ROOT; };
+		527249DDAB684BA78E12C557 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_flt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_flt.h; path = jpc_flt.h; sourceTree = SOURCE_ROOT; };
+		554BD74D8E664BBB87CC45B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t2dec.h; path = jpc_t2dec.h; sourceTree = SOURCE_ROOT; };
+		55754DEA08D14926A5F8BE41 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_util.h; path = jpc_util.h; sourceTree = SOURCE_ROOT; };
+		5CC5563440AE41F58D9B1423 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t2enc.h; path = jpc_t2enc.h; sourceTree = SOURCE_ROOT; };
+		61C2A0A87D8F41A09DCAEBBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_stream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_stream.h; path = jasper/jas_stream.h; sourceTree = SOURCE_ROOT; };
+		66EC3B822AB944BDABC5E4E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_tsfb.c; path = jpc_tsfb.c; sourceTree = SOURCE_ROOT; };
+		6828B8ADAB684991935672C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_string.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_string.h; path = jasper/jas_string.h; sourceTree = SOURCE_ROOT; };
+		6867386987E0442B9B1000EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_enc.h; path = jpc_enc.h; sourceTree = SOURCE_ROOT; };
+		6B913D0FAEC347DF88C2DC18 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t1cod.c; path = jpc_t1cod.c; sourceTree = SOURCE_ROOT; };
+		6C2D54EF3C00488F8B072863 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_getopt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_getopt.h; path = jasper/jas_getopt.h; sourceTree = SOURCE_ROOT; };
+		6C74DEC66CE14C78AA109388 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_debug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_debug.c; path = jas_debug.c; sourceTree = SOURCE_ROOT; };
+		6D600B336A0A4FEA84D48CBE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_mqdec.c; path = jpc_mqdec.c; sourceTree = SOURCE_ROOT; };
+		6FE8A2CBBFEF4A5E9AD8B346 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_seq.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_seq.h; path = jasper/jas_seq.h; sourceTree = SOURCE_ROOT; };
+		7108C5D18AE14104AE8DC126 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_iccdata.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_iccdata.c; path = jas_iccdata.c; sourceTree = SOURCE_ROOT; };
+		71FA787CA5E7466BA26A1CEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_enc.c; path = jpc_enc.c; sourceTree = SOURCE_ROOT; };
+		7CD31647951E4F7CAE54F793 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t2dec.c; path = jpc_t2dec.c; sourceTree = SOURCE_ROOT; };
+		80C9055F620343D7AF62056B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_version.h; path = jasper/jas_version.h; sourceTree = SOURCE_ROOT; };
+		821DEB55026D42438F921EC0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_init.c; path = jas_init.c; sourceTree = SOURCE_ROOT; };
+		83FB128CDC7E445895FFEB29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jasper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jasper.h; path = jasper/jasper.h; sourceTree = SOURCE_ROOT; };
+		8623285988DC4D658109C319 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_init.h; path = jasper/jas_init.h; sourceTree = SOURCE_ROOT; };
+		87BAD4C286B24F0EA43A6D49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_icc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_icc.c; path = jas_icc.c; sourceTree = SOURCE_ROOT; };
+		8B343225BC51484FA1F1ED02 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jp2_dec.c; path = jp2_dec.c; sourceTree = SOURCE_ROOT; };
+		92F19D2E7DFA4EAD8B0484A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_string.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_string.c; path = jas_string.c; sourceTree = SOURCE_ROOT; };
+		99047A081BE34AA1B31DB256 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_dec.c; path = jpc_dec.c; sourceTree = SOURCE_ROOT; };
+		9D4357F9C1A24F358667235C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tmr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_tmr.c; path = jas_tmr.c; sourceTree = SOURCE_ROOT; };
+		9F7AE18649B148B3B0F24D7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_bs.h; path = jpc_bs.h; sourceTree = SOURCE_ROOT; };
+		A0487D01B25A4711BD900300 /* libjasper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibjasper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11B066564AF491B8F3991C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_mqcod.c; path = jpc_mqcod.c; sourceTree = SOURCE_ROOT; };
+		A1368C13A6364681B2233966 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_tmr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_tmr.h; path = jasper/jas_tmr.h; sourceTree = SOURCE_ROOT; };
+		A2080FDEC4DB4507BDD81B43 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t2cod.h; path = jpc_t2cod.h; sourceTree = SOURCE_ROOT; };
+		A560231D82C64693AE6A595E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t1dec.c; path = jpc_t1dec.c; sourceTree = SOURCE_ROOT; };
+		A6B93E1ED36C46CC9CC2E809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_mqenc.c; path = jpc_mqenc.c; sourceTree = SOURCE_ROOT; };
+		AD08583A38844F4D97AE6014 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tvp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_tvp.c; path = jas_tvp.c; sourceTree = SOURCE_ROOT; };
+		B48936EBF8CB45E9AD2E9A39 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_bs.c; path = jpc_bs.c; sourceTree = SOURCE_ROOT; };
+		B4956F596B604DCABA4E40FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_tsfb.h; path = jpc_tsfb.h; sourceTree = SOURCE_ROOT; };
+		B61E3538D2C14174B2A84577 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_types.h; path = jasper/jas_types.h; sourceTree = SOURCE_ROOT; };
+		B902487A9A5F49DD9A5BC5C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_mqdec.h; path = jpc_mqdec.h; sourceTree = SOURCE_ROOT; };
+		BE1132C78D7C423088FD5676 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_util.c; path = jpc_util.c; sourceTree = SOURCE_ROOT; };
+		C29DF56BDD434ECC881D7E74 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_malloc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_malloc.h; path = jasper/jas_malloc.h; sourceTree = SOURCE_ROOT; };
+		C7DFC7F2650849AB906106D5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_math.c; path = jpc_math.c; sourceTree = SOURCE_ROOT; };
+		CA1E302F13E34FB3A7E0DB0E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_debug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_debug.h; path = jasper/jas_debug.h; sourceTree = SOURCE_ROOT; };
+		CAEE44EF4A2E40A5A4B0AC5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_mct.h; path = jpc_mct.h; sourceTree = SOURCE_ROOT; };
+		CD16ACF1E12445E0A2C09F39 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t1cod.h; path = jpc_t1cod.h; sourceTree = SOURCE_ROOT; };
+		D5171458BE9C43F9B91FA33D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_mct.c; path = jpc_mct.c; sourceTree = SOURCE_ROOT; };
+		D595B998D07440E7B8C09FB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_math.h; path = jpc_math.h; sourceTree = SOURCE_ROOT; };
+		D6EE593C04D6479EA09D0537 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_qmfb.h; path = jpc_qmfb.h; sourceTree = SOURCE_ROOT; };
+		D7978D7C0ADE457ABA83F80B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_getopt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_getopt.c; path = jas_getopt.c; sourceTree = SOURCE_ROOT; };
+		D7DFA7B61C5C49959C557BC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_tagtree.c; path = jpc_tagtree.c; sourceTree = SOURCE_ROOT; };
+		DE5D10B849A645E5925ABB6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_mqenc.h; path = jpc_mqenc.h; sourceTree = SOURCE_ROOT; };
+		E1C535FB47594C7D9D7A0D35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_dec.h; path = jpc_dec.h; sourceTree = SOURCE_ROOT; };
+		E3BDBD7151374F01BCBE11AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_image.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_image.c; path = jas_image.c; sourceTree = SOURCE_ROOT; };
+		E65E8038F2D94BDD84A83A46 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_cs.h; path = jpc_cs.h; sourceTree = SOURCE_ROOT; };
+		E9C8D94F257640D3B37E1546 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_config.h; path = jasper/jas_config.h; sourceTree = SOURCE_ROOT; };
+		EB53267A75EA496B974C2C59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_malloc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_malloc.c; path = jas_malloc.c; sourceTree = SOURCE_ROOT; };
+		EC7260EEE5BB499284F8A265 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_stream.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_stream.c; path = jas_stream.c; sourceTree = SOURCE_ROOT; };
+		EE8EED98E6424FEFA538663C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t1enc.c; path = jpc_t1enc.c; sourceTree = SOURCE_ROOT; };
+		EF333514D16B437DB1E1F429 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_seq.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_seq.c; path = jas_seq.c; sourceTree = SOURCE_ROOT; };
+		F402D583A1B24EB683461988 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_qmfb.c; path = jpc_qmfb.c; sourceTree = SOURCE_ROOT; };
+		F432037DE9574C678299733F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jp2_dec.h; path = jp2_dec.h; sourceTree = SOURCE_ROOT; };
+		F44FD1E85DA5428593106F78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t2cod.c; path = jpc_t2cod.c; sourceTree = SOURCE_ROOT; };
+		F638156186DE44609181F657 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jp2_cod.h; path = jp2_cod.h; sourceTree = SOURCE_ROOT; };
+		FB214026E28E49F28C6A1344 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_math.h; path = jasper/jas_math.h; sourceTree = SOURCE_ROOT; };
+		FB95038D3AE94FA4B3D94CA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_cm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_cm.h; path = jasper/jas_cm.h; sourceTree = SOURCE_ROOT; };
+		FD0627C86AE346E1AB3B80F9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_fix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_fix.h; path = jpc_fix.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2F8D71DD01FD424F85B9E03C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				76F9C6B1C77247A0977E3E28 /* CMake Rules */,
+				230BF9B08C6646B3A564F271 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		356A36C43AD34EE88E4ED837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0487D01B25A4711BD900300 /* libjasper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E99C4DFD8CF4C8C9EF60237 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				599E3522D9CF437FB0314219 /* libjasper */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		452B1FE1592C4EC3A0610FFB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB95038D3AE94FA4B3D94CA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_cm.h */,
+				E9C8D94F257640D3B37E1546 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_config.h */,
+				4D145676C6774066A877F3D8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_config2.h */,
+				CA1E302F13E34FB3A7E0DB0E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_debug.h */,
+				3084813BE9514D89B992D073 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_fix.h */,
+				6C2D54EF3C00488F8B072863 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_getopt.h */,
+				27952A182BD94579A2BF7124 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_icc.h */,
+				3D08947A819A492E8D019CE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_image.h */,
+				8623285988DC4D658109C319 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_init.h */,
+				C29DF56BDD434ECC881D7E74 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_malloc.h */,
+				FB214026E28E49F28C6A1344 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_math.h */,
+				6FE8A2CBBFEF4A5E9AD8B346 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_seq.h */,
+				61C2A0A87D8F41A09DCAEBBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_stream.h */,
+				6828B8ADAB684991935672C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_string.h */,
+				A1368C13A6364681B2233966 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_tmr.h */,
+				27570859C61D4C56AC57EA93 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_tvp.h */,
+				B61E3538D2C14174B2A84577 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_types.h */,
+				80C9055F620343D7AF62056B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jas_version.h */,
+				83FB128CDC7E445895FFEB29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jasper/jasper.h */,
+				F638156186DE44609181F657 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.h */,
+				F432037DE9574C678299733F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.h */,
+				9F7AE18649B148B3B0F24D7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.h */,
+				35EF36BAAA2645598ACDC55C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cod.h */,
+				E65E8038F2D94BDD84A83A46 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.h */,
+				E1C535FB47594C7D9D7A0D35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.h */,
+				6867386987E0442B9B1000EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.h */,
+				FD0627C86AE346E1AB3B80F9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_fix.h */,
+				527249DDAB684BA78E12C557 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_flt.h */,
+				D595B998D07440E7B8C09FB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.h */,
+				CAEE44EF4A2E40A5A4B0AC5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.h */,
+				3D5D2D151BCD4F8287A062B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.h */,
+				B902487A9A5F49DD9A5BC5C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.h */,
+				DE5D10B849A645E5925ABB6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.h */,
+				D6EE593C04D6479EA09D0537 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.h */,
+				CD16ACF1E12445E0A2C09F39 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.h */,
+				295262AD6E704BEA95657008 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.h */,
+				304A216C8EA24F24B2F93B20 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.h */,
+				A2080FDEC4DB4507BDD81B43 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.h */,
+				554BD74D8E664BBB87CC45B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.h */,
+				5CC5563440AE41F58D9B1423 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.h */,
+				4D3060AABF1740738B5CEB2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.h */,
+				B4956F596B604DCABA4E40FA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.h */,
+				55754DEA08D14926A5F8BE41 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		599E3522D9CF437FB0314219 /* libjasper */ = {
+			isa = PBXGroup;
+			children = (
+				709EB2479E8F485882306269 /* Source Files */,
+				452B1FE1592C4EC3A0610FFB /* Header Files */,
+				24DD178347BB458ABC7DFA16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/CMakeLists.txt */,
+			);
+			name = libjasper;
+			sourceTree = "<group>";
+		};
+		709EB2479E8F485882306269 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				414F5753DA374CB990AE120B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_cm.c */,
+				6C74DEC66CE14C78AA109388 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_debug.c */,
+				D7978D7C0ADE457ABA83F80B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_getopt.c */,
+				87BAD4C286B24F0EA43A6D49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_icc.c */,
+				7108C5D18AE14104AE8DC126 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_iccdata.c */,
+				E3BDBD7151374F01BCBE11AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_image.c */,
+				821DEB55026D42438F921EC0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_init.c */,
+				EB53267A75EA496B974C2C59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_malloc.c */,
+				EF333514D16B437DB1E1F429 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_seq.c */,
+				EC7260EEE5BB499284F8A265 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_stream.c */,
+				92F19D2E7DFA4EAD8B0484A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_string.c */,
+				9D4357F9C1A24F358667235C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tmr.c */,
+				AD08583A38844F4D97AE6014 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tvp.c */,
+				20EB9F28A388467FA5D63F5A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_version.c */,
+				43E2AA21EDB2488695E9C5C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.c */,
+				8B343225BC51484FA1F1ED02 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.c */,
+				4A5F08CFD8094DD28AA886FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_enc.c */,
+				B48936EBF8CB45E9AD2E9A39 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.c */,
+				0A21ED85C4F24B3888140FA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.c */,
+				99047A081BE34AA1B31DB256 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.c */,
+				71FA787CA5E7466BA26A1CEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.c */,
+				C7DFC7F2650849AB906106D5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.c */,
+				D5171458BE9C43F9B91FA33D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.c */,
+				A11B066564AF491B8F3991C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.c */,
+				6D600B336A0A4FEA84D48CBE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.c */,
+				A6B93E1ED36C46CC9CC2E809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.c */,
+				F402D583A1B24EB683461988 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.c */,
+				6B913D0FAEC347DF88C2DC18 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.c */,
+				A560231D82C64693AE6A595E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.c */,
+				EE8EED98E6424FEFA538663C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.c */,
+				F44FD1E85DA5428593106F78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.c */,
+				7CD31647951E4F7CAE54F793 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.c */,
+				3A563660FAAF472187F8A5AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.c */,
+				D7DFA7B61C5C49959C557BC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.c */,
+				66EC3B822AB944BDABC5E4E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.c */,
+				BE1132C78D7C423088FD5676 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		76F9C6B1C77247A0977E3E28 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C12AE7E83A7F4D0288F893A8 = {
+			isa = PBXGroup;
+			children = (
+				3E99C4DFD8CF4C8C9EF60237 /* 3rdparty */,
+				2F8D71DD01FD424F85B9E03C /* ALL_BUILD */,
+				356A36C43AD34EE88E4ED837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649996A0BE354BD584FB05A9 /* libjasper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C90C86B2E941F5AD52E9D3 /* Build configuration list for PBXNativeTarget "libjasper" */;
+			buildPhases = (
+				2131CE950C924F2C9CF44BA4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF5ECBFFAD4424B981E10E3 /* PBXTargetDependency */,
+			);
+			name = libjasper;
+			productName = libjasper;
+			productReference = A0487D01B25A4711BD900300 /* libjasper */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC81BE2A6B694DFCA22498E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 816B4D1AAEB645E7AC9A138C /* Build configuration list for PBXProject "libjasper" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B50B3855D55C4A2E8016C636 /* Debug */,
+				C9DD589E60384704ABF68B3A /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C12AE7E83A7F4D0288F893A8;
+			projectDirPath = ../../../3rdparty/libjasper;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				649996A0BE354BD584FB05A9 /* libjasper */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A0D399846614FF6A9C6CECB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1E86C2693F334B65B51B8190 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3A1136F1804944B9B8E7912B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		44299DF07E0D4457AC5EE0E1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		4540B12D1D864D41ADCB30D3 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		642A08B2FB8C441183447DE5 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		938D122C001E43749CDD37C2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9F6E6E00E0DF42DAAA907743 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B4C2D978917A4CD292F7D7AC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D0B82E7AF0E44CE3B9428C48 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2131CE950C924F2C9CF44BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0ECB577A89496283B8572D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_cm.c */,
+				D1D809A3DFFE47379120A47D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_debug.c */,
+				B1F27FBBADB442188B65C8B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_getopt.c */,
+				F7C713C1A02F4F5290F550D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_icc.c */,
+				09E42BEB7D104EEF914246B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_iccdata.c */,
+				4D4317CF92BE41DB878E90FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_image.c */,
+				A8599938AE9643E1B612BB97 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_init.c */,
+				0F55BCE1DE0B4C22B062F9E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_malloc.c */,
+				FE6B09DF4A634839BB567A7D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_seq.c */,
+				EB9BC71F003541198EEF6810 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_stream.c */,
+				64AF8EED2D4D43349CA4ABD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_string.c */,
+				74C952970A9D4F6FBC67E5D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tmr.c */,
+				83ADE3835D12427CB9502412 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_tvp.c */,
+				94AC1E69CC7443EBB57E5D01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jas_version.c */,
+				C141773E5310426F806417AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_cod.c */,
+				976701A18CC74BCFB8B88526 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_dec.c */,
+				753789D1EDF942BABE35913E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jp2_enc.c */,
+				F02EDA81C8074A999E892424 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_bs.c */,
+				59FC633D10644E4182EDEF01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_cs.c */,
+				A5011003262D4191A4104FEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_dec.c */,
+				1826A54AE1394710AD361CD7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_enc.c */,
+				A0B01E20709543719F4B75FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_math.c */,
+				F2A55FE5A4EA455A920B1EAB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mct.c */,
+				986609FA0DBD43A4BF53A1FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqcod.c */,
+				F1652B6F7CE94B829BA1161A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqdec.c */,
+				794D2BA6550647079F27C6FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_mqenc.c */,
+				00E0B943190E4019AFB6A685 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_qmfb.c */,
+				04A7C252B14F48E489CE83DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1cod.c */,
+				5348B4BEBC114A0A9FCCE6D6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1dec.c */,
+				937FE8EB6E084F858950D58E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t1enc.c */,
+				7AE1895DA13A4BB4BA51ACA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2cod.c */,
+				B84C12A6DE6449FFB3EFF388 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2dec.c */,
+				E10D61691AD84DB0A069FBDC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_t2enc.c */,
+				550D0519D8144E59B6C92736 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tagtree.c */,
+				C3140A2184224D13825D6E4C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_tsfb.c */,
+				0F6A4680DCD64F189F6A997D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper/jpc_util.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		057ED93F2C484BC9B4525F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = F2368E3E77C744508EBAEF6E /* PBXContainerItemProxy */;
+		};
+		3BF5ECBFFAD4424B981E10E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = C124DD9B1ADD4CDB90841E7E /* PBXContainerItemProxy */;
+		};
+		4CBEB7DB83C74A5DA50CA563 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 649996A0BE354BD584FB05A9 /* libjasper */;
+			targetProxy = 7B85BCE32DAA4BA59CC94FE3 /* PBXContainerItemProxy */;
+		};
+		7389EF4FC3954EE0BBF40158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = B339D9023300472282420910 /* PBXContainerItemProxy */;
+		};
+		87BB062429064F1A80045003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 959A4C492E3F4C16AD600957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E06E11ABA8D44EE8CFB2B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0FB65396077A4363A625DC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1A8C63CD1021481BAB918C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3340ADADA6A14250943EDB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4BF275A75F184A7CAC351D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		870259E6D63A49C29B602BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8A51754F432D4B6DBC0EDBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper/build";
+			};
+			name = Debug;
+		};
+		8BCCFFB1DE2E42329CDA4CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",EXCLUDE_MIF_SUPPORT,EXCLUDE_PNM_SUPPORT,EXCLUDE_BMP_SUPPORT,EXCLUDE_RAS_SUPPORT,EXCLUDE_JPG_SUPPORT,EXCLUDE_PGX_SUPPORT);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-absolute-value -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-strict-prototypes         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libjasper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9B91F7B8BC2C49F0A08AC27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper/build";
+			};
+			name = Release;
+		};
+		AAADBF5FC08A40B6B206739E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",EXCLUDE_MIF_SUPPORT,EXCLUDE_PNM_SUPPORT,EXCLUDE_BMP_SUPPORT,EXCLUDE_RAS_SUPPORT,EXCLUDE_JPG_SUPPORT,EXCLUDE_PGX_SUPPORT);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjasper","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-absolute-value -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-strict-prototypes     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libjasper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D13218450B6D428E9A097CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E2990F3518974B38A723E83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E4CD518925624D5F803855A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E85A585D7E0C480684FD8A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjasper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007D6FDBCB374D279F3B4244 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3340ADADA6A14250943EDB08 /* Debug */,
+				0E06E11ABA8D44EE8CFB2B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1280045348A1438BAFA4287E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870259E6D63A49C29B602BBF /* Debug */,
+				E4CD518925624D5F803855A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		75C90C86B2E941F5AD52E9D3 /* Build configuration list for PBXNativeTarget "libjasper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCCFFB1DE2E42329CDA4CD8 /* Debug */,
+				AAADBF5FC08A40B6B206739E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		816B4D1AAEB645E7AC9A138C /* Build configuration list for PBXProject "libjasper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A51754F432D4B6DBC0EDBB8 /* Debug */,
+				9B91F7B8BC2C49F0A08AC27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAAC3CAF206648F5A3B8B2D4 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2990F3518974B38A723E83C /* Debug */,
+				E85A585D7E0C480684FD8A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C86D307D92D44F50935F4F23 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB65396077A4363A625DC41 /* Debug */,
+				4BF275A75F184A7CAC351D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CFCFC90EC0F34358A5125293 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13218450B6D428E9A097CCB /* Debug */,
+				1A8C63CD1021481BAB918C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC81BE2A6B694DFCA22498E6 /* Project object */;
+}

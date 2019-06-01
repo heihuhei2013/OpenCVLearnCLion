@@ -1,0 +1,17 @@
+# Target labels
+ Main
+ opencv_highgui
+ AccuracyTest
+# Source files and their labels
+/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/test/test_gui.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/test/test_main.cpp
+ Main
+ opencv_highgui
+ AccuracyTest
+/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/test/test_precomp.hpp
+ Main
+ opencv_highgui
+ AccuracyTest

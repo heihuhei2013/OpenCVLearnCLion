@@ -1,0 +1,1058 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A729EAD055104D10BD657CEA /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				F5F887B0298347EFB6D573B1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				AA9EE297BDC840C3B1782FBE /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DB8AAAF98FD640B2B81B6D92 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A3050396A189460C8C3A9E90 /* CMake Rules */,
+			);
+			dependencies = (
+				78377C0F8A0F437FBCDE5C48 /* PBXTargetDependency */,
+				861314B5680B45CDA1B36C89 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 554DD2D06D414AF1821A0154 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				EB4C40B4ABC4454A81057F50 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				1A3276D4DCBB4618A2F959B8 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8EF00FC7E52E4D06BE5D71B2 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				07E0E53B2155441488A7BD18 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DB2DA195326C428182E97C5B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CD223A67B3F34F2486043CF8 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		052F114D12254163B827127C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */ = {isa = PBXBuildFile; fileRef = C848526551A743B89721387E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */; };
+		05A24065314840DFA6BA8BD8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXBuildFile; fileRef = 28ED1686914E49DF99A22485 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/text_format.cc */; };
+		0A4FB51843604FE197DA68F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXBuildFile; fileRef = 2CE6CA466D7A425E93ABE141 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */; };
+		0CE4B1B1E07047D7B296AE28 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXBuildFile; fileRef = 26D02BDFF46C4313A333F56B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set.cc */; };
+		0E6710A8C78B4DF28F8DC477 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXBuildFile; fileRef = 1C9AD8EAABB04A5B93FFD880 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */; };
+		0EC59A1AF4D94D81AC6C04F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXBuildFile; fileRef = C505604C313A4C11899951C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */; };
+		0F6AC7476E4E41A5ABACE123 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */ = {isa = PBXBuildFile; fileRef = F909EE72A7804F469524C014 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */; };
+		169CD2B2DF5E48E981F718A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */ = {isa = PBXBuildFile; fileRef = 35CFFB5C465D46528C17EA8D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */; };
+		1AE39080E4924E109F04FB29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */ = {isa = PBXBuildFile; fileRef = 89815662B3F8462591D385D7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */; };
+		1B59EB0DE89A40D7A6679440 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */ = {isa = PBXBuildFile; fileRef = 49D9546EFF7641B297A2B633 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */; };
+		1B5D9C480CE142728010D139 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */ = {isa = PBXBuildFile; fileRef = CB89968FA99A4E1B84FD842E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */; };
+		1CBF4CF66E5049BD8574E1BD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXBuildFile; fileRef = 374B328944184A71B6103501 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */; };
+		1CDFF98E0DCB475DA415AF4F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXBuildFile; fileRef = 6840CFAE6831468AA306D3E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */; };
+		2049E1F1F2584DB2935A5863 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXBuildFile; fileRef = E24571E6ABCB42319E4FE26D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */; };
+		24DEA6AD8BC749F8A8CC6397 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = E9665DF5B9724360A0F19C82 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */; };
+		3A5043DEF6C74D8E9DCF439A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */ = {isa = PBXBuildFile; fileRef = F9ACDF08CB5C430CB59B6DCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */; };
+		3B20F4ECB69C426DBBDF9DCC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */ = {isa = PBXBuildFile; fileRef = AD81B8C8BD574882876E9A14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */; };
+		3B87BB20FEE64A74A9BA0021 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXBuildFile; fileRef = 3CECADFE3931452F864277ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.cc */; };
+		3D4A28F1649147EFB1E90689 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */ = {isa = PBXBuildFile; fileRef = D41DB1464188430787790A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */; };
+		4262CE69E1404C0B83022051 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXBuildFile; fileRef = EE0A12257AA5418582B14F05 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */; };
+		44DF4C5D1BC5434FAECAD6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXBuildFile; fileRef = 0C5E34829BC74477AE327FC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */; };
+		461EA1580F1241FDA6678FD3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXBuildFile; fileRef = A3B10975E2B94E4281315796 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */; };
+		464DA7C0E4B34DFD9A24E0BD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */ = {isa = PBXBuildFile; fileRef = 2954F02EF2DA402F88439E96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */; };
+		4E7987D1B2B54EEFAEB74C1F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */ = {isa = PBXBuildFile; fileRef = 3F4178F761214878BC977270 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */; };
+		4F5E3D97C1E24DB1B00E02D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXBuildFile; fileRef = 0E019829682A49A09A339EE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */; };
+		50690135027346CC9B404282 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 83D44AB69B7242C9B25ED8C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/CMakeLists.txt */; };
+		54C9AE5599514E14AA0036E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */ = {isa = PBXBuildFile; fileRef = 5E3C43CFB8144304A5EA6546 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */; };
+		57F551CCBB714AE1B76F840F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */ = {isa = PBXBuildFile; fileRef = 8B8FC0021EF74CB194F83DA0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */; };
+		5AAE94E6F12F4629B1FC0510 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXBuildFile; fileRef = EA8BB7B466FF4F308F4573F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */; };
+		628EF7E1D0704F1AA44F4ED2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXBuildFile; fileRef = 21FC4FF7B9A340068F96147E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */; };
+		63893FF1F2A146A8AB791755 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */ = {isa = PBXBuildFile; fileRef = CCCD9EA3D9EE4EA28C122AE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */; };
+		653A918BE30F4315A0797A71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/api.pb.cc */ = {isa = PBXBuildFile; fileRef = 903AD444C6F54A65A3484DAC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/api.pb.cc */; };
+		6A02C222FFED4C4C85929AB3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXBuildFile; fileRef = 2BB7E588079B435AAF917320 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */; };
+		6BFB0D1E88FB4911B5128B03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */ = {isa = PBXBuildFile; fileRef = 36C7AB89D62448B682BEAD15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */; };
+		769876755FBF49CFB7C46645 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.pb.cc */ = {isa = PBXBuildFile; fileRef = 0D3EA5E731FF4BC2BDE8D383 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.pb.cc */; };
+		79AC7E6DC68F4E0E9004E0AB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */ = {isa = PBXBuildFile; fileRef = A07388A470F64DD7BEE09BE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */; };
+		7A35CCA1DE2B40BAA485D49C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXBuildFile; fileRef = DFC053E7E1854EB1BBAA0045 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/map_field.cc */; };
+		7DF4C340A0574AB48648CA79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */ = {isa = PBXBuildFile; fileRef = D5EA20AF24374D8980C880FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */; };
+		8172AEF342AC4EE586952AAC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */ = {isa = PBXBuildFile; fileRef = F3F900D36C37442EB2398D14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */; };
+		86F684E37BC54100AE00116E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXBuildFile; fileRef = 84705FE39D92497A923A9B3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */; };
+		8AA8ECE48EEF49F09996D6E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/service.cc */ = {isa = PBXBuildFile; fileRef = BD143576333E4EB0B0A3F36E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/service.cc */; };
+		8C7034ABCDE1488FA9463C27 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */ = {isa = PBXBuildFile; fileRef = E17FF192D7B7430BBF6A7B1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */; };
+		8CFBABF92F9F4746AE63C3F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */ = {isa = PBXBuildFile; fileRef = 13D7F4EA5B444CCB841B55F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */; };
+		8FFC44456CCD40509C13F7FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXBuildFile; fileRef = C8E4416C527544189D414054 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */; };
+		922ABD3EEA5A434BBF8B5F44 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXBuildFile; fileRef = 956F818BDB544E028C64F361 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */; };
+		93DF143FCA334B749A33B097 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXBuildFile; fileRef = 73255D4E5A354849A97AB183 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message_lite.cc */; };
+		97DDF6622554492E8B994871 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */ = {isa = PBXBuildFile; fileRef = BCECBE519BA54EAEA384C901 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */; };
+		98F46289D7BE4AD6913A293B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXBuildFile; fileRef = 198975D2565A40BB90B68BAD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */; };
+		991DB41C06F948DBBF6B2B9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXBuildFile; fileRef = 0F9713ED467B42A7856C10AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message.cc */; };
+		9C6690DCED4C450AB778946D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */ = {isa = PBXBuildFile; fileRef = 5B9D28CDFF3245E4BE2E865A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */; };
+		9CF4C60D4A834B90A0D16196 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */ = {isa = PBXBuildFile; fileRef = 5AF8A4F4A84F4BB1BA7F82AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */; };
+		A2CCD64F04B54953B53684DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXBuildFile; fileRef = 6176191A19A84029AD65CA7E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format.cc */; };
+		A86BE460953E46C49112C94C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXBuildFile; fileRef = B774B87B9E0846A19BEAB24B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */; };
+		A9048C24917444F4B6D78880 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXBuildFile; fileRef = C843119791164C06A2BD3A38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */; };
+		A9284D2FA28B4EDF98D54020 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXBuildFile; fileRef = 0B6A6327B6774B0AA3064714 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */; };
+		AD5E1E2DEC064BFFB3A599B5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXBuildFile; fileRef = 8A6CE40AE50644B1B772F4B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.cc */; };
+		AF2837AC4FB447D4B89F2918 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = B2C09941449740AB93FF0878 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */; };
+		B181967E747748A6A85585B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXBuildFile; fileRef = 1C301E157A91439391A8CC81 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */; };
+		B58EE2CA09B84561A6992676 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXBuildFile; fileRef = 7CD74A07C2EB4FCA8D268B2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */; };
+		B756790F30AE459BB04602E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXBuildFile; fileRef = 762374D83B154E858216BB19 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */; };
+		C239E43D1FFC40398EF37F53 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */ = {isa = PBXBuildFile; fileRef = 590D40565B614224B8413974 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */; };
+		C331C41B9A194D22B8227C11 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXBuildFile; fileRef = 4452DB707EA24FF5A77A0FE3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arenastring.cc */; };
+		C4E0494C05514641905F761D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */ = {isa = PBXBuildFile; fileRef = 786AABA885AC47B9A53FAC03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */; };
+		C51C50BB5F2649128DEA99BB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXBuildFile; fileRef = 9BD08FEEAC5740F985C487F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arena.cc */; };
+		CAF3F8B49A324F7A9640B6BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */ = {isa = PBXBuildFile; fileRef = D41DEF9440114E58AC84731F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */; };
+		CE40DFE11A7E463CB3537370 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */ = {isa = PBXBuildFile; fileRef = 7C9595414D9B441099663DDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */; };
+		D56D2BB73D42412FBB225796 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXBuildFile; fileRef = A612DFB193184E41BF550496 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */; };
+		DABB677C5253435895D98743 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */ = {isa = PBXBuildFile; fileRef = 1F624CB6911C4519988845C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */; };
+		DDBA75E53042447CAE8564CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/printer.cc */ = {isa = PBXBuildFile; fileRef = F8BAC73C7CBD4358AF90B0F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/printer.cc */; };
+		DF8D4A2B71C3477897C93F9D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */ = {isa = PBXBuildFile; fileRef = FA49CCF660D247D488503E49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */; };
+		E17F3917515B427DA75D3426 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */ = {isa = PBXBuildFile; fileRef = 83CCE8D033964C4D9CD92876 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */; };
+		E78726AE5B69415890BB6C6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/type.pb.cc */ = {isa = PBXBuildFile; fileRef = 1A0B516844B24626A2DB4E98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/type.pb.cc */; };
+		F4D5D00B06204C1FA055FA37 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXBuildFile; fileRef = 7066249D451C41D5AF701844 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */; };
+		F571A2C3684F4D548862895E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */ = {isa = PBXBuildFile; fileRef = 9C2FEB8709814A5C8E9677F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */; };
+		FBBF1EAD93DA4B09B6EEC019 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */ = {isa = PBXBuildFile; fileRef = DE2F00E858AB4DC1B2A3083B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */; };
+		FFA62CA723124FE78467A4D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */ = {isa = PBXBuildFile; fileRef = 1B2DE5AF6A2E45789072A646 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3B3339DDCF274C40AF2DC3AB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5E7D816742BD4697A4E8DE8B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8ADB77C5D34819AC530678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2A4B1DB398A4D39AC3A855F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		B5388734DE4545F9A597E6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2A4B1DB398A4D39AC3A855F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD0D0907D2E4657B9E857FF;
+			remoteInfo = libprotobuf;
+		};
+		D0A724E0A1484A8C826458B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2A4B1DB398A4D39AC3A855F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		F3645686EEAC43349C0DF54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2A4B1DB398A4D39AC3A855F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		FDC9C7B84EAE4A11A249FB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2A4B1DB398A4D39AC3A855F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6A6327B6774B0AA3064714 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tokenizer.cc; path = src/google/protobuf/io/tokenizer.cc; sourceTree = SOURCE_ROOT; };
+		0C5E34829BC74477AE327FC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cc; path = src/google/protobuf/stubs/common.cc; sourceTree = SOURCE_ROOT; };
+		0D3EA5E731FF4BC2BDE8D383 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.pb.cc; path = src/google/protobuf/any.pb.cc; sourceTree = SOURCE_ROOT; };
+		0E019829682A49A09A339EE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestream.cc; path = src/google/protobuf/stubs/bytestream.cc; sourceTree = SOURCE_ROOT; };
+		0F9713ED467B42A7856C10AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message.cc; path = src/google/protobuf/message.cc; sourceTree = SOURCE_ROOT; };
+		13D7F4EA5B444CCB841B55F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = duration.pb.cc; path = src/google/protobuf/duration.pb.cc; sourceTree = SOURCE_ROOT; };
+		198975D2565A40BB90B68BAD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coded_stream.cc; path = src/google/protobuf/io/coded_stream.cc; sourceTree = SOURCE_ROOT; };
+		1A0B516844B24626A2DB4E98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/type.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type.pb.cc; path = src/google/protobuf/type.pb.cc; sourceTree = SOURCE_ROOT; };
+		1B2DE5AF6A2E45789072A646 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = source_context.pb.cc; path = src/google/protobuf/source_context.pb.cc; sourceTree = SOURCE_ROOT; };
+		1C301E157A91439391A8CC81 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = int128.cc; path = src/google/protobuf/stubs/int128.cc; sourceTree = SOURCE_ROOT; };
+		1C9AD8EAABB04A5B93FFD880 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl_lite.cc; path = src/google/protobuf/io/zero_copy_stream_impl_lite.cc; sourceTree = SOURCE_ROOT; };
+		1F624CB6911C4519988845C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time.cc; path = src/google/protobuf/stubs/time.cc; sourceTree = SOURCE_ROOT; };
+		21FC4FF7B9A340068F96147E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_reflection.cc; path = src/google/protobuf/generated_message_reflection.cc; sourceTree = SOURCE_ROOT; };
+		26D02BDFF46C4313A333F56B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set.cc; path = src/google/protobuf/extension_set.cc; sourceTree = SOURCE_ROOT; };
+		28ED1686914E49DF99A22485 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/text_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_format.cc; path = src/google/protobuf/text_format.cc; sourceTree = SOURCE_ROOT; };
+		2954F02EF2DA402F88439E96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask_utility.cc; path = src/google/protobuf/util/internal/field_mask_utility.cc; sourceTree = SOURCE_ROOT; };
+		2BB7E588079B435AAF917320 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = status.cc; path = src/google/protobuf/stubs/status.cc; sourceTree = SOURCE_ROOT; };
+		2CE6CA466D7A425E93ABE141 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strtod.cc; path = src/google/protobuf/io/strtod.cc; sourceTree = SOURCE_ROOT; };
+		35CFFB5C465D46528C17EA8D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_comparator.cc; path = src/google/protobuf/util/field_comparator.cc; sourceTree = SOURCE_ROOT; };
+		36C7AB89D62448B682BEAD15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.pb.cc; path = src/google/protobuf/empty.pb.cc; sourceTree = SOURCE_ROOT; };
+		374B328944184A71B6103501 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic_message.cc; path = src/google/protobuf/dynamic_message.cc; sourceTree = SOURCE_ROOT; };
+		3CECADFE3931452F864277ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.cc; path = src/google/protobuf/descriptor.cc; sourceTree = SOURCE_ROOT; };
+		3F4178F761214878BC977270 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_differencer.cc; path = src/google/protobuf/util/message_differencer.cc; sourceTree = SOURCE_ROOT; };
+		4452DB707EA24FF5A77A0FE3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arenastring.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arenastring.cc; path = src/google/protobuf/arenastring.cc; sourceTree = SOURCE_ROOT; };
+		49D9546EFF7641B297A2B633 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = proto_writer.cc; path = src/google/protobuf/util/internal/proto_writer.cc; sourceTree = SOURCE_ROOT; };
+		590D40565B614224B8413974 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_table_driven_lite.cc; path = src/google/protobuf/generated_message_table_driven_lite.cc; sourceTree = SOURCE_ROOT; };
+		5AF8A4F4A84F4BB1BA7F82AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gzip_stream.cc; path = src/google/protobuf/io/gzip_stream.cc; sourceTree = SOURCE_ROOT; };
+		5B9D28CDFF3245E4BE2E865A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = datapiece.cc; path = src/google/protobuf/util/internal/datapiece.cc; sourceTree = SOURCE_ROOT; };
+		5E3C43CFB8144304A5EA6546 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_table_driven.cc; path = src/google/protobuf/generated_message_table_driven.cc; sourceTree = SOURCE_ROOT; };
+		6176191A19A84029AD65CA7E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format.cc; path = src/google/protobuf/wire_format.cc; sourceTree = SOURCE_ROOT; };
+		6840CFAE6831468AA306D3E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream_impl.cc; path = src/google/protobuf/io/zero_copy_stream_impl.cc; sourceTree = SOURCE_ROOT; };
+		7066249D451C41D5AF701844 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reflection_ops.cc; path = src/google/protobuf/reflection_ops.cc; sourceTree = SOURCE_ROOT; };
+		73255D4E5A354849A97AB183 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = message_lite.cc; path = src/google/protobuf/message_lite.cc; sourceTree = SOURCE_ROOT; };
+		762374D83B154E858216BB19 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = substitute.cc; path = src/google/protobuf/stubs/substitute.cc; sourceTree = SOURCE_ROOT; };
+		786AABA885AC47B9A53FAC03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protostream_objectwriter.cc; path = src/google/protobuf/util/internal/protostream_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		7C9595414D9B441099663DDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protostream_objectsource.cc; path = src/google/protobuf/util/internal/protostream_objectsource.cc; sourceTree = SOURCE_ROOT; };
+		7CD74A07C2EB4FCA8D268B2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = repeated_field.cc; path = src/google/protobuf/repeated_field.cc; sourceTree = SOURCE_ROOT; };
+		83CCE8D033964C4D9CD92876 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = struct.pb.cc; path = src/google/protobuf/struct.pb.cc; sourceTree = SOURCE_ROOT; };
+		83D44AB69B7242C9B25ED8C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		84705FE39D92497A923A9B3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringpiece.cc; path = src/google/protobuf/stubs/stringpiece.cc; sourceTree = SOURCE_ROOT; };
+		89815662B3F8462591D385D7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_escaping.cc; path = src/google/protobuf/util/internal/json_escaping.cc; sourceTree = SOURCE_ROOT; };
+		8A6CE40AE50644B1B772F4B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = any.cc; path = src/google/protobuf/any.cc; sourceTree = SOURCE_ROOT; };
+		8B8FC0021EF74CB194F83DA0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timestamp.pb.cc; path = src/google/protobuf/timestamp.pb.cc; sourceTree = SOURCE_ROOT; };
+		8EFBCB732C5846CA8F74CDED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		903AD444C6F54A65A3484DAC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/api.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = api.pb.cc; path = src/google/protobuf/api.pb.cc; sourceTree = SOURCE_ROOT; };
+		956F818BDB544E028C64F361 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor_database.cc; path = src/google/protobuf/descriptor_database.cc; sourceTree = SOURCE_ROOT; };
+		9BD08FEEAC5740F985C487F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arena.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arena.cc; path = src/google/protobuf/arena.cc; sourceTree = SOURCE_ROOT; };
+		9C2FEB8709814A5C8E9677F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = statusor.cc; path = src/google/protobuf/stubs/statusor.cc; sourceTree = SOURCE_ROOT; };
+		A07388A470F64DD7BEE09BE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = delimited_message_util.cc; path = src/google/protobuf/util/delimited_message_util.cc; sourceTree = SOURCE_ROOT; };
+		A3B10975E2B94E4281315796 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unknown_field_set.cc; path = src/google/protobuf/unknown_field_set.cc; sourceTree = SOURCE_ROOT; };
+		A612DFB193184E41BF550496 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = structurally_valid.cc; path = src/google/protobuf/stubs/structurally_valid.cc; sourceTree = SOURCE_ROOT; };
+		AD81B8C8BD574882876E9A14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = object_writer.cc; path = src/google/protobuf/util/internal/object_writer.cc; sourceTree = SOURCE_ROOT; };
+		B2C09941449740AB93FF0878 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_objectwriter.cc; path = src/google/protobuf/util/internal/json_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		B774B87B9E0846A19BEAB24B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extension_set_heavy.cc; path = src/google/protobuf/extension_set_heavy.cc; sourceTree = SOURCE_ROOT; };
+		B98D9E7F90744AA989E01416 /* libprotobuf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibprotobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCECBE519BA54EAEA384C901 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask_util.cc; path = src/google/protobuf/util/field_mask_util.cc; sourceTree = SOURCE_ROOT; };
+		BD143576333E4EB0B0A3F36E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/service.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = service.cc; path = src/google/protobuf/service.cc; sourceTree = SOURCE_ROOT; };
+		C505604C313A4C11899951C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wire_format_lite.cc; path = src/google/protobuf/wire_format_lite.cc; sourceTree = SOURCE_ROOT; };
+		C843119791164C06A2BD3A38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = generated_message_util.cc; path = src/google/protobuf/generated_message_util.cc; sourceTree = SOURCE_ROOT; };
+		C848526551A743B89721387E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utility.cc; path = src/google/protobuf/util/internal/utility.cc; sourceTree = SOURCE_ROOT; };
+		C8E4416C527544189D414054 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringprintf.cc; path = src/google/protobuf/stubs/stringprintf.cc; sourceTree = SOURCE_ROOT; };
+		CB89968FA99A4E1B84FD842E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_stream_parser.cc; path = src/google/protobuf/util/internal/json_stream_parser.cc; sourceTree = SOURCE_ROOT; };
+		CCCD9EA3D9EE4EA28C122AE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = atomicops_internals_x86_gcc.cc; path = src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc; sourceTree = SOURCE_ROOT; };
+		D41DB1464188430787790A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = once.cc; path = src/google/protobuf/stubs/once.cc; sourceTree = SOURCE_ROOT; };
+		D41DEF9440114E58AC84731F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time_util.cc; path = src/google/protobuf/util/time_util.cc; sourceTree = SOURCE_ROOT; };
+		D5EA20AF24374D8980C880FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_resolver_util.cc; path = src/google/protobuf/util/type_resolver_util.cc; sourceTree = SOURCE_ROOT; };
+		DE2F00E858AB4DC1B2A3083B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = field_mask.pb.cc; path = src/google/protobuf/field_mask.pb.cc; sourceTree = SOURCE_ROOT; };
+		DFC053E7E1854EB1BBAA0045 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/map_field.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = map_field.cc; path = src/google/protobuf/map_field.cc; sourceTree = SOURCE_ROOT; };
+		E17FF192D7B7430BBF6A7B1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = type_info.cc; path = src/google/protobuf/util/internal/type_info.cc; sourceTree = SOURCE_ROOT; };
+		E24571E6ABCB42319E4FE26D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zero_copy_stream.cc; path = src/google/protobuf/io/zero_copy_stream.cc; sourceTree = SOURCE_ROOT; };
+		E9665DF5B9724360A0F19C82 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = default_value_objectwriter.cc; path = src/google/protobuf/util/internal/default_value_objectwriter.cc; sourceTree = SOURCE_ROOT; };
+		EA8BB7B466FF4F308F4573F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = strutil.cc; path = src/google/protobuf/stubs/strutil.cc; sourceTree = SOURCE_ROOT; };
+		EE0A12257AA5418582B14F05 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.pb.cc; path = src/google/protobuf/descriptor.pb.cc; sourceTree = SOURCE_ROOT; };
+		F3F900D36C37442EB2398D14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wrappers.pb.cc; path = src/google/protobuf/wrappers.pb.cc; sourceTree = SOURCE_ROOT; };
+		F8BAC73C7CBD4358AF90B0F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/printer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = printer.cc; path = src/google/protobuf/io/printer.cc; sourceTree = SOURCE_ROOT; };
+		F909EE72A7804F469524C014 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = io_win32.cc; path = src/google/protobuf/stubs/io_win32.cc; sourceTree = SOURCE_ROOT; };
+		F9ACDF08CB5C430CB59B6DCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mathlimits.cc; path = src/google/protobuf/stubs/mathlimits.cc; sourceTree = SOURCE_ROOT; };
+		FA49CCF660D247D488503E49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = json_util.cc; path = src/google/protobuf/util/json_util.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F33EE0FA7C9414F8F8D58DE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		414A704837964A9892290DFE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0F33EE0FA7C9414F8F8D58DE /* CMake Rules */,
+				8EFBCB732C5846CA8F74CDED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AE50A4FECF21473BB92D4FD1 = {
+			isa = PBXGroup;
+			children = (
+				CBD61240AAC144FEB0434A38 /* 3rdparty */,
+				414A704837964A9892290DFE /* ALL_BUILD */,
+				F2711207DE2A490A92B3AEB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD61240AAC144FEB0434A38 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				D60ABF4E011F460D8BEEE5C4 /* libprotobuf */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		CCA6B4DA7B6047BDA1EFCBDD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A6CE40AE50644B1B772F4B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				0D3EA5E731FF4BC2BDE8D383 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.pb.cc */,
+				903AD444C6F54A65A3484DAC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/api.pb.cc */,
+				9BD08FEEAC5740F985C487F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				4452DB707EA24FF5A77A0FE3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				3CECADFE3931452F864277ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				EE0A12257AA5418582B14F05 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				956F818BDB544E028C64F361 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				13D7F4EA5B444CCB841B55F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */,
+				374B328944184A71B6103501 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				36C7AB89D62448B682BEAD15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */,
+				26D02BDFF46C4313A333F56B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				B774B87B9E0846A19BEAB24B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				DE2F00E858AB4DC1B2A3083B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */,
+				21FC4FF7B9A340068F96147E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				5E3C43CFB8144304A5EA6546 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */,
+				590D40565B614224B8413974 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */,
+				C843119791164C06A2BD3A38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				198975D2565A40BB90B68BAD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				5AF8A4F4A84F4BB1BA7F82AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */,
+				F8BAC73C7CBD4358AF90B0F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/printer.cc */,
+				2CE6CA466D7A425E93ABE141 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				0B6A6327B6774B0AA3064714 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				E24571E6ABCB42319E4FE26D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				6840CFAE6831468AA306D3E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				1C9AD8EAABB04A5B93FFD880 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				DFC053E7E1854EB1BBAA0045 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				0F9713ED467B42A7856C10AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				73255D4E5A354849A97AB183 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				7066249D451C41D5AF701844 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				7CD74A07C2EB4FCA8D268B2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				BD143576333E4EB0B0A3F36E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/service.cc */,
+				1B2DE5AF6A2E45789072A646 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */,
+				83CCE8D033964C4D9CD92876 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */,
+				CCCD9EA3D9EE4EA28C122AE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */,
+				0E019829682A49A09A339EE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				0C5E34829BC74477AE327FC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				1C301E157A91439391A8CC81 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				F909EE72A7804F469524C014 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */,
+				F9ACDF08CB5C430CB59B6DCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */,
+				D41DB1464188430787790A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */,
+				2BB7E588079B435AAF917320 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				9C2FEB8709814A5C8E9677F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */,
+				84705FE39D92497A923A9B3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				C8E4416C527544189D414054 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				A612DFB193184E41BF550496 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				EA8BB7B466FF4F308F4573F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				762374D83B154E858216BB19 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				1F624CB6911C4519988845C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */,
+				28ED1686914E49DF99A22485 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				8B8FC0021EF74CB194F83DA0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */,
+				1A0B516844B24626A2DB4E98 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/type.pb.cc */,
+				A3B10975E2B94E4281315796 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				A07388A470F64DD7BEE09BE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */,
+				35CFFB5C465D46528C17EA8D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */,
+				BCECBE519BA54EAEA384C901 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */,
+				5B9D28CDFF3245E4BE2E865A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */,
+				E9665DF5B9724360A0F19C82 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */,
+				2954F02EF2DA402F88439E96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */,
+				89815662B3F8462591D385D7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */,
+				B2C09941449740AB93FF0878 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */,
+				CB89968FA99A4E1B84FD842E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */,
+				AD81B8C8BD574882876E9A14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */,
+				49D9546EFF7641B297A2B633 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */,
+				7C9595414D9B441099663DDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */,
+				786AABA885AC47B9A53FAC03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */,
+				E17FF192D7B7430BBF6A7B1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */,
+				C848526551A743B89721387E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */,
+				FA49CCF660D247D488503E49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */,
+				3F4178F761214878BC977270 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */,
+				D41DEF9440114E58AC84731F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */,
+				D5EA20AF24374D8980C880FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */,
+				6176191A19A84029AD65CA7E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				C505604C313A4C11899951C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				F3F900D36C37442EB2398D14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D60ABF4E011F460D8BEEE5C4 /* libprotobuf */ = {
+			isa = PBXGroup;
+			children = (
+				CCA6B4DA7B6047BDA1EFCBDD /* Source Files */,
+				83D44AB69B7242C9B25ED8C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/CMakeLists.txt */,
+			);
+			name = libprotobuf;
+			sourceTree = "<group>";
+		};
+		F2711207DE2A490A92B3AEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B98D9E7F90744AA989E01416 /* libprotobuf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD0D0907D2E4657B9E857FF /* libprotobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D8C4AD0DB04B8D94EDC773 /* Build configuration list for PBXNativeTarget "libprotobuf" */;
+			buildPhases = (
+				063B5978E5D54B6DA40BC810 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC91938CF644B1D838C295C /* PBXTargetDependency */,
+			);
+			name = libprotobuf;
+			productName = libprotobuf;
+			productReference = B98D9E7F90744AA989E01416 /* libprotobuf */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2A4B1DB398A4D39AC3A855F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = A3893DEABA5B461EA35EBC49 /* Build configuration list for PBXProject "libprotobuf" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3B3339DDCF274C40AF2DC3AB /* Debug */,
+				5E7D816742BD4697A4E8DE8B /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AE50A4FECF21473BB92D4FD1;
+			projectDirPath = ../../../3rdparty/protobuf;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				BFD0D0907D2E4657B9E857FF /* libprotobuf */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E0E53B2155441488A7BD18 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		11AC68DE9F4D4CEE8A9286AD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4AFFE324CCD04CC2BD275D3B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A1C308EC79BF48868CB30C62 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A3050396A189460C8C3A9E90 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		BEFDE8791C2A402A840C6E2E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CD223A67B3F34F2486043CF8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D24BF8AFBD624798A3D666C7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EB4C40B4ABC4454A81057F50 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		F5F887B0298347EFB6D573B1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		063B5978E5D54B6DA40BC810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5E1E2DEC064BFFB3A599B5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.cc */,
+				769876755FBF49CFB7C46645 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/any.pb.cc */,
+				653A918BE30F4315A0797A71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/api.pb.cc */,
+				C51C50BB5F2649128DEA99BB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arena.cc */,
+				C331C41B9A194D22B8227C11 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/arenastring.cc */,
+				3B87BB20FEE64A74A9BA0021 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.cc */,
+				4262CE69E1404C0B83022051 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor.pb.cc */,
+				922ABD3EEA5A434BBF8B5F44 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/descriptor_database.cc */,
+				8CFBABF92F9F4746AE63C3F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/duration.pb.cc */,
+				1CBF4CF66E5049BD8574E1BD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/dynamic_message.cc */,
+				6BFB0D1E88FB4911B5128B03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/empty.pb.cc */,
+				0CE4B1B1E07047D7B296AE28 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set.cc */,
+				A86BE460953E46C49112C94C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/extension_set_heavy.cc */,
+				FBBF1EAD93DA4B09B6EEC019 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/field_mask.pb.cc */,
+				628EF7E1D0704F1AA44F4ED2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_reflection.cc */,
+				54C9AE5599514E14AA0036E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven.cc */,
+				C239E43D1FFC40398EF37F53 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_table_driven_lite.cc */,
+				A9048C24917444F4B6D78880 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc */,
+				98F46289D7BE4AD6913A293B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc */,
+				9CF4C60D4A834B90A0D16196 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/gzip_stream.cc */,
+				DDBA75E53042447CAE8564CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/printer.cc */,
+				0A4FB51843604FE197DA68F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/strtod.cc */,
+				A9284D2FA28B4EDF98D54020 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc */,
+				2049E1F1F2584DB2935A5863 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc */,
+				1CDFF98E0DCB475DA415AF4F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc */,
+				0E6710A8C78B4DF28F8DC477 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc */,
+				7A35CCA1DE2B40BAA485D49C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/map_field.cc */,
+				991DB41C06F948DBBF6B2B9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message.cc */,
+				93DF143FCA334B749A33B097 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/message_lite.cc */,
+				F4D5D00B06204C1FA055FA37 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/reflection_ops.cc */,
+				B58EE2CA09B84561A6992676 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/repeated_field.cc */,
+				8AA8ECE48EEF49F09996D6E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/service.cc */,
+				FFA62CA723124FE78467A4D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/source_context.pb.cc */,
+				E17F3917515B427DA75D3426 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/struct.pb.cc */,
+				63893FF1F2A146A8AB791755 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc */,
+				4F5E3D97C1E24DB1B00E02D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/bytestream.cc */,
+				44DF4C5D1BC5434FAECAD6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/common.cc */,
+				B181967E747748A6A85585B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/int128.cc */,
+				0F6AC7476E4E41A5ABACE123 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/io_win32.cc */,
+				3A5043DEF6C74D8E9DCF439A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/mathlimits.cc */,
+				3D4A28F1649147EFB1E90689 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/once.cc */,
+				6A02C222FFED4C4C85929AB3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/status.cc */,
+				F571A2C3684F4D548862895E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/statusor.cc */,
+				86F684E37BC54100AE00116E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringpiece.cc */,
+				8FFC44456CCD40509C13F7FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/stringprintf.cc */,
+				D56D2BB73D42412FBB225796 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/structurally_valid.cc */,
+				5AAE94E6F12F4629B1FC0510 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/strutil.cc */,
+				B756790F30AE459BB04602E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/substitute.cc */,
+				DABB677C5253435895D98743 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/stubs/time.cc */,
+				05A24065314840DFA6BA8BD8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/text_format.cc */,
+				57F551CCBB714AE1B76F840F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/timestamp.pb.cc */,
+				E78726AE5B69415890BB6C6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/type.pb.cc */,
+				461EA1580F1241FDA6678FD3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/unknown_field_set.cc */,
+				79AC7E6DC68F4E0E9004E0AB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/delimited_message_util.cc */,
+				169CD2B2DF5E48E981F718A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_comparator.cc */,
+				97DDF6622554492E8B994871 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/field_mask_util.cc */,
+				9C6690DCED4C450AB778946D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/datapiece.cc */,
+				24DEA6AD8BC749F8A8CC6397 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/default_value_objectwriter.cc */,
+				464DA7C0E4B34DFD9A24E0BD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/field_mask_utility.cc */,
+				1AE39080E4924E109F04FB29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_escaping.cc */,
+				AF2837AC4FB447D4B89F2918 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_objectwriter.cc */,
+				1B5D9C480CE142728010D139 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/json_stream_parser.cc */,
+				3B20F4ECB69C426DBBDF9DCC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/object_writer.cc */,
+				1B59EB0DE89A40D7A6679440 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/proto_writer.cc */,
+				CE40DFE11A7E463CB3537370 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectsource.cc */,
+				C4E0494C05514641905F761D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/protostream_objectwriter.cc */,
+				8C7034ABCDE1488FA9463C27 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/type_info.cc */,
+				052F114D12254163B827127C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/internal/utility.cc */,
+				DF8D4A2B71C3477897C93F9D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/json_util.cc */,
+				4E7987D1B2B54EEFAEB74C1F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/message_differencer.cc */,
+				CAF3F8B49A324F7A9640B6BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/time_util.cc */,
+				7DF4C340A0574AB48648CA79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/util/type_resolver_util.cc */,
+				A2CCD64F04B54953B53684DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format.cc */,
+				0EC59A1AF4D94D81AC6C04F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wire_format_lite.cc */,
+				8172AEF342AC4EE586952AAC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src/google/protobuf/wrappers.pb.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3276D4DCBB4618A2F959B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = D0A724E0A1484A8C826458B7 /* PBXContainerItemProxy */;
+		};
+		2FC91938CF644B1D838C295C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = F3645686EEAC43349C0DF54A /* PBXContainerItemProxy */;
+		};
+		78377C0F8A0F437FBCDE5C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = FDC9C7B84EAE4A11A249FB5C /* PBXContainerItemProxy */;
+		};
+		861314B5680B45CDA1B36C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD0D0907D2E4657B9E857FF /* libprotobuf */;
+			targetProxy = B5388734DE4545F9A597E6EC /* PBXContainerItemProxy */;
+		};
+		AA9EE297BDC840C3B1782FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 3D8ADB77C5D34819AC530678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B8C78BE0CAB4841A50DD922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf/build";
+			};
+			name = Release;
+		};
+		0BDE4EC991A44143AEE51262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAVE_PTHREAD=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-inconsistent-missing-override -Wno-implicit-fallthrough         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1F9681375FAF49D7B4584EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2BEB3B019112421AB850699A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4B1AE27FFF2A4B3D9096193A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'HAVE_PTHREAD=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-inconsistent-missing-override -Wno-implicit-fallthrough     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libprotobuf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/protobuf/src");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7ED7B9989FAE4AB190D7EADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		80EF6A33C966402281142435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf/build";
+			};
+			name = Debug;
+		};
+		903FAAB023634675BDBB3F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		94A8E416989F41E59A7830F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9DA213C55DA242D5B1985067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AB8B5124F3F84F8D9E7EA5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B695DC642246404CA1D27874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D284EF0088804D94BBFEE1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F3B219BCC059496DAA4B11B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/protobuf";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554DD2D06D414AF1821A0154 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9681375FAF49D7B4584EB4 /* Debug */,
+				7ED7B9989FAE4AB190D7EADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8EF00FC7E52E4D06BE5D71B2 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BEB3B019112421AB850699A /* Debug */,
+				B695DC642246404CA1D27874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3893DEABA5B461EA35EBC49 /* Build configuration list for PBXProject "libprotobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EF6A33C966402281142435 /* Debug */,
+				0B8C78BE0CAB4841A50DD922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A729EAD055104D10BD657CEA /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D284EF0088804D94BBFEE1C5 /* Debug */,
+				AB8B5124F3F84F8D9E7EA5A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB2DA195326C428182E97C5B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A8E416989F41E59A7830F2 /* Debug */,
+				9DA213C55DA242D5B1985067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB8AAAF98FD640B2B81B6D92 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B219BCC059496DAA4B11B9 /* Debug */,
+				903FAAB023634675BDBB3F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F3D8C4AD0DB04B8D94EDC773 /* Build configuration list for PBXNativeTarget "libprotobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDE4EC991A44143AEE51262 /* Debug */,
+				4B1AE27FFF2A4B3D9096193A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2A4B1DB398A4D39AC3A855F /* Project object */;
+}

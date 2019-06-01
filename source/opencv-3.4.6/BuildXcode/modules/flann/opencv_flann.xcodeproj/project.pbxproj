@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 23667D8049714147AC097C85 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				E3F1CBD4169A4C7BB057B6F6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6BB04BFFD8EB491E91B9A797 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20233DF9405E4C25ADA84151 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0BCE1C4EDEB84FDF8E7AAB5F /* CMake Rules */,
+			);
+			dependencies = (
+				FB6595E24779483DB56FF2FB /* PBXTargetDependency */,
+				619804C18F414B3689B99384 /* PBXTargetDependency */,
+				2D0333A2185B493B9CB92F1B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A6ECCB95BBE14F35B9912232 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				83191B35F91C4AEA924125C2 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				157D0D7EFB744313A6DE9516 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0D7D919F16D14C1BBF594FA6 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				6C4F0C3408CB4CADB0B032BD /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9AF36E43F5A34701907DC57D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D55CAF0598B4406D8F84EAA2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00F3890E72FC408C9F8B247F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXBuildFile; fileRef = 856299AEBE1A4D7AAC3CDD29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/defines.h */; };
+		07B1386E93A24BFE80BB188C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXBuildFile; fileRef = 1D78315884134CA1BF5FAC17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/random.h */; };
+		179EE78F8D944122ADB8144F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXBuildFile; fileRef = 0950102AE2E94708ADD5DFB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/lsh_table.h */; };
+		1AB540BD7BB441D7BB72DF83 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXBuildFile; fileRef = A2E97765DF4742959D89655C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/all_indices.h */; };
+		20667C2889524E259AC45DDE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 688F5DA4542548BC85CC86B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_precomp.hpp */; };
+		23961C4BE6C944D9AEC96A00 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXBuildFile; fileRef = 6534E306DEEB4244B7CE76A7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/lsh_index.h */; };
+		26A0FF34D3C947FA88EF1EEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXBuildFile; fileRef = D9A516A63588408EB170E2CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/composite_index.h */; };
+		296BE8E46EB14A41942856FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 06EDA4BCAA9D4B1EAADBE6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */; };
+		30D550A1D0CE4DD3ADA3E1E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 66B1D088999E4F9C9427A5A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */; };
+		344E64133E854FB18F37A6BB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXBuildFile; fileRef = E1DDC71960CE43F9ADFDDAA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/config.h */; };
+		3664358BCA0C42FDBE8B981F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXBuildFile; fileRef = BB5CC7896D7244889AC591EF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dynamic_bitset.h */; };
+		387D8470C8984790ADD6C620 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXBuildFile; fileRef = 3A126AC919034050A5D9BB0D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/index_testing.h */; };
+		454F7BAC2C8F4D29B1B01597 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXBuildFile; fileRef = E117315AD36D4F478C2F47A3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/flann.hpp */; };
+		486AA5DF565D480790B0AAE4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXBuildFile; fileRef = D16B4B8CDC564494A3A0D22B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kdtree_index.h */; };
+		50195776BC474DE38D898821 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXBuildFile; fileRef = B689914620574F6D8E5BA29B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/simplex_downhill.h */; };
+		63443E496EB343E29BB0D870 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXBuildFile; fileRef = BA7D548209D6419580DB0A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/any.h */; };
+		67745F6F4BD74C2DBE8F00EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXBuildFile; fileRef = 8D42A7935C5142518AF79F2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/hdf5.h */; };
+		6BB5480D5BE5472A9841E3A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXBuildFile; fileRef = CBA7C41E66034F8795CD3C6D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/logger.h */; };
+		6BF79624FFFD43BFB1842468 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXBuildFile; fileRef = A1551C70E3FD4597BF819F63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dist.h */; };
+		6D6BD37BAE2F49BB9FDE5FA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXBuildFile; fileRef = FF618693A5E74378A39DFA1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kdtree_single_index.h */; };
+		78525AFA413C42969F287CAB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXBuildFile; fileRef = 21A08247EA5D4A1C9A786028 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/matrix.h */; };
+		842F82128A684469A40C2520 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXBuildFile; fileRef = AABF248BD5494014BEF8A85C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */; };
+		8CA5E537B40A4218A9CFA746 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXBuildFile; fileRef = 059DAB729C9C44D5946FB7DD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/general.h */; };
+		8ED95033ADC442D1AF8D026B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXBuildFile; fileRef = 307FBF0F95334E778C25B508 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/miniflann.hpp */; };
+		9042AA7EA28C4EAFB25C8110 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXBuildFile; fileRef = 9E9AF84BC8FB4BA5AB08230D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/params.h */; };
+		92BAEBD4EF484F4994681806 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXBuildFile; fileRef = ABD9C86B7C1141C8A9D5243C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/nn_index.h */; };
+		96343199704F48F08832E9E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_lshtable_badarg.cpp */ = {isa = PBXBuildFile; fileRef = C55445D2551645CF9BA4197B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_lshtable_badarg.cpp */; };
+		9C44E8603C8C41108F220991 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXBuildFile; fileRef = 46416DB328614F11885C2AF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/autotuned_index.h */; };
+		AECCB1F4D1764BDFB9EF8D8F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXBuildFile; fileRef = B9E9FEA16A274C14B8C2C136 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/saving.h */; };
+		BB3CD64B63C74FAB8EDE7EE2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXBuildFile; fileRef = 466A708349CA410A9473A1FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dummy.h */; };
+		BE2223954D174D5ABA48C627 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXBuildFile; fileRef = C22FCAA8E3474D0EB6E152B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/ground_truth.h */; };
+		C8563F73BB4E44D1B364A3B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 015CB9A599EE42969FBF92C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */; };
+		C8B8E3847C5449ADA0470E49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXBuildFile; fileRef = 4BF44209DD0D4A5D8695CB71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/result_set.h */; };
+		C8EFE9EF80CB4539829DA0C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/miniflann.cpp */ = {isa = PBXBuildFile; fileRef = 128F783898E14D5AABF38C3B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/miniflann.cpp */; };
+		CBF6CA4E2C7C4EB6B3D33F49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXBuildFile; fileRef = 31E9AB2D8D7F4F04A7543946 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/timer.h */; };
+		CEB8A054BE64405293969086 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXBuildFile; fileRef = E7CA2EDCF7834DE4963401C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/heap.h */; };
+		D16817D678214B04BE2372E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXBuildFile; fileRef = 826C8F75AE934BF4919CAC60 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kmeans_index.h */; };
+		D2229902A2B64B5EBAB32A03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXBuildFile; fileRef = 49D2333467F640D99D96E433 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/allocator.h */; };
+		D6A527AA46284C13BCDC7E1E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXBuildFile; fileRef = 19518531E57741EFB4489726 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/sampling.h */; };
+		D6A709CC45BF4252960BDDA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/flann.cpp */ = {isa = PBXBuildFile; fileRef = 5B6C7A8909CC465994E08A1E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/flann.cpp */; };
+		DC3D8489DF384C19B5834AFB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXBuildFile; fileRef = 81765535F426404EB4AF2DFF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/flann_base.hpp */; };
+		DEA7AC78954143988FAC0CA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann.hpp */ = {isa = PBXBuildFile; fileRef = D061810E9A98484D90FFA57A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann.hpp */; };
+		E08FB8BF315E4C6CAD7ECDBC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 8BE8BFAFFF964B38A20BCB8C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/precomp.hpp */; };
+		E150C82BC6394175B1E052DD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXBuildFile; fileRef = 06E350E3524A49B0B2B9FD8B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/linear_index.h */; };
+		EBF2C3B32CC74F5389C61EED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 85097CCD1C2848C981645F63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */; };
+		EDFA7940493A4BBEAB613DC4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = B2FC7BABE3984EA7AE77CC04 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_main.cpp */; };
+		F990FCF6FB8D47F39BB66752 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXBuildFile; fileRef = A8570B543EF74027AE17790B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/object_factory.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		9504F9FBD7DC4352BE900863 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E86C18FD7C6C4B7CBCA07132 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		40F5598CAEF34505ABC3C3C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825E453CB0B448D29C936B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24EC3B67A12941C9ABD63F4C;
+			remoteInfo = opencv_flann;
+		};
+		5B519244D73148D183FBB591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825E453CB0B448D29C936B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D1BCDC3B8C438387D81CC7;
+			remoteInfo = opencv_test_flann;
+		};
+		5F659ED1D8C246ABA00E7338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825E453CB0B448D29C936B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24EC3B67A12941C9ABD63F4C;
+			remoteInfo = opencv_flann;
+		};
+		6168FBD424BA4CAABACFA65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825E453CB0B448D29C936B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		69218C085EFE49108BAA58A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825E453CB0B448D29C936B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		C75C5E09D48E4153B48E709C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825E453CB0B448D29C936B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		D1B612A267624621B5AF7FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825E453CB0B448D29C936B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		DB9BD61203134DB182FCDA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825E453CB0B448D29C936B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015CB9A599EE42969FBF92C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../BuildXcode/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		059DAB729C9C44D5946FB7DD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = general.h; path = include/opencv2/flann/general.h; sourceTree = SOURCE_ROOT; };
+		06E350E3524A49B0B2B9FD8B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = linear_index.h; path = include/opencv2/flann/linear_index.h; sourceTree = SOURCE_ROOT; };
+		06EDA4BCAA9D4B1EAADBE6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../BuildXcode/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		0950102AE2E94708ADD5DFB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_table.h; path = include/opencv2/flann/lsh_table.h; sourceTree = SOURCE_ROOT; };
+		128F783898E14D5AABF38C3B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/miniflann.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = miniflann.cpp; path = src/miniflann.cpp; sourceTree = SOURCE_ROOT; };
+		19518531E57741EFB4489726 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sampling.h; path = include/opencv2/flann/sampling.h; sourceTree = SOURCE_ROOT; };
+		1D78315884134CA1BF5FAC17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random.h; path = include/opencv2/flann/random.h; sourceTree = SOURCE_ROOT; };
+		1E61C8C223394FC18EDF8638 /* opencv_flann */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_flann.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A08247EA5D4A1C9A786028 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix.h; path = include/opencv2/flann/matrix.h; sourceTree = SOURCE_ROOT; };
+		307FBF0F95334E778C25B508 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = miniflann.hpp; path = include/opencv2/flann/miniflann.hpp; sourceTree = SOURCE_ROOT; };
+		31E9AB2D8D7F4F04A7543946 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = include/opencv2/flann/timer.h; sourceTree = SOURCE_ROOT; };
+		3A126AC919034050A5D9BB0D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = index_testing.h; path = include/opencv2/flann/index_testing.h; sourceTree = SOURCE_ROOT; };
+		46416DB328614F11885C2AF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autotuned_index.h; path = include/opencv2/flann/autotuned_index.h; sourceTree = SOURCE_ROOT; };
+		466A708349CA410A9473A1FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dummy.h; path = include/opencv2/flann/dummy.h; sourceTree = SOURCE_ROOT; };
+		49D2333467F640D99D96E433 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator.h; path = include/opencv2/flann/allocator.h; sourceTree = SOURCE_ROOT; };
+		4BF44209DD0D4A5D8695CB71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = result_set.h; path = include/opencv2/flann/result_set.h; sourceTree = SOURCE_ROOT; };
+		5B6C7A8909CC465994E08A1E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/flann.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flann.cpp; path = src/flann.cpp; sourceTree = SOURCE_ROOT; };
+		6534E306DEEB4244B7CE76A7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_index.h; path = include/opencv2/flann/lsh_index.h; sourceTree = SOURCE_ROOT; };
+		66B1D088999E4F9C9427A5A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		688F5DA4542548BC85CC86B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		81765535F426404EB4AF2DFF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann_base.hpp; path = include/opencv2/flann/flann_base.hpp; sourceTree = SOURCE_ROOT; };
+		826C8F75AE934BF4919CAC60 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kmeans_index.h; path = include/opencv2/flann/kmeans_index.h; sourceTree = SOURCE_ROOT; };
+		85097CCD1C2848C981645F63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		856299AEBE1A4D7AAC3CDD29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = defines.h; path = include/opencv2/flann/defines.h; sourceTree = SOURCE_ROOT; };
+		8BE8BFAFFF964B38A20BCB8C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		8D42A7935C5142518AF79F2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hdf5.h; path = include/opencv2/flann/hdf5.h; sourceTree = SOURCE_ROOT; };
+		9E9AF84BC8FB4BA5AB08230D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = params.h; path = include/opencv2/flann/params.h; sourceTree = SOURCE_ROOT; };
+		A1551C70E3FD4597BF819F63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dist.h; path = include/opencv2/flann/dist.h; sourceTree = SOURCE_ROOT; };
+		A2E97765DF4742959D89655C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = all_indices.h; path = include/opencv2/flann/all_indices.h; sourceTree = SOURCE_ROOT; };
+		A8570B543EF74027AE17790B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = object_factory.h; path = include/opencv2/flann/object_factory.h; sourceTree = SOURCE_ROOT; };
+		AABF248BD5494014BEF8A85C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hierarchical_clustering_index.h; path = include/opencv2/flann/hierarchical_clustering_index.h; sourceTree = SOURCE_ROOT; };
+		ABD9C86B7C1141C8A9D5243C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nn_index.h; path = include/opencv2/flann/nn_index.h; sourceTree = SOURCE_ROOT; };
+		B2FC7BABE3984EA7AE77CC04 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		B689914620574F6D8E5BA29B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simplex_downhill.h; path = include/opencv2/flann/simplex_downhill.h; sourceTree = SOURCE_ROOT; };
+		B9E9FEA16A274C14B8C2C136 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = saving.h; path = include/opencv2/flann/saving.h; sourceTree = SOURCE_ROOT; };
+		BA7D548209D6419580DB0A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = any.h; path = include/opencv2/flann/any.h; sourceTree = SOURCE_ROOT; };
+		BB5CC7896D7244889AC591EF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dynamic_bitset.h; path = include/opencv2/flann/dynamic_bitset.h; sourceTree = SOURCE_ROOT; };
+		C22FCAA8E3474D0EB6E152B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ground_truth.h; path = include/opencv2/flann/ground_truth.h; sourceTree = SOURCE_ROOT; };
+		C55445D2551645CF9BA4197B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_lshtable_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_lshtable_badarg.cpp; path = test/test_lshtable_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		CBA7C41E66034F8795CD3C6D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger.h; path = include/opencv2/flann/logger.h; sourceTree = SOURCE_ROOT; };
+		CFC79858C5954D819821197F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D061810E9A98484D90FFA57A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann.hpp; path = include/opencv2/flann.hpp; sourceTree = SOURCE_ROOT; };
+		D16B4B8CDC564494A3A0D22B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdtree_index.h; path = include/opencv2/flann/kdtree_index.h; sourceTree = SOURCE_ROOT; };
+		D9A516A63588408EB170E2CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = composite_index.h; path = include/opencv2/flann/composite_index.h; sourceTree = SOURCE_ROOT; };
+		DC2DB5A7F0B741B787376E54 /* opencv_test_flann */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_flann; sourceTree = BUILT_PRODUCTS_DIR; };
+		E117315AD36D4F478C2F47A3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann.hpp; path = include/opencv2/flann/flann.hpp; sourceTree = SOURCE_ROOT; };
+		E1DDC71960CE43F9ADFDDAA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = include/opencv2/flann/config.h; sourceTree = SOURCE_ROOT; };
+		E7CA2EDCF7834DE4963401C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = heap.h; path = include/opencv2/flann/heap.h; sourceTree = SOURCE_ROOT; };
+		FF618693A5E74378A39DFA1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdtree_single_index.h; path = include/opencv2/flann/kdtree_single_index.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DDCC627577648D5B3E2F3FE /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				C55445D2551645CF9BA4197B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_lshtable_badarg.cpp */,
+				B2FC7BABE3984EA7AE77CC04 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_main.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		2E7E6FA91FCA4F12A0C36EBD /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				EAE4F470856A4AA1BC195129 /* opencv2 */,
+				06EDA4BCAA9D4B1EAADBE6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */,
+				015CB9A599EE42969FBF92C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		3D40782EC3E04F9AAB854688 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A2CCCFDD472744B59799D1F9 /* CMake Rules */,
+				CFC79858C5954D819821197F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4980D828E90D4889BC8D2374 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				688F5DA4542548BC85CC86B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		5421965CBBE04B1F902CB6AB /* flann */ = {
+			isa = PBXGroup;
+			children = (
+				A2E97765DF4742959D89655C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/all_indices.h */,
+				49D2333467F640D99D96E433 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/allocator.h */,
+				BA7D548209D6419580DB0A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/any.h */,
+				46416DB328614F11885C2AF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/autotuned_index.h */,
+				D9A516A63588408EB170E2CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/composite_index.h */,
+				E1DDC71960CE43F9ADFDDAA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/config.h */,
+				856299AEBE1A4D7AAC3CDD29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/defines.h */,
+				A1551C70E3FD4597BF819F63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dist.h */,
+				466A708349CA410A9473A1FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dummy.h */,
+				BB5CC7896D7244889AC591EF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/dynamic_bitset.h */,
+				E117315AD36D4F478C2F47A3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/flann.hpp */,
+				81765535F426404EB4AF2DFF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/flann_base.hpp */,
+				059DAB729C9C44D5946FB7DD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/general.h */,
+				C22FCAA8E3474D0EB6E152B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/ground_truth.h */,
+				8D42A7935C5142518AF79F2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/hdf5.h */,
+				E7CA2EDCF7834DE4963401C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/heap.h */,
+				AABF248BD5494014BEF8A85C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */,
+				3A126AC919034050A5D9BB0D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/index_testing.h */,
+				D16B4B8CDC564494A3A0D22B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kdtree_index.h */,
+				FF618693A5E74378A39DFA1B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kdtree_single_index.h */,
+				826C8F75AE934BF4919CAC60 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/kmeans_index.h */,
+				06E350E3524A49B0B2B9FD8B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/linear_index.h */,
+				CBA7C41E66034F8795CD3C6D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/logger.h */,
+				6534E306DEEB4244B7CE76A7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/lsh_index.h */,
+				0950102AE2E94708ADD5DFB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/lsh_table.h */,
+				21A08247EA5D4A1C9A786028 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/matrix.h */,
+				307FBF0F95334E778C25B508 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/miniflann.hpp */,
+				ABD9C86B7C1141C8A9D5243C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/nn_index.h */,
+				A8570B543EF74027AE17790B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/object_factory.h */,
+				9E9AF84BC8FB4BA5AB08230D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/params.h */,
+				1D78315884134CA1BF5FAC17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/random.h */,
+				4BF44209DD0D4A5D8695CB71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/result_set.h */,
+				19518531E57741EFB4489726 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/sampling.h */,
+				B9E9FEA16A274C14B8C2C136 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/saving.h */,
+				B689914620574F6D8E5BA29B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/simplex_downhill.h */,
+				31E9AB2D8D7F4F04A7543946 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann/timer.h */,
+			);
+			name = flann;
+			sourceTree = "<group>";
+		};
+		5B97BB4533064781B97EA9D3 /* opencv_flann */ = {
+			isa = PBXGroup;
+			children = (
+				2E7E6FA91FCA4F12A0C36EBD /* Include */,
+				AFE44A12E4E74A84950A91D2 /* Src */,
+				85097CCD1C2848C981645F63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */,
+			);
+			name = opencv_flann;
+			sourceTree = "<group>";
+		};
+		688D647ABFEE4CF79F388A11 = {
+			isa = PBXGroup;
+			children = (
+				796DF7D5FAD7431286A5F5B5 /* tests accuracy */,
+				768D3722E5E143FBBCEF6319 /* modules */,
+				3D40782EC3E04F9AAB854688 /* ALL_BUILD */,
+				A6452C787B2B426588F12593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		751F14FFA9DF4FCA9E952C4E /* opencv_test_flann */ = {
+			isa = PBXGroup;
+			children = (
+				0DDCC627577648D5B3E2F3FE /* Src */,
+				4980D828E90D4889BC8D2374 /* Include */,
+				66B1D088999E4F9C9427A5A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/CMakeLists.txt */,
+			);
+			name = opencv_test_flann;
+			sourceTree = "<group>";
+		};
+		768D3722E5E143FBBCEF6319 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				5B97BB4533064781B97EA9D3 /* opencv_flann */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		796DF7D5FAD7431286A5F5B5 /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				751F14FFA9DF4FCA9E952C4E /* opencv_test_flann */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		A2CCCFDD472744B59799D1F9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A6452C787B2B426588F12593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E61C8C223394FC18EDF8638 /* opencv_flann */,
+				DC2DB5A7F0B741B787376E54 /* opencv_test_flann */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE44A12E4E74A84950A91D2 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				5B6C7A8909CC465994E08A1E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/flann.cpp */,
+				128F783898E14D5AABF38C3B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/miniflann.cpp */,
+				8BE8BFAFFF964B38A20BCB8C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		EAE4F470856A4AA1BC195129 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				5421965CBBE04B1F902CB6AB /* flann */,
+				D061810E9A98484D90FFA57A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include/opencv2/flann.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24EC3B67A12941C9ABD63F4C /* opencv_flann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DCA3D35F0684C86A5FC5CAE /* Build configuration list for PBXNativeTarget "opencv_flann" */;
+			buildPhases = (
+				A00440DC2A2C4083894BDB26 /* Sources */,
+				C797DE75EE064FED8DC65D49 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C6E7CE8CFA46EBB4415CB3 /* PBXTargetDependency */,
+			);
+			name = opencv_flann;
+			productName = opencv_flann;
+			productReference = 1E61C8C223394FC18EDF8638 /* opencv_flann */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		41D1BCDC3B8C438387D81CC7 /* opencv_test_flann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841736061A5149E892C7B4D9 /* Build configuration list for PBXNativeTarget "opencv_test_flann" */;
+			buildPhases = (
+				915DDE51039C4CB897AEE1CD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F54981FE14040A8AE009F54 /* PBXTargetDependency */,
+				444F47969165486AAFBDB271 /* PBXTargetDependency */,
+			);
+			name = opencv_test_flann;
+			productName = opencv_test_flann;
+			productReference = DC2DB5A7F0B741B787376E54 /* opencv_test_flann */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		825E453CB0B448D29C936B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = DF5EC634AE8A4C3492BAFA46 /* Build configuration list for PBXProject "opencv_flann" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9504F9FBD7DC4352BE900863 /* Debug */,
+				E86C18FD7C6C4B7CBCA07132 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 688D647ABFEE4CF79F388A11;
+			projectDirPath = ../../../modules/flann;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				24EC3B67A12941C9ABD63F4C /* opencv_flann */,
+				41D1BCDC3B8C438387D81CC7 /* opencv_test_flann */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		077887FEC3444F4AA7B7001A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0BCE1C4EDEB84FDF8E7AAB5F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		2EAC5981D5FA48BDA4252104 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		60245A4109A144B7B0FF1FC4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		612AE526C74F44508DCEF2D6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6C4F0C3408CB4CADB0B032BD /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		83191B35F91C4AEA924125C2 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C797DE75EE064FED8DC65D49 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann/CMakeScripts/opencv_flann_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D341386689804E19A5683AD4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D55CAF0598B4406D8F84EAA2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E3F1CBD4169A4C7BB057B6F6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		915DDE51039C4CB897AEE1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96343199704F48F08832E9E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_lshtable_badarg.cpp */,
+				EDFA7940493A4BBEAB613DC4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/test/test_main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00440DC2A2C4083894BDB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A709CC45BF4252960BDDA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/flann.cpp */,
+				C8EFE9EF80CB4539829DA0C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src/miniflann.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06C6E7CE8CFA46EBB4415CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = D1B612A267624621B5AF7FEB /* PBXContainerItemProxy */;
+		};
+		157D0D7EFB744313A6DE9516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = C75C5E09D48E4153B48E709C /* PBXContainerItemProxy */;
+		};
+		1F54981FE14040A8AE009F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 69218C085EFE49108BAA58A9 /* PBXContainerItemProxy */;
+		};
+		2D0333A2185B493B9CB92F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24EC3B67A12941C9ABD63F4C /* opencv_flann */;
+			targetProxy = 5F659ED1D8C246ABA00E7338 /* PBXContainerItemProxy */;
+		};
+		444F47969165486AAFBDB271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24EC3B67A12941C9ABD63F4C /* opencv_flann */;
+			targetProxy = 40F5598CAEF34505ABC3C3C4 /* PBXContainerItemProxy */;
+		};
+		619804C18F414B3689B99384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D1BCDC3B8C438387D81CC7 /* opencv_test_flann */;
+			targetProxy = 5B519244D73148D183FBB591 /* PBXContainerItemProxy */;
+		};
+		6BB04BFFD8EB491E91B9A797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 6168FBD424BA4CAABACFA65D /* PBXContainerItemProxy */;
+		};
+		FB6595E24779483DB56FF2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = DB9BD61203134DB182FCDA67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0196C26692DC4332A57CD195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_flann;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0722A0C2E1CC44EEBAD451E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann/build";
+			};
+			name = Debug;
+		};
+		104C8EB67CD949628218242B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		14D7D96987C842698D8CE22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.4.0;
+				DYLIB_CURRENT_VERSION = 3.4.6;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_flann.3.4.dylib  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_flann.3.4.6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2BB7F29A835F46B58221AB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_flann;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6C65DAB5303F499289500021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7C899421067940B985AE5EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.4.0;
+				DYLIB_CURRENT_VERSION = 3.4.6;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/src","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_flann.3.4.dylib  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_flann.3.4.6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		88B2FD6763014846BFAE9CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann/build";
+			};
+			name = Release;
+		};
+		9068DA6236804D8B9F6F8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		93FDF150C5A74C88886CB662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9667E0117E04420EABAF052E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C2B3017BC6794FA98CCA77EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CFC3F2F76E874A26B7734283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EEB2A2D759B34D9C81CEF795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F1F8BC445F194DEF97A174C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F80BC4E4C5E942A8B7398F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/flann";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D7D919F16D14C1BBF594FA6 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB2A2D759B34D9C81CEF795 /* Debug */,
+				104C8EB67CD949628218242B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		20233DF9405E4C25ADA84151 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B3017BC6794FA98CCA77EB /* Debug */,
+				9667E0117E04420EABAF052E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		23667D8049714147AC097C85 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FDF150C5A74C88886CB662 /* Debug */,
+				6C65DAB5303F499289500021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DCA3D35F0684C86A5FC5CAE /* Build configuration list for PBXNativeTarget "opencv_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D7D96987C842698D8CE22F /* Debug */,
+				7C899421067940B985AE5EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		841736061A5149E892C7B4D9 /* Build configuration list for PBXNativeTarget "opencv_test_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0196C26692DC4332A57CD195 /* Debug */,
+				2BB7F29A835F46B58221AB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9AF36E43F5A34701907DC57D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC3F2F76E874A26B7734283 /* Debug */,
+				F80BC4E4C5E942A8B7398F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A6ECCB95BBE14F35B9912232 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9068DA6236804D8B9F6F8346 /* Debug */,
+				F1F8BC445F194DEF97A174C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF5EC634AE8A4C3492BAFA46 /* Build configuration list for PBXProject "opencv_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0722A0C2E1CC44EEBAD451E8 /* Debug */,
+				88B2FD6763014846BFAE9CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 825E453CB0B448D29C936B0D /* Project object */;
+}

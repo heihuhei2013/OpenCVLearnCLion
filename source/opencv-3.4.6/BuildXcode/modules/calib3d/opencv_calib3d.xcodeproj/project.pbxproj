@@ -1,0 +1,1511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 91453B9126BF4F24B6E4A748 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				6F13CAE81EDF46E489538EAD /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				07916EEA012B4CB3AC4483C4 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51239AC9E2644C9A87A25CA5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A8E0E1CE0D49425DA9A5E554 /* CMake Rules */,
+			);
+			dependencies = (
+				3AF319F6AD7B43D08EC64DEA /* PBXTargetDependency */,
+				AE7CC94BB59540D2ADDF1C18 /* PBXTargetDependency */,
+				5A54E2C1CE264B3A93F60430 /* PBXTargetDependency */,
+				1548DC0E8B624B05A6FBDFF3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C7EA725D4164A0796381B70 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				5EFD25136CAD43FE935EFEFF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				FDD91224D89842F08B298BE0 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0509C0F3B53041CAA480AF4F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				9315A1642BC64FB9AFD94439 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CA26C8F6C3EF4ED5BC09C4EC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F27D0541B0344F78B61F63ED /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0615AAFFB11C4FDEB7EC264D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fundam.cpp */ = {isa = PBXBuildFile; fileRef = B80774AC3D3749CBA52B8418 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fundam.cpp */; };
+		0858184241F04446BD7F2524 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.cpp */ = {isa = PBXBuildFile; fileRef = 59DEC4D747C44C1188C18096 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.cpp */; };
+		0A40BA8203E14514A047AFD0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_calibration_hand_eye.cpp */ = {isa = PBXBuildFile; fileRef = 15215F2A7FAD46AE96303EA0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_calibration_hand_eye.cpp */; };
+		0C7575DA034947D08C7B83D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_cicrlesGrid.cpp */ = {isa = PBXBuildFile; fileRef = D9688C44EDE74A31926F6DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_cicrlesGrid.cpp */; };
+		114E7418A0774226B663FBCD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_compose_rt.cpp */ = {isa = PBXBuildFile; fileRef = 0F3AA37D6B2B4434ABAE7FEF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_compose_rt.cpp */; };
+		1176E4B2F91C46FAB426B91F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_badarg.cpp */ = {isa = PBXBuildFile; fileRef = 8DBA5B059ED14732B8490273 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_badarg.cpp */; };
+		1A1D8055E32E42A3A2CA0E3D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 72B5E509272F41E1B9F31C2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */; };
+		1DB2319F3BFA48838BE852EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXBuildFile; fileRef = AB61B1ED0D64424C98E33AA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.cpp */; };
+		22A90B0B779A4565A330E8D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/posit.cpp */ = {isa = PBXBuildFile; fileRef = 35D57A1E39654EA0B72272F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/posit.cpp */; };
+		2A1DA1AB9488470CA3E5ED49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calib3d_c_api.cpp */ = {isa = PBXBuildFile; fileRef = 336C49100BFF4D14922F774D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calib3d_c_api.cpp */; };
+		2B80D898188F45198FDC7D8D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cornerssubpix.cpp */ = {isa = PBXBuildFile; fileRef = 530AC919D33F4A479AB27FA3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cornerssubpix.cpp */; };
+		2CA362B667F64CADBB90B368 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/levmarq.cpp */ = {isa = PBXBuildFile; fileRef = 5C58D61E0C0C4BF5A03AE464 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/levmarq.cpp */; };
+		2D13312AB20A42189475F5A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E27B261D61644C9A95AB2450 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */; };
+		2DF4C1CEAC6E45B0827F9119 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.h */ = {isa = PBXBuildFile; fileRef = 5FC1F6AD09D24E23975F358E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.h */; };
+		2E146968D3CF48D48562489D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 9ADEDBF72B4A44C7B0BDC00E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */; };
+		353996F7B7944EAFAE41CBC3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXBuildFile; fileRef = D87177EC98604ABF8718226C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/quadsubpix.cpp */; };
+		363753B9F90C41EBBB8ECF88 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_pnp.cpp */ = {isa = PBXBuildFile; fileRef = 5AFFBF9F6FF94EA98A132A4E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_pnp.cpp */; };
+		37D1F2CB37E441C39B216996 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_artificial.cpp */ = {isa = PBXBuildFile; fileRef = 13F450EC8CC044E58C6D4559 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_artificial.cpp */; };
+		41680E22DEE344EB91735E3D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 909A26313A914E7783DCE332 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */; };
+		45E894B1E9284BFCB4D4665E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.hpp */ = {isa = PBXBuildFile; fileRef = 7D25E9AA0AE846BF90B827E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.hpp */; };
+		4AF77C8B9C5C448BB6C902A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_affine2d.cpp */ = {isa = PBXBuildFile; fileRef = 46A60CB5A290435E892C505B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_affine2d.cpp */; };
+		4ECE69A464ED48EF8A6737B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort.cpp */ = {isa = PBXBuildFile; fileRef = DB6230630FE34010967F0069 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort.cpp */; };
+		50852F90E9474FBAACA6C427 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.h */ = {isa = PBXBuildFile; fileRef = 04451305A03F4B248C4F91AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.h */; };
+		5D9B2F8138B74893A8857E3F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_stereo.cpp */ = {isa = PBXBuildFile; fileRef = 71541A2AE87044C6930F3833 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_stereo.cpp */; };
+		5DAE12F43CB64AC5A1C2BD06 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.cpp */ = {isa = PBXBuildFile; fileRef = ABAD7348B664417F83D710B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.cpp */; };
+		5F8EC1FF5FDF43DEBB20C6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_posit.cpp */ = {isa = PBXBuildFile; fileRef = 87A457671A8E418BBAFD074A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_posit.cpp */; };
+		623B98CE7A9E48648C01935B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_badarg.cpp */ = {isa = PBXBuildFile; fileRef = CC495A1227C747A89BC5618F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_badarg.cpp */; };
+		6409EC82A118481AA78019C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners.cpp */ = {isa = PBXBuildFile; fileRef = 14181DBCF8D842E19281B61C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners.cpp */; };
+		655B7E962C9B48EFA983AC9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.cpp */ = {isa = PBXBuildFile; fileRef = E5371DCAC8644460BC514FB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.cpp */; };
+		65CA83A8DDED4571A2DD3D61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration_handeye.cpp */ = {isa = PBXBuildFile; fileRef = 39A751173EA346C6994ACDA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration_handeye.cpp */; };
+		6BDCA1ABFE3E4B73AAC886C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = CE4ADB862C234881B984B46E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_main.cpp */; };
+		6BE1C2C9B4314AFEB34CE9FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_decompose_projection.cpp */ = {isa = PBXBuildFile; fileRef = 14BFBB7AE1BE47D0A0E2D82E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_decompose_projection.cpp */; };
+		6FF23D2EE9EE464C8DF25220 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.h */ = {isa = PBXBuildFile; fileRef = 04A5F5BFFAA547F59243E8D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.h */; };
+		7158F4C4FDCA4112A25D79B1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = 521868BC026449A1B0469E38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_ptsetreg.cpp */; };
+		718D758F966B4160BBE67BD0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography_decomp.cpp */ = {isa = PBXBuildFile; fileRef = 3FFC4703E91246CCB16573C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography_decomp.cpp */; };
+		71A8C930E17D4D3080BAD846 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fisheye.cpp */ = {isa = PBXBuildFile; fileRef = 4A6093B0D8D1477A88FF712B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fisheye.cpp */; };
+		76094D9D21644723AD5AE21D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXBuildFile; fileRef = DD214BC92F8B4C96BEF87408 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */; };
+		78CCE2D598AE49199700E675 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 5C97167BBA4240BAA92E0DD1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereobm.cpp */; };
+		7AC6D4FA4A734F709127DF4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.cpp */ = {isa = PBXBuildFile; fileRef = 8E98C510BEDE4FC4BE125A29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.cpp */; };
+		7B4AAEE369BD488A828B1A04 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_timing.cpp */ = {isa = PBXBuildFile; fileRef = 1E6388D01F604E1E963A42C4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_timing.cpp */; };
+		7C0AF08B1DF348619AD6593D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.h */ = {isa = PBXBuildFile; fileRef = 5EB3482905094F24B6DEAA3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.h */; };
+		7E4B4B053D5A4BFDB97562F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_modelest.cpp */ = {isa = PBXBuildFile; fileRef = D03C1C000B274003951D1AD8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_modelest.cpp */; };
+		8254599CC538494DA3C576A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = 0A0298EBD9ED47DB8B8F0D79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ptsetreg.cpp */; };
+		82B20B6FCA2144A8BA575C5C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXBuildFile; fileRef = B004AF7E2AEE471B997D0A54 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.hpp */; };
+		82DD5048BEA4441D8F8A899B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.hpp */ = {isa = PBXBuildFile; fileRef = 2E3EB273E59347BEA0FB1ADC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.hpp */; };
+		85D79486248640BA96C8F348 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXBuildFile; fileRef = 2CCF7DF132EC4DC289E79483 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/homography_decomp.cpp */; };
+		86D056ECA38846E18E0F6FA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography.cpp */ = {isa = PBXBuildFile; fileRef = 542E85AB317A490BA4D4F35D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography.cpp */; };
+		8728764B242F4230B6C6C953 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3d_estimator.cpp */ = {isa = PBXBuildFile; fileRef = 36A710A3856D4768A75BCCE7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3d_estimator.cpp */; };
+		88F72F3CD30B45D5B9476A33 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/opencl/test_stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 078F49A98F004ABD9DF7BF0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/opencl/test_stereobm.cpp */; };
+		8CDF019572CD4AF28D691B84 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/opencl/stereobm.cl */ = {isa = PBXBuildFile; fileRef = 323AE2B0175A429D8677A2ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/opencl/stereobm.cl */; };
+		8EF9463834664C37B9305B2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.h */ = {isa = PBXBuildFile; fileRef = 73023A20609F43FE8EE01893 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.h */; };
+		8F670EE63EB74C76B1018AFB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.h */ = {isa = PBXBuildFile; fileRef = 3208C0E9E72346B79D76D294 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.h */; };
+		8FAB3871DE9F4303858E8E6B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 921B45A8C1C145EFA2532E88 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.hpp */; };
+		91BB505F0F79456988DEE7DE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibinit.cpp */ = {isa = PBXBuildFile; fileRef = 5EEE12D56F4F4497A72E9E4F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibinit.cpp */; };
+		9277C54D46364F7C9C60E025 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.cpp */ = {isa = PBXBuildFile; fileRef = 50B25C930E8E4C189E8916C7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.cpp */; };
+		96B249ABC2854E99B06C932A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration.cpp */ = {isa = PBXBuildFile; fileRef = DC53A53590314F958004118D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration.cpp */; };
+		9841B14269B647B78479AF63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/five-point.cpp */ = {isa = PBXBuildFile; fileRef = 3A597EB081E448179C9A1127 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/five-point.cpp */; };
+		A1C69D90D0A74E5986AC766D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_badarg.cpp */ = {isa = PBXBuildFile; fileRef = ADC29111DAE9491C9789D57E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_badarg.cpp */; };
+		A2A605A71EAD4E0FBC4BAA2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXBuildFile; fileRef = CA3CB40E9A6B433C9B0D911B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.cpp */; };
+		A36CA587E5D3477CAFD13715 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration.cpp */ = {isa = PBXBuildFile; fileRef = 358DBC78D6314551BFCD1027 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration.cpp */; };
+		A5D87FA3A3C3443186EEBA47 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXBuildFile; fileRef = 31B5F82E53854834BF002708 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp.rule */; };
+		A6A9CED51C784676BD7C94B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXBuildFile; fileRef = AAE745EFD1D44FD3A16471B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp */; };
+		AFFB38CD11674A5E911BE6B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXBuildFile; fileRef = F479FF6F6C0D459E8A3E4C0E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereosgbm.cpp */; };
+		B03EA19DFE704264B6D4BC84 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = 6667CEB7643F4D2083FB63B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_main.cpp */; };
+		B4C513BD39D24B848F0AC500 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 224D0CE3468346ADA109AEA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/main.cpp */; };
+		B8B4BDF3BBCD44ECB015ED1C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.cpp */ = {isa = PBXBuildFile; fileRef = 2F4F5376FAEB4D10BA165737 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.cpp */; };
+		B95C67DD673F40929860C3DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = A36F45A2BE7E4AF8BA264B62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d.hpp */; };
+		BDB2BC6844BD49ED9DAA9C7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3.cpp */ = {isa = PBXBuildFile; fileRef = D676524763EA4479B7A7529A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3.cpp */; };
+		BDF1AC9456464495ABB97D70 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine2d_estimator.cpp */ = {isa = PBXBuildFile; fileRef = 42D5C4C991F4490187826ADD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine2d_estimator.cpp */; };
+		C1C9CBD29C624131ABADF002 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_stereomatching.cpp */ = {isa = PBXBuildFile; fileRef = 93E665F44632425C9539EC94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_stereomatching.cpp */; };
+		C2851F45DD204C80A00361F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/opencl/perf_stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 2AEE0EBFDEAA46119E1E1E36 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/opencl/perf_stereobm.cpp */; };
+		C7017659BB3C4F4F9C585DC6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 837879F5C7DC4E77B50356C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */; };
+		C91025B049AF44F0A2845CED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 15C7EC76D4254365A1573299 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_precomp.hpp */; };
+		CF21A327FD5D4D71A0E93817 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_points.cpp */ = {isa = PBXBuildFile; fileRef = 2378A4E7C23041828D75BDDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_points.cpp */; };
+		CF5454D9A33F45F3A4E0B43F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fundam.cpp */ = {isa = PBXBuildFile; fileRef = E386184E94024AEBBF3C034B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fundam.cpp */; };
+		D1D6BBECD808450BAAF05DE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.cpp */ = {isa = PBXBuildFile; fileRef = 057A33F969A241C9831A3EBF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.cpp */; };
+		D314385F16764965AE16D440 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_reproject_image_to_3d.cpp */ = {isa = PBXBuildFile; fileRef = 4CE969460B2042588431F511 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_reproject_image_to_3d.cpp */; };
+		D9240C56B7704FEF9C1D4DD3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 5401518DA519471596315F16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/precomp.hpp */; };
+		E123DA0CA5B8455B91E41C80 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXBuildFile; fileRef = 01714ADE01A64067AF3B4A10 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/solvepnp.cpp */; };
+		E248D45ADD954098813FF53D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_filter_homography_decomp.cpp */ = {isa = PBXBuildFile; fileRef = EA84A94EC2B340E2863EC53E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_filter_homography_decomp.cpp */; };
+		E5408E94D0D04339936EB8FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 9B994D832EC24BFCB6110D9D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_precomp.hpp */; };
+		E787520666764BA1853E11A3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_stereosgbm.cpp */ = {isa = PBXBuildFile; fileRef = 511634CF00FE453DA42A5EE4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_stereosgbm.cpp */; };
+		E97F6293274C4A23A475A82C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_tilt.cpp */ = {isa = PBXBuildFile; fileRef = 866341BEC9264FC2A55D625F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_tilt.cpp */; };
+		E9CEBD12F83A4644BCFA9596 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0F6F401FD37E4C28A16A3BD4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */; };
+		F28F29934CF4424BAB73D295 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.h */ = {isa = PBXBuildFile; fileRef = 5C48F4FA1AA84424AC8053D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.h */; };
+		F3852F8C82E84A14870BEE7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.cpp */ = {isa = PBXBuildFile; fileRef = 1A8234A097B142C1932237B5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.cpp */; };
+		F578EA07FD4B4FA3AEFB8D0C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine_partial2d_estimator.cpp */ = {isa = PBXBuildFile; fileRef = 133C875BD26143B296686B1A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine_partial2d_estimator.cpp */; };
+		F632EE59EF404F0CA869AAB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_solvepnp_ransac.cpp */ = {isa = PBXBuildFile; fileRef = 58016DE4A64540998D04507B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_solvepnp_ransac.cpp */; };
+		F6B64CBDF31C4C1A9E71DFEF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXBuildFile; fileRef = B74A0586A1E54823AA24EDCC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/checkchessboard.cpp */; };
+		FAFEA332561745C49A1AEA21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/triangulate.cpp */ = {isa = PBXBuildFile; fileRef = C3DE23D864C549AF82A3DFA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/triangulate.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		AAFA5E13422C443CBE322096 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		EBFEA5B3A93B4E6DB7A11F58 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		00730D92C00544EFBF29BC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		2F67B299F7084CAFA5A24CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		390B8AE497724BDC8ED21B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		4E39C3FB129943B9887D6FB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		5ADA9129D9D448B79ABCBFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DB8DE99AA44F72A9D795EB;
+			remoteInfo = opencv_calib3d;
+		};
+		666922976A2C4E269A3FA354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B664825CC5A4D6E9FE003C5;
+			remoteInfo = opencv_test_calib3d;
+		};
+		943440C939A44376BBC359A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DB8DE99AA44F72A9D795EB;
+			remoteInfo = opencv_calib3d;
+		};
+		A72AD367E43B4C1E96C3419C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0CF27350FE4E6F9991C113;
+			remoteInfo = opencv_perf_calib3d;
+		};
+		D12DC6891A76418BA4FF1157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		DD78F503B6AA479CA11B3946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		F3F36C3FD063490694C03FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B001BDCFCFA42F699803418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54DB8DE99AA44F72A9D795EB;
+			remoteInfo = opencv_calib3d;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01714ADE01A64067AF3B4A10 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solvepnp.cpp; path = src/solvepnp.cpp; sourceTree = SOURCE_ROOT; };
+		04451305A03F4B248C4F91AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rho.h; path = src/rho.h; sourceTree = SOURCE_ROOT; };
+		04A5F5BFFAA547F59243E8D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dls.h; path = src/dls.h; sourceTree = SOURCE_ROOT; };
+		04B655607D74497EA2071ED5 /* opencv_calib3d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		057A33F969A241C9831A3EBF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = p3p.cpp; path = src/p3p.cpp; sourceTree = SOURCE_ROOT; };
+		078F49A98F004ABD9DF7BF0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/opencl/test_stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_stereobm.cpp; path = test/opencl/test_stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		0A0298EBD9ED47DB8B8F0D79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ptsetreg.cpp; path = src/ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
+		0F3AA37D6B2B4434ABAE7FEF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_compose_rt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_compose_rt.cpp; path = test/test_compose_rt.cpp; sourceTree = SOURCE_ROOT; };
+		0F6F401FD37E4C28A16A3BD4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		133C875BD26143B296686B1A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine_partial2d_estimator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_affine_partial2d_estimator.cpp; path = test/test_affine_partial2d_estimator.cpp; sourceTree = SOURCE_ROOT; };
+		13F450EC8CC044E58C6D4559 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_artificial.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cameracalibration_artificial.cpp; path = test/test_cameracalibration_artificial.cpp; sourceTree = SOURCE_ROOT; };
+		14181DBCF8D842E19281B61C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_chesscorners.cpp; path = test/test_chesscorners.cpp; sourceTree = SOURCE_ROOT; };
+		14BFBB7AE1BE47D0A0E2D82E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_decompose_projection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_decompose_projection.cpp; path = test/test_decompose_projection.cpp; sourceTree = SOURCE_ROOT; };
+		15215F2A7FAD46AE96303EA0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_calibration_hand_eye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_calibration_hand_eye.cpp; path = test/test_calibration_hand_eye.cpp; sourceTree = SOURCE_ROOT; };
+		15C7EC76D4254365A1573299 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		1A8234A097B142C1932237B5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = epnp.cpp; path = src/epnp.cpp; sourceTree = SOURCE_ROOT; };
+		1E6388D01F604E1E963A42C4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_timing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_chesscorners_timing.cpp; path = test/test_chesscorners_timing.cpp; sourceTree = SOURCE_ROOT; };
+		224D0CE3468346ADA109AEA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		2378A4E7C23041828D75BDDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_points.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_undistort_points.cpp; path = test/test_undistort_points.cpp; sourceTree = SOURCE_ROOT; };
+		2AEE0EBFDEAA46119E1E1E36 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/opencl/perf_stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stereobm.cpp; path = perf/opencl/perf_stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		2C1949E6577649809166D83D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2CCF7DF132EC4DC289E79483 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = homography_decomp.cpp; path = src/homography_decomp.cpp; sourceTree = SOURCE_ROOT; };
+		2E3EB273E59347BEA0FB1ADC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_chessboardgenerator.hpp; path = test/test_chessboardgenerator.hpp; sourceTree = SOURCE_ROOT; };
+		2F4F5376FAEB4D10BA165737 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = upnp.cpp; path = src/upnp.cpp; sourceTree = SOURCE_ROOT; };
+		31B5F82E53854834BF002708 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_calib3d.cpp.rule; path = ../../BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp.rule; sourceTree = SOURCE_ROOT; };
+		3208C0E9E72346B79D76D294 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ap3p.h; path = src/ap3p.h; sourceTree = SOURCE_ROOT; };
+		323AE2B0175A429D8677A2ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/opencl/stereobm.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = stereobm.cl; path = src/opencl/stereobm.cl; sourceTree = SOURCE_ROOT; };
+		336C49100BFF4D14922F774D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calib3d_c_api.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calib3d_c_api.cpp; path = src/calib3d_c_api.cpp; sourceTree = SOURCE_ROOT; };
+		358DBC78D6314551BFCD1027 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibration.cpp; path = src/calibration.cpp; sourceTree = SOURCE_ROOT; };
+		35D57A1E39654EA0B72272F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/posit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = posit.cpp; path = src/posit.cpp; sourceTree = SOURCE_ROOT; };
+		36A710A3856D4768A75BCCE7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3d_estimator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_affine3d_estimator.cpp; path = test/test_affine3d_estimator.cpp; sourceTree = SOURCE_ROOT; };
+		39A751173EA346C6994ACDA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration_handeye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibration_handeye.cpp; path = src/calibration_handeye.cpp; sourceTree = SOURCE_ROOT; };
+		3A597EB081E448179C9A1127 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/five-point.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "five-point.cpp"; path = "src/five-point.cpp"; sourceTree = SOURCE_ROOT; };
+		3FFC4703E91246CCB16573C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography_decomp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_homography_decomp.cpp; path = test/test_homography_decomp.cpp; sourceTree = SOURCE_ROOT; };
+		42D5C4C991F4490187826ADD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine2d_estimator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_affine2d_estimator.cpp; path = test/test_affine2d_estimator.cpp; sourceTree = SOURCE_ROOT; };
+		46A60CB5A290435E892C505B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_affine2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_affine2d.cpp; path = perf/perf_affine2d.cpp; sourceTree = SOURCE_ROOT; };
+		4A6093B0D8D1477A88FF712B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fisheye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_fisheye.cpp; path = test/test_fisheye.cpp; sourceTree = SOURCE_ROOT; };
+		4CE969460B2042588431F511 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_reproject_image_to_3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_reproject_image_to_3d.cpp; path = test/test_reproject_image_to_3d.cpp; sourceTree = SOURCE_ROOT; };
+		50B25C930E8E4C189E8916C7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rho.cpp; path = src/rho.cpp; sourceTree = SOURCE_ROOT; };
+		511634CF00FE453DA42A5EE4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_stereosgbm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stereosgbm.cpp; path = perf/perf_stereosgbm.cpp; sourceTree = SOURCE_ROOT; };
+		521868BC026449A1B0469E38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_ptsetreg.cpp; path = src/compat_ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
+		530AC919D33F4A479AB27FA3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cornerssubpix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cornerssubpix.cpp; path = test/test_cornerssubpix.cpp; sourceTree = SOURCE_ROOT; };
+		5401518DA519471596315F16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		542E85AB317A490BA4D4F35D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_homography.cpp; path = test/test_homography.cpp; sourceTree = SOURCE_ROOT; };
+		58016DE4A64540998D04507B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_solvepnp_ransac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_solvepnp_ransac.cpp; path = test/test_solvepnp_ransac.cpp; sourceTree = SOURCE_ROOT; };
+		59DEC4D747C44C1188C18096 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dls.cpp; path = src/dls.cpp; sourceTree = SOURCE_ROOT; };
+		5AFFBF9F6FF94EA98A132A4E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_pnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_pnp.cpp; path = perf/perf_pnp.cpp; sourceTree = SOURCE_ROOT; };
+		5C48F4FA1AA84424AC8053D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = upnp.h; path = src/upnp.h; sourceTree = SOURCE_ROOT; };
+		5C58D61E0C0C4BF5A03AE464 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/levmarq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = levmarq.cpp; path = src/levmarq.cpp; sourceTree = SOURCE_ROOT; };
+		5C97167BBA4240BAA92E0DD1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobm.cpp; path = src/stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		5EB3482905094F24B6DEAA3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = epnp.h; path = src/epnp.h; sourceTree = SOURCE_ROOT; };
+		5EEE12D56F4F4497A72E9E4F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibinit.cpp; path = src/calibinit.cpp; sourceTree = SOURCE_ROOT; };
+		5FC1F6AD09D24E23975F358E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = p3p.h; path = src/p3p.h; sourceTree = SOURCE_ROOT; };
+		6667CEB7643F4D2083FB63B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		71541A2AE87044C6930F3833 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_stereo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_stereo.cpp; path = src/compat_stereo.cpp; sourceTree = SOURCE_ROOT; };
+		72B5E509272F41E1B9F31C2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		73023A20609F43FE8EE01893 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = polynom_solver.h; path = src/polynom_solver.h; sourceTree = SOURCE_ROOT; };
+		7D25E9AA0AE846BF90B827E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fisheye.hpp; path = src/fisheye.hpp; sourceTree = SOURCE_ROOT; };
+		837879F5C7DC4E77B50356C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		866341BEC9264FC2A55D625F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_tilt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cameracalibration_tilt.cpp; path = test/test_cameracalibration_tilt.cpp; sourceTree = SOURCE_ROOT; };
+		87A457671A8E418BBAFD074A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_posit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_posit.cpp; path = test/test_posit.cpp; sourceTree = SOURCE_ROOT; };
+		88706F6950F24FAB823F5BEF /* opencv_perf_calib3d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_calib3d; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBA5B059ED14732B8490273 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_undistort_badarg.cpp; path = test/test_undistort_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		8E98C510BEDE4FC4BE125A29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fisheye.cpp; path = src/fisheye.cpp; sourceTree = SOURCE_ROOT; };
+		909A26313A914E7783DCE332 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../BuildXcode/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		921B45A8C1C145EFA2532E88 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_calib3d.hpp; path = ../../BuildXcode/modules/calib3d/opencl_kernels_calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		93E665F44632425C9539EC94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_stereomatching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_stereomatching.cpp; path = test/test_stereomatching.cpp; sourceTree = SOURCE_ROOT; };
+		9ADEDBF72B4A44C7B0BDC00E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../BuildXcode/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		9B994D832EC24BFCB6110D9D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		A36F45A2BE7E4AF8BA264B62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		AAE745EFD1D44FD3A16471B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_calib3d.cpp; path = ../../BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp; sourceTree = SOURCE_ROOT; };
+		AB61B1ED0D64424C98E33AA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = polynom_solver.cpp; path = src/polynom_solver.cpp; sourceTree = SOURCE_ROOT; };
+		ABAD7348B664417F83D710B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ap3p.cpp; path = src/ap3p.cpp; sourceTree = SOURCE_ROOT; };
+		ADC29111DAE9491C9789D57E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_chesscorners_badarg.cpp; path = test/test_chesscorners_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		B004AF7E2AEE471B997D0A54 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = circlesgrid.hpp; path = src/circlesgrid.hpp; sourceTree = SOURCE_ROOT; };
+		B74A0586A1E54823AA24EDCC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkchessboard.cpp; path = src/checkchessboard.cpp; sourceTree = SOURCE_ROOT; };
+		B7D0D5BB59384ACC8DED411A /* opencv_test_calib3d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_calib3d; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80774AC3D3749CBA52B8418 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fundam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_fundam.cpp; path = test/test_fundam.cpp; sourceTree = SOURCE_ROOT; };
+		C3DE23D864C549AF82A3DFA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/triangulate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangulate.cpp; path = src/triangulate.cpp; sourceTree = SOURCE_ROOT; };
+		CA3CB40E9A6B433C9B0D911B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = circlesgrid.cpp; path = src/circlesgrid.cpp; sourceTree = SOURCE_ROOT; };
+		CC495A1227C747A89BC5618F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cameracalibration_badarg.cpp; path = test/test_cameracalibration_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		CE4ADB862C234881B984B46E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		D03C1C000B274003951D1AD8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_modelest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_modelest.cpp; path = test/test_modelest.cpp; sourceTree = SOURCE_ROOT; };
+		D676524763EA4479B7A7529A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_affine3.cpp; path = test/test_affine3.cpp; sourceTree = SOURCE_ROOT; };
+		D87177EC98604ABF8718226C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quadsubpix.cpp; path = src/quadsubpix.cpp; sourceTree = SOURCE_ROOT; };
+		D9688C44EDE74A31926F6DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_cicrlesGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_cicrlesGrid.cpp; path = perf/perf_cicrlesGrid.cpp; sourceTree = SOURCE_ROOT; };
+		DB6230630FE34010967F0069 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_undistort.cpp; path = test/test_undistort.cpp; sourceTree = SOURCE_ROOT; };
+		DC53A53590314F958004118D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cameracalibration.cpp; path = test/test_cameracalibration.cpp; sourceTree = SOURCE_ROOT; };
+		DD214BC92F8B4C96BEF87408 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = calib3d_c.h; path = include/opencv2/calib3d/calib3d_c.h; sourceTree = SOURCE_ROOT; };
+		E27B261D61644C9A95AB2450 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E386184E94024AEBBF3C034B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fundam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fundam.cpp; path = src/fundam.cpp; sourceTree = SOURCE_ROOT; };
+		E5371DCAC8644460BC514FB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_chessboardgenerator.cpp; path = test/test_chessboardgenerator.cpp; sourceTree = SOURCE_ROOT; };
+		EA84A94EC2B340E2863EC53E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_filter_homography_decomp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_filter_homography_decomp.cpp; path = test/test_filter_homography_decomp.cpp; sourceTree = SOURCE_ROOT; };
+		F479FF6F6C0D459E8A3E4C0E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereosgbm.cpp; path = src/stereosgbm.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0634A8CFFAE1419CB795B66D /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				078F49A98F004ABD9DF7BF0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/opencl/test_stereobm.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		10128C3355DD40BABD072162 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DF81C55CDBF24B1093F1A61F /* CMake Rules */,
+				2C1949E6577649809166D83D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1DE65ABA42F04685B6DFC633 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				2E3EB273E59347BEA0FB1ADC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.hpp */,
+				15C7EC76D4254365A1573299 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		1F8E992426C443A0AA96606C /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				4287BABC999140C896E17345 /* autogenerated */,
+				323AE2B0175A429D8677A2ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/opencl/stereobm.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		2AC395CABD964E75AADC382A /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				2AEE0EBFDEAA46119E1E1E36 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/opencl/perf_stereobm.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		3FBBA4BE903D475688556F91 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				0634A8CFFAE1419CB795B66D /* opencl */,
+				42D5C4C991F4490187826ADD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine2d_estimator.cpp */,
+				D676524763EA4479B7A7529A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3.cpp */,
+				36A710A3856D4768A75BCCE7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3d_estimator.cpp */,
+				133C875BD26143B296686B1A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine_partial2d_estimator.cpp */,
+				15215F2A7FAD46AE96303EA0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_calibration_hand_eye.cpp */,
+				DC53A53590314F958004118D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration.cpp */,
+				13F450EC8CC044E58C6D4559 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_artificial.cpp */,
+				CC495A1227C747A89BC5618F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_badarg.cpp */,
+				866341BEC9264FC2A55D625F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_tilt.cpp */,
+				E5371DCAC8644460BC514FB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.cpp */,
+				14181DBCF8D842E19281B61C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners.cpp */,
+				ADC29111DAE9491C9789D57E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_badarg.cpp */,
+				1E6388D01F604E1E963A42C4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_timing.cpp */,
+				0F3AA37D6B2B4434ABAE7FEF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_compose_rt.cpp */,
+				530AC919D33F4A479AB27FA3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cornerssubpix.cpp */,
+				14BFBB7AE1BE47D0A0E2D82E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_decompose_projection.cpp */,
+				EA84A94EC2B340E2863EC53E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_filter_homography_decomp.cpp */,
+				4A6093B0D8D1477A88FF712B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fisheye.cpp */,
+				B80774AC3D3749CBA52B8418 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fundam.cpp */,
+				542E85AB317A490BA4D4F35D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography.cpp */,
+				3FFC4703E91246CCB16573C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography_decomp.cpp */,
+				CE4ADB862C234881B984B46E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_main.cpp */,
+				D03C1C000B274003951D1AD8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_modelest.cpp */,
+				87A457671A8E418BBAFD074A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_posit.cpp */,
+				4CE969460B2042588431F511 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_reproject_image_to_3d.cpp */,
+				58016DE4A64540998D04507B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_solvepnp_ransac.cpp */,
+				93E665F44632425C9539EC94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_stereomatching.cpp */,
+				DB6230630FE34010967F0069 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort.cpp */,
+				8DBA5B059ED14732B8490273 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_badarg.cpp */,
+				2378A4E7C23041828D75BDDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_points.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		4287BABC999140C896E17345 /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				AAE745EFD1D44FD3A16471B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp */,
+				921B45A8C1C145EFA2532E88 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		4314B3BCBD9A4DE38887C9D7 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				7F33BE4C113340068518B502 /* opencv_perf_calib3d */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		491963642BF145E4BDADF39A = {
+			isa = PBXGroup;
+			children = (
+				4314B3BCBD9A4DE38887C9D7 /* tests performance */,
+				9B28C1D103D04D68930143DB /* modules */,
+				7893577C3F9E4B4E8AB21CAF /* tests accuracy */,
+				10128C3355DD40BABD072162 /* ALL_BUILD */,
+				880950A33A1E4C1D8A11838F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD2C43E238941C891F80756 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				2AC395CABD964E75AADC382A /* opencl */,
+				46A60CB5A290435E892C505B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_affine2d.cpp */,
+				D9688C44EDE74A31926F6DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_cicrlesGrid.cpp */,
+				6667CEB7643F4D2083FB63B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_main.cpp */,
+				5AFFBF9F6FF94EA98A132A4E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_pnp.cpp */,
+				511634CF00FE453DA42A5EE4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_stereosgbm.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		7893577C3F9E4B4E8AB21CAF /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				D06EC266213B4E90BC8E2078 /* opencv_test_calib3d */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		7F33BE4C113340068518B502 /* opencv_perf_calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				5CD2C43E238941C891F80756 /* Src */,
+				F0EBCADEB37942248AB1CF6A /* Include */,
+				E27B261D61644C9A95AB2450 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */,
+			);
+			name = opencv_perf_calib3d;
+			sourceTree = "<group>";
+		};
+		880950A33A1E4C1D8A11838F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B655607D74497EA2071ED5 /* opencv_calib3d */,
+				88706F6950F24FAB823F5BEF /* opencv_perf_calib3d */,
+				B7D0D5BB59384ACC8DED411A /* opencv_test_calib3d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89C1E5F1EE3041B580B6128E /* calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				72B5E509272F41E1B9F31C2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */,
+				DD214BC92F8B4C96BEF87408 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */,
+			);
+			name = calib3d;
+			sourceTree = "<group>";
+		};
+		9199CDB3C6F847BC8602AA07 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				89C1E5F1EE3041B580B6128E /* calib3d */,
+				A36F45A2BE7E4AF8BA264B62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include/opencv2/calib3d.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		9B28C1D103D04D68930143DB /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				E6A8E9AE4F5949D5B912E5DB /* opencv_calib3d */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		A47BF2FCE8F14EC2A60E2B87 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				1F8E992426C443A0AA96606C /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		C1DE9E4A59874E449B93110F /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				A47BF2FCE8F14EC2A60E2B87 /* opencl */,
+				ABAD7348B664417F83D710B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.cpp */,
+				3208C0E9E72346B79D76D294 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.h */,
+				336C49100BFF4D14922F774D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calib3d_c_api.cpp */,
+				5EEE12D56F4F4497A72E9E4F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibinit.cpp */,
+				358DBC78D6314551BFCD1027 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration.cpp */,
+				39A751173EA346C6994ACDA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration_handeye.cpp */,
+				B74A0586A1E54823AA24EDCC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/checkchessboard.cpp */,
+				CA3CB40E9A6B433C9B0D911B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.cpp */,
+				B004AF7E2AEE471B997D0A54 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.hpp */,
+				521868BC026449A1B0469E38 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_ptsetreg.cpp */,
+				71541A2AE87044C6930F3833 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_stereo.cpp */,
+				59DEC4D747C44C1188C18096 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.cpp */,
+				04A5F5BFFAA547F59243E8D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.h */,
+				1A8234A097B142C1932237B5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.cpp */,
+				5EB3482905094F24B6DEAA3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.h */,
+				8E98C510BEDE4FC4BE125A29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.cpp */,
+				7D25E9AA0AE846BF90B827E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.hpp */,
+				3A597EB081E448179C9A1127 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/five-point.cpp */,
+				E386184E94024AEBBF3C034B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fundam.cpp */,
+				2CCF7DF132EC4DC289E79483 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/homography_decomp.cpp */,
+				5C58D61E0C0C4BF5A03AE464 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/levmarq.cpp */,
+				224D0CE3468346ADA109AEA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/main.cpp */,
+				057A33F969A241C9831A3EBF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.cpp */,
+				5FC1F6AD09D24E23975F358E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.h */,
+				AB61B1ED0D64424C98E33AA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.cpp */,
+				73023A20609F43FE8EE01893 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.h */,
+				35D57A1E39654EA0B72272F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/posit.cpp */,
+				5401518DA519471596315F16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/precomp.hpp */,
+				0A0298EBD9ED47DB8B8F0D79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ptsetreg.cpp */,
+				D87177EC98604ABF8718226C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/quadsubpix.cpp */,
+				50B25C930E8E4C189E8916C7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.cpp */,
+				04451305A03F4B248C4F91AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.h */,
+				01714ADE01A64067AF3B4A10 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/solvepnp.cpp */,
+				5C97167BBA4240BAA92E0DD1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereobm.cpp */,
+				F479FF6F6C0D459E8A3E4C0E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereosgbm.cpp */,
+				C3DE23D864C549AF82A3DFA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/triangulate.cpp */,
+				2F4F5376FAEB4D10BA165737 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.cpp */,
+				5C48F4FA1AA84424AC8053D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.h */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		C90C35371CF14132877B17C8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				9199CDB3C6F847BC8602AA07 /* opencv2 */,
+				9ADEDBF72B4A44C7B0BDC00E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */,
+				909A26313A914E7783DCE332 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		CA4F7A8A674B485F8338BA11 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				31B5F82E53854834BF002708 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D06EC266213B4E90BC8E2078 /* opencv_test_calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				3FBBA4BE903D475688556F91 /* Src */,
+				1DE65ABA42F04685B6DFC633 /* Include */,
+				0F6F401FD37E4C28A16A3BD4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */,
+			);
+			name = opencv_test_calib3d;
+			sourceTree = "<group>";
+		};
+		DF81C55CDBF24B1093F1A61F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E6A8E9AE4F5949D5B912E5DB /* opencv_calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				C90C35371CF14132877B17C8 /* Include */,
+				C1DE9E4A59874E449B93110F /* Src */,
+				CA4F7A8A674B485F8338BA11 /* CMake Rules */,
+				837879F5C7DC4E77B50356C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/CMakeLists.txt */,
+			);
+			name = opencv_calib3d;
+			sourceTree = "<group>";
+		};
+		F0EBCADEB37942248AB1CF6A /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				9B994D832EC24BFCB6110D9D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B664825CC5A4D6E9FE003C5 /* opencv_test_calib3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBD46FB672248149C40CAEF /* Build configuration list for PBXNativeTarget "opencv_test_calib3d" */;
+			buildPhases = (
+				B523FD2E137042AA89FED8E2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55EEE1034B264C6AB3F1593B /* PBXTargetDependency */,
+				586F47CBECF34D0ABB25303B /* PBXTargetDependency */,
+			);
+			name = opencv_test_calib3d;
+			productName = opencv_test_calib3d;
+			productReference = B7D0D5BB59384ACC8DED411A /* opencv_test_calib3d */;
+			productType = "com.apple.product-type.tool";
+		};
+		54DB8DE99AA44F72A9D795EB /* opencv_calib3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23A92D3D7FE491184ACA520 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */;
+			buildPhases = (
+				768AC1FA567E42D897452A04 /* CMake Rules */,
+				177C9D04895D4C0482C6CA4E /* Sources */,
+				6ACE99B610FB4B5FB01129DB /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2473FF460F4BD8BE8D95A3 /* PBXTargetDependency */,
+			);
+			name = opencv_calib3d;
+			productName = opencv_calib3d;
+			productReference = 04B655607D74497EA2071ED5 /* opencv_calib3d */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		8A0CF27350FE4E6F9991C113 /* opencv_perf_calib3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3DA3B38234416A830731B8 /* Build configuration list for PBXNativeTarget "opencv_perf_calib3d" */;
+			buildPhases = (
+				13FD5014DB104F70A7E19FD8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF69411382294DBBAD0C6E65 /* PBXTargetDependency */,
+				34B1B96DF9364F748FCFA34F /* PBXTargetDependency */,
+			);
+			name = opencv_perf_calib3d;
+			productName = opencv_perf_calib3d;
+			productReference = 88706F6950F24FAB823F5BEF /* opencv_perf_calib3d */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B001BDCFCFA42F699803418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 77367DB3782F4F108BEFE4C4 /* Build configuration list for PBXProject "opencv_calib3d" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				EBFEA5B3A93B4E6DB7A11F58 /* Debug */,
+				AAFA5E13422C443CBE322096 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 491963642BF145E4BDADF39A;
+			projectDirPath = ../../../modules/calib3d;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				54DB8DE99AA44F72A9D795EB /* opencv_calib3d */,
+				8A0CF27350FE4E6F9991C113 /* opencv_perf_calib3d */,
+				0B664825CC5A4D6E9FE003C5 /* opencv_test_calib3d */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EFD25136CAD43FE935EFEFF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6A79B4BDBD544C15B52F0CD6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6ACE99B610FB4B5FB01129DB /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/CMakeScripts/opencv_calib3d_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6F13CAE81EDF46E489538EAD /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		73DC7230FA7E477DBDE8B991 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		768AC1FA567E42D897452A04 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/CMakeScripts/opencv_calib3d_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9315A1642BC64FB9AFD94439 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A8E0E1CE0D49425DA9A5E554 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D447EFE8B0544BEC9D0095AA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EAEE48E6AB3A4479992A53A3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F27D0541B0344F78B61F63ED /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FB62CF4001E04E5C99C3A2BC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FD5014DB104F70A7E19FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2851F45DD204C80A00361F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/opencl/perf_stereobm.cpp */,
+				4AF77C8B9C5C448BB6C902A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_affine2d.cpp */,
+				0C7575DA034947D08C7B83D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_cicrlesGrid.cpp */,
+				B03EA19DFE704264B6D4BC84 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_main.cpp */,
+				363753B9F90C41EBBB8ECF88 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_pnp.cpp */,
+				E787520666764BA1853E11A3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/perf/perf_stereosgbm.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177C9D04895D4C0482C6CA4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A9CED51C784676BD7C94B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/opencl_kernels_calib3d.cpp */,
+				5DAE12F43CB64AC5A1C2BD06 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ap3p.cpp */,
+				2A1DA1AB9488470CA3E5ED49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calib3d_c_api.cpp */,
+				91BB505F0F79456988DEE7DE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibinit.cpp */,
+				A36CA587E5D3477CAFD13715 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration.cpp */,
+				65CA83A8DDED4571A2DD3D61 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/calibration_handeye.cpp */,
+				F6B64CBDF31C4C1A9E71DFEF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/checkchessboard.cpp */,
+				A2A605A71EAD4E0FBC4BAA2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/circlesgrid.cpp */,
+				7158F4C4FDCA4112A25D79B1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_ptsetreg.cpp */,
+				5D9B2F8138B74893A8857E3F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/compat_stereo.cpp */,
+				0858184241F04446BD7F2524 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/dls.cpp */,
+				F3852F8C82E84A14870BEE7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/epnp.cpp */,
+				7AC6D4FA4A734F709127DF4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fisheye.cpp */,
+				9841B14269B647B78479AF63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/five-point.cpp */,
+				CF5454D9A33F45F3A4E0B43F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/fundam.cpp */,
+				85D79486248640BA96C8F348 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/homography_decomp.cpp */,
+				2CA362B667F64CADBB90B368 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/levmarq.cpp */,
+				B4C513BD39D24B848F0AC500 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/main.cpp */,
+				D1D6BBECD808450BAAF05DE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/p3p.cpp */,
+				1DB2319F3BFA48838BE852EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/polynom_solver.cpp */,
+				22A90B0B779A4565A330E8D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/posit.cpp */,
+				8254599CC538494DA3C576A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/ptsetreg.cpp */,
+				353996F7B7944EAFAE41CBC3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/quadsubpix.cpp */,
+				9277C54D46364F7C9C60E025 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/rho.cpp */,
+				E123DA0CA5B8455B91E41C80 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/solvepnp.cpp */,
+				78CCE2D598AE49199700E675 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereobm.cpp */,
+				AFFB38CD11674A5E911BE6B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/stereosgbm.cpp */,
+				FAFEA332561745C49A1AEA21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/triangulate.cpp */,
+				B8B4BDF3BBCD44ECB015ED1C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src/upnp.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B523FD2E137042AA89FED8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F72F3CD30B45D5B9476A33 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/opencl/test_stereobm.cpp */,
+				BDF1AC9456464495ABB97D70 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine2d_estimator.cpp */,
+				BDB2BC6844BD49ED9DAA9C7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3.cpp */,
+				8728764B242F4230B6C6C953 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine3d_estimator.cpp */,
+				F578EA07FD4B4FA3AEFB8D0C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_affine_partial2d_estimator.cpp */,
+				0A40BA8203E14514A047AFD0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_calibration_hand_eye.cpp */,
+				96B249ABC2854E99B06C932A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration.cpp */,
+				37D1F2CB37E441C39B216996 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_artificial.cpp */,
+				623B98CE7A9E48648C01935B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_badarg.cpp */,
+				E97F6293274C4A23A475A82C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cameracalibration_tilt.cpp */,
+				655B7E962C9B48EFA983AC9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chessboardgenerator.cpp */,
+				6409EC82A118481AA78019C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners.cpp */,
+				A1C69D90D0A74E5986AC766D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_badarg.cpp */,
+				7B4AAEE369BD488A828B1A04 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_chesscorners_timing.cpp */,
+				114E7418A0774226B663FBCD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_compose_rt.cpp */,
+				2B80D898188F45198FDC7D8D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_cornerssubpix.cpp */,
+				6BE1C2C9B4314AFEB34CE9FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_decompose_projection.cpp */,
+				E248D45ADD954098813FF53D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_filter_homography_decomp.cpp */,
+				71A8C930E17D4D3080BAD846 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fisheye.cpp */,
+				0615AAFFB11C4FDEB7EC264D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_fundam.cpp */,
+				86D056ECA38846E18E0F6FA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography.cpp */,
+				718D758F966B4160BBE67BD0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_homography_decomp.cpp */,
+				6BDCA1ABFE3E4B73AAC886C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_main.cpp */,
+				7E4B4B053D5A4BFDB97562F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_modelest.cpp */,
+				5F8EC1FF5FDF43DEBB20C6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_posit.cpp */,
+				D314385F16764965AE16D440 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_reproject_image_to_3d.cpp */,
+				F632EE59EF404F0CA869AAB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_solvepnp_ransac.cpp */,
+				C1C9CBD29C624131ABADF002 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_stereomatching.cpp */,
+				4ECE69A464ED48EF8A6737B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort.cpp */,
+				1176E4B2F91C46FAB426B91F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_badarg.cpp */,
+				CF21A327FD5D4D71A0E93817 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/test/test_undistort_points.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07916EEA012B4CB3AC4483C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 390B8AE497724BDC8ED21B75 /* PBXContainerItemProxy */;
+		};
+		1548DC0E8B624B05A6FBDFF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B664825CC5A4D6E9FE003C5 /* opencv_test_calib3d */;
+			targetProxy = 666922976A2C4E269A3FA354 /* PBXContainerItemProxy */;
+		};
+		34B1B96DF9364F748FCFA34F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54DB8DE99AA44F72A9D795EB /* opencv_calib3d */;
+			targetProxy = F3F36C3FD063490694C03FE0 /* PBXContainerItemProxy */;
+		};
+		3AF319F6AD7B43D08EC64DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 2F67B299F7084CAFA5A24CFA /* PBXContainerItemProxy */;
+		};
+		55EEE1034B264C6AB3F1593B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 00730D92C00544EFBF29BC58 /* PBXContainerItemProxy */;
+		};
+		586F47CBECF34D0ABB25303B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54DB8DE99AA44F72A9D795EB /* opencv_calib3d */;
+			targetProxy = 943440C939A44376BBC359A6 /* PBXContainerItemProxy */;
+		};
+		5A54E2C1CE264B3A93F60430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54DB8DE99AA44F72A9D795EB /* opencv_calib3d */;
+			targetProxy = 5ADA9129D9D448B79ABCBFBF /* PBXContainerItemProxy */;
+		};
+		AE7CC94BB59540D2ADDF1C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0CF27350FE4E6F9991C113 /* opencv_perf_calib3d */;
+			targetProxy = A72AD367E43B4C1E96C3419C /* PBXContainerItemProxy */;
+		};
+		BF69411382294DBBAD0C6E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 4E39C3FB129943B9887D6FB0 /* PBXContainerItemProxy */;
+		};
+		DD2473FF460F4BD8BE8D95A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = D12DC6891A76418BA4FF1157 /* PBXContainerItemProxy */;
+		};
+		FDD91224D89842F08B298BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = DD78F503B6AA479CA11B3946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F591BCFB2C34DF78BC1E17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2F76C2FDD87C4FC884BB2E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		40EEEE6428EE4063A6AEB24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		472B01EDC11F462EBCCE5F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		51C4FE711D5F4E508BAFAF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.4.0;
+				DYLIB_CURRENT_VERSION = 3.4.6;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_calib3d.3.4.dylib  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_calib3d.3.4.6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5901EBCD8AC64B71A240F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7186790E78C54151BBE37AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7B2C146F01C44C09BB87400A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		85B43695B7E84ADE829A91F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_calib3d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_calib3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		91AE3299D7774B0A82E0989F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_calib3d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_calib3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AD9B4ED933D84154BDF7D440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.4.0;
+				DYLIB_CURRENT_VERSION = 3.4.6;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/src","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_calib3d.3.4.dylib  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_calib3d.3.4.6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AF1420CDE38C414BA6D443A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_calib3d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_calib3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B528B6EE02FC4788950D6BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B9BF60899FEB4B7BA2B7DB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BF32B781767F40B5B2EDD3E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C1BD725EDA3240328FD76E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/build";
+			};
+			name = Release;
+		};
+		CE42D2CF2BDD4073B18DF8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/calib3d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_calib3d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_calib3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E602792EE49E4F099EC9FA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/calib3d/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0509C0F3B53041CAA480AF4F /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472B01EDC11F462EBCCE5F22 /* Debug */,
+				B528B6EE02FC4788950D6BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0F3DA3B38234416A830731B8 /* Build configuration list for PBXNativeTarget "opencv_perf_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1420CDE38C414BA6D443A5 /* Debug */,
+				CE42D2CF2BDD4073B18DF8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4CBD46FB672248149C40CAEF /* Build configuration list for PBXNativeTarget "opencv_test_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B43695B7E84ADE829A91F8 /* Debug */,
+				91AE3299D7774B0A82E0989F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51239AC9E2644C9A87A25CA5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7186790E78C54151BBE37AC3 /* Debug */,
+				7B2C146F01C44C09BB87400A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77367DB3782F4F108BEFE4C4 /* Build configuration list for PBXProject "opencv_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E602792EE49E4F099EC9FA69 /* Debug */,
+				C1BD725EDA3240328FD76E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91453B9126BF4F24B6E4A748 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EEEE6428EE4063A6AEB24F /* Debug */,
+				2F76C2FDD87C4FC884BB2E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C7EA725D4164A0796381B70 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5901EBCD8AC64B71A240F460 /* Debug */,
+				BF32B781767F40B5B2EDD3E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA26C8F6C3EF4ED5BC09C4EC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F591BCFB2C34DF78BC1E17E /* Debug */,
+				B9BF60899FEB4B7BA2B7DB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D23A92D3D7FE491184ACA520 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C4FE711D5F4E508BAFAF07 /* Debug */,
+				AD9B4ED933D84154BDF7D440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B001BDCFCFA42F699803418 /* Project object */;
+}

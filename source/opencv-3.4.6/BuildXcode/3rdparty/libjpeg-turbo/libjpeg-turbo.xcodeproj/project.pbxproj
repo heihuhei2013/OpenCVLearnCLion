@@ -1,0 +1,956 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC7E9980C8F04F66A96544C8 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				4C95B54E36DC4B5798A8D086 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				25F2BC102F3143389F032E5A /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E54D3F50BB5A450A8C7D192B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				83930874C40346BDBC8BF83D /* CMake Rules */,
+			);
+			dependencies = (
+				7087AC87D38948609778281F /* PBXTargetDependency */,
+				2B7B65867BD546D0AF08AE50 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 42296609FBE84446B235E708 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				59DE5E07447740B8A47DA7A5 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DAA28358C856447AB48A7430 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3551D07D1A83436B9E83DDE2 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				DE96303F2F6045268E796278 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 802A148F1E0A4B93AE359AAB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				90EC4C11FB0D4A98B6D7AA90 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05F7F22818DF4BAE93B7745D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jaricom.c */ = {isa = PBXBuildFile; fileRef = D6FF2A2EAE4A4354BA80D694 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jaricom.c */; };
+		0E3ECD7AC5CD492E87029E15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jsimd_none.c */ = {isa = PBXBuildFile; fileRef = B5B2448B50B441A3ABF8D06D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jsimd_none.c */; };
+		18D71CFCBBB54A24ADA18157 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmerge.c */ = {isa = PBXBuildFile; fileRef = E1A6910D52B94C1695759532 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmerge.c */; };
+		1FDDF8E6FFAB419A9BE03CC2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = 856194D26EF840418BEED629 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctflt.c */; };
+		205765550D8B4619B6FFA1F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdsample.c */ = {isa = PBXBuildFile; fileRef = BC082049EB304D62A3152743 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdsample.c */; };
+		22DBDFBD83B947F7B72C067C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdpostct.c */ = {isa = PBXBuildFile; fileRef = 3C53B2EE34204642BA075C11 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdpostct.c */; };
+		24ED46903D4A4BA2AFC47FF4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = 3D4DD460BA0343F48E6157A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcdctmgr.c */; };
+		2702AB499BA140D190C803EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = 60CC7CA3610A4DE5B0280A8B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctfst.c */; };
+		2A544A123B2C4CC1B07328C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctred.c */ = {isa = PBXBuildFile; fileRef = 23BEC25FC175409284EAD5F8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctred.c */; };
+		373F150B69F94A8595D6DE00 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmaster.c */ = {isa = PBXBuildFile; fileRef = 2083CBEE9968441596DE06C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmaster.c */; };
+		3DEF0F0034574F8081DEF827 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jerror.c */ = {isa = PBXBuildFile; fileRef = 919BA5BD479643B2AF7B723B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jerror.c */; };
+		40E7D529F52B47D7A17F1291 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccolor.c */ = {isa = PBXBuildFile; fileRef = 1BE2A4F5CB08448F8D12C70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccolor.c */; };
+		43822EE2ABC641B7A9F38695 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdtrans.c */ = {isa = PBXBuildFile; fileRef = 099E08D290BB457C8A698F99 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdtrans.c */; };
+		43A57B25D5F34F8FAD73484E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcarith.c */ = {isa = PBXBuildFile; fileRef = 730546136FB0416DA3A94E56 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcarith.c */; };
+		49DFC5D143BB4D99B2AECFD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmaster.c */ = {isa = PBXBuildFile; fileRef = B96F73D31A074A1DA285EC64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmaster.c */; };
+		4A4DAB0CAB7F49C284019659 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccoefct.c */ = {isa = PBXBuildFile; fileRef = A798D58668AB442E9D22FFAE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccoefct.c */; };
+		4E32883EC3B04525BFD767BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant2.c */ = {isa = PBXBuildFile; fileRef = F3B2CD265521417EB789E7D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant2.c */; };
+		56F27F3C0100476F93342ED1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcinit.c */ = {isa = PBXBuildFile; fileRef = A498238C09A54198BCB602D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcinit.c */; };
+		5AA8C4285B8B4153A3C8A055 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdphuff.c */ = {isa = PBXBuildFile; fileRef = BBE03D9E39EB4F1F8A52977E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdphuff.c */; };
+		5D61DE81F79042288458B0F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcsample.c */ = {isa = PBXBuildFile; fileRef = B4C20D892D5945278D8575F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcsample.c */; };
+		654729590AA84DACAFF7A542 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmarker.c */ = {isa = PBXBuildFile; fileRef = A2489CCB8CB94086AD0FD809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmarker.c */; };
+		6AF7C57DC6954795A15E177E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctfst.c */ = {isa = PBXBuildFile; fileRef = AE6376E664164F2C810E8E8E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctfst.c */; };
+		6CE0D468762945F0BAB22304 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = 23C94B30F7CF45DAA9A929E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcoefct.c */; };
+		6DEE660A14B4462CB6EE461E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 2539503376A345B49C62B853 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmainct.c */; };
+		7723647DEF6B401491C8B6C3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant1.c */ = {isa = PBXBuildFile; fileRef = 155D01410E5B4D6DBA1C124D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant1.c */; };
+		793D46516F6A4ABF958BF248 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapistd.c */ = {isa = PBXBuildFile; fileRef = C6126508FA744D4B85AACC3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapistd.c */; };
+		81C24301D5F74793A26B604B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmainct.c */ = {isa = PBXBuildFile; fileRef = B191556FF38F460EB5DC9F57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmainct.c */; };
+		8323910E32864F719B3712D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A963F5EBEB514D81B27E242C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/CMakeLists.txt */; };
+		889869C5EA0E4D8BB2A56B54 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcomapi.c */ = {isa = PBXBuildFile; fileRef = E673C6EAE6FC4D8FA1F65697 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcomapi.c */; };
+		8A678A960AC04C2A88DA26D5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcparam.c */ = {isa = PBXBuildFile; fileRef = DBB03DF9716548A6BC67D99A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcparam.c */; };
+		8B830B3D4D78435EA82B0144 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapimin.c */ = {isa = PBXBuildFile; fileRef = 8A7F29401B374FC4AB195A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapimin.c */; };
+		914565733BDB44D8AE29A644 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapimin.c */ = {isa = PBXBuildFile; fileRef = CBF769AD42B543239C980296 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapimin.c */; };
+		9373D65A3E0A44A68790582F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctint.c */ = {isa = PBXBuildFile; fileRef = A2A8621DECB940B680094966 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctint.c */; };
+		9457A009C5D34A5FA3DA6E3A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcprepct.c */ = {isa = PBXBuildFile; fileRef = 477412901B6C481183CCDBCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcprepct.c */; };
+		9DD17855CB6446ABB4828D23 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jchuff.c */ = {isa = PBXBuildFile; fileRef = 14F11AEA7A93420C85FE1C3B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jchuff.c */; };
+		9E1DE54E963F4861A1FD37F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatadst.c */ = {isa = PBXBuildFile; fileRef = E3D8D71538104C73A29A3E35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatadst.c */; };
+		B9184F4AF4924E3782884133 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 72C4BFAE46FD4D9293EF65E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapistd.c */; };
+		C5B99D2227D1462BABEB21EF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmarker.c */ = {isa = PBXBuildFile; fileRef = 41A8ACE9BCB84EB1BB2A10F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmarker.c */; };
+		D68452DC82474B789F7E6637 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctflt.c */ = {isa = PBXBuildFile; fileRef = 8314CD6E8C9747A7B6C7A67B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctflt.c */; };
+		DCFB16BF02EC4D10A684CFCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdarith.c */ = {isa = PBXBuildFile; fileRef = 4A4AA784AD5C4756BBA7AB3D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdarith.c */; };
+		E4F7D5256BCE4DA78A6CB12C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcphuff.c */ = {isa = PBXBuildFile; fileRef = 36A040FFA99047628A22A1B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcphuff.c */; };
+		E8D19F850392488D9FF1775C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdhuff.c */ = {isa = PBXBuildFile; fileRef = B7E36A4E1E1545C0AC6280A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdhuff.c */; };
+		E91F7737242A4C4EA99E7FFB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = 9DBB1AFDBCBB4E6BADB0C531 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jddctmgr.c */; };
+		EAF82BD1E41D42A2B7270713 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = BDF160C51DF9435F9C932139 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatasrc.c */; };
+		EB1A0B0290F64EFEAE3ED2EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jutils.c */ = {isa = PBXBuildFile; fileRef = 618C34BF994B4F038677B166 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jutils.c */; };
+		ED61DAF699E14CF8836C3CF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jctrans.c */ = {isa = PBXBuildFile; fileRef = AD01AF5D85584D6F97751DA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jctrans.c */; };
+		ED6EE8DE320C45E68E284826 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcolor.c */ = {isa = PBXBuildFile; fileRef = ECDEC9CFFEEE4958A42FEDC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcolor.c */; };
+		ED850F6E62814DFB9B99BB82 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = F816A4BF95434B4BBDF74B36 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemmgr.c */; };
+		F1B511968CC94645B5BED063 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemnobs.c */ = {isa = PBXBuildFile; fileRef = B4E6EBF8D14E422B8E980BD0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemnobs.c */; };
+		F21A165563C44519806F6F3C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdinput.c */ = {isa = PBXBuildFile; fileRef = BA25BF4DC8CB40D88AC6DB0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdinput.c */; };
+		F602FA363F70454FA879FF07 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctint.c */ = {isa = PBXBuildFile; fileRef = 3FC3CDA1383E4C00BC1CBC0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctint.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		062798BA60D047D3B09EF4DB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CEED7032AAF24013901E2094 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0943F00DC7CD4AA0A7B8C892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D15184F795445A3976C1892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		259115D4607749D0BEE1E1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D15184F795445A3976C1892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		740C4AFD8A9540DB9EF5FA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D15184F795445A3976C1892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		D93C8CECD08E4BC2B4A22BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D15184F795445A3976C1892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		DD0BD9E0374746E1BD0121C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D15184F795445A3976C1892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAC2701591B447391131C0D;
+			remoteInfo = "libjpeg-turbo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099E08D290BB457C8A698F99 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdtrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdtrans.c; path = src/jdtrans.c; sourceTree = SOURCE_ROOT; };
+		14F11AEA7A93420C85FE1C3B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jchuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jchuff.c; path = src/jchuff.c; sourceTree = SOURCE_ROOT; };
+		155D01410E5B4D6DBA1C124D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant1.c; path = src/jquant1.c; sourceTree = SOURCE_ROOT; };
+		1BE2A4F5CB08448F8D12C70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccolor.c; path = src/jccolor.c; sourceTree = SOURCE_ROOT; };
+		2083CBEE9968441596DE06C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmaster.c; path = src/jcmaster.c; sourceTree = SOURCE_ROOT; };
+		23BEC25FC175409284EAD5F8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctred.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctred.c; path = src/jidctred.c; sourceTree = SOURCE_ROOT; };
+		23C94B30F7CF45DAA9A929E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcoefct.c; path = src/jdcoefct.c; sourceTree = SOURCE_ROOT; };
+		2539503376A345B49C62B853 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmainct.c; path = src/jdmainct.c; sourceTree = SOURCE_ROOT; };
+		36A040FFA99047628A22A1B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcphuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcphuff.c; path = src/jcphuff.c; sourceTree = SOURCE_ROOT; };
+		3C53B2EE34204642BA075C11 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdpostct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdpostct.c; path = src/jdpostct.c; sourceTree = SOURCE_ROOT; };
+		3D4DD460BA0343F48E6157A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcdctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcdctmgr.c; path = src/jcdctmgr.c; sourceTree = SOURCE_ROOT; };
+		3FC3CDA1383E4C00BC1CBC0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctint.c; path = src/jfdctint.c; sourceTree = SOURCE_ROOT; };
+		41A8ACE9BCB84EB1BB2A10F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmarker.c; path = src/jdmarker.c; sourceTree = SOURCE_ROOT; };
+		477412901B6C481183CCDBCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcprepct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcprepct.c; path = src/jcprepct.c; sourceTree = SOURCE_ROOT; };
+		4A4AA784AD5C4756BBA7AB3D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdarith.c; path = src/jdarith.c; sourceTree = SOURCE_ROOT; };
+		60CC7CA3610A4DE5B0280A8B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctfst.c; path = src/jfdctfst.c; sourceTree = SOURCE_ROOT; };
+		618C34BF994B4F038677B166 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jutils.c; path = src/jutils.c; sourceTree = SOURCE_ROOT; };
+		62E3EE87656C4D29855D66B4 /* libjpeg-turbo */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblibjpeg-turbo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C4BFAE46FD4D9293EF65E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapistd.c; path = src/jcapistd.c; sourceTree = SOURCE_ROOT; };
+		730546136FB0416DA3A94E56 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcarith.c; path = src/jcarith.c; sourceTree = SOURCE_ROOT; };
+		8314CD6E8C9747A7B6C7A67B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctflt.c; path = src/jidctflt.c; sourceTree = SOURCE_ROOT; };
+		856194D26EF840418BEED629 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctflt.c; path = src/jfdctflt.c; sourceTree = SOURCE_ROOT; };
+		8A7F29401B374FC4AB195A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapimin.c; path = src/jcapimin.c; sourceTree = SOURCE_ROOT; };
+		919BA5BD479643B2AF7B723B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jerror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jerror.c; path = src/jerror.c; sourceTree = SOURCE_ROOT; };
+		9DBB1AFDBCBB4E6BADB0C531 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jddctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jddctmgr.c; path = src/jddctmgr.c; sourceTree = SOURCE_ROOT; };
+		A2489CCB8CB94086AD0FD809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmarker.c; path = src/jcmarker.c; sourceTree = SOURCE_ROOT; };
+		A2A8621DECB940B680094966 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctint.c; path = src/jidctint.c; sourceTree = SOURCE_ROOT; };
+		A498238C09A54198BCB602D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcinit.c; path = src/jcinit.c; sourceTree = SOURCE_ROOT; };
+		A798D58668AB442E9D22FFAE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccoefct.c; path = src/jccoefct.c; sourceTree = SOURCE_ROOT; };
+		A963F5EBEB514D81B27E242C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AD01AF5D85584D6F97751DA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jctrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jctrans.c; path = src/jctrans.c; sourceTree = SOURCE_ROOT; };
+		AE6376E664164F2C810E8E8E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctfst.c; path = src/jidctfst.c; sourceTree = SOURCE_ROOT; };
+		B191556FF38F460EB5DC9F57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmainct.c; path = src/jcmainct.c; sourceTree = SOURCE_ROOT; };
+		B4C20D892D5945278D8575F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcsample.c; path = src/jcsample.c; sourceTree = SOURCE_ROOT; };
+		B4E6EBF8D14E422B8E980BD0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemnobs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemnobs.c; path = src/jmemnobs.c; sourceTree = SOURCE_ROOT; };
+		B5B2448B50B441A3ABF8D06D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jsimd_none.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jsimd_none.c; path = src/jsimd_none.c; sourceTree = SOURCE_ROOT; };
+		B7E36A4E1E1545C0AC6280A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdhuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdhuff.c; path = src/jdhuff.c; sourceTree = SOURCE_ROOT; };
+		B96F73D31A074A1DA285EC64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmaster.c; path = src/jdmaster.c; sourceTree = SOURCE_ROOT; };
+		BA25BF4DC8CB40D88AC6DB0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdinput.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdinput.c; path = src/jdinput.c; sourceTree = SOURCE_ROOT; };
+		BBE03D9E39EB4F1F8A52977E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdphuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdphuff.c; path = src/jdphuff.c; sourceTree = SOURCE_ROOT; };
+		BC082049EB304D62A3152743 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdsample.c; path = src/jdsample.c; sourceTree = SOURCE_ROOT; };
+		BDF160C51DF9435F9C932139 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatasrc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatasrc.c; path = src/jdatasrc.c; sourceTree = SOURCE_ROOT; };
+		C6126508FA744D4B85AACC3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapistd.c; path = src/jdapistd.c; sourceTree = SOURCE_ROOT; };
+		CBF769AD42B543239C980296 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapimin.c; path = src/jdapimin.c; sourceTree = SOURCE_ROOT; };
+		D6FF2A2EAE4A4354BA80D694 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jaricom.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jaricom.c; path = src/jaricom.c; sourceTree = SOURCE_ROOT; };
+		DBB03DF9716548A6BC67D99A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcparam.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcparam.c; path = src/jcparam.c; sourceTree = SOURCE_ROOT; };
+		E1A6910D52B94C1695759532 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmerge.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmerge.c; path = src/jdmerge.c; sourceTree = SOURCE_ROOT; };
+		E3D8D71538104C73A29A3E35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatadst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatadst.c; path = src/jdatadst.c; sourceTree = SOURCE_ROOT; };
+		E673C6EAE6FC4D8FA1F65697 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcomapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcomapi.c; path = src/jcomapi.c; sourceTree = SOURCE_ROOT; };
+		ECDEC9CFFEEE4958A42FEDC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcolor.c; path = src/jdcolor.c; sourceTree = SOURCE_ROOT; };
+		F245935210AE47A9BB761CC5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F3B2CD265521417EB789E7D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant2.c; path = src/jquant2.c; sourceTree = SOURCE_ROOT; };
+		F816A4BF95434B4BBDF74B36 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemmgr.c; path = src/jmemmgr.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13536D565323424782A82399 = {
+			isa = PBXGroup;
+			children = (
+				230FA58D8A714138AAE2B44D /* 3rdparty */,
+				6DC0E07EA8AF4329BF75BF40 /* ALL_BUILD */,
+				C213A0E958EC417E8D1385F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		230FA58D8A714138AAE2B44D /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				39573A8842CD4899ABE3E2A1 /* libjpeg-turbo */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		39573A8842CD4899ABE3E2A1 /* libjpeg-turbo */ = {
+			isa = PBXGroup;
+			children = (
+				46B454075BBE41138931AF1C /* Source Files */,
+				A963F5EBEB514D81B27E242C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/CMakeLists.txt */,
+			);
+			name = "libjpeg-turbo";
+			sourceTree = "<group>";
+		};
+		46B454075BBE41138931AF1C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6FF2A2EAE4A4354BA80D694 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jaricom.c */,
+				8A7F29401B374FC4AB195A94 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapimin.c */,
+				72C4BFAE46FD4D9293EF65E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapistd.c */,
+				730546136FB0416DA3A94E56 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcarith.c */,
+				A798D58668AB442E9D22FFAE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccoefct.c */,
+				1BE2A4F5CB08448F8D12C70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccolor.c */,
+				3D4DD460BA0343F48E6157A5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcdctmgr.c */,
+				14F11AEA7A93420C85FE1C3B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jchuff.c */,
+				A498238C09A54198BCB602D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcinit.c */,
+				B191556FF38F460EB5DC9F57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmainct.c */,
+				A2489CCB8CB94086AD0FD809 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmarker.c */,
+				2083CBEE9968441596DE06C2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmaster.c */,
+				E673C6EAE6FC4D8FA1F65697 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcomapi.c */,
+				DBB03DF9716548A6BC67D99A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcparam.c */,
+				36A040FFA99047628A22A1B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcphuff.c */,
+				477412901B6C481183CCDBCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcprepct.c */,
+				B4C20D892D5945278D8575F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcsample.c */,
+				AD01AF5D85584D6F97751DA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jctrans.c */,
+				CBF769AD42B543239C980296 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapimin.c */,
+				C6126508FA744D4B85AACC3E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapistd.c */,
+				4A4AA784AD5C4756BBA7AB3D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdarith.c */,
+				E3D8D71538104C73A29A3E35 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatadst.c */,
+				BDF160C51DF9435F9C932139 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatasrc.c */,
+				23C94B30F7CF45DAA9A929E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcoefct.c */,
+				ECDEC9CFFEEE4958A42FEDC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcolor.c */,
+				9DBB1AFDBCBB4E6BADB0C531 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jddctmgr.c */,
+				B7E36A4E1E1545C0AC6280A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdhuff.c */,
+				BA25BF4DC8CB40D88AC6DB0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdinput.c */,
+				2539503376A345B49C62B853 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmainct.c */,
+				41A8ACE9BCB84EB1BB2A10F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmarker.c */,
+				B96F73D31A074A1DA285EC64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmaster.c */,
+				E1A6910D52B94C1695759532 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmerge.c */,
+				BBE03D9E39EB4F1F8A52977E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdphuff.c */,
+				3C53B2EE34204642BA075C11 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdpostct.c */,
+				BC082049EB304D62A3152743 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdsample.c */,
+				099E08D290BB457C8A698F99 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdtrans.c */,
+				919BA5BD479643B2AF7B723B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jerror.c */,
+				856194D26EF840418BEED629 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctflt.c */,
+				60CC7CA3610A4DE5B0280A8B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctfst.c */,
+				3FC3CDA1383E4C00BC1CBC0F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctint.c */,
+				8314CD6E8C9747A7B6C7A67B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctflt.c */,
+				AE6376E664164F2C810E8E8E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctfst.c */,
+				A2A8621DECB940B680094966 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctint.c */,
+				23BEC25FC175409284EAD5F8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctred.c */,
+				F816A4BF95434B4BBDF74B36 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemmgr.c */,
+				B4E6EBF8D14E422B8E980BD0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemnobs.c */,
+				155D01410E5B4D6DBA1C124D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant1.c */,
+				F3B2CD265521417EB789E7D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant2.c */,
+				B5B2448B50B441A3ABF8D06D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jsimd_none.c */,
+				618C34BF994B4F038677B166 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jutils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6DC0E07EA8AF4329BF75BF40 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DF36F4C957EF47A881A26A95 /* CMake Rules */,
+				F245935210AE47A9BB761CC5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C213A0E958EC417E8D1385F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E3EE87656C4D29855D66B4 /* libjpeg-turbo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF36F4C957EF47A881A26A95 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDAC2701591B447391131C0D /* libjpeg-turbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1B68C88C6A4E9AB37B64F9 /* Build configuration list for PBXNativeTarget "libjpeg-turbo" */;
+			buildPhases = (
+				58B0C01CB0194FBAB334FBD3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B99E4DA915A7452CB137C290 /* PBXTargetDependency */,
+			);
+			name = "libjpeg-turbo";
+			productName = "libjpeg-turbo";
+			productReference = 62E3EE87656C4D29855D66B4 /* libjpeg-turbo */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D15184F795445A3976C1892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = C2743606AD5D4033915A3C3F /* Build configuration list for PBXProject "libjpeg-turbo" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CEED7032AAF24013901E2094 /* Debug */,
+				062798BA60D047D3B09EF4DB /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 13536D565323424782A82399;
+			projectDirPath = "../../../3rdparty/libjpeg-turbo";
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				BDAC2701591B447391131C0D /* libjpeg-turbo */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B4A3B5C73B4ACC8FB25670 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4C95B54E36DC4B5798A8D086 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		59DE5E07447740B8A47DA7A5 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		5F4F4B8B895449ACADCE70C3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6730E734D6FC44A9A6E0F907 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		83930874C40346BDBC8BF83D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		90EC4C11FB0D4A98B6D7AA90 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D7D67F2BC8014E98A8EAFF29 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DC1497384B34481F9E30FFB0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DE96303F2F6045268E796278 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B0C01CB0194FBAB334FBD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F7F22818DF4BAE93B7745D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jaricom.c */,
+				8B830B3D4D78435EA82B0144 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapimin.c */,
+				B9184F4AF4924E3782884133 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcapistd.c */,
+				43A57B25D5F34F8FAD73484E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcarith.c */,
+				4A4DAB0CAB7F49C284019659 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccoefct.c */,
+				40E7D529F52B47D7A17F1291 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jccolor.c */,
+				24ED46903D4A4BA2AFC47FF4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcdctmgr.c */,
+				9DD17855CB6446ABB4828D23 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jchuff.c */,
+				56F27F3C0100476F93342ED1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcinit.c */,
+				81C24301D5F74793A26B604B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmainct.c */,
+				654729590AA84DACAFF7A542 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmarker.c */,
+				373F150B69F94A8595D6DE00 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcmaster.c */,
+				889869C5EA0E4D8BB2A56B54 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcomapi.c */,
+				8A678A960AC04C2A88DA26D5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcparam.c */,
+				E4F7D5256BCE4DA78A6CB12C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcphuff.c */,
+				9457A009C5D34A5FA3DA6E3A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcprepct.c */,
+				5D61DE81F79042288458B0F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jcsample.c */,
+				ED61DAF699E14CF8836C3CF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jctrans.c */,
+				914565733BDB44D8AE29A644 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapimin.c */,
+				793D46516F6A4ABF958BF248 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdapistd.c */,
+				DCFB16BF02EC4D10A684CFCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdarith.c */,
+				9E1DE54E963F4861A1FD37F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatadst.c */,
+				EAF82BD1E41D42A2B7270713 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdatasrc.c */,
+				6CE0D468762945F0BAB22304 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcoefct.c */,
+				ED6EE8DE320C45E68E284826 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdcolor.c */,
+				E91F7737242A4C4EA99E7FFB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jddctmgr.c */,
+				E8D19F850392488D9FF1775C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdhuff.c */,
+				F21A165563C44519806F6F3C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdinput.c */,
+				6DEE660A14B4462CB6EE461E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmainct.c */,
+				C5B99D2227D1462BABEB21EF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmarker.c */,
+				49DFC5D143BB4D99B2AECFD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmaster.c */,
+				18D71CFCBBB54A24ADA18157 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdmerge.c */,
+				5AA8C4285B8B4153A3C8A055 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdphuff.c */,
+				22DBDFBD83B947F7B72C067C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdpostct.c */,
+				205765550D8B4619B6FFA1F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdsample.c */,
+				43822EE2ABC641B7A9F38695 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jdtrans.c */,
+				3DEF0F0034574F8081DEF827 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jerror.c */,
+				1FDDF8E6FFAB419A9BE03CC2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctflt.c */,
+				2702AB499BA140D190C803EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctfst.c */,
+				F602FA363F70454FA879FF07 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jfdctint.c */,
+				D68452DC82474B789F7E6637 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctflt.c */,
+				6AF7C57DC6954795A15E177E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctfst.c */,
+				9373D65A3E0A44A68790582F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctint.c */,
+				2A544A123B2C4CC1B07328C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jidctred.c */,
+				ED850F6E62814DFB9B99BB82 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemmgr.c */,
+				F1B511968CC94645B5BED063 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jmemnobs.c */,
+				7723647DEF6B401491C8B6C3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant1.c */,
+				4E32883EC3B04525BFD767BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jquant2.c */,
+				0E3ECD7AC5CD492E87029E15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jsimd_none.c */,
+				EB1A0B0290F64EFEAE3ED2EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src/jutils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25F2BC102F3143389F032E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 740C4AFD8A9540DB9EF5FA5D /* PBXContainerItemProxy */;
+		};
+		2B7B65867BD546D0AF08AE50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAC2701591B447391131C0D /* libjpeg-turbo */;
+			targetProxy = DD0BD9E0374746E1BD0121C4 /* PBXContainerItemProxy */;
+		};
+		7087AC87D38948609778281F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = D93C8CECD08E4BC2B4A22BDD /* PBXContainerItemProxy */;
+		};
+		B99E4DA915A7452CB137C290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 259115D4607749D0BEE1E1A1 /* PBXContainerItemProxy */;
+		};
+		DAA28358C856447AB48A7430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 0943F00DC7CD4AA0A7B8C892 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E92AE2AB1E8455A9328928B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1AA01D44CFE4444EAB923FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2EDA5607F3094A5A95449C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		38F38B9D610C48A1B2A6EF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libjpeg-turbo";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5547B86D5C044E2E8F4C45AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5EB7253A546040EC96BF3C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		75C0867A0E144DC6BB8D11DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo/build";
+			};
+			name = Release;
+		};
+		84A007838E32468D9D6EA7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AB099AD94C51483EAAA9874F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AF922117B30040CDB477A530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DB4921877A5A4156A70C46AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E3EA1CC4601F46B7A833DD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/libjpeg-turbo/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "libjpeg-turbo";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		ED30844AA9D049B9B54AEEB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FABF7548A2C4486BB2BD6002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/libjpeg-turbo/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3551D07D1A83436B9E83DDE2 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB7253A546040EC96BF3C2B /* Debug */,
+				ED30844AA9D049B9B54AEEB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		42296609FBE84446B235E708 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB099AD94C51483EAAA9874F /* Debug */,
+				1AA01D44CFE4444EAB923FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		802A148F1E0A4B93AE359AAB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDA5607F3094A5A95449C3C /* Debug */,
+				0E92AE2AB1E8455A9328928B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB1B68C88C6A4E9AB37B64F9 /* Build configuration list for PBXNativeTarget "libjpeg-turbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F38B9D610C48A1B2A6EF7E /* Debug */,
+				E3EA1CC4601F46B7A833DD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC7E9980C8F04F66A96544C8 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A007838E32468D9D6EA7FE /* Debug */,
+				AF922117B30040CDB477A530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2743606AD5D4033915A3C3F /* Build configuration list for PBXProject "libjpeg-turbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABF7548A2C4486BB2BD6002 /* Debug */,
+				75C0867A0E144DC6BB8D11DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E54D3F50BB5A450A8C7D192B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5547B86D5C044E2E8F4C45AE /* Debug */,
+				DB4921877A5A4156A70C46AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D15184F795445A3976C1892 /* Project object */;
+}

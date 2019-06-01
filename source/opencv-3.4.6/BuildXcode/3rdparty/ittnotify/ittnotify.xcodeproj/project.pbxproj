@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 447BC92052384C379E3A56D9 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				991C524F3A5942F79BC2C6CC /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E51F59A5C7234055AC09F88F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 78A6C5E46E514C1AB8F3314C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				75F48077349A48DCB6A8B310 /* CMake Rules */,
+			);
+			dependencies = (
+				E9CFCF61859E4D948D30E1E7 /* PBXTargetDependency */,
+				95F220C42E074936AD4FE1C9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0E9A5964F294D409C413B17 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				E0A95FDB1A13401A82ED0ACF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				98EB76E56E4841D7A1C888B0 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B2C73936F0244DC9A3E2BAB9 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				E0E228649E5E408EB22ED067 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6D869FC155140BEA932BD0C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B098DDB48F694153B05F368B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		18C7A591A91443E186D22185 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c */ = {isa = PBXBuildFile; fileRef = A3D603AEFCCC44AC88BAEB4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c */; };
+		1A105F11597A46DCAA4DFB72 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h */ = {isa = PBXBuildFile; fileRef = 9DEBDDF386C24406BF4165D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h */; };
+		317C18CCFC7045CDB7CDC5EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/libittnotify.h */ = {isa = PBXBuildFile; fileRef = 34F39019427249AF8E2715CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/libittnotify.h */; };
+		656D113FD30741859374186D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/disable_warnings.h */ = {isa = PBXBuildFile; fileRef = F43130B95EFC45C18DBAC8F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/disable_warnings.h */; };
+		730056AE24224381A4D67695 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h */ = {isa = PBXBuildFile; fileRef = 5323BCBDF4C14B66B88D4AD6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h */; };
+		779BCE930DBC4CA98E3F7817 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/jitprofiling.h */ = {isa = PBXBuildFile; fileRef = 0EEA274DC85F47F59F8A9619 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/jitprofiling.h */; };
+		B94FBAD385AA4A75B487B830 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/llvm_jit_event_listener.hpp */ = {isa = PBXBuildFile; fileRef = B55874780B614AFA81E36BA7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/llvm_jit_event_listener.hpp */; };
+		CB2FA714BB8346A6AEB9619C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9E4B5B27073D4BF788A89CF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/CMakeLists.txt */; };
+		E2182C7391024953B463F8EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/ittnotify.h */ = {isa = PBXBuildFile; fileRef = 281B2F7ADFD84BB5B9BBA911 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/ittnotify.h */; };
+		F7FD71A521D94B19BBA506A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h */ = {isa = PBXBuildFile; fileRef = 61B97D5A2C0242058CCF2BBF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h */; };
+		FE9C8BDB139A477684401741 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/jitprofiling.c */ = {isa = PBXBuildFile; fileRef = 6D8468F622934A1EAD2FCCE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/jitprofiling.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		B5D034E3D5B54E72AF038B9D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E6DD7728FF7249899CED04C7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0036ABC466F641A4A1E8690F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9C606C91E14F81AB697F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		083A8E3A9AB2481F831E52F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9C606C91E14F81AB697F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B64C0445BF463E8649B707;
+			remoteInfo = ittnotify;
+		};
+		5E4E04CABA034ECEBDB9204D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9C606C91E14F81AB697F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		807A38DF56F54E7FB6D4D859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9C606C91E14F81AB697F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		D81F6FDC399B41888E6B45E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9C606C91E14F81AB697F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EEA274DC85F47F59F8A9619 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/jitprofiling.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jitprofiling.h; path = include/jitprofiling.h; sourceTree = SOURCE_ROOT; };
+		1F6F316936DA4090BAF89914 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		281B2F7ADFD84BB5B9BBA911 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/ittnotify.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ittnotify.h; path = include/ittnotify.h; sourceTree = SOURCE_ROOT; };
+		34F39019427249AF8E2715CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/libittnotify.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = libittnotify.h; path = include/libittnotify.h; sourceTree = SOURCE_ROOT; };
+		5124158EA00F410085417B9F /* ittnotify */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libittnotify.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5323BCBDF4C14B66B88D4AD6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ittnotify_config.h; path = src/ittnotify/ittnotify_config.h; sourceTree = SOURCE_ROOT; };
+		61B97D5A2C0242058CCF2BBF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ittnotify_types.h; path = src/ittnotify/ittnotify_types.h; sourceTree = SOURCE_ROOT; };
+		6D8468F622934A1EAD2FCCE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/jitprofiling.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jitprofiling.c; path = src/ittnotify/jitprofiling.c; sourceTree = SOURCE_ROOT; };
+		9DEBDDF386C24406BF4165D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ittnotify_static.h; path = src/ittnotify/ittnotify_static.h; sourceTree = SOURCE_ROOT; };
+		9E4B5B27073D4BF788A89CF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A3D603AEFCCC44AC88BAEB4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ittnotify_static.c; path = src/ittnotify/ittnotify_static.c; sourceTree = SOURCE_ROOT; };
+		B55874780B614AFA81E36BA7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/llvm_jit_event_listener.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = llvm_jit_event_listener.hpp; path = include/llvm_jit_event_listener.hpp; sourceTree = SOURCE_ROOT; };
+		F43130B95EFC45C18DBAC8F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/disable_warnings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = disable_warnings.h; path = src/ittnotify/disable_warnings.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		50EBD7028BEA4791869EAC3A /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				8315B3D76BFF40B7A1E003E0 /* ittnotify */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		6FC51CAA0C7E4C7FBF153809 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D603AEFCCC44AC88BAEB4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c */,
+				6D8468F622934A1EAD2FCCE5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/jitprofiling.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		73389777EC3E4F5A8D7C6EA6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5BC5729B746178802AFA0 /* CMake Rules */,
+				1F6F316936DA4090BAF89914 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8315B3D76BFF40B7A1E003E0 /* ittnotify */ = {
+			isa = PBXGroup;
+			children = (
+				6FC51CAA0C7E4C7FBF153809 /* Source Files */,
+				D44352BF7DF24A77818FDBED /* Header Files */,
+				9E4B5B27073D4BF788A89CF0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/CMakeLists.txt */,
+			);
+			name = ittnotify;
+			sourceTree = "<group>";
+		};
+		A36713FFD7BD48C68ED4E8A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5124158EA00F410085417B9F /* ittnotify */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF541A136EF9464C987A7218 = {
+			isa = PBXGroup;
+			children = (
+				50EBD7028BEA4791869EAC3A /* 3rdparty */,
+				73389777EC3E4F5A8D7C6EA6 /* ALL_BUILD */,
+				A36713FFD7BD48C68ED4E8A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D44352BF7DF24A77818FDBED /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				281B2F7ADFD84BB5B9BBA911 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/ittnotify.h */,
+				0EEA274DC85F47F59F8A9619 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/jitprofiling.h */,
+				34F39019427249AF8E2715CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/libittnotify.h */,
+				B55874780B614AFA81E36BA7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include/llvm_jit_event_listener.hpp */,
+				F43130B95EFC45C18DBAC8F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/disable_warnings.h */,
+				5323BCBDF4C14B66B88D4AD6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_config.h */,
+				9DEBDDF386C24406BF4165D4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h */,
+				61B97D5A2C0242058CCF2BBF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_types.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EFA5BC5729B746178802AFA0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B64C0445BF463E8649B707 /* ittnotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6312E15BCE4C568B854982 /* Build configuration list for PBXNativeTarget "ittnotify" */;
+			buildPhases = (
+				69C7CEBD18A14DC6B07D7EF5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B510E42FAE46412192017F5A /* PBXTargetDependency */,
+			);
+			name = ittnotify;
+			productName = ittnotify;
+			productReference = 5124158EA00F410085417B9F /* ittnotify */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9C606C91E14F81AB697F1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 9E8197B08B874F7BBD66CA4C /* Build configuration list for PBXProject "ittnotify" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B5D034E3D5B54E72AF038B9D /* Debug */,
+				E6DD7728FF7249899CED04C7 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = BF541A136EF9464C987A7218;
+			projectDirPath = ../../../3rdparty/ittnotify;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				C1B64C0445BF463E8649B707 /* ittnotify */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11EF01D868CE4303BD5BB43C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		27BEF0DC82D244ADA6114D9E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4A65C32D66594DE997FB6D00 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		75F48077349A48DCB6A8B310 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		991C524F3A5942F79BC2C6CC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B098DDB48F694153B05F368B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D146B6B0239448B7BE45E4B1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E0A95FDB1A13401A82ED0ACF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E0E228649E5E408EB22ED067 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FDCAA5788CCF44089FF83030 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C7CEBD18A14DC6B07D7EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C7A591A91443E186D22185 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c */,
+				FE9C8BDB139A477684401741 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/src/ittnotify/jitprofiling.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95F220C42E074936AD4FE1C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B64C0445BF463E8649B707 /* ittnotify */;
+			targetProxy = 083A8E3A9AB2481F831E52F5 /* PBXContainerItemProxy */;
+		};
+		98EB76E56E4841D7A1C888B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 807A38DF56F54E7FB6D4D859 /* PBXContainerItemProxy */;
+		};
+		B510E42FAE46412192017F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 0036ABC466F641A4A1E8690F /* PBXContainerItemProxy */;
+		};
+		E51F59A5C7234055AC09F88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = D81F6FDC399B41888E6B45E9 /* PBXContainerItemProxy */;
+		};
+		E9CFCF61859E4D948D30E1E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 5E4E04CABA034ECEBDB9204D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		237F118C6BB945D09CF9AE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		28295AB1F94B4691809F41B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify/build";
+			};
+			name = Debug;
+		};
+		32FC2ED9FC084699B8F53358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-fallthrough -Wno-undef -Wno-sign-compare     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ittnotify;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		43F316F681824FD7BB4BAC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6E948013E3BE461DAF6644D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6FF5E9DF097E47CD910CDC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		70D3119208C14BCB99E3239C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7AB84D7B81D64A16B6CC9CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/ittnotify/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-fallthrough -Wno-undef -Wno-sign-compare         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ittnotify;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8E92C8BD13A84B38AA8D70A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A43051959A1D49BF9F2E96F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B26D4F3A73BF47F69C8919CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BFDC3AD86FE24C79BDB216CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DFC26D1F7AA642B38388BBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E2385E1A695F4B9F960AE218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ittnotify/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		447BC92052384C379E3A56D9 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				237F118C6BB945D09CF9AE6A /* Debug */,
+				70D3119208C14BCB99E3239C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78A6C5E46E514C1AB8F3314C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E92C8BD13A84B38AA8D70A9 /* Debug */,
+				43F316F681824FD7BB4BAC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E8197B08B874F7BBD66CA4C /* Build configuration list for PBXProject "ittnotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28295AB1F94B4691809F41B2 /* Debug */,
+				E2385E1A695F4B9F960AE218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0E9A5964F294D409C413B17 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E948013E3BE461DAF6644D5 /* Debug */,
+				A43051959A1D49BF9F2E96F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE6312E15BCE4C568B854982 /* Build configuration list for PBXNativeTarget "ittnotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB84D7B81D64A16B6CC9CC7 /* Debug */,
+				32FC2ED9FC084699B8F53358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2C73936F0244DC9A3E2BAB9 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDC3AD86FE24C79BDB216CD /* Debug */,
+				6FF5E9DF097E47CD910CDC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6D869FC155140BEA932BD0C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26D4F3A73BF47F69C8919CD /* Debug */,
+				DFC26D1F7AA642B38388BBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B9C606C91E14F81AB697F1C /* Project object */;
+}

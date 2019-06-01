@@ -1,0 +1,1425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0B52C63F8ECC4CAFAFA800AC /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				5E78CED13BC7427D9335A9CC /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3B8E1BBE9B6D410A83D81C07 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0F2D1B35B62F4F9E8327527D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EB71822262C04590BE02AF72 /* CMake Rules */,
+			);
+			dependencies = (
+				834FD3165F7141838B7ED2C8 /* PBXTargetDependency */,
+				59A8FE61E1244D348F999EB3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE7B6AD7E9514DB5B2BCB59B /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				B43A3411F2674A6EB34D6A56 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8FEDEA31EE144A3DB58D5069 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EEB8A8ECA1124DF187913D09 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				918BB5C19C5F47BEA336AD81 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E200092C7E244DC2A1BE1DAA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				664B68BA122040238D77D0B6 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		023286BDBE214C6DAC275F79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.cpp */ = {isa = PBXBuildFile; fileRef = C8D0EF47BCD4416E9C3460A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.cpp */; };
+		0278BD31F0134105A69F4BEF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 6CEB14742E234B9E91C87505 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */; };
+		030672DB66F5407A962C9EF1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */ = {isa = PBXBuildFile; fileRef = 7340991EEA5940529CE324ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */; };
+		05502E927C614FCDB9DB3E5F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXBuildFile; fileRef = D68E8A3BCDCD4054B55962E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */; };
+		063052AC72924DB9B569053E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.cpp */ = {isa = PBXBuildFile; fileRef = 3F32A98AF8354DFA9C858E03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.cpp */; };
+		086A98AC60BD4FED90042C2C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */ = {isa = PBXBuildFile; fileRef = 792303FA0FD14459B15EFA59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */; };
+		09B204C2FE704855B6D7EB72 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 1682DA9A1293484C847E332A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */; };
+		0C352FBD496344ACB1BA9269 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */ = {isa = PBXBuildFile; fileRef = 77417B972F0642778F483732 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */; };
+		0D481AC8133E47EC9F0459BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */ = {isa = PBXBuildFile; fileRef = EBFE4AF45FA243EEA8510BA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */; };
+		0EE87973B4BA46D99E8BEA7D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfArray.h */ = {isa = PBXBuildFile; fileRef = 40059F4BD55F4F3EAB8BB26F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfArray.h */; };
+		0FA297EFC6C349619A658EDC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.cpp */ = {isa = PBXBuildFile; fileRef = 646B05AAE3564704A4793454 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.cpp */; };
+		10B6B2876B1E4D7DA3CFAB54 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.h */ = {isa = PBXBuildFile; fileRef = 98DE91E1D2E4436BB0FEF3A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.h */; };
+		10F4AF65F26A41749A39D25E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */ = {isa = PBXBuildFile; fileRef = D7F58A62171D48678203C8FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */; };
+		11C207E133854F7CB6B6BB49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXBuildFile; fileRef = E2B83EC3FE81485EA25575E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */; };
+		131CD9F686104852868BA436 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.h */ = {isa = PBXBuildFile; fileRef = 3D6DA93F16A745938612C562 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.h */; };
+		1482F872964C4EC5BC05827E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColor.h */ = {isa = PBXBuildFile; fileRef = 46A61E8CE603488BB67F9C34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColor.h */; };
+		14C747420A6846C6961C94AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathInterval.h */ = {isa = PBXBuildFile; fileRef = 5FA3557C1EE0413E90A531CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathInterval.h */; };
+		15C29F5E17E0401486062D19 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */ = {isa = PBXBuildFile; fileRef = B260384698144D18A30DFDA7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */; };
+		184ACAFFD5FD4D1395EA5370 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 3DEB2BE1E80244BC85D552E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */; };
+		19B8F36D52834BD2B9C90F45 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */ = {isa = PBXBuildFile; fileRef = 3F31C1CD7E6F4FE884F2EFB1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */; };
+		1AF698290C96489BB5584E9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.h */ = {isa = PBXBuildFile; fileRef = 908570991EF646DFA53CA01C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.h */; };
+		1B95BADEB2B5406596E7F1BA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.cpp */ = {isa = PBXBuildFile; fileRef = C1B76875F1E1441BA20D6E5F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.cpp */; };
+		1C7C94FE0550487D88695AE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfName.h */ = {isa = PBXBuildFile; fileRef = 5863EBAD8A7649FD8E299399 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfName.h */; };
+		1CF3F1E4B967465995DAEEE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXBuildFile; fileRef = 60CA96D5BD704C0486C7AB77 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */; };
+		21CBFD6C771246BF90DE65F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */ = {isa = PBXBuildFile; fileRef = C55E0DC6756444B5A3EEE9F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */; };
+		231FC36A96A340CB99927336 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */ = {isa = PBXBuildFile; fileRef = 392DE621180B45759AA2F38C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */; };
+		27D7E63CF71441C68F462C4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */ = {isa = PBXBuildFile; fileRef = 10651169DE6C423BB8A3F70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */; };
+		2A182951066A45C99F29EB4D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.h */ = {isa = PBXBuildFile; fileRef = CCA32F360D0C4AED95A2CF17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.h */; };
+		2AFB3FF92A694EAD921204BB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */ = {isa = PBXBuildFile; fileRef = 80967D71ADF74A7E898A9365 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */; };
+		2E0A907A83B648AABA7FD83E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */ = {isa = PBXBuildFile; fileRef = 48F19593D392490DA6E9D846 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */; };
+		2E8A46A21C244F178F58CC50 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */ = {isa = PBXBuildFile; fileRef = D60E3E95D5194DC79EE66B7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */; };
+		2E9AB29A01144C46852B6242 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */ = {isa = PBXBuildFile; fileRef = 83DDDC73E13E47A09EFE105D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */; };
+		2EC6AEFF54834E8EB6D4B8CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXBuildFile; fileRef = B272A61448B74C57B244710F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */; };
+		2ED16C3EE79E49B392AB232F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */ = {isa = PBXBuildFile; fileRef = 9EC7F6E4AFC54A2C87CF722C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */; };
+		2FB4DF6C99CC4BBD9AFB63A7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.h */ = {isa = PBXBuildFile; fileRef = EF48960B349D4441B9C94055 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.h */; };
+		2FDE61B0F2984BF597D1C22A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.h */ = {isa = PBXBuildFile; fileRef = B4E6E53227DA4A028287CAEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.h */; };
+		3034076DEF1B41E38A667FE7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */ = {isa = PBXBuildFile; fileRef = A037895B06BC43EAB2CC31EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */; };
+		332260D103A644EFA1BED9F9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/toFloat.h */ = {isa = PBXBuildFile; fileRef = 7605A531C4194C7E8F9E7214 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/toFloat.h */; };
+		335571FD13EC4263AE8F3CC8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.h */ = {isa = PBXBuildFile; fileRef = ADA6F721C39C43C9BF24F43A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.h */; };
+		33F8015170D0419CB39D381B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.h */ = {isa = PBXBuildFile; fileRef = FA691E2A2C1841889714FAC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.h */; };
+		36890BCE7FEC438098201D52 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */ = {isa = PBXBuildFile; fileRef = 8F0D4C55308542F48FA574E5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */; };
+		3700E579D257448E8AF4B0BB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathQuat.h */ = {isa = PBXBuildFile; fileRef = 28105B4878B247D58B712EBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathQuat.h */; };
+		37D49D27A8924750B93CCF15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */ = {isa = PBXBuildFile; fileRef = A0253F33C34A45708F3F9445 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */; };
+		3A4D651771F04944A77ACE8A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */ = {isa = PBXBuildFile; fileRef = 8908B293D033441A861A5E34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */; };
+		3C1096CDDCB04C5AB0C666FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */ = {isa = PBXBuildFile; fileRef = F01A883C65C24873AA6F8F12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */; };
+		3DC3E26BECFC4022B74C1A7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = B7E9431B310949A1B8073CA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */; };
+		3E27F8C0F08C419293BE40FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.cpp */ = {isa = PBXBuildFile; fileRef = 86C721C5EB9246F3956E2F78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.cpp */; };
+		42FECBA214AE4C42B7C5F85E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.cpp */ = {isa = PBXBuildFile; fileRef = C570436A41704243B21468AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.cpp */; };
+		434DDF3260654721ACF41785 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXBuildFile; fileRef = C5B2376EC2F848C9AC4EB561 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */; };
+		44470931E213400AA67291AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */ = {isa = PBXBuildFile; fileRef = BE802DF9EF594E26913FDF21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */; };
+		465AE578FD18458A93322A8C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */ = {isa = PBXBuildFile; fileRef = 4804E1D671C54A859D8DA0F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */; };
+		46C7DA952ECB45AC845ED915 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAutoArray.h */ = {isa = PBXBuildFile; fileRef = 2EE80C19892E46C2BBD3F146 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAutoArray.h */; };
+		4726F06F38DE4B38AE849F71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathBox.h */ = {isa = PBXBuildFile; fileRef = 84EA64225F64440B86B7BAFB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathBox.h */; };
+		49B543CE5FA34A319CD9534F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */ = {isa = PBXBuildFile; fileRef = EAB10C7A5657498F86613386 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */; };
+		4C2578F4AA3D47F9A6066B49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.cpp */ = {isa = PBXBuildFile; fileRef = 29251C694E7643FAAA0592FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.cpp */; };
+		4F18F63B692F43FDAA0667DC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathGLU.h */ = {isa = PBXBuildFile; fileRef = 41BBA9C932034ABCBB92F90F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathGLU.h */; };
+		50294934746D4889BD84643E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathPlane.h */ = {isa = PBXBuildFile; fileRef = AE8BEFF5120E4CB9A3CE0E62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathPlane.h */; };
+		5120F60752EA4E8E926A446B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */ = {isa = PBXBuildFile; fileRef = A54A852CA4E74FD8B2D34A4C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */; };
+		54510C5F5487400F83F2F11B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompression.h */ = {isa = PBXBuildFile; fileRef = 235572201D5F4942BE7F9CDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompression.h */; };
+		58039A23EBF1412CA02F715A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.cpp */ = {isa = PBXBuildFile; fileRef = AC4006316F804385BE14BB14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.cpp */; };
+		5A8710C487B84FB68C102A63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrustum.h */ = {isa = PBXBuildFile; fileRef = 3F687FEFF2A1429A83043F2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrustum.h */; };
+		5BBC8AA5C2BB49EE8A7DCDE4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 5B3FC1C08C3F4C8CA215BBAD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */; };
+		5CF8B9222D4C45308A8FBC3D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.h */ = {isa = PBXBuildFile; fileRef = 189DFDFCFE2248D39B158AA8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.h */; };
+		5E361867BAD044CF92CAF06D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.cpp */ = {isa = PBXBuildFile; fileRef = 503DAECE0585411691E862A9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.cpp */; };
+		5F6680C51C2246A986757AEB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgba.h */ = {isa = PBXBuildFile; fileRef = A1405AF39E24496B9ACF3DCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgba.h */; };
+		5FC5131CBF87486885420BC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 9EC2C4D56454497BB26E69BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */; };
+		5FEFD0BD25794F03B00FF9E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 129E33074CDF4EB1A59B45B7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */; };
+		60E0083218AC474E99EBB536 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.cpp */ = {isa = PBXBuildFile; fileRef = E9263713389449B0B9E82860 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.cpp */; };
+		60FAA8007DEC41D88E260933 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.h */ = {isa = PBXBuildFile; fileRef = 1C0EBA8E6B70486E9A5DFB85 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.h */; };
+		6459696DAF924978B3FFE234 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.h */ = {isa = PBXBuildFile; fileRef = 66119B4646F1493A808221E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.h */; };
+		67926A8B1C9A4DF2A0B6CFA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInt64.h */ = {isa = PBXBuildFile; fileRef = 073302531F9643A8AFFE8500 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInt64.h */; };
+		67F5E3990CBA4141A27576F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 30AA023776C44A3D879AEE7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */; };
+		69795F783570408DB163FAB0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.cpp */ = {isa = PBXBuildFile; fileRef = 9135F5C790C14B95A001A218 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.cpp */; };
+		6B2311A5AA9C444897D63E63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.h */ = {isa = PBXBuildFile; fileRef = E45B8BB0EF56479E90CEE5CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.h */; };
+		6C117A9186E8481C9001B077 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.cpp */ = {isa = PBXBuildFile; fileRef = A2F1B8894E0646399A3AF618 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.cpp */; };
+		6E74E93AC4574B0D8AC9CD6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.h */ = {isa = PBXBuildFile; fileRef = 229671DA638E462093A7E5FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.h */; };
+		705910434F5C47C887FC746D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.h */ = {isa = PBXBuildFile; fileRef = 0B2E8046732342D0AFFB17FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.h */; };
+		72C168554B214AB6A43509F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.cpp */ = {isa = PBXBuildFile; fileRef = A7E6D5220A544740A4AAF789 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.cpp */; };
+		7325EE0A1A3A4E08908E7FB2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.cpp */ = {isa = PBXBuildFile; fileRef = A7ECC9607D2E40FAB4264872 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.cpp */; };
+		7407EF6D049F40E2BAD7626B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/Iex.h */ = {isa = PBXBuildFile; fileRef = A56826D31FDF4B1A8683D690 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/Iex.h */; };
+		760F64E8E0CB4BE3ACE4A1B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXBuildFile; fileRef = 6C9923D457494C38AF081171 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */; };
+		76B4F85BAAEB47309C71C396 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */ = {isa = PBXBuildFile; fileRef = 0CDC6AD1D8C24010A5FBF471 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */; };
+		793B626BA70947C596B19511 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrder.h */ = {isa = PBXBuildFile; fileRef = 0F51A1F6BDCB4D168D5FA033 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrder.h */; };
+		79983C523E8C4635ADF52557 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXBuildFile; fileRef = 63DFB1FED4E746CCA8221C97 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */; };
+		7B6765EDBD59450FB1597FAC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathExc.h */ = {isa = PBXBuildFile; fileRef = 61475592313644C382E49071 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathExc.h */; };
+		7BFCEE316AE74563A4618A1D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrame.h */ = {isa = PBXBuildFile; fileRef = 5C764CF95FE04DE296B6FD96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrame.h */; };
+		7D03536C7E634E64BC57C46F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.h */ = {isa = PBXBuildFile; fileRef = E2ABCE76A87F459BADAB3D45 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.h */; };
+		7D454513F4844A0783C83D11 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */ = {isa = PBXBuildFile; fileRef = 645DE35A80F442E0806B0552 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */; };
+		7DB2CBA29EC846ABAD71CDDB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 6FF0C17FA2124DFCB4BA290A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */; };
+		7E499DBFD37E4E8DB4581C03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.h */ = {isa = PBXBuildFile; fileRef = DD88D09ABD5C4E2C852B3F64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.h */; };
+		7E845167893243C4B22DB61E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */ = {isa = PBXBuildFile; fileRef = D9629D6B77D34719A37B89B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */; };
+		7ECD7AFF4FEC4B3DBD6A01A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.h */ = {isa = PBXBuildFile; fileRef = F59954557A364E9EA27C1DD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.h */; };
+		7F0C38C940DA4BFCB5B0DDF5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.cpp */ = {isa = PBXBuildFile; fileRef = 43EF960B7459400094211C77 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.cpp */; };
+		8090721F4255482886B570EA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLineAlgo.h */ = {isa = PBXBuildFile; fileRef = 27DA2B17ADDF48DB9602C12B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLineAlgo.h */; };
+		80ACF7BF5EAF47AF8C6163B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */ = {isa = PBXBuildFile; fileRef = 778E4B29CF6F4E2C83AA83B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */; };
+		81205E4DA5C44740B045203A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.h */ = {isa = PBXBuildFile; fileRef = 4573169EC81E4D29BD15529B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.h */; };
+		82F5D3CFEA494410B0061459 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */ = {isa = PBXBuildFile; fileRef = 6CD98E9DE2F04D4893F2E61C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */; };
+		840BBD7CA99946219B4474CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */ = {isa = PBXBuildFile; fileRef = DD264A12BC084E8CB8E0B109 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */; };
+		858D6458F27945209FC8F1D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.h */ = {isa = PBXBuildFile; fileRef = 3FF51EEC7605493E9721BE27 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.h */; };
+		85E96C4ABA094379AC58C3E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */ = {isa = PBXBuildFile; fileRef = 4EA7A24746574F238A83C6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */; };
+		86A441D4EC1B4A018DB9313D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathBoxAlgo.h */ = {isa = PBXBuildFile; fileRef = 985EBE8846AB40E893986123 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathBoxAlgo.h */; };
+		87EFB61CDB5843A0BD87D35E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.h */ = {isa = PBXBuildFile; fileRef = 09E405FAA882488EB324CDCA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.h */; };
+		884043D6EE1249488E32B5F0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.h */ = {isa = PBXBuildFile; fileRef = 28FFD970F58848A9B69EF1B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.h */; };
+		89537B2B60324B69AAEC16BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 753BFC9CBCBF4444AA9543A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */; };
+		89884207E66E418199EBB6EA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */ = {isa = PBXBuildFile; fileRef = 40D9D4F3ECF54DC495B84110 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */; };
+		89C077B6691446BC8E8013AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.h */ = {isa = PBXBuildFile; fileRef = EFEBB017731A43F69714209B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.h */; };
+		8AC10E41D8314985863F5B87 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/halfFunction.h */ = {isa = PBXBuildFile; fileRef = EA922BCCA78D4F08825BA898 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/halfFunction.h */; };
+		8B068072270B4BA3902CB3D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.h */ = {isa = PBXBuildFile; fileRef = 41C03D1536AB4C96AB210F4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.h */; };
+		8C43ADAEC91F4925BE2B6349 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathGL.h */ = {isa = PBXBuildFile; fileRef = EF8700675FB84530973266C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathGL.h */; };
+		8D4BE46290044B7F931D0DF1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */ = {isa = PBXBuildFile; fileRef = D1DA03412743499A815CC84D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */; };
+		8E8E438BA95D40DFA313FB3B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathHalfLimits.h */ = {isa = PBXBuildFile; fileRef = FF13D07784DB4C678199F88F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathHalfLimits.h */; };
+		8F4D5CC87714497F9A6B8CAE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */ = {isa = PBXBuildFile; fileRef = 71BA0C6BA6E4432787E8E0EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */; };
+		8F95240EA3C049E78BCE683F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathEuler.h */ = {isa = PBXBuildFile; fileRef = 9C973060AFF34AE3B4DC1D74 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathEuler.h */; };
+		900841AA97164BF7ACEFD811 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.h */ = {isa = PBXBuildFile; fileRef = 8F6723BD503F4FDA926FC29A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.h */; };
+		90150788F8C8412EA2803E78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPixelType.h */ = {isa = PBXBuildFile; fileRef = 21D9F64A45AC4838BAC87603 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPixelType.h */; };
+		91AF1D3258454D7F9CBDBBDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */ = {isa = PBXBuildFile; fileRef = ECA2A52040DF4901A6550F82 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */; };
+		92EFF45DB25D46248E5323F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */ = {isa = PBXBuildFile; fileRef = 63A924534E5347D7B4B1E795 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */; };
+		92F6CC2DED06414C92996E6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.h */ = {isa = PBXBuildFile; fileRef = A47E0048970A423FA35352D1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.h */; };
+		93C082CD8AF544C78A5F7A50 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.h */ = {isa = PBXBuildFile; fileRef = 8503E75D613847F2ACC753F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.h */; };
+		94B0CCE889B84E3B92C843FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/IlmBaseConfig.h */ = {isa = PBXBuildFile; fileRef = 015453331CF14695BA55C034 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/IlmBaseConfig.h */; };
+		9505121D9D9A4054AA2C4E71 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrix.h */ = {isa = PBXBuildFile; fileRef = AC7ACD97335E46BD80E75A06 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrix.h */; };
+		9BD17D14609D476D949037FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXBuildFile; fileRef = 5960BF43EF83481BB17F669A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */; };
+		9E3A5D3EB0234E8C893C451F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathPlatform.h */ = {isa = PBXBuildFile; fileRef = 2580AB6900B44372891DEC9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathPlatform.h */; };
+		9E92D64F524745DCAF29F5DF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.h */ = {isa = PBXBuildFile; fileRef = 918ED094E6644190B36C4436 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.h */; };
+		A02E99BC83624962A50D3288 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.h */ = {isa = PBXBuildFile; fileRef = CF870E7E5D6746518D892800 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.h */; };
+		A190C8F0309C4BF39FEBBF2E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = BE3B92C7FB90419DBE9900F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */; };
+		A2E0A179A6E1440EA254BDB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 03EC11227FD745758F991E59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */; };
+		A52587D08B0445F5BCF3BE3F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.cpp */ = {isa = PBXBuildFile; fileRef = 8F3387DFFD144EE29019A15D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.cpp */; };
+		A5E4A68A1A0B42B8B71500AD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/OpenEXRConfig.h */ = {isa = PBXBuildFile; fileRef = 0486B49B82F1438CA41EBF62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/OpenEXRConfig.h */; };
+		A7322E536145428BBF4009A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */ = {isa = PBXBuildFile; fileRef = 49E81E8D115D43DBB53035C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */; };
+		A757AC24F36D42DBBE27E1FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathShear.h */ = {isa = PBXBuildFile; fileRef = 6E3D8DFED478404C9CDFE5CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathShear.h */; };
+		A75AC367AB7A4C74BD12A7E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = 3F0684FC39CA41FA955C6DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */; };
+		A77F15AB42824AB88B585C8C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.cpp */ = {isa = PBXBuildFile; fileRef = 68F4C69AB92E4860AA05DBDF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.cpp */; };
+		A8879291BCE74BC99539B70A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathInt64.h */ = {isa = PBXBuildFile; fileRef = 25F6877F17034485B51F89C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathInt64.h */; };
+		AD8F88D14F37490999667ABE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */ = {isa = PBXBuildFile; fileRef = 49BEE9C23A7540F3B7187BF2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */; };
+		ADCF77B8C2694B85ABD1106F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.h */ = {isa = PBXBuildFile; fileRef = 567ED35FB0FA47608B714621 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.h */; };
+		ADF61393E3FF4A7580B9C892 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLine.h */ = {isa = PBXBuildFile; fileRef = 6C2816DF8EDB4F3E9EBB557F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLine.h */; };
+		B0A310F66D534E629D48483A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.cpp */ = {isa = PBXBuildFile; fileRef = 71B8C5BA51E94DDC80838811 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.cpp */; };
+		B31FC1DF613146B78EB1369F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescription.h */ = {isa = PBXBuildFile; fileRef = 0F68B7B40D25423090AF84FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescription.h */; };
+		B32199F5E7E3403698636FFA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRoots.h */ = {isa = PBXBuildFile; fileRef = A99116080D9248DE8AD29AED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRoots.h */; };
+		B7A858865DC74E579920AEE6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.h */ = {isa = PBXBuildFile; fileRef = D8BF45947AD2417492EA25B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.h */; };
+		B84D6F2E07AF40E885957FC8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfXdr.h */ = {isa = PBXBuildFile; fileRef = 0B613308073243D28A27B32A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfXdr.h */; };
+		B85A88F9573B4FD3B48E3485 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */ = {isa = PBXBuildFile; fileRef = C8D19048D344448096D7412F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */; };
+		BA31F2E7FFC5422CB076ED67 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */ = {isa = PBXBuildFile; fileRef = C5EF2216B7C34D2D85CF4618 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */; };
+		BB925471A2374FBC9B242D75 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */ = {isa = PBXBuildFile; fileRef = BEE55D5DC4614A4A971D4054 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */; };
+		BCB87C39439144C3B49C095D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexMathExc.h */ = {isa = PBXBuildFile; fileRef = DCD0139B67354F4481DF03F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexMathExc.h */; };
+		BCDBC02286FB4326ABF75D20 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.cpp */ = {isa = PBXBuildFile; fileRef = 39C2241E316B45AEA49E0086 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.cpp */; };
+		BDAC4412A97642B8A3935A2B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */ = {isa = PBXBuildFile; fileRef = D26935F2EAB74FCDA5740CD5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */; };
+		BE281E9C1FAB467F812A22B5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrustumTest.h */ = {isa = PBXBuildFile; fileRef = 5F96A047E2A64E69894FFDB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrustumTest.h */; };
+		BF15FEA35FFC4637814F1D74 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */ = {isa = PBXBuildFile; fileRef = 14B3B01D8DB64F80A2184757 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */; };
+		BFCDC3A9BBC04594B7D5A165 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */ = {isa = PBXBuildFile; fileRef = 1E60AD3A639A413DA1920C2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */; };
+		BFF4F8C1B3B94AE1A32FE20C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.cpp */ = {isa = PBXBuildFile; fileRef = B5403A5E14F7486BB4AFEE27 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.cpp */; };
+		C16190C6CA0D4DD6B0BA1093 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */ = {isa = PBXBuildFile; fileRef = D67C288292A74C75A81511E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */; };
+		C17B29A4EFD34FFFA0F8664B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMath.h */ = {isa = PBXBuildFile; fileRef = 63983CBCB75E4D88A62FA7FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMath.h */; };
+		C20BF37F07C84099B2704537 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.h */ = {isa = PBXBuildFile; fileRef = F67CCD4BAF1440E288736D8A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.h */; };
+		C224C495B3234555959FBF8F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 58EA8245999D49D3AB8B32AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */; };
+		C57D3385BB28465BA60FF602 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.h */ = {isa = PBXBuildFile; fileRef = 6A78137F296649D4B9EC8BA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.h */; };
+		C66C2AA686504CFEA04F76CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 4DA741FE045B418ABE289EC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */; };
+		CB1B5D0BBEE04A1290AC2EA8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.cpp */ = {isa = PBXBuildFile; fileRef = 897463ED76EB43DD9C6D9534 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.cpp */; };
+		CC4069A019A34D9DB40B6973 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */ = {isa = PBXBuildFile; fileRef = B3433EE79EF04DC7B12F7D6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */; };
+		CCED82F4C98C4B78B5898E29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.h */ = {isa = PBXBuildFile; fileRef = D610AA64C0B34BF18C1B4553 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.h */; };
+		D048DACD8B524EE18C998526 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.h */ = {isa = PBXBuildFile; fileRef = 52443966B66E4D86A95A6F21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.h */; };
+		D0EB5C84454343418306FEDC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.h */ = {isa = PBXBuildFile; fileRef = 564803717140494783962CC6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.h */; };
+		D2FF3EF433E340E89B93A720 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */ = {isa = PBXBuildFile; fileRef = 05443AD7459146D39B750049 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */; };
+		D315AF7852724C5AB43A41B5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.h */ = {isa = PBXBuildFile; fileRef = 3EB19FF44331470BB9237661 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.h */; };
+		D36888DD7E7440D69B5E99B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.cpp */ = {isa = PBXBuildFile; fileRef = E51141C962AD4D9CB44D5AF3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.cpp */; };
+		D52D5332AB0B4E58A32F6A78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.cpp */ = {isa = PBXBuildFile; fileRef = 5BA4060101CA4DC2A4E7F0F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.cpp */; };
+		D616D56093104C7082499D62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/halfLimits.h */ = {isa = PBXBuildFile; fileRef = 15B478A5A0F647B78489A903 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/halfLimits.h */; };
+		DB6E2C07A808466FB8EE5AC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/eLut.h */ = {isa = PBXBuildFile; fileRef = 33ACE56FF64642239CF148C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/eLut.h */; };
+		DCD039195B684962BCF0AB7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.h */ = {isa = PBXBuildFile; fileRef = 0E5E3EF0AD874B43B168395F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.h */; };
+		DD422908149E4775A355283C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */ = {isa = PBXBuildFile; fileRef = 63DB3A70586B4935A5279B80 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */; };
+		DD4F838AFBB34D61B9D971F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.h */ = {isa = PBXBuildFile; fileRef = 2E8F25EC2792471E94AE39F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.h */; };
+		DEE4BC677B7943959AE2CAB6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexErrnoExc.h */ = {isa = PBXBuildFile; fileRef = FC6EF6E1E271411C9DC71478 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexErrnoExc.h */; };
+		DF3D015F9B3C4495BEBAED57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 3FBA57ED35FF40CFB0ED1269 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */; };
+		DFD6ABD3CDD44A01A61EAE3F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */ = {isa = PBXBuildFile; fileRef = 09B6FCA44E1D468FA504B241 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */; };
+		E0287C99851E42778340FEF9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.h */ = {isa = PBXBuildFile; fileRef = D64A94F8E2E541F696A47B67 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.h */; };
+		E2273B6AE8CD41508384D731 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.h */ = {isa = PBXBuildFile; fileRef = 1A3F1A02B6BF411D8E8592AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.h */; };
+		E3CFDF4B29104192988E802C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */ = {isa = PBXBuildFile; fileRef = 0C1FBABABAE141EB8F17A7E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */; };
+		E5F8E74AE45D49F4BF73E1D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */ = {isa = PBXBuildFile; fileRef = 8750CF61E0044E058B0CD412 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */; };
+		E77A22BB4A6A44F08A7E30FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexMacros.h */ = {isa = PBXBuildFile; fileRef = F296F5F281764983BC5C5EC5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexMacros.h */; };
+		E8AA663EFD954A8AAD9A0FB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */ = {isa = PBXBuildFile; fileRef = 3AFED51EF299441781A7F32B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */; };
+		E9B89BBE4FC041ED9C589B58 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.cpp */ = {isa = PBXBuildFile; fileRef = 06CDC7BB392C49B4A63A5522 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.cpp */; };
+		EB287F91B0AC4099A70D0106 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.h */ = {isa = PBXBuildFile; fileRef = 175D7A24E04C47619EC3B027 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.h */; };
+		EF5141031105416CB92865EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.h */ = {isa = PBXBuildFile; fileRef = 3E98F612187046B19C9B4D68 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.h */; };
+		F0DEF8EEFE57421E9BB06B1F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.h */ = {isa = PBXBuildFile; fileRef = 99629AC9F5AF410784FB4B85 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.h */; };
+		F26A362517594DC1AB0620ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVecAlgo.h */ = {isa = PBXBuildFile; fileRef = 938CC511FB064A6D9BB1624C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVecAlgo.h */; };
+		F3B461B893AE4FA1A46E7964 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9F6348D70C5F4C49A88AE2CB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/CMakeLists.txt */; };
+		F565580386F846E59B25C142 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLimits.h */ = {isa = PBXBuildFile; fileRef = CA2594345C6440E39289B33A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLimits.h */; };
+		F779453F2286456FB1D4B7B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */ = {isa = PBXBuildFile; fileRef = 999F334EA39649FF88A1A296 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */; };
+		FA1AA9DA3CC3491B9C566398 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.h */ = {isa = PBXBuildFile; fileRef = C500CFD0198549A5AEAE50CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.h */; };
+		FA446B40A409437E89830EA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 69A686B3497A4EE1BE79432E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */; };
+		FA4F9BE76D284F0ABB808928 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathSphere.h */ = {isa = PBXBuildFile; fileRef = C37D72C1E10A458C9D81D3CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathSphere.h */; };
+		FD8B013C675E4306B30D4058 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/b44ExpLogTable.h */ = {isa = PBXBuildFile; fileRef = 12D3D0A02D88488CBFC3F9D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/b44ExpLogTable.h */; };
+		FEDA107921DA44DC81187D9A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.h */ = {isa = PBXBuildFile; fileRef = 2B5E4F8379FB4E23B1C151E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.h */; };
+		FEFD8DC026C640889D89CFD2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */ = {isa = PBXBuildFile; fileRef = 16389C9A108F428196575AB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */; };
+		FF22DF8CC9BD44C3B912FE15 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.h */ = {isa = PBXBuildFile; fileRef = BE81F3A793E44451A87B1C8E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0AF605BCCCCA48E886FC7B6C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9A4870F784BA4572B270941F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		8A1B33C9543E42C58C0A093E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C5D59D8503B44A9AD3A6A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		8DF84EC6E6F6478D81F6157C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C5D59D8503B44A9AD3A6A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		9CFDC73A003C4110A8F3BEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C5D59D8503B44A9AD3A6A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		ABA75CA081D74B77A1C6CEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C5D59D8503B44A9AD3A6A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07A460B9A43A460EBF9E51A9;
+			remoteInfo = IlmImf;
+		};
+		EC9A8B16F1304C5283E8A2CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C5D59D8503B44A9AD3A6A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015453331CF14695BA55C034 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/IlmBaseConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmBaseConfig.h; path = ../../BuildXcode/3rdparty/openexr/IlmBaseConfig.h; sourceTree = SOURCE_ROOT; };
+		03EC11227FD745758F991E59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChromaticitiesAttribute.cpp; path = IlmImf/ImfChromaticitiesAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		0486B49B82F1438CA41EBF62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/OpenEXRConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OpenEXRConfig.h; path = ../../BuildXcode/3rdparty/openexr/OpenEXRConfig.h; sourceTree = SOURCE_ROOT; };
+		05443AD7459146D39B750049 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfScanLineInputFile.cpp; path = IlmImf/ImfScanLineInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		06CDC7BB392C49B4A63A5522 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathFun.cpp; path = Imath/ImathFun.cpp; sourceTree = SOURCE_ROOT; };
+		073302531F9643A8AFFE8500 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInt64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfInt64.h; path = IlmImf/ImfInt64.h; sourceTree = SOURCE_ROOT; };
+		09B6FCA44E1D468FA504B241 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMatrixAttribute.h; path = IlmImf/ImfMatrixAttribute.h; sourceTree = SOURCE_ROOT; };
+		09E405FAA882488EB324CDCA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfThreading.h; path = IlmImf/ImfThreading.h; sourceTree = SOURCE_ROOT; };
+		0B2E8046732342D0AFFB17FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMatrixAlgo.h; path = Imath/ImathMatrixAlgo.h; sourceTree = SOURCE_ROOT; };
+		0B613308073243D28A27B32A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfXdr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfXdr.h; path = IlmImf/ImfXdr.h; sourceTree = SOURCE_ROOT; };
+		0C1FBABABAE141EB8F17A7E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfKeyCodeAttribute.h; path = IlmImf/ImfKeyCodeAttribute.h; sourceTree = SOURCE_ROOT; };
+		0CDC6AD1D8C24010A5FBF471 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfKeyCode.cpp; path = IlmImf/ImfKeyCode.cpp; sourceTree = SOURCE_ROOT; };
+		0E5E3EF0AD874B43B168395F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathColorAlgo.h; path = Imath/ImathColorAlgo.h; sourceTree = SOURCE_ROOT; };
+		0F51A1F6BDCB4D168D5FA033 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLineOrder.h; path = IlmImf/ImfLineOrder.h; sourceTree = SOURCE_ROOT; };
+		0F68B7B40D25423090AF84FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescription.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileDescription.h; path = IlmImf/ImfTileDescription.h; sourceTree = SOURCE_ROOT; };
+		10651169DE6C423BB8A3F70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledOutputFile.h; path = IlmImf/ImfTiledOutputFile.h; sourceTree = SOURCE_ROOT; };
+		129E33074CDF4EB1A59B45B7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfDoubleAttribute.cpp; path = IlmImf/ImfDoubleAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		12D3D0A02D88488CBFC3F9D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/b44ExpLogTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b44ExpLogTable.h; path = IlmImf/b44ExpLogTable.h; sourceTree = SOURCE_ROOT; };
+		14B3B01D8DB64F80A2184757 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPxr24Compressor.h; path = IlmImf/ImfPxr24Compressor.h; sourceTree = SOURCE_ROOT; };
+		15B478A5A0F647B78489A903 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/halfLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfLimits.h; path = Half/halfLimits.h; sourceTree = SOURCE_ROOT; };
+		16389C9A108F428196575AB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfScanLineInputFile.h; path = IlmImf/ImfScanLineInputFile.h; sourceTree = SOURCE_ROOT; };
+		1682DA9A1293484C847E332A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCompressionAttribute.cpp; path = IlmImf/ImfCompressionAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		175D7A24E04C47619EC3B027 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfIntAttribute.h; path = IlmImf/ImfIntAttribute.h; sourceTree = SOURCE_ROOT; };
+		189DFDFCFE2248D39B158AA8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThread.h; path = IlmThread/IlmThread.h; sourceTree = SOURCE_ROOT; };
+		1A3F1A02B6BF411D8E8592AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStdIO.h; path = IlmImf/ImfStdIO.h; sourceTree = SOURCE_ROOT; };
+		1C0EBA8E6B70486E9A5DFB85 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgbaYca.h; path = IlmImf/ImfRgbaYca.h; sourceTree = SOURCE_ROOT; };
+		1E60AD3A639A413DA1920C2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfEnvmapAttribute.h; path = IlmImf/ImfEnvmapAttribute.h; sourceTree = SOURCE_ROOT; };
+		21D9F64A45AC4838BAC87603 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPixelType.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPixelType.h; path = IlmImf/ImfPixelType.h; sourceTree = SOURCE_ROOT; };
+		229671DA638E462093A7E5FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileOffsets.h; path = IlmImf/ImfTileOffsets.h; sourceTree = SOURCE_ROOT; };
+		235572201D5F4942BE7F9CDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompression.h; path = IlmImf/ImfCompression.h; sourceTree = SOURCE_ROOT; };
+		2580AB6900B44372891DEC9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathPlatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathPlatform.h; path = Imath/ImathPlatform.h; sourceTree = SOURCE_ROOT; };
+		25F6877F17034485B51F89C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathInt64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathInt64.h; path = Imath/ImathInt64.h; sourceTree = SOURCE_ROOT; };
+		27DA2B17ADDF48DB9602C12B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLineAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLineAlgo.h; path = Imath/ImathLineAlgo.h; sourceTree = SOURCE_ROOT; };
+		28105B4878B247D58B712EBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathQuat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathQuat.h; path = Imath/ImathQuat.h; sourceTree = SOURCE_ROOT; };
+		28FFD970F58848A9B69EF1B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexBaseExc.h; path = Iex/IexBaseExc.h; sourceTree = SOURCE_ROOT; };
+		29251C694E7643FAAA0592FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfInputFile.cpp; path = IlmImf/ImfInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		2B5E4F8379FB4E23B1C151E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfEnvmap.h; path = IlmImf/ImfEnvmap.h; sourceTree = SOURCE_ROOT; };
+		2E8F25EC2792471E94AE39F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathRandom.h; path = Imath/ImathRandom.h; sourceTree = SOURCE_ROOT; };
+		2EE80C19892E46C2BBD3F146 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAutoArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAutoArray.h; path = IlmImf/ImfAutoArray.h; sourceTree = SOURCE_ROOT; };
+		30AA023776C44A3D879AEE7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTimeCodeAttribute.cpp; path = IlmImf/ImfTimeCodeAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		33ACE56FF64642239CF148C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/eLut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eLut.h; path = Half/eLut.h; sourceTree = SOURCE_ROOT; };
+		392DE621180B45759AA2F38C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPreviewImage.cpp; path = IlmImf/ImfPreviewImage.cpp; sourceTree = SOURCE_ROOT; };
+		39C2241E316B45AEA49E0086 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfHeader.cpp; path = IlmImf/ImfHeader.cpp; sourceTree = SOURCE_ROOT; };
+		3AFED51EF299441781A7F32B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTileOffsets.cpp; path = IlmImf/ImfTileOffsets.cpp; sourceTree = SOURCE_ROOT; };
+		3D6DA93F16A745938612C562 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfOutputFile.h; path = IlmImf/ImfOutputFile.h; sourceTree = SOURCE_ROOT; };
+		3DEB2BE1E80244BC85D552E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfIntAttribute.cpp; path = IlmImf/ImfIntAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		3E98F612187046B19C9B4D68 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfIO.h; path = IlmImf/ImfIO.h; sourceTree = SOURCE_ROOT; };
+		3EB19FF44331470BB9237661 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPizCompressor.h; path = IlmImf/ImfPizCompressor.h; sourceTree = SOURCE_ROOT; };
+		3F0684FC39CA41FA955C6DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCRgbaFile.cpp; path = IlmImf/ImfCRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		3F31C1CD7E6F4FE884F2EFB1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFrameBuffer.cpp; path = IlmImf/ImfFrameBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		3F32A98AF8354DFA9C858E03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThread.cpp; path = IlmThread/IlmThread.cpp; sourceTree = SOURCE_ROOT; };
+		3F687FEFF2A1429A83043F2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrustum.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrustum.h; path = Imath/ImathFrustum.h; sourceTree = SOURCE_ROOT; };
+		3FBA57ED35FF40CFB0ED1269 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTileDescriptionAttribute.cpp; path = IlmImf/ImfTileDescriptionAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		3FF51EEC7605493E9721BE27 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRational.h; path = IlmImf/ImfRational.h; sourceTree = SOURCE_ROOT; };
+		40059F4BD55F4F3EAB8BB26F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfArray.h; path = IlmImf/ImfArray.h; sourceTree = SOURCE_ROOT; };
+		40D9D4F3ECF54DC495B84110 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledInputFile.cpp; path = IlmImf/ImfTiledInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		41BBA9C932034ABCBB92F90F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathGLU.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathGLU.h; path = Imath/ImathGLU.h; sourceTree = SOURCE_ROOT; };
+		41C03D1536AB4C96AB210F4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAttribute.h; path = IlmImf/ImfAttribute.h; sourceTree = SOURCE_ROOT; };
+		43EF960B7459400094211C77 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfConvert.cpp; path = IlmImf/ImfConvert.cpp; sourceTree = SOURCE_ROOT; };
+		4573169EC81E4D29BD15529B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChromaticities.h; path = IlmImf/ImfChromaticities.h; sourceTree = SOURCE_ROOT; };
+		46A61E8CE603488BB67F9C34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathColor.h; path = Imath/ImathColor.h; sourceTree = SOURCE_ROOT; };
+		4804E1D671C54A859D8DA0F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPreviewImageAttribute.h; path = IlmImf/ImfPreviewImageAttribute.h; sourceTree = SOURCE_ROOT; };
+		48F19593D392490DA6E9D846 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFramesPerSecond.h; path = IlmImf/ImfFramesPerSecond.h; sourceTree = SOURCE_ROOT; };
+		49BEE9C23A7540F3B7187BF2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfAcesFile.cpp; path = IlmImf/ImfAcesFile.cpp; sourceTree = SOURCE_ROOT; };
+		49E81E8D115D43DBB53035C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStandardAttributes.cpp; path = IlmImf/ImfStandardAttributes.cpp; sourceTree = SOURCE_ROOT; };
+		4DA741FE045B418ABE289EC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFloatAttribute.cpp; path = IlmImf/ImfFloatAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		4EA7A24746574F238A83C6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChromaticities.cpp; path = IlmImf/ImfChromaticities.cpp; sourceTree = SOURCE_ROOT; };
+		503DAECE0585411691E862A9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathColorAlgo.cpp; path = Imath/ImathColorAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		52443966B66E4D86A95A6F21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAcesFile.h; path = IlmImf/ImfAcesFile.h; sourceTree = SOURCE_ROOT; };
+		52E0FDE6046B4AB79A72C453 /* IlmImf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIlmImf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		564803717140494783962CC6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathVec.h; path = Imath/ImathVec.h; sourceTree = SOURCE_ROOT; };
+		567ED35FB0FA47608B714621 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTestFile.h; path = IlmImf/ImfTestFile.h; sourceTree = SOURCE_ROOT; };
+		5863EBAD8A7649FD8E299399 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfName.h; path = IlmImf/ImfName.h; sourceTree = SOURCE_ROOT; };
+		58EA8245999D49D3AB8B32AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfVecAttribute.cpp; path = IlmImf/ImfVecAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		5960BF43EF83481BB17F669A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutex.cpp; path = IlmThread/IlmThreadMutex.cpp; sourceTree = SOURCE_ROOT; };
+		5B3FC1C08C3F4C8CA215BBAD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRationalAttribute.cpp; path = IlmImf/ImfRationalAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		5BA4060101CA4DC2A4E7F0F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfLut.cpp; path = IlmImf/ImfLut.cpp; sourceTree = SOURCE_ROOT; };
+		5C764CF95FE04DE296B6FD96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrame.h; path = Imath/ImathFrame.h; sourceTree = SOURCE_ROOT; };
+		5F96A047E2A64E69894FFDB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrustumTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrustumTest.h; path = Imath/ImathFrustumTest.h; sourceTree = SOURCE_ROOT; };
+		5FA3557C1EE0413E90A531CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathInterval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathInterval.h; path = Imath/ImathInterval.h; sourceTree = SOURCE_ROOT; };
+		60CA96D5BD704C0486C7AB77 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathMatrixAlgo.cpp; path = Imath/ImathMatrixAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		61475592313644C382E49071 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathExc.h; path = Imath/ImathExc.h; sourceTree = SOURCE_ROOT; };
+		63983CBCB75E4D88A62FA7FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMath.h; path = Imath/ImathMath.h; sourceTree = SOURCE_ROOT; };
+		63A924534E5347D7B4B1E795 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFramesPerSecond.cpp; path = IlmImf/ImfFramesPerSecond.cpp; sourceTree = SOURCE_ROOT; };
+		63DB3A70586B4935A5279B80 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompressionAttribute.h; path = IlmImf/ImfCompressionAttribute.h; sourceTree = SOURCE_ROOT; };
+		63DFB1FED4E746CCA8221C97 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosixCompat.cpp; path = IlmThread/IlmThreadSemaphorePosixCompat.cpp; sourceTree = SOURCE_ROOT; };
+		645DE35A80F442E0806B0552 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChromaticitiesAttribute.h; path = IlmImf/ImfChromaticitiesAttribute.h; sourceTree = SOURCE_ROOT; };
+		646B05AAE3564704A4793454 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathRandom.cpp; path = Imath/ImathRandom.cpp; sourceTree = SOURCE_ROOT; };
+		66119B4646F1493A808221E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFun.h; path = Imath/ImathFun.h; sourceTree = SOURCE_ROOT; };
+		68F4C69AB92E4860AA05DBDF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfHuf.cpp; path = IlmImf/ImfHuf.cpp; sourceTree = SOURCE_ROOT; };
+		69A686B3497A4EE1BE79432E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChannelListAttribute.cpp; path = IlmImf/ImfChannelListAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		6A78137F296649D4B9EC8BA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfVersion.h; path = IlmImf/ImfVersion.h; sourceTree = SOURCE_ROOT; };
+		6C2816DF8EDB4F3E9EBB557F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLine.h; path = Imath/ImathLine.h; sourceTree = SOURCE_ROOT; };
+		6C9923D457494C38AF081171 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutexPosix.cpp; path = IlmThread/IlmThreadMutexPosix.cpp; sourceTree = SOURCE_ROOT; };
+		6CD98E9DE2F04D4893F2E61C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfOpaqueAttribute.h; path = IlmImf/ImfOpaqueAttribute.h; sourceTree = SOURCE_ROOT; };
+		6CEB14742E234B9E91C87505 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPreviewImageAttribute.cpp; path = IlmImf/ImfPreviewImageAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		6E3D8DFED478404C9CDFE5CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathShear.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathShear.h; path = Imath/ImathShear.h; sourceTree = SOURCE_ROOT; };
+		6FF0C17FA2124DFCB4BA290A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMatrixAttribute.cpp; path = IlmImf/ImfMatrixAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		71B8C5BA51E94DDC80838811 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMultiView.cpp; path = IlmImf/ImfMultiView.cpp; sourceTree = SOURCE_ROOT; };
+		71BA0C6BA6E4432787E8E0EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfOutputFile.cpp; path = IlmImf/ImfOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		7340991EEA5940529CE324ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledMisc.cpp; path = IlmImf/ImfTiledMisc.cpp; sourceTree = SOURCE_ROOT; };
+		753BFC9CBCBF4444AA9543A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfBoxAttribute.cpp; path = IlmImf/ImfBoxAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		7605A531C4194C7E8F9E7214 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/toFloat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = toFloat.h; path = Half/toFloat.h; sourceTree = SOURCE_ROOT; };
+		77417B972F0642778F483732 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledInputFile.h; path = IlmImf/ImfTiledInputFile.h; sourceTree = SOURCE_ROOT; };
+		778E4B29CF6F4E2C83AA83B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledRgbaFile.h; path = IlmImf/ImfTiledRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		792303FA0FD14459B15EFA59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPool.cpp; path = IlmThread/IlmThreadPool.cpp; sourceTree = SOURCE_ROOT; };
+		80705B28909B4FEFBB94EBA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		80967D71ADF74A7E898A9365 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadSemaphore.h; path = IlmThread/IlmThreadSemaphore.h; sourceTree = SOURCE_ROOT; };
+		83DDDC73E13E47A09EFE105D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfDoubleAttribute.h; path = IlmImf/ImfDoubleAttribute.h; sourceTree = SOURCE_ROOT; };
+		84EA64225F64440B86B7BAFB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathBox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathBox.h; path = Imath/ImathBox.h; sourceTree = SOURCE_ROOT; };
+		8503E75D613847F2ACC753F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfVecAttribute.h; path = IlmImf/ImfVecAttribute.h; sourceTree = SOURCE_ROOT; };
+		86C721C5EB9246F3956E2F78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStdIO.cpp; path = IlmImf/ImfStdIO.cpp; sourceTree = SOURCE_ROOT; };
+		8750CF61E0044E058B0CD412 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledOutputFile.cpp; path = IlmImf/ImfTiledOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		8908B293D033441A861A5E34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRationalAttribute.h; path = IlmImf/ImfRationalAttribute.h; sourceTree = SOURCE_ROOT; };
+		897463ED76EB43DD9C6D9534 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChannelList.cpp; path = IlmImf/ImfChannelList.cpp; sourceTree = SOURCE_ROOT; };
+		8F0D4C55308542F48FA574E5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCRgbaFile.h; path = IlmImf/ImfCRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		8F3387DFFD144EE29019A15D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTestFile.cpp; path = IlmImf/ImfTestFile.cpp; sourceTree = SOURCE_ROOT; };
+		8F6723BD503F4FDA926FC29A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompressor.h; path = IlmImf/ImfCompressor.h; sourceTree = SOURCE_ROOT; };
+		908570991EF646DFA53CA01C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfWav.h; path = IlmImf/ImfWav.h; sourceTree = SOURCE_ROOT; };
+		9135F5C790C14B95A001A218 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRational.cpp; path = IlmImf/ImfRational.cpp; sourceTree = SOURCE_ROOT; };
+		918ED094E6644190B36C4436 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfZipCompressor.h; path = IlmImf/ImfZipCompressor.h; sourceTree = SOURCE_ROOT; };
+		938CC511FB064A6D9BB1624C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVecAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathVecAlgo.h; path = Imath/ImathVecAlgo.h; sourceTree = SOURCE_ROOT; };
+		985EBE8846AB40E893986123 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathBoxAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathBoxAlgo.h; path = Imath/ImathBoxAlgo.h; sourceTree = SOURCE_ROOT; };
+		98DE91E1D2E4436BB0FEF3A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfB44Compressor.h; path = IlmImf/ImfB44Compressor.h; sourceTree = SOURCE_ROOT; };
+		99629AC9F5AF410784FB4B85 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLut.h; path = IlmImf/ImfLut.h; sourceTree = SOURCE_ROOT; };
+		999F334EA39649FF88A1A296 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTimeCodeAttribute.h; path = IlmImf/ImfTimeCodeAttribute.h; sourceTree = SOURCE_ROOT; };
+		9C973060AFF34AE3B4DC1D74 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathEuler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathEuler.h; path = Imath/ImathEuler.h; sourceTree = SOURCE_ROOT; };
+		9EC2C4D56454497BB26E69BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfLineOrderAttribute.cpp; path = IlmImf/ImfLineOrderAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		9EC7F6E4AFC54A2C87CF722C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPizCompressor.cpp; path = IlmImf/ImfPizCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		9F6348D70C5F4C49A88AE2CB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A0253F33C34A45708F3F9445 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCheckedArithmetic.h; path = IlmImf/ImfCheckedArithmetic.h; sourceTree = SOURCE_ROOT; };
+		A037895B06BC43EAB2CC31EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTimeCode.cpp; path = IlmImf/ImfTimeCode.cpp; sourceTree = SOURCE_ROOT; };
+		A1405AF39E24496B9ACF3DCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgba.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgba.h; path = IlmImf/ImfRgba.h; sourceTree = SOURCE_ROOT; };
+		A2F1B8894E0646399A3AF618 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfIO.cpp; path = IlmImf/ImfIO.cpp; sourceTree = SOURCE_ROOT; };
+		A47E0048970A423FA35352D1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStringAttribute.h; path = IlmImf/ImfStringAttribute.h; sourceTree = SOURCE_ROOT; };
+		A54A852CA4E74FD8B2D34A4C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStringAttribute.cpp; path = IlmImf/ImfStringAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		A56826D31FDF4B1A8683D690 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/Iex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Iex.h; path = Iex/Iex.h; sourceTree = SOURCE_ROOT; };
+		A7E6D5220A544740A4AAF789 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexBaseExc.cpp; path = Iex/IexBaseExc.cpp; sourceTree = SOURCE_ROOT; };
+		A7ECC9607D2E40FAB4264872 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfWav.cpp; path = IlmImf/ImfWav.cpp; sourceTree = SOURCE_ROOT; };
+		A99116080D9248DE8AD29AED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRoots.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathRoots.h; path = Imath/ImathRoots.h; sourceTree = SOURCE_ROOT; };
+		AC4006316F804385BE14BB14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfAttribute.cpp; path = IlmImf/ImfAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		AC7ACD97335E46BD80E75A06 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMatrix.h; path = Imath/ImathMatrix.h; sourceTree = SOURCE_ROOT; };
+		ADA6F721C39C43C9BF24F43A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = half.h; path = Half/half.h; sourceTree = SOURCE_ROOT; };
+		AE8BEFF5120E4CB9A3CE0E62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathPlane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathPlane.h; path = Imath/ImathPlane.h; sourceTree = SOURCE_ROOT; };
+		B260384698144D18A30DFDA7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStringVectorAttribute.h; path = IlmImf/ImfStringVectorAttribute.h; sourceTree = SOURCE_ROOT; };
+		B272A61448B74C57B244710F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPosix.cpp; path = IlmThread/IlmThreadPosix.cpp; sourceTree = SOURCE_ROOT; };
+		B3433EE79EF04DC7B12F7D6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRleCompressor.cpp; path = IlmImf/ImfRleCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		B4E6E53227DA4A028287CAEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfHeader.h; path = IlmImf/ImfHeader.h; sourceTree = SOURCE_ROOT; };
+		B5403A5E14F7486BB4AFEE27 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfVersion.cpp; path = IlmImf/ImfVersion.cpp; sourceTree = SOURCE_ROOT; };
+		B7E9431B310949A1B8073CA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRgbaFile.cpp; path = IlmImf/ImfRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		BE3B92C7FB90419DBE9900F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledRgbaFile.cpp; path = IlmImf/ImfTiledRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		BE802DF9EF594E26913FDF21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileDescriptionAttribute.h; path = IlmImf/ImfTileDescriptionAttribute.h; sourceTree = SOURCE_ROOT; };
+		BE81F3A793E44451A87B1C8E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfConvert.h; path = IlmImf/ImfConvert.h; sourceTree = SOURCE_ROOT; };
+		BEE55D5DC4614A4A971D4054 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfOpaqueAttribute.cpp; path = IlmImf/ImfOpaqueAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		C1B76875F1E1441BA20D6E5F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfThreading.cpp; path = IlmImf/ImfThreading.cpp; sourceTree = SOURCE_ROOT; };
+		C37D72C1E10A458C9D81D3CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathSphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathSphere.h; path = Imath/ImathSphere.h; sourceTree = SOURCE_ROOT; };
+		C500CFD0198549A5AEAE50CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMisc.h; path = IlmImf/ImfMisc.h; sourceTree = SOURCE_ROOT; };
+		C55E0DC6756444B5A3EEE9F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStringVectorAttribute.cpp; path = IlmImf/ImfStringVectorAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		C570436A41704243B21468AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMisc.cpp; path = IlmImf/ImfMisc.cpp; sourceTree = SOURCE_ROOT; };
+		C5B2376EC2F848C9AC4EB561 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexThrowErrnoExc.cpp; path = Iex/IexThrowErrnoExc.cpp; sourceTree = SOURCE_ROOT; };
+		C5EF2216B7C34D2D85CF4618 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFrameBuffer.h; path = IlmImf/ImfFrameBuffer.h; sourceTree = SOURCE_ROOT; };
+		C8D0EF47BCD4416E9C3460A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathVec.cpp; path = Imath/ImathVec.cpp; sourceTree = SOURCE_ROOT; };
+		C8D19048D344448096D7412F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfZipCompressor.cpp; path = IlmImf/ImfZipCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		CA2594345C6440E39289B33A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLimits.h; path = Imath/ImathLimits.h; sourceTree = SOURCE_ROOT; };
+		CCA32F360D0C4AED95A2CF17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfHuf.h; path = IlmImf/ImfHuf.h; sourceTree = SOURCE_ROOT; };
+		CF870E7E5D6746518D892800 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexThrowErrnoExc.h; path = Iex/IexThrowErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		D1DA03412743499A815CC84D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfKeyCodeAttribute.cpp; path = IlmImf/ImfKeyCodeAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		D26935F2EAB74FCDA5740CD5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChannelListAttribute.h; path = IlmImf/ImfChannelListAttribute.h; sourceTree = SOURCE_ROOT; };
+		D60E3E95D5194DC79EE66B7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfB44Compressor.cpp; path = IlmImf/ImfB44Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		D610AA64C0B34BF18C1B4553 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgbaFile.h; path = IlmImf/ImfRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		D64A94F8E2E541F696A47B67 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfKeyCode.h; path = IlmImf/ImfKeyCode.h; sourceTree = SOURCE_ROOT; };
+		D67C288292A74C75A81511E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFloatAttribute.h; path = IlmImf/ImfFloatAttribute.h; sourceTree = SOURCE_ROOT; };
+		D68E8A3BCDCD4054B55962E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphore.cpp; path = IlmThread/IlmThreadSemaphore.cpp; sourceTree = SOURCE_ROOT; };
+		D7F58A62171D48678203C8FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLineOrderAttribute.h; path = IlmImf/ImfLineOrderAttribute.h; sourceTree = SOURCE_ROOT; };
+		D8BF45947AD2417492EA25B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadMutex.h; path = IlmThread/IlmThreadMutex.h; sourceTree = SOURCE_ROOT; };
+		D9629D6B77D34719A37B89B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfEnvmap.cpp; path = IlmImf/ImfEnvmap.cpp; sourceTree = SOURCE_ROOT; };
+		DCD0139B67354F4481DF03F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexMathExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexMathExc.h; path = Iex/IexMathExc.h; sourceTree = SOURCE_ROOT; };
+		DD264A12BC084E8CB8E0B109 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRgbaYca.cpp; path = IlmImf/ImfRgbaYca.cpp; sourceTree = SOURCE_ROOT; };
+		DD88D09ABD5C4E2C852B3F64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadPool.h; path = IlmThread/IlmThreadPool.h; sourceTree = SOURCE_ROOT; };
+		E2ABCE76A87F459BADAB3D45 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfInputFile.h; path = IlmImf/ImfInputFile.h; sourceTree = SOURCE_ROOT; };
+		E2B83EC3FE81485EA25575E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosix.cpp; path = IlmThread/IlmThreadSemaphorePosix.cpp; sourceTree = SOURCE_ROOT; };
+		E45B8BB0EF56479E90CEE5CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChannelList.h; path = IlmImf/ImfChannelList.h; sourceTree = SOURCE_ROOT; };
+		E51141C962AD4D9CB44D5AF3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCompressor.cpp; path = IlmImf/ImfCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		E9263713389449B0B9E82860 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = half.cpp; path = Half/half.cpp; sourceTree = SOURCE_ROOT; };
+		EA922BCCA78D4F08825BA898 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/halfFunction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfFunction.h; path = Half/halfFunction.h; sourceTree = SOURCE_ROOT; };
+		EAB10C7A5657498F86613386 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStandardAttributes.h; path = IlmImf/ImfStandardAttributes.h; sourceTree = SOURCE_ROOT; };
+		EBFE4AF45FA243EEA8510BA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfEnvmapAttribute.cpp; path = IlmImf/ImfEnvmapAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		ECA2A52040DF4901A6550F82 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPxr24Compressor.cpp; path = IlmImf/ImfPxr24Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		EF48960B349D4441B9C94055 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPreviewImage.h; path = IlmImf/ImfPreviewImage.h; sourceTree = SOURCE_ROOT; };
+		EF8700675FB84530973266C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathGL.h; path = Imath/ImathGL.h; sourceTree = SOURCE_ROOT; };
+		EFEBB017731A43F69714209B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMultiView.h; path = IlmImf/ImfMultiView.h; sourceTree = SOURCE_ROOT; };
+		F01A883C65C24873AA6F8F12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfBoxAttribute.h; path = IlmImf/ImfBoxAttribute.h; sourceTree = SOURCE_ROOT; };
+		F296F5F281764983BC5C5EC5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexMacros.h; path = Iex/IexMacros.h; sourceTree = SOURCE_ROOT; };
+		F59954557A364E9EA27C1DD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledMisc.h; path = IlmImf/ImfTiledMisc.h; sourceTree = SOURCE_ROOT; };
+		F67CCD4BAF1440E288736D8A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTimeCode.h; path = IlmImf/ImfTimeCode.h; sourceTree = SOURCE_ROOT; };
+		FA691E2A2C1841889714FAC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRleCompressor.h; path = IlmImf/ImfRleCompressor.h; sourceTree = SOURCE_ROOT; };
+		FC6EF6E1E271411C9DC71478 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexErrnoExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexErrnoExc.h; path = Iex/IexErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		FF13D07784DB4C678199F88F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathHalfLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathHalfLimits.h; path = Imath/ImathHalfLimits.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		32F08C1BBF544B538D01C46A /* IlmImf */ = {
+			isa = PBXGroup;
+			children = (
+				5EEC91BC34AD408693F2C12E /* Include */,
+				65143692A23748A6A4C38ECD /* Src */,
+				9F6348D70C5F4C49A88AE2CB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/CMakeLists.txt */,
+			);
+			name = IlmImf;
+			sourceTree = "<group>";
+		};
+		5EEC91BC34AD408693F2C12E /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				33ACE56FF64642239CF148C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/eLut.h */,
+				ADA6F721C39C43C9BF24F43A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.h */,
+				EA922BCCA78D4F08825BA898 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/halfFunction.h */,
+				15B478A5A0F647B78489A903 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/halfLimits.h */,
+				7605A531C4194C7E8F9E7214 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/toFloat.h */,
+				A56826D31FDF4B1A8683D690 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/Iex.h */,
+				28FFD970F58848A9B69EF1B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.h */,
+				FC6EF6E1E271411C9DC71478 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexErrnoExc.h */,
+				F296F5F281764983BC5C5EC5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexMacros.h */,
+				DCD0139B67354F4481DF03F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexMathExc.h */,
+				CF870E7E5D6746518D892800 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.h */,
+				52443966B66E4D86A95A6F21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.h */,
+				40059F4BD55F4F3EAB8BB26F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfArray.h */,
+				41C03D1536AB4C96AB210F4B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.h */,
+				2EE80C19892E46C2BBD3F146 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAutoArray.h */,
+				98DE91E1D2E4436BB0FEF3A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.h */,
+				F01A883C65C24873AA6F8F12 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */,
+				8F0D4C55308542F48FA574E5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */,
+				E45B8BB0EF56479E90CEE5CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.h */,
+				D26935F2EAB74FCDA5740CD5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */,
+				A0253F33C34A45708F3F9445 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */,
+				4573169EC81E4D29BD15529B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.h */,
+				645DE35A80F442E0806B0552 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */,
+				235572201D5F4942BE7F9CDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompression.h */,
+				63DB3A70586B4935A5279B80 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */,
+				8F6723BD503F4FDA926FC29A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.h */,
+				BE81F3A793E44451A87B1C8E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.h */,
+				83DDDC73E13E47A09EFE105D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */,
+				2B5E4F8379FB4E23B1C151E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.h */,
+				1E60AD3A639A413DA1920C2F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */,
+				D67C288292A74C75A81511E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */,
+				C5EF2216B7C34D2D85CF4618 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */,
+				48F19593D392490DA6E9D846 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */,
+				B4E6E53227DA4A028287CAEA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.h */,
+				CCA32F360D0C4AED95A2CF17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.h */,
+				3E98F612187046B19C9B4D68 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.h */,
+				E2ABCE76A87F459BADAB3D45 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.h */,
+				073302531F9643A8AFFE8500 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInt64.h */,
+				175D7A24E04C47619EC3B027 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.h */,
+				D64A94F8E2E541F696A47B67 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.h */,
+				0C1FBABABAE141EB8F17A7E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */,
+				0F51A1F6BDCB4D168D5FA033 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrder.h */,
+				D7F58A62171D48678203C8FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */,
+				99629AC9F5AF410784FB4B85 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.h */,
+				09B6FCA44E1D468FA504B241 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */,
+				C500CFD0198549A5AEAE50CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.h */,
+				EFEBB017731A43F69714209B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.h */,
+				5863EBAD8A7649FD8E299399 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfName.h */,
+				6CD98E9DE2F04D4893F2E61C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */,
+				3D6DA93F16A745938612C562 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.h */,
+				21D9F64A45AC4838BAC87603 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPixelType.h */,
+				3EB19FF44331470BB9237661 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.h */,
+				EF48960B349D4441B9C94055 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.h */,
+				4804E1D671C54A859D8DA0F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */,
+				14B3B01D8DB64F80A2184757 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */,
+				3FF51EEC7605493E9721BE27 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.h */,
+				8908B293D033441A861A5E34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */,
+				A1405AF39E24496B9ACF3DCF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgba.h */,
+				D610AA64C0B34BF18C1B4553 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.h */,
+				1C0EBA8E6B70486E9A5DFB85 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.h */,
+				FA691E2A2C1841889714FAC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.h */,
+				16389C9A108F428196575AB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */,
+				EAB10C7A5657498F86613386 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */,
+				1A3F1A02B6BF411D8E8592AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.h */,
+				A47E0048970A423FA35352D1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.h */,
+				B260384698144D18A30DFDA7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */,
+				567ED35FB0FA47608B714621 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.h */,
+				09E405FAA882488EB324CDCA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.h */,
+				0F68B7B40D25423090AF84FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescription.h */,
+				BE802DF9EF594E26913FDF21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */,
+				229671DA638E462093A7E5FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.h */,
+				77417B972F0642778F483732 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */,
+				F59954557A364E9EA27C1DD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.h */,
+				10651169DE6C423BB8A3F70C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */,
+				778E4B29CF6F4E2C83AA83B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */,
+				F67CCD4BAF1440E288736D8A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.h */,
+				999F334EA39649FF88A1A296 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */,
+				8503E75D613847F2ACC753F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.h */,
+				6A78137F296649D4B9EC8BA5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.h */,
+				908570991EF646DFA53CA01C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.h */,
+				0B613308073243D28A27B32A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfXdr.h */,
+				918ED094E6644190B36C4436 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.h */,
+				12D3D0A02D88488CBFC3F9D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/b44ExpLogTable.h */,
+				189DFDFCFE2248D39B158AA8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.h */,
+				D8BF45947AD2417492EA25B9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.h */,
+				DD88D09ABD5C4E2C852B3F64 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.h */,
+				80967D71ADF74A7E898A9365 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */,
+				84EA64225F64440B86B7BAFB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathBox.h */,
+				985EBE8846AB40E893986123 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathBoxAlgo.h */,
+				46A61E8CE603488BB67F9C34 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColor.h */,
+				0E5E3EF0AD874B43B168395F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.h */,
+				9C973060AFF34AE3B4DC1D74 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathEuler.h */,
+				61475592313644C382E49071 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathExc.h */,
+				5C764CF95FE04DE296B6FD96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrame.h */,
+				3F687FEFF2A1429A83043F2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrustum.h */,
+				5F96A047E2A64E69894FFDB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFrustumTest.h */,
+				66119B4646F1493A808221E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.h */,
+				EF8700675FB84530973266C6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathGL.h */,
+				41BBA9C932034ABCBB92F90F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathGLU.h */,
+				FF13D07784DB4C678199F88F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathHalfLimits.h */,
+				25F6877F17034485B51F89C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathInt64.h */,
+				5FA3557C1EE0413E90A531CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathInterval.h */,
+				CA2594345C6440E39289B33A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLimits.h */,
+				6C2816DF8EDB4F3E9EBB557F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLine.h */,
+				27DA2B17ADDF48DB9602C12B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathLineAlgo.h */,
+				63983CBCB75E4D88A62FA7FE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMath.h */,
+				AC7ACD97335E46BD80E75A06 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrix.h */,
+				0B2E8046732342D0AFFB17FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.h */,
+				AE8BEFF5120E4CB9A3CE0E62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathPlane.h */,
+				2580AB6900B44372891DEC9C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathPlatform.h */,
+				28105B4878B247D58B712EBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathQuat.h */,
+				2E8F25EC2792471E94AE39F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.h */,
+				A99116080D9248DE8AD29AED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRoots.h */,
+				6E3D8DFED478404C9CDFE5CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathShear.h */,
+				C37D72C1E10A458C9D81D3CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathSphere.h */,
+				564803717140494783962CC6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.h */,
+				938CC511FB064A6D9BB1624C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVecAlgo.h */,
+				015453331CF14695BA55C034 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/IlmBaseConfig.h */,
+				0486B49B82F1438CA41EBF62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/OpenEXRConfig.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		65143692A23748A6A4C38ECD /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				E9263713389449B0B9E82860 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.cpp */,
+				A7E6D5220A544740A4AAF789 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.cpp */,
+				C5B2376EC2F848C9AC4EB561 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */,
+				49BEE9C23A7540F3B7187BF2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */,
+				AC4006316F804385BE14BB14 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.cpp */,
+				D60E3E95D5194DC79EE66B7C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */,
+				753BFC9CBCBF4444AA9543A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */,
+				3F0684FC39CA41FA955C6DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */,
+				897463ED76EB43DD9C6D9534 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.cpp */,
+				69A686B3497A4EE1BE79432E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */,
+				4EA7A24746574F238A83C6C8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */,
+				03EC11227FD745758F991E59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */,
+				1682DA9A1293484C847E332A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */,
+				E51141C962AD4D9CB44D5AF3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.cpp */,
+				43EF960B7459400094211C77 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.cpp */,
+				129E33074CDF4EB1A59B45B7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */,
+				D9629D6B77D34719A37B89B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */,
+				EBFE4AF45FA243EEA8510BA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */,
+				4DA741FE045B418ABE289EC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */,
+				3F31C1CD7E6F4FE884F2EFB1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */,
+				63A924534E5347D7B4B1E795 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */,
+				39C2241E316B45AEA49E0086 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.cpp */,
+				68F4C69AB92E4860AA05DBDF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.cpp */,
+				A2F1B8894E0646399A3AF618 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.cpp */,
+				29251C694E7643FAAA0592FC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.cpp */,
+				3DEB2BE1E80244BC85D552E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */,
+				0CDC6AD1D8C24010A5FBF471 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */,
+				D1DA03412743499A815CC84D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */,
+				9EC2C4D56454497BB26E69BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */,
+				5BA4060101CA4DC2A4E7F0F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.cpp */,
+				6FF0C17FA2124DFCB4BA290A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */,
+				C570436A41704243B21468AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.cpp */,
+				71B8C5BA51E94DDC80838811 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.cpp */,
+				BEE55D5DC4614A4A971D4054 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */,
+				71BA0C6BA6E4432787E8E0EE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */,
+				9EC7F6E4AFC54A2C87CF722C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */,
+				392DE621180B45759AA2F38C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */,
+				6CEB14742E234B9E91C87505 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */,
+				ECA2A52040DF4901A6550F82 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */,
+				9135F5C790C14B95A001A218 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.cpp */,
+				5B3FC1C08C3F4C8CA215BBAD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */,
+				B7E9431B310949A1B8073CA2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */,
+				DD264A12BC084E8CB8E0B109 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */,
+				B3433EE79EF04DC7B12F7D6E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */,
+				05443AD7459146D39B750049 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */,
+				49E81E8D115D43DBB53035C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */,
+				86C721C5EB9246F3956E2F78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.cpp */,
+				A54A852CA4E74FD8B2D34A4C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */,
+				C55E0DC6756444B5A3EEE9F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */,
+				8F3387DFFD144EE29019A15D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.cpp */,
+				C1B76875F1E1441BA20D6E5F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.cpp */,
+				3FBA57ED35FF40CFB0ED1269 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */,
+				3AFED51EF299441781A7F32B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */,
+				40D9D4F3ECF54DC495B84110 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */,
+				7340991EEA5940529CE324ED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */,
+				8750CF61E0044E058B0CD412 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */,
+				BE3B92C7FB90419DBE9900F2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */,
+				A037895B06BC43EAB2CC31EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */,
+				30AA023776C44A3D879AEE7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */,
+				58EA8245999D49D3AB8B32AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */,
+				B5403A5E14F7486BB4AFEE27 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.cpp */,
+				A7ECC9607D2E40FAB4264872 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.cpp */,
+				C8D19048D344448096D7412F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */,
+				3F32A98AF8354DFA9C858E03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.cpp */,
+				5960BF43EF83481BB17F669A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */,
+				6C9923D457494C38AF081171 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */,
+				792303FA0FD14459B15EFA59 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */,
+				B272A61448B74C57B244710F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */,
+				D68E8A3BCDCD4054B55962E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */,
+				E2B83EC3FE81485EA25575E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				63DFB1FED4E746CCA8221C97 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+				503DAECE0585411691E862A9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.cpp */,
+				06CDC7BB392C49B4A63A5522 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.cpp */,
+				60CA96D5BD704C0486C7AB77 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */,
+				646B05AAE3564704A4793454 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.cpp */,
+				C8D0EF47BCD4416E9C3460A2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		8D788FABC2C147129455E486 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C6392BC93EA3478C9DF14D36 /* CMake Rules */,
+				80705B28909B4FEFBB94EBA9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9412A5962940402080F38CC7 = {
+			isa = PBXGroup;
+			children = (
+				9C5F9F0260334B95BE17A595 /* 3rdparty */,
+				8D788FABC2C147129455E486 /* ALL_BUILD */,
+				B04F7554A2B74169A954975E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5F9F0260334B95BE17A595 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				32F08C1BBF544B538D01C46A /* IlmImf */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		B04F7554A2B74169A954975E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E0FDE6046B4AB79A72C453 /* IlmImf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6392BC93EA3478C9DF14D36 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A460B9A43A460EBF9E51A9 /* IlmImf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E18709FB6B14C97BFF18E76 /* Build configuration list for PBXNativeTarget "IlmImf" */;
+			buildPhases = (
+				444BCA6D68B14DB4B1C5D489 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6221347F7B9E4686968A324F /* PBXTargetDependency */,
+			);
+			name = IlmImf;
+			productName = IlmImf;
+			productReference = 52E0FDE6046B4AB79A72C453 /* IlmImf */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C5D59D8503B44A9AD3A6A4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4F1848A476F948AB87844FAA /* Build configuration list for PBXProject "openexr" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0AF605BCCCCA48E886FC7B6C /* Debug */,
+				9A4870F784BA4572B270941F /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9412A5962940402080F38CC7;
+			projectDirPath = ../../../3rdparty/openexr;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				07A460B9A43A460EBF9E51A9 /* IlmImf */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43BEAB83C2B04B81AA4277D2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5E78CED13BC7427D9335A9CC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		664B68BA122040238D77D0B6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6DE968B000DF44478DBB6487 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		791917F8553E418CA1E8057C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		85CDBCDC7FD34003BEB64BC5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		918BB5C19C5F47BEA336AD81 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B43A3411F2674A6EB34D6A56 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C8437AD97DCD4EE3B69C6B56 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EB71822262C04590BE02AF72 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444BCA6D68B14DB4B1C5D489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E0083218AC474E99EBB536 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half/half.cpp */,
+				72C168554B214AB6A43509F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexBaseExc.cpp */,
+				434DDF3260654721ACF41785 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */,
+				AD8F88D14F37490999667ABE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */,
+				58039A23EBF1412CA02F715A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfAttribute.cpp */,
+				2E8A46A21C244F178F58CC50 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */,
+				89537B2B60324B69AAEC16BF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */,
+				A75AC367AB7A4C74BD12A7E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */,
+				CB1B5D0BBEE04A1290AC2EA8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelList.cpp */,
+				FA446B40A409437E89830EA4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */,
+				85E96C4ABA094379AC58C3E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */,
+				A2E0A179A6E1440EA254BDB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */,
+				09B204C2FE704855B6D7EB72 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */,
+				D36888DD7E7440D69B5E99B3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfCompressor.cpp */,
+				7F0C38C940DA4BFCB5B0DDF5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfConvert.cpp */,
+				5FEFD0BD25794F03B00FF9E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */,
+				7E845167893243C4B22DB61E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */,
+				0D481AC8133E47EC9F0459BC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */,
+				C66C2AA686504CFEA04F76CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */,
+				19B8F36D52834BD2B9C90F45 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */,
+				92EFF45DB25D46248E5323F3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */,
+				BCDBC02286FB4326ABF75D20 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHeader.cpp */,
+				A77F15AB42824AB88B585C8C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfHuf.cpp */,
+				6C117A9186E8481C9001B077 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIO.cpp */,
+				4C2578F4AA3D47F9A6066B49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfInputFile.cpp */,
+				184ACAFFD5FD4D1395EA5370 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */,
+				76B4F85BAAEB47309C71C396 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */,
+				8D4BE46290044B7F931D0DF1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */,
+				5FC5131CBF87486885420BC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */,
+				D52D5332AB0B4E58A32F6A78 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfLut.cpp */,
+				7DB2CBA29EC846ABAD71CDDB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */,
+				42FECBA214AE4C42B7C5F85E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMisc.cpp */,
+				B0A310F66D534E629D48483A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfMultiView.cpp */,
+				BB925471A2374FBC9B242D75 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */,
+				8F4D5CC87714497F9A6B8CAE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */,
+				2ED16C3EE79E49B392AB232F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */,
+				231FC36A96A340CB99927336 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */,
+				0278BD31F0134105A69F4BEF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */,
+				91AF1D3258454D7F9CBDBBDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */,
+				69795F783570408DB163FAB0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRational.cpp */,
+				5BBC8AA5C2BB49EE8A7DCDE4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */,
+				3DC3E26BECFC4022B74C1A7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */,
+				840BBD7CA99946219B4474CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */,
+				CC4069A019A34D9DB40B6973 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */,
+				D2FF3EF433E340E89B93A720 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */,
+				A7322E536145428BBF4009A8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */,
+				3E27F8C0F08C419293BE40FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStdIO.cpp */,
+				5120F60752EA4E8E926A446B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */,
+				21CBFD6C771246BF90DE65F5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */,
+				A52587D08B0445F5BCF3BE3F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTestFile.cpp */,
+				1B95BADEB2B5406596E7F1BA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfThreading.cpp */,
+				DF3D015F9B3C4495BEBAED57 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */,
+				E8AA663EFD954A8AAD9A0FB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */,
+				89884207E66E418199EBB6EA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */,
+				030672DB66F5407A962C9EF1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */,
+				E5F8E74AE45D49F4BF73E1D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */,
+				A190C8F0309C4BF39FEBBF2E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */,
+				3034076DEF1B41E38A667FE7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */,
+				67F5E3990CBA4141A27576F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */,
+				C224C495B3234555959FBF8F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */,
+				BFF4F8C1B3B94AE1A32FE20C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfVersion.cpp */,
+				7325EE0A1A3A4E08908E7FB2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfWav.cpp */,
+				B85A88F9573B4FD3B48E3485 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */,
+				063052AC72924DB9B569053E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThread.cpp */,
+				9BD17D14609D476D949037FF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */,
+				760F64E8E0CB4BE3ACE4A1B4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */,
+				086A98AC60BD4FED90042C2C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */,
+				2EC6AEFF54834E8EB6D4B8CD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */,
+				05502E927C614FCDB9DB3E5F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */,
+				11C207E133854F7CB6B6BB49 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				79983C523E8C4635ADF52557 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+				5E361867BAD044CF92CAF06D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathColorAlgo.cpp */,
+				E9B89BBE4FC041ED9C589B58 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathFun.cpp */,
+				1CF3F1E4B967465995DAEEE9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */,
+				0FA297EFC6C349619A658EDC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathRandom.cpp */,
+				023286BDBE214C6DAC275F79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath/ImathVec.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B8E1BBE9B6D410A83D81C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 8DF84EC6E6F6478D81F6157C /* PBXContainerItemProxy */;
+		};
+		59A8FE61E1244D348F999EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 9CFDC73A003C4110A8F3BEAB /* PBXContainerItemProxy */;
+		};
+		6221347F7B9E4686968A324F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 8A1B33C9543E42C58C0A093E /* PBXContainerItemProxy */;
+		};
+		834FD3165F7141838B7ED2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07A460B9A43A460EBF9E51A9 /* IlmImf */;
+			targetProxy = ABA75CA081D74B77A1C6CEB1 /* PBXContainerItemProxy */;
+		};
+		8FEDEA31EE144A3DB58D5069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = EC9A8B16F1304C5283E8A2CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		130298234FC649BC895F916C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1ADBD24A7364453ABF9E1AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1E74C858FDD84C94AF917BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2971F2E9141448DAA490075F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/build";
+			};
+			name = Release;
+		};
+		30BEE716D3664B438714D8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr/build";
+			};
+			name = Debug;
+		};
+		6B07751425F14D78BCD02FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/zlib","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/zlib","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated -Wno-inconsistent-missing-override -Wno-implicit-fallthrough         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmImf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7CB119303C714C7D91AC8DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		908AD74E0D524CCD8C564149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		92190B7C55A44C5FB55BB5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9F38D4925F724D7A9CD8B2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmImf","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Imath","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/IlmThread","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Iex","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/openexr/Half","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/zlib","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/3rdparty/zlib","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated -Wno-inconsistent-missing-override -Wno-implicit-fallthrough     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmImf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C8927989EA0140D2BD82E819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CFBC5F628C3A4F6F8F34EBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DB7D6FDC983C47678ED839EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EEED0C7BDF8449DF942008FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/openexr";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B52C63F8ECC4CAFAFA800AC /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB119303C714C7D91AC8DDB /* Debug */,
+				1ADBD24A7364453ABF9E1AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0E18709FB6B14C97BFF18E76 /* Build configuration list for PBXNativeTarget "IlmImf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B07751425F14D78BCD02FC4 /* Debug */,
+				9F38D4925F724D7A9CD8B2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0F2D1B35B62F4F9E8327527D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8927989EA0140D2BD82E819 /* Debug */,
+				DB7D6FDC983C47678ED839EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F1848A476F948AB87844FAA /* Build configuration list for PBXProject "openexr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BEE716D3664B438714D8F6 /* Debug */,
+				2971F2E9141448DAA490075F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E200092C7E244DC2A1BE1DAA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEED0C7BDF8449DF942008FE /* Debug */,
+				CFBC5F628C3A4F6F8F34EBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE7B6AD7E9514DB5B2BCB59B /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E74C858FDD84C94AF917BB5 /* Debug */,
+				130298234FC649BC895F916C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EEB8A8ECA1124DF187913D09 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92190B7C55A44C5FB55BB5CE /* Debug */,
+				908AD74E0D524CCD8C564149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C5D59D8503B44A9AD3A6A4D /* Project object */;
+}

@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 287DE8D51FBB47E39CD55320 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				3B98B93FDA254BCC94ADC208 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E3B62FC42F644E81A829602D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0CC83F3B373B4A7DAA14F939 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2EEE09E4C2F64044B12214E5 /* CMake Rules */,
+			);
+			dependencies = (
+				70668A4FC4E64D03B20F35FF /* PBXTargetDependency */,
+				6B155AA254A34BE0808BACDD /* PBXTargetDependency */,
+				0DF8F821202A45B38543D13B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A2FFD40B11914224BE554BAF /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				29338285152140488AFD8C40 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DCDFCAF62901460B8002A978 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E1B7C342842B45E7B22F98DC /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				F39D1AAB831D49F499DA3C53 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7EA82D397F744AF8AB6EAE1C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7CCD57F2424B4731AE4699D8 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05928BBC7E174D11962C51E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape.hpp */ = {isa = PBXBuildFile; fileRef = 38CC53D2EFD94C6281D2C15A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape.hpp */; };
+		0F6A81D87967428B95E4A972 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/tps_trans.cpp */ = {isa = PBXBuildFile; fileRef = EEF25DDF4D994CE094A57E21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/tps_trans.cpp */; };
+		29C57C538CE345FF9C6D1EED /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/scd_def.hpp */ = {isa = PBXBuildFile; fileRef = 32B38546A975447287521EDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/scd_def.hpp */; };
+		2BA41B9934654A7CA4A31A6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/haus_dis.cpp */ = {isa = PBXBuildFile; fileRef = 16D593784AEB4808A8B37F2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/haus_dis.cpp */; };
+		4ECE0BC5EF0C41F78CB9D4AE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = BA4BDF2700A34CDD95055660 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_precomp.hpp */; };
+		56C39A280287485AA4080C40 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_shape.cpp */ = {isa = PBXBuildFile; fileRef = 6EE8C5A2C5174ED3BD7CF44E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_shape.cpp */; };
+		5EBD8451CE354D7C8E522183 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CC89BBA833AF49639F506487 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */; };
+		629A8523367846B69EA37157 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 9554955C7AFA44E1BDDA2A17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */; };
+		65B120C442D24ED48F7883DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/sc_dis.cpp */ = {isa = PBXBuildFile; fileRef = DED9272820604BA799C0B64F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/sc_dis.cpp */; };
+		74F12A5AE69B401BB50EA570 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 2EA53808ECF24304B52D58D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */; };
+		8E125E0C7629495695D993CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/aff_trans.cpp */ = {isa = PBXBuildFile; fileRef = BEAAADD32A814D0BA7CF10FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/aff_trans.cpp */; };
+		8EE0843911884A9A940F1EA7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/hist_cost.cpp */ = {isa = PBXBuildFile; fileRef = 377EAB9DACE14E179C2DB461 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/hist_cost.cpp */; };
+		9456694F25644D5E9994CE36 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = DB98126C19F3462D953B0688 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_main.cpp */; };
+		A45501B518CA43F98DE3526D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape.hpp */ = {isa = PBXBuildFile; fileRef = 0C55C8AA0F2B48ACB7017C91 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape.hpp */; };
+		A5EBC3367F7D4C3A8D185C6F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/hist_cost.hpp */ = {isa = PBXBuildFile; fileRef = BAB87B14DD984E9AA7F3CE62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/hist_cost.hpp */; };
+		A735A964ED8A41BEAA048A96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape_transformer.hpp */ = {isa = PBXBuildFile; fileRef = C220DACB03FF44B19F1E076F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape_transformer.hpp */; };
+		BBFE31493B524552A41B822B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/emdL1.hpp */ = {isa = PBXBuildFile; fileRef = FA3EFE5B84744094B1983832 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/emdL1.hpp */; };
+		C7D98777AE1F48FAB7291B63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1.cpp */ = {isa = PBXBuildFile; fileRef = 5291AE9323E24268A69764B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1.cpp */; };
+		CD3ACD3A90614111A24C35FD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape_distance.hpp */ = {isa = PBXBuildFile; fileRef = 955D22DBC7DF4BC0BEFE5562 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape_distance.hpp */; };
+		D18534AA615048998655609B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 3C7E67BBFA15438E88544F32 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/precomp.hpp */; };
+		D3DF3892C78E4452839BA99A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1_def.hpp */ = {isa = PBXBuildFile; fileRef = E5CDE850FB514DE4BA6305E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1_def.hpp */; };
+		F2DB6D06DA834CF9BB7AA472 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FA01AFE7F0E8447AA74A4777 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		B17D4B8307D14508B2F14714 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CE06474F609941B98F767E7B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1820A5189FAB494F94A2F73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063CC94D5D224288BA900559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		1EE733901FF44A26B1CA7811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063CC94D5D224288BA900559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		33927B5406A645D2A8387ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063CC94D5D224288BA900559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		3C1706FF668A4CFEB8D461E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063CC94D5D224288BA900559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAF4D4DC27242269E8A1840;
+			remoteInfo = opencv_shape;
+		};
+		72ABE91EB2FF42389B6BC1D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063CC94D5D224288BA900559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAF4D4DC27242269E8A1840;
+			remoteInfo = opencv_shape;
+		};
+		D792B21338B448819A93F7B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063CC94D5D224288BA900559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		E866053532F2418280FD7B64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063CC94D5D224288BA900559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		EA862057A20E4E11894BDDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063CC94D5D224288BA900559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 357DEA687BEF4AF5B7ACA1FA;
+			remoteInfo = opencv_test_shape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C55C8AA0F2B48ACB7017C91 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shape.hpp; path = include/opencv2/shape.hpp; sourceTree = SOURCE_ROOT; };
+		16D593784AEB4808A8B37F2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/haus_dis.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = haus_dis.cpp; path = src/haus_dis.cpp; sourceTree = SOURCE_ROOT; };
+		22A3B2B6BD6941A789ED04D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2EA53808ECF24304B52D58D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../BuildXcode/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		32B38546A975447287521EDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/scd_def.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scd_def.hpp; path = src/scd_def.hpp; sourceTree = SOURCE_ROOT; };
+		377EAB9DACE14E179C2DB461 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/hist_cost.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hist_cost.cpp; path = src/hist_cost.cpp; sourceTree = SOURCE_ROOT; };
+		38CC53D2EFD94C6281D2C15A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shape.hpp; path = include/opencv2/shape/shape.hpp; sourceTree = SOURCE_ROOT; };
+		3C7E67BBFA15438E88544F32 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		49F53B423F2545649887405A /* opencv_test_shape */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_shape; sourceTree = BUILT_PRODUCTS_DIR; };
+		5291AE9323E24268A69764B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = emdL1.cpp; path = src/emdL1.cpp; sourceTree = SOURCE_ROOT; };
+		6EE8C5A2C5174ED3BD7CF44E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_shape.cpp; path = test/test_shape.cpp; sourceTree = SOURCE_ROOT; };
+		9554955C7AFA44E1BDDA2A17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../BuildXcode/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		955D22DBC7DF4BC0BEFE5562 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape_distance.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shape_distance.hpp; path = include/opencv2/shape/shape_distance.hpp; sourceTree = SOURCE_ROOT; };
+		9FD92B896D42480ABDF482D1 /* opencv_shape */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_shape.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4BDF2700A34CDD95055660 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		BAB87B14DD984E9AA7F3CE62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/hist_cost.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hist_cost.hpp; path = include/opencv2/shape/hist_cost.hpp; sourceTree = SOURCE_ROOT; };
+		BEAAADD32A814D0BA7CF10FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/aff_trans.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = aff_trans.cpp; path = src/aff_trans.cpp; sourceTree = SOURCE_ROOT; };
+		C220DACB03FF44B19F1E076F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape_transformer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shape_transformer.hpp; path = include/opencv2/shape/shape_transformer.hpp; sourceTree = SOURCE_ROOT; };
+		CC89BBA833AF49639F506487 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DB98126C19F3462D953B0688 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		DED9272820604BA799C0B64F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/sc_dis.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sc_dis.cpp; path = src/sc_dis.cpp; sourceTree = SOURCE_ROOT; };
+		E5CDE850FB514DE4BA6305E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1_def.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = emdL1_def.hpp; path = src/emdL1_def.hpp; sourceTree = SOURCE_ROOT; };
+		EEF25DDF4D994CE094A57E21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/tps_trans.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tps_trans.cpp; path = src/tps_trans.cpp; sourceTree = SOURCE_ROOT; };
+		FA01AFE7F0E8447AA74A4777 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FA3EFE5B84744094B1983832 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/emdL1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = emdL1.hpp; path = include/opencv2/shape/emdL1.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A2529F1676B431D95B76C09 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2EBB0E2A51D64C60933FA935 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				95A5A5AC7D554F5DA9BBDBB0 /* opencv2 */,
+				9554955C7AFA44E1BDDA2A17 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */,
+				2EA53808ECF24304B52D58D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		57D80668288048DEB3C8D946 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1A2529F1676B431D95B76C09 /* CMake Rules */,
+				22A3B2B6BD6941A789ED04D9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		856CD15C676A4704B7B6D33D /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				BA4BDF2700A34CDD95055660 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		95A5A5AC7D554F5DA9BBDBB0 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFAEA02342C74DDD9C0BD378 /* shape */,
+				0C55C8AA0F2B48ACB7017C91 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		9DF0B233A9CD49D28C8082CF /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				BEAAADD32A814D0BA7CF10FB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/aff_trans.cpp */,
+				5291AE9323E24268A69764B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1.cpp */,
+				E5CDE850FB514DE4BA6305E3 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1_def.hpp */,
+				16D593784AEB4808A8B37F2A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/haus_dis.cpp */,
+				377EAB9DACE14E179C2DB461 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/hist_cost.cpp */,
+				3C7E67BBFA15438E88544F32 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/precomp.hpp */,
+				DED9272820604BA799C0B64F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/sc_dis.cpp */,
+				32B38546A975447287521EDD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/scd_def.hpp */,
+				EEF25DDF4D994CE094A57E21 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/tps_trans.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		A03CD32C23F94185BF09940E /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				A7D7DA9015974CB3B8617872 /* opencv_test_shape */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		A7D7DA9015974CB3B8617872 /* opencv_test_shape */ = {
+			isa = PBXGroup;
+			children = (
+				CA07E605B0FF43ED990D1BB3 /* Src */,
+				856CD15C676A4704B7B6D33D /* Include */,
+				FA01AFE7F0E8447AA74A4777 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */,
+			);
+			name = opencv_test_shape;
+			sourceTree = "<group>";
+		};
+		C3658F6118C14805B232AEC8 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				F3E7569953864D94B45BD839 /* opencv_shape */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		CA07E605B0FF43ED990D1BB3 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				DB98126C19F3462D953B0688 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_main.cpp */,
+				6EE8C5A2C5174ED3BD7CF44E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_shape.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		D59DAA78024B4B6FA0F542FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD92B896D42480ABDF482D1 /* opencv_shape */,
+				49F53B423F2545649887405A /* opencv_test_shape */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00B4270B3FF419BB4641A21 = {
+			isa = PBXGroup;
+			children = (
+				A03CD32C23F94185BF09940E /* tests accuracy */,
+				C3658F6118C14805B232AEC8 /* modules */,
+				57D80668288048DEB3C8D946 /* ALL_BUILD */,
+				D59DAA78024B4B6FA0F542FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAEA02342C74DDD9C0BD378 /* shape */ = {
+			isa = PBXGroup;
+			children = (
+				FA3EFE5B84744094B1983832 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/emdL1.hpp */,
+				BAB87B14DD984E9AA7F3CE62 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/hist_cost.hpp */,
+				38CC53D2EFD94C6281D2C15A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape.hpp */,
+				955D22DBC7DF4BC0BEFE5562 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape_distance.hpp */,
+				C220DACB03FF44B19F1E076F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include/opencv2/shape/shape_transformer.hpp */,
+			);
+			name = shape;
+			sourceTree = "<group>";
+		};
+		F3E7569953864D94B45BD839 /* opencv_shape */ = {
+			isa = PBXGroup;
+			children = (
+				2EBB0E2A51D64C60933FA935 /* Include */,
+				9DF0B233A9CD49D28C8082CF /* Src */,
+				CC89BBA833AF49639F506487 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/CMakeLists.txt */,
+			);
+			name = opencv_shape;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		357DEA687BEF4AF5B7ACA1FA /* opencv_test_shape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB30FBC607694772A5E0281E /* Build configuration list for PBXNativeTarget "opencv_test_shape" */;
+			buildPhases = (
+				DE7B47E160E441D5B78B9B78 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8B1998F64D841DF8EFBA1DB /* PBXTargetDependency */,
+				F37D120F77604012B04F7BF1 /* PBXTargetDependency */,
+			);
+			name = opencv_test_shape;
+			productName = opencv_test_shape;
+			productReference = 49F53B423F2545649887405A /* opencv_test_shape */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FAF4D4DC27242269E8A1840 /* opencv_shape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548B4B31D01547FAAA8BB4AA /* Build configuration list for PBXNativeTarget "opencv_shape" */;
+			buildPhases = (
+				71F7C330399542E7AAF29D38 /* Sources */,
+				C258DC4C1DCA446E938335A8 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF5814B3CCC4EE7AB92DC3F /* PBXTargetDependency */,
+			);
+			name = opencv_shape;
+			productName = opencv_shape;
+			productReference = 9FD92B896D42480ABDF482D1 /* opencv_shape */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		063CC94D5D224288BA900559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = E217166460FF49AAAAA3134D /* Build configuration list for PBXProject "opencv_shape" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B17D4B8307D14508B2F14714 /* Debug */,
+				CE06474F609941B98F767E7B /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E00B4270B3FF419BB4641A21;
+			projectDirPath = ../../../modules/shape;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				3FAF4D4DC27242269E8A1840 /* opencv_shape */,
+				357DEA687BEF4AF5B7ACA1FA /* opencv_test_shape */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C73175D207408AAC2DD570 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		29338285152140488AFD8C40 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		2EEE09E4C2F64044B12214E5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3247F23D7EA74B6FBDA1BB80 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3B98B93FDA254BCC94ADC208 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6873C0AFC1BA469CAEF3DA13 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7CCD57F2424B4731AE4699D8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9D4C5DBDF8D44494B92D0927 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C258DC4C1DCA446E938335A8 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape/CMakeScripts/opencv_shape_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E7A9C7FDE84F44B7A8709017 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F39D1AAB831D49F499DA3C53 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F7C330399542E7AAF29D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E125E0C7629495695D993CE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/aff_trans.cpp */,
+				C7D98777AE1F48FAB7291B63 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/emdL1.cpp */,
+				2BA41B9934654A7CA4A31A6A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/haus_dis.cpp */,
+				8EE0843911884A9A940F1EA7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/hist_cost.cpp */,
+				65B120C442D24ED48F7883DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/sc_dis.cpp */,
+				0F6A81D87967428B95E4A972 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src/tps_trans.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7B47E160E441D5B78B9B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9456694F25644D5E9994CE36 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_main.cpp */,
+				56C39A280287485AA4080C40 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/test/test_shape.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DF8F821202A45B38543D13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = E866053532F2418280FD7B64 /* PBXContainerItemProxy */;
+		};
+		6B155AA254A34BE0808BACDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FAF4D4DC27242269E8A1840 /* opencv_shape */;
+			targetProxy = 72ABE91EB2FF42389B6BC1D6 /* PBXContainerItemProxy */;
+		};
+		70668A4FC4E64D03B20F35FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 357DEA687BEF4AF5B7ACA1FA /* opencv_test_shape */;
+			targetProxy = EA862057A20E4E11894BDDF4 /* PBXContainerItemProxy */;
+		};
+		A8B1998F64D841DF8EFBA1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FAF4D4DC27242269E8A1840 /* opencv_shape */;
+			targetProxy = 3C1706FF668A4CFEB8D461E8 /* PBXContainerItemProxy */;
+		};
+		CDF5814B3CCC4EE7AB92DC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 33927B5406A645D2A8387ADB /* PBXContainerItemProxy */;
+		};
+		DCDFCAF62901460B8002A978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 1820A5189FAB494F94A2F73B /* PBXContainerItemProxy */;
+		};
+		E3B62FC42F644E81A829602D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = D792B21338B448819A93F7B7 /* PBXContainerItemProxy */;
+		};
+		F37D120F77604012B04F7BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 1EE733901FF44A26B1CA7811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12484513CEA0491EBB891EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		317D39D5F52E422A97818ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/video/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_shape.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_video.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_shape;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4CFF5501B1D74328BC505C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape/build";
+			};
+			name = Debug;
+		};
+		50EE421737694BF9953A2E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		521A39413E174A9998D21519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6BD6081755B24B31A9F43C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		72B9ED2B8432418F96888204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.4.0;
+				DYLIB_CURRENT_VERSION = 3.4.6;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/video/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_shape.3.4.dylib  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_video.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_shape.3.4.6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8252BF4E1F9C425EAFB72AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		84FAFA2EACCF42248EE46909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape/build";
+			};
+			name = Release;
+		};
+		A40EF942D395496F80C070C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/video/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_shape.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_video.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_shape;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A9FE4936BBE74B5FA8B70544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B0177E85AA8F4D4AA625FD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B4745DE7B7E54A4D9800073B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D8504AED59774C718B13E08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F2CD8603D0E94DB6AA945815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.4.0;
+				DYLIB_CURRENT_VERSION = 3.4.6;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/src","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/shape/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/video/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_shape.3.4.dylib  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_video.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_shape.3.4.6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F51784F8D479436EBF25803C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/shape";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC83F3B373B4A7DAA14F939 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8252BF4E1F9C425EAFB72AC7 /* Debug */,
+				50EE421737694BF9953A2E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		287DE8D51FBB47E39CD55320 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD6081755B24B31A9F43C00 /* Debug */,
+				521A39413E174A9998D21519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		548B4B31D01547FAAA8BB4AA /* Build configuration list for PBXNativeTarget "opencv_shape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2CD8603D0E94DB6AA945815 /* Debug */,
+				72B9ED2B8432418F96888204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7EA82D397F744AF8AB6EAE1C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FE4936BBE74B5FA8B70544 /* Debug */,
+				D8504AED59774C718B13E08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2FFD40B11914224BE554BAF /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4745DE7B7E54A4D9800073B /* Debug */,
+				12484513CEA0491EBB891EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB30FBC607694772A5E0281E /* Build configuration list for PBXNativeTarget "opencv_test_shape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317D39D5F52E422A97818ECD /* Debug */,
+				A40EF942D395496F80C070C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E1B7C342842B45E7B22F98DC /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0177E85AA8F4D4AA625FD11 /* Debug */,
+				F51784F8D479436EBF25803C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E217166460FF49AAAAA3134D /* Build configuration list for PBXProject "opencv_shape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CFF5501B1D74328BC505C04 /* Debug */,
+				84FAFA2EACCF42248EE46909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 063CC94D5D224288BA900559 /* Project object */;
+}

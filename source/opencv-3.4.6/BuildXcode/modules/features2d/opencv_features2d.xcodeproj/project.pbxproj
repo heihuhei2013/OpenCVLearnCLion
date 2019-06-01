@@ -1,0 +1,1476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A7B416EE38944FFBEF9479B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0DF9ED28D9E342918F24876D /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				7406F42F24E24AB3AC9BE29A /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8E10DEFE6DCF4C3A87075B9D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F493E2D02754AC383412611 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 59D92B121F2A464397E7A1BD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				244E7F946FC740068DC9EEE9 /* CMake Rules */,
+			);
+			dependencies = (
+				F9279E8534B5448DAC8C7561 /* PBXTargetDependency */,
+				FF044A4DBCDD401AA1F28D17 /* PBXTargetDependency */,
+				33FA5BE7FBDB4A4C973C65B4 /* PBXTargetDependency */,
+				DDEFDE2EA8C64C219709218C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BC2F3F2B44CC478B94BE33EB /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5EDD70B1387842609DE1740D /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				74A8157D8A204A13A6AFEDAF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				5CD3D983DA834F7891D36767 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9A529B8FB1A14557A2E4F697 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				F19EA3E76C0546E19DEDE268 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		FA335D46BE514AE188ACC538 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA21EA231BF44B8EAE69667F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2EE527B6502D4DC6B8297501 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01EAF2819A7F43C48E005F1C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.cpp */ = {isa = PBXBuildFile; fileRef = A5EB3D1544184908BA47F779 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.cpp */; };
+		057E77C8B85542B69A8EDD55 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze.cpp */ = {isa = PBXBuildFile; fileRef = 72F3D6B5A89948AF9EB9EC51 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze.cpp */; };
+		0598CE13B2804315B72329D7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 96D4EDAF9D0A45229C7D7B9E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_precomp.hpp */; };
+		0A38584BFA874B4DBDA3F9E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/orb.cl */ = {isa = PBXBuildFile; fileRef = 1272E01292E24F5193EB8607 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/orb.cl */; };
+		0CBF3F4BB2C54373B0196A25 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_brisk.cpp */ = {isa = PBXBuildFile; fileRef = B5AE8660D647470FA0C73B3C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_brisk.cpp */; };
+		0CE1C3A17A414847AC157585 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_invariance.cpp */ = {isa = PBXBuildFile; fileRef = 7E662CB22435457EA4BD36E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_invariance.cpp */; };
+		0D6CF697378C4281909CF69E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_keypoints.cpp */ = {isa = PBXBuildFile; fileRef = DF7786CA6CFA4FF784778837 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_keypoints.cpp */; };
+		1348B6CC542D4A62993E838B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/mser.cpp */ = {isa = PBXBuildFile; fileRef = DF27B62EBA844E58874E77CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/mser.cpp */; };
+		159237574E7944939D5BD6C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/blobdetector.cpp */ = {isa = PBXBuildFile; fileRef = 5932B42D652046ACAB85A3CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/blobdetector.cpp */; };
+		15C45E15793040A59982E0D2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.hpp */ = {isa = PBXBuildFile; fileRef = EDDE61B6792F42A586FD14CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.hpp */; };
+		1D3C18CD8D974181B65291F0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/evaluation.cpp */ = {isa = PBXBuildFile; fileRef = 44688F04BF254A71A12AAF23 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/evaluation.cpp */; };
+		1EA7B810563E466F88C64326 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.cpp */ = {isa = PBXBuildFile; fileRef = 391B69F90D894BBFA712A82E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.cpp */; };
+		1F65F9DC5B0449EF89724F83 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp */ = {isa = PBXBuildFile; fileRef = A498746EAA834C5D8D99DE01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp */; };
+		20E0DDCC516E47B1B64B5852 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.cpp */ = {isa = PBXBuildFile; fileRef = ADB2AE0740CB4C13A8E0BC01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.cpp */; };
+		2670D76EAAB541369AC2EEF7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/akaze.cpp */ = {isa = PBXBuildFile; fileRef = 02A4266C498C456BBB948EB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/akaze.cpp */; };
+		27CC52453C97487BAC95042E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/feature2d.cpp */ = {isa = PBXBuildFile; fileRef = 2443076CEFE149FB8FEA39E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/feature2d.cpp */; };
+		280AD969316F45B0BFDCA9B0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.hpp */ = {isa = PBXBuildFile; fileRef = C0B2D5829A31484785F13005 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.hpp */; };
+		2CA08B797CA04B4D9D4EA596 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_agast.cpp */ = {isa = PBXBuildFile; fileRef = 6E72FB8B42E94FFAA8AE9354 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_agast.cpp */; };
+		30BDEAEB8C1A43EB9612BE43 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = 019588EF6E584E7592E929A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_main.cpp */; };
+		31728AD05D5B4B4AAF4A60E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_fast.cpp */ = {isa = PBXBuildFile; fileRef = ED58C363A1FF4DA89326330D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_fast.cpp */; };
+		4320E91679814155981396E0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = A23737A7506541A39071F77B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/precomp.hpp */; };
+		477B8B4368FB4DA5929F6E8A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d/hal/interface.h */ = {isa = PBXBuildFile; fileRef = 58FD2F3934BB4D2E9853A894 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d/hal/interface.h */; };
+		4A745B5F628F4C429D295DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.cpp */ = {isa = PBXBuildFile; fileRef = A6594094E62648F9AB57CCFF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.cpp */; };
+		5B23CAFA89FF4EECACA737E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = A0FEDC540E8948C58247E48D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_precomp.hpp */; };
+		5F46765273B94104BA5266DE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = B7743AE54CE749698BB12019 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_main.cpp */; };
+		6020DF74569E43389833E9E5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_utils.cpp */ = {isa = PBXBuildFile; fileRef = 86B8FDCFC459449781725823 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_utils.cpp */; };
+		61ABC65415484F3E85B0FF7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEConfig.h */ = {isa = PBXBuildFile; fileRef = BAA52D6AC90140B6AE3482D7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEConfig.h */; };
+		61E64F5A0A6F436485A67F26 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.cpp */ = {isa = PBXBuildFile; fileRef = 6F03C944B2A64D23AC628516 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.cpp */; };
+		6246EB39BD4846559C383691 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_invariance.cpp */ = {isa = PBXBuildFile; fileRef = B2ED52B04CD04E9EAE185551 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_invariance.cpp */; };
+		633566F28B0F4396BFFF9EB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_akaze.cpp */ = {isa = PBXBuildFile; fileRef = 57601BCB442C4C07AC43D462 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_akaze.cpp */; };
+		6384D8CDC14144D28B825CF6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast.cpp */ = {isa = PBXBuildFile; fileRef = 63C5DE12E8054E6DAD065820 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast.cpp */; };
+		6494B45FB90340CBAFBA90AC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = A8EFF72DFFD948749BF7C7AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */; };
+		6758494379F743439B33DE03 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 70CD62BF1F8F4D7D9FE99E5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */; };
+		68E31A5DA3F5416195567045 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_drawing.cpp */ = {isa = PBXBuildFile; fileRef = F179174BDEBA41DD8D28E380 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_drawing.cpp */; };
+		690D87FCE1ED4DCEAE7D1604 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXBuildFile; fileRef = E7D40D7EAEEB4F5EA17F2CC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d/features2d.hpp */; };
+		7186712C196D4B2CB7CB9776 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/akaze.cl */ = {isa = PBXBuildFile; fileRef = D742FF6F71D5448FB27BD850 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/akaze.cl */; };
+		74D1B3FD3E43417FB398FF00 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEConfig.h */ = {isa = PBXBuildFile; fileRef = 402F9D8901A24CA6B7630004 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEConfig.h */; };
+		78C2C6027812401C9E05FA10 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_feature2d.cpp */ = {isa = PBXBuildFile; fileRef = 3D23E3277B1D4A0992B3B04E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_feature2d.cpp */; };
+		7A46AA60A7554D91953BCADD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_feature2d.cpp */ = {isa = PBXBuildFile; fileRef = 325D2FCD655643D9B60F72A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_feature2d.cpp */; };
+		7D5963A04A32449F980354F4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/fast.cl */ = {isa = PBXBuildFile; fileRef = 127C727356B748229725983A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/fast.cl */; };
+		8017CB8888ED4D299F79FD8E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/keypoint.cpp */ = {isa = PBXBuildFile; fileRef = C28C0E0FC55E4C2E90E3CDE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/keypoint.cpp */; };
+		81205CCDDF574553B789389A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/hal_replacement.hpp */ = {isa = PBXBuildFile; fileRef = 51110304F3CD40D6A5492DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/hal_replacement.hpp */; };
+		83F3A1D455E0467DB35607B5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp.rule */ = {isa = PBXBuildFile; fileRef = C265D374A659477AA84C99F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp.rule */; };
+		8764E0480E654CAEA8DD6B29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/bagofwords.cpp */ = {isa = PBXBuildFile; fileRef = 6FBEB2768D6649C4967ACBC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/bagofwords.cpp */; };
+		880A53D2C4A34696BA9C667A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/orb.cpp */ = {isa = PBXBuildFile; fileRef = AA684B573D884D218CB3359B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/orb.cpp */; };
+		8885419062FA4FD3827AEF5E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/TEvolution.h */ = {isa = PBXBuildFile; fileRef = 31A0BA2910F04E2784C5DB96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/TEvolution.h */; };
+		8C58F4E1ECB84B608DB55C90 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.h */ = {isa = PBXBuildFile; fileRef = 578A948AC2F940B8A8FB228E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.h */; };
+		91BEB9581036473B9B35127B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/gftt.cpp */ = {isa = PBXBuildFile; fileRef = 68D1199F8B834C16911B05BD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/gftt.cpp */; };
+		91FC8CD8C6814885826E8307 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/utils.h */ = {isa = PBXBuildFile; fileRef = 044C2067AFAF415E85179002 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/utils.h */; };
+		94905B6E32524B3581BBDABB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.h */ = {isa = PBXBuildFile; fileRef = 16D2C0B3E9374315938C46F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.h */; };
+		9868806A5E1A4F2A98D41127 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_matchers_algorithmic.cpp */ = {isa = PBXBuildFile; fileRef = B8D2C84616F54E53B8E82056 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_matchers_algorithmic.cpp */; };
+		9BF6E2A735B24E379D4FE3B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_nearestneighbors.cpp */ = {isa = PBXBuildFile; fileRef = 8EEBCA7F0ECA477D832E4E55 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_nearestneighbors.cpp */; };
+		9D4381A8C0E34776ACB321F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = C58E567BBA1D4CE99764E503 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/matchers.cpp */; };
+		9F4E019FE3D44104BBC37767 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_regression.cpp */ = {isa = PBXBuildFile; fileRef = 4487D582992D4DD2AC1F3B46 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_regression.cpp */; };
+		AAB307B1F084487F940CADC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.avx2.cpp */ = {isa = PBXBuildFile; fileRef = 04914ACA69D5442892B3D6C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.avx2.cpp */; settings = {COMPILER_FLAGS = " -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 '-DCV_CPU_DISPATCH_MODE=AVX2' '-DCV_CPU_COMPILE_POPCNT=1' '-DCV_CPU_COMPILE_SSE4_2=1' '-DCV_CPU_COMPILE_FP16=1' '-DCV_CPU_COMPILE_FMA3=1' '-DCV_CPU_COMPILE_AVX=1' '-DCV_CPU_COMPILE_AVX2=1' "; }; };
+		AB7DC624B02A460FA2D0A211 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d.hpp */ = {isa = PBXBuildFile; fileRef = CD88B323AD0141B08E57F482 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d.hpp */; };
+		B081B33EABEF408391837595 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.h */ = {isa = PBXBuildFile; fileRef = FE48A3CBFE114DFD8BE3A2F0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.h */; };
+		B4A4F676B4DB455ABF2D842B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_brute_force_matcher.cpp */ = {isa = PBXBuildFile; fileRef = B276E9396F4248F4B989DA7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_brute_force_matcher.cpp */; };
+		B8090279C59E4073AA7DFAF2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.h */ = {isa = PBXBuildFile; fileRef = 5931A7AD9783428F939192B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.h */; };
+		BC80900BBBE44B628ECC83B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */ = {isa = PBXBuildFile; fileRef = 82421C61E2C04383BD3546B7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */; };
+		BF09D8A813AC4F059F58F01A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 54B7B67101854810876FB4C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */; };
+		C30355352477452EBFC391C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_orb.cpp */ = {isa = PBXBuildFile; fileRef = B48B6B9353004F81B15A7E91 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_orb.cpp */; };
+		CCF6AB950E874BD7869A0D79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/brisk.cpp */ = {isa = PBXBuildFile; fileRef = 3A38BE1621CA46DBB18C01EF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/brisk.cpp */; };
+		CECC5941C691474C9F576F37 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 025E1E8B74174211959AF0C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */; };
+		D0AF79FFFFED45658FA07DC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.cpp */ = {isa = PBXBuildFile; fileRef = E38B712EECCB4C828F70EE3F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.cpp */; };
+		D2D59482344A4AE8A23DFF22 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_invariance_utils.hpp */ = {isa = PBXBuildFile; fileRef = AA96BAD294B84BF5A5FC70F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_invariance_utils.hpp */; };
+		D352510D74E141439C2DEFD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.cpp */ = {isa = PBXBuildFile; fileRef = A964256E46134866AE314FC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.cpp */; };
+		D5B4BDF235E245269BFFFA7B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_regression.cpp */ = {isa = PBXBuildFile; fileRef = DD8CDBC773CA42429C206512 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_regression.cpp */; };
+		D99D21842D7540948CCEDAFC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/main.cpp */ = {isa = PBXBuildFile; fileRef = A499E7368EDF4C1F896C8CCA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/main.cpp */; };
+		DEE060BD5630406FABB3740B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.hpp */ = {isa = PBXBuildFile; fileRef = 8E593544C44043EBBAEB9A83 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.hpp */; };
+		E382779DFECC49EEB5CD8FBB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D240D191BB864251BDBFE9A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */; };
+		E6DC2E6C1E1447A7A45DBDE6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_batchDistance.cpp */ = {isa = PBXBuildFile; fileRef = 3C635AE1364E40CBA09AB7BE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_batchDistance.cpp */; };
+		EA14DCD7DE3B4BFB9D34DC69 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/brute_force_match.cl */ = {isa = PBXBuildFile; fileRef = 6A9834D618794264BC47E3E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/brute_force_match.cl */; };
+		EB09666EEDBB4FF3AB10A4D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/dynamic.cpp */ = {isa = PBXBuildFile; fileRef = 2E212638A57C4DCE975F5A76 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/dynamic.cpp */; };
+		EECD66104BF14172903B1E4A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_mser.cpp */ = {isa = PBXBuildFile; fileRef = B29F976803654555BAD3EE16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_mser.cpp */; };
+		EFEC742B3AD34AEDA36858B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.hpp */ = {isa = PBXBuildFile; fileRef = C13723F33AA44F4A813069A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.hpp */; };
+		F04F243680C4407F8C92E6EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/draw.cpp */ = {isa = PBXBuildFile; fileRef = 9CCCAF0941D740F4803C7CB0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/draw.cpp */; };
+		F97F62AB36A3405ABC515BD5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.hpp */ = {isa = PBXBuildFile; fileRef = A29E66B041C64525B1AB18E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.hpp */; };
+		FD7965112F0748668E0AD181 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.cpp */ = {isa = PBXBuildFile; fileRef = 6D8D57DFD0514EC08F19D2DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		728B2E39C81945CDAD2A8155 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F88356369086473F9790E139 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		33681C75166A4BA2A23CFE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF83D6585044F4CAD05D71D;
+			remoteInfo = opencv_features2d;
+		};
+		42449732BDBD43B6BA8BC1F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF83D6585044F4CAD05D71D;
+			remoteInfo = opencv_features2d;
+		};
+		61869A36C7884B37A09317C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+		8908105BC6854E87A847987C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		8D53876393E34B89A17BC2D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82FD4DEBFD44D82AF4DF637;
+			remoteInfo = opencv_perf_features2d;
+		};
+		9758C01882D344D59E8DB8B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF83D6585044F4CAD05D71D;
+			remoteInfo = opencv_features2d;
+		};
+		9A65A81D03CC4B68A26CDF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		A6D9C070A1944EBB8359EBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B33C0052E3412CA9EB992F;
+			remoteInfo = opencv_test_features2d;
+		};
+		B2244750A1F44BC2A5B25B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		DEF763C2186D4D1184039077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA335D46BE514AE188ACC538;
+			remoteInfo = ZERO_CHECK;
+		};
+		E786DD8AACC94FEA89993DA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9743039AD23841D58FF6EE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F493E2D02754AC383412611;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019588EF6E584E7592E929A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		025E1E8B74174211959AF0C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../BuildXcode/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		02A4266C498C456BBB948EB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/akaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = akaze.cpp; path = src/akaze.cpp; sourceTree = SOURCE_ROOT; };
+		044C2067AFAF415E85179002 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = src/kaze/utils.h; sourceTree = SOURCE_ROOT; };
+		04914ACA69D5442892B3D6C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.avx2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast.avx2.cpp; path = src/fast.avx2.cpp; sourceTree = SOURCE_ROOT; };
+		1272E01292E24F5193EB8607 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/orb.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = orb.cl; path = src/opencl/orb.cl; sourceTree = SOURCE_ROOT; };
+		127C727356B748229725983A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/fast.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fast.cl; path = src/opencl/fast.cl; sourceTree = SOURCE_ROOT; };
+		16D2C0B3E9374315938C46F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KAZEFeatures.h; path = src/kaze/KAZEFeatures.h; sourceTree = SOURCE_ROOT; };
+		1AD15241F9F94A4F95F107EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2443076CEFE149FB8FEA39E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = feature2d.cpp; path = src/feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		25D07FC2F13941E7B280D979 /* opencv_test_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_features2d; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E212638A57C4DCE975F5A76 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/dynamic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic.cpp; path = src/dynamic.cpp; sourceTree = SOURCE_ROOT; };
+		31A0BA2910F04E2784C5DB96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/TEvolution.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TEvolution.h; path = src/kaze/TEvolution.h; sourceTree = SOURCE_ROOT; };
+		325D2FCD655643D9B60F72A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_feature2d.cpp; path = test/ocl/test_feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		391B69F90D894BBFA712A82E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agast_score.cpp; path = src/agast_score.cpp; sourceTree = SOURCE_ROOT; };
+		3A38BE1621CA46DBB18C01EF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/brisk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = brisk.cpp; path = src/brisk.cpp; sourceTree = SOURCE_ROOT; };
+		3C635AE1364E40CBA09AB7BE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_batchDistance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_batchDistance.cpp; path = perf/perf_batchDistance.cpp; sourceTree = SOURCE_ROOT; };
+		3D23E3277B1D4A0992B3B04E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_feature2d.cpp; path = perf/opencl/perf_feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		402F9D8901A24CA6B7630004 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KAZEConfig.h; path = src/kaze/KAZEConfig.h; sourceTree = SOURCE_ROOT; };
+		44688F04BF254A71A12AAF23 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/evaluation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = evaluation.cpp; path = src/evaluation.cpp; sourceTree = SOURCE_ROOT; };
+		4487D582992D4DD2AC1F3B46 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_regression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_descriptors_regression.cpp; path = test/test_descriptors_regression.cpp; sourceTree = SOURCE_ROOT; };
+		51110304F3CD40D6A5492DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/hal_replacement.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hal_replacement.hpp; path = src/hal_replacement.hpp; sourceTree = SOURCE_ROOT; };
+		54B7B67101854810876FB4C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		57601BCB442C4C07AC43D462 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_akaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_akaze.cpp; path = test/test_akaze.cpp; sourceTree = SOURCE_ROOT; };
+		578A948AC2F940B8A8FB228E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AKAZEFeatures.h; path = src/kaze/AKAZEFeatures.h; sourceTree = SOURCE_ROOT; };
+		58FD2F3934BB4D2E9853A894 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d/hal/interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = interface.h; path = include/opencv2/features2d/hal/interface.h; sourceTree = SOURCE_ROOT; };
+		5931A7AD9783428F939192B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fed.h; path = src/kaze/fed.h; sourceTree = SOURCE_ROOT; };
+		5932B42D652046ACAB85A3CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/blobdetector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blobdetector.cpp; path = src/blobdetector.cpp; sourceTree = SOURCE_ROOT; };
+		63C5DE12E8054E6DAD065820 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agast.cpp; path = src/agast.cpp; sourceTree = SOURCE_ROOT; };
+		68D1199F8B834C16911B05BD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/gftt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gftt.cpp; path = src/gftt.cpp; sourceTree = SOURCE_ROOT; };
+		6A9834D618794264BC47E3E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/brute_force_match.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = brute_force_match.cl; path = src/opencl/brute_force_match.cl; sourceTree = SOURCE_ROOT; };
+		6D8D57DFD0514EC08F19D2DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast_score.cpp; path = src/fast_score.cpp; sourceTree = SOURCE_ROOT; };
+		6E72FB8B42E94FFAA8AE9354 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_agast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_agast.cpp; path = test/test_agast.cpp; sourceTree = SOURCE_ROOT; };
+		6F03C944B2A64D23AC628516 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_feature2d.cpp; path = perf/perf_feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		6FBEB2768D6649C4967ACBC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/bagofwords.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bagofwords.cpp; path = src/bagofwords.cpp; sourceTree = SOURCE_ROOT; };
+		703E910FCD744A0AB97CA5F5 /* opencv_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_features2d.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CD62BF1F8F4D7D9FE99E5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		72F3D6B5A89948AF9EB9EC51 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kaze.cpp; path = src/kaze.cpp; sourceTree = SOURCE_ROOT; };
+		7E662CB22435457EA4BD36E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_invariance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_descriptors_invariance.cpp; path = test/test_descriptors_invariance.cpp; sourceTree = SOURCE_ROOT; };
+		82421C61E2C04383BD3546B7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_brute_force_matcher.cpp; path = perf/opencl/perf_brute_force_matcher.cpp; sourceTree = SOURCE_ROOT; };
+		86B8FDCFC459449781725823 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_utils.cpp; path = test/test_utils.cpp; sourceTree = SOURCE_ROOT; };
+		890C21CAAFDE40A1BB2324B8 /* opencv_perf_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_features2d; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E593544C44043EBBAEB9A83 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast.hpp; path = src/fast.hpp; sourceTree = SOURCE_ROOT; };
+		8EEBCA7F0ECA477D832E4E55 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_nearestneighbors.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_nearestneighbors.cpp; path = test/test_nearestneighbors.cpp; sourceTree = SOURCE_ROOT; };
+		96D4EDAF9D0A45229C7D7B9E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		9CCCAF0941D740F4803C7CB0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = draw.cpp; path = src/draw.cpp; sourceTree = SOURCE_ROOT; };
+		A0FEDC540E8948C58247E48D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		A23737A7506541A39071F77B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		A29E66B041C64525B1AB18E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = agast_score.hpp; path = src/agast_score.hpp; sourceTree = SOURCE_ROOT; };
+		A498746EAA834C5D8D99DE01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_features2d.cpp; path = ../../BuildXcode/modules/features2d/opencl_kernels_features2d.cpp; sourceTree = SOURCE_ROOT; };
+		A499E7368EDF4C1F896C8CCA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		A5EB3D1544184908BA47F779 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = KAZEFeatures.cpp; path = src/kaze/KAZEFeatures.cpp; sourceTree = SOURCE_ROOT; };
+		A6594094E62648F9AB57CCFF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nldiffusion_functions.cpp; path = src/kaze/nldiffusion_functions.cpp; sourceTree = SOURCE_ROOT; };
+		A8EFF72DFFD948749BF7C7AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../BuildXcode/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		A964256E46134866AE314FC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast.cpp; path = src/fast.cpp; sourceTree = SOURCE_ROOT; };
+		AA684B573D884D218CB3359B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = orb.cpp; path = src/orb.cpp; sourceTree = SOURCE_ROOT; };
+		AA96BAD294B84BF5A5FC70F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_invariance_utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_invariance_utils.hpp; path = test/test_invariance_utils.hpp; sourceTree = SOURCE_ROOT; };
+		ADB2AE0740CB4C13A8E0BC01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AKAZEFeatures.cpp; path = src/kaze/AKAZEFeatures.cpp; sourceTree = SOURCE_ROOT; };
+		B276E9396F4248F4B989DA7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_brute_force_matcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_brute_force_matcher.cpp; path = test/ocl/test_brute_force_matcher.cpp; sourceTree = SOURCE_ROOT; };
+		B29F976803654555BAD3EE16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_mser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_mser.cpp; path = test/test_mser.cpp; sourceTree = SOURCE_ROOT; };
+		B2ED52B04CD04E9EAE185551 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_invariance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_detectors_invariance.cpp; path = test/test_detectors_invariance.cpp; sourceTree = SOURCE_ROOT; };
+		B48B6B9353004F81B15A7E91 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_orb.cpp; path = test/test_orb.cpp; sourceTree = SOURCE_ROOT; };
+		B5AE8660D647470FA0C73B3C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_brisk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_brisk.cpp; path = test/test_brisk.cpp; sourceTree = SOURCE_ROOT; };
+		B7743AE54CE749698BB12019 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		B8D2C84616F54E53B8E82056 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_matchers_algorithmic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_matchers_algorithmic.cpp; path = test/test_matchers_algorithmic.cpp; sourceTree = SOURCE_ROOT; };
+		BAA52D6AC90140B6AE3482D7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AKAZEConfig.h; path = src/kaze/AKAZEConfig.h; sourceTree = SOURCE_ROOT; };
+		C0B2D5829A31484785F13005 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_score.hpp; path = src/fast_score.hpp; sourceTree = SOURCE_ROOT; };
+		C13723F33AA44F4A813069A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_features2d.hpp; path = ../../BuildXcode/modules/features2d/opencl_kernels_features2d.hpp; sourceTree = SOURCE_ROOT; };
+		C265D374A659477AA84C99F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_features2d.cpp.rule; path = ../../BuildXcode/modules/features2d/opencl_kernels_features2d.cpp.rule; sourceTree = SOURCE_ROOT; };
+		C28C0E0FC55E4C2E90E3CDE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/keypoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = keypoint.cpp; path = src/keypoint.cpp; sourceTree = SOURCE_ROOT; };
+		C58E567BBA1D4CE99764E503 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
+		CD88B323AD0141B08E57F482 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = features2d.hpp; path = include/opencv2/features2d.hpp; sourceTree = SOURCE_ROOT; };
+		D240D191BB864251BDBFE9A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D742FF6F71D5448FB27BD850 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/akaze.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = akaze.cl; path = src/opencl/akaze.cl; sourceTree = SOURCE_ROOT; };
+		DD8CDBC773CA42429C206512 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_regression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_detectors_regression.cpp; path = test/test_detectors_regression.cpp; sourceTree = SOURCE_ROOT; };
+		DF27B62EBA844E58874E77CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/mser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mser.cpp; path = src/mser.cpp; sourceTree = SOURCE_ROOT; };
+		DF7786CA6CFA4FF784778837 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_keypoints.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_keypoints.cpp; path = test/test_keypoints.cpp; sourceTree = SOURCE_ROOT; };
+		E38B712EECCB4C828F70EE3F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fed.cpp; path = src/kaze/fed.cpp; sourceTree = SOURCE_ROOT; };
+		E7D40D7EAEEB4F5EA17F2CC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = features2d.hpp; path = include/opencv2/features2d/features2d.hpp; sourceTree = SOURCE_ROOT; };
+		ED58C363A1FF4DA89326330D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_fast.cpp; path = test/test_fast.cpp; sourceTree = SOURCE_ROOT; };
+		EDDE61B6792F42A586FD14CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_feature2d.hpp; path = perf/perf_feature2d.hpp; sourceTree = SOURCE_ROOT; };
+		F179174BDEBA41DD8D28E380 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_drawing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_drawing.cpp; path = test/test_drawing.cpp; sourceTree = SOURCE_ROOT; };
+		FE48A3CBFE114DFD8BE3A2F0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nldiffusion_functions.h; path = src/kaze/nldiffusion_functions.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B7BA18C296444A099233065 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				C265D374A659477AA84C99F6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1F1D76A01C764EF1AFAF1E09 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				711765D23447434DBBAEC839 /* CMake Rules */,
+				1AD15241F9F94A4F95F107EB /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		22C499B9BAD04DF5A4901742 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				EDDE61B6792F42A586FD14CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.hpp */,
+				96D4EDAF9D0A45229C7D7B9E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		294B2B9C99A7452BB66AC2AF /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				983769BFFC484279B7BD8C81 /* opencv2 */,
+				025E1E8B74174211959AF0C5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/cvconfig.h */,
+				A8EFF72DFFD948749BF7C7AF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/opencv2/opencv_modules.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		2DDAD3B5BDF443849E74D7DE /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				F362445ED2C04F0CA01A9355 /* opencv_test_features2d */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		3FAD1E435CD341B29933DD5D /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				D6B54B00BFC249DBB2D841AE /* ocl */,
+				6E72FB8B42E94FFAA8AE9354 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_agast.cpp */,
+				57601BCB442C4C07AC43D462 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_akaze.cpp */,
+				B5AE8660D647470FA0C73B3C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_brisk.cpp */,
+				7E662CB22435457EA4BD36E1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_invariance.cpp */,
+				4487D582992D4DD2AC1F3B46 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_regression.cpp */,
+				B2ED52B04CD04E9EAE185551 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_invariance.cpp */,
+				DD8CDBC773CA42429C206512 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_regression.cpp */,
+				F179174BDEBA41DD8D28E380 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_drawing.cpp */,
+				ED58C363A1FF4DA89326330D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_fast.cpp */,
+				DF7786CA6CFA4FF784778837 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_keypoints.cpp */,
+				B7743AE54CE749698BB12019 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_main.cpp */,
+				B8D2C84616F54E53B8E82056 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_matchers_algorithmic.cpp */,
+				B29F976803654555BAD3EE16 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_mser.cpp */,
+				8EEBCA7F0ECA477D832E4E55 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_nearestneighbors.cpp */,
+				B48B6B9353004F81B15A7E91 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_orb.cpp */,
+				86B8FDCFC459449781725823 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_utils.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		4C640A2CD7604D4E94F53960 /* kaze */ = {
+			isa = PBXGroup;
+			children = (
+				BAA52D6AC90140B6AE3482D7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEConfig.h */,
+				ADB2AE0740CB4C13A8E0BC01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.cpp */,
+				578A948AC2F940B8A8FB228E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.h */,
+				402F9D8901A24CA6B7630004 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEConfig.h */,
+				A5EB3D1544184908BA47F779 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.cpp */,
+				16D2C0B3E9374315938C46F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.h */,
+				31A0BA2910F04E2784C5DB96 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/TEvolution.h */,
+				E38B712EECCB4C828F70EE3F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.cpp */,
+				5931A7AD9783428F939192B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.h */,
+				A6594094E62648F9AB57CCFF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.cpp */,
+				FE48A3CBFE114DFD8BE3A2F0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.h */,
+				044C2067AFAF415E85179002 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/utils.h */,
+			);
+			name = kaze;
+			sourceTree = "<group>";
+		};
+		508EA75A967D4714B41E2D18 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				50FDDCEC822E408E859C0A81 /* opencv_perf_features2d */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		50FDDCEC822E408E859C0A81 /* opencv_perf_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				C673C54BCC8B4713B6299E19 /* Src */,
+				22C499B9BAD04DF5A4901742 /* Include */,
+				54B7B67101854810876FB4C1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_perf_features2d;
+			sourceTree = "<group>";
+		};
+		64E1FEE6FA1E43069CF81361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				703E910FCD744A0AB97CA5F5 /* opencv_features2d */,
+				890C21CAAFDE40A1BB2324B8 /* opencv_perf_features2d */,
+				25D07FC2F13941E7B280D979 /* opencv_test_features2d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		658C07B96BA54C019915997A = {
+			isa = PBXGroup;
+			children = (
+				508EA75A967D4714B41E2D18 /* tests performance */,
+				2DDAD3B5BDF443849E74D7DE /* tests accuracy */,
+				FC13ED1557824E70AD9AD93A /* modules */,
+				1F1D76A01C764EF1AFAF1E09 /* ALL_BUILD */,
+				64E1FEE6FA1E43069CF81361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662DA071FC85429D82AFCA33 /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				A498746EAA834C5D8D99DE01 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp */,
+				C13723F33AA44F4A813069A0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		711765D23447434DBBAEC839 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		83951B96008D480094F67FB4 /* opencv_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				294B2B9C99A7452BB66AC2AF /* Include */,
+				BDE253AB957645C085F86E02 /* Src */,
+				1B7BA18C296444A099233065 /* CMake Rules */,
+				70CD62BF1F8F4D7D9FE99E5B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_features2d;
+			sourceTree = "<group>";
+		};
+		8A7C3381A05A454B8B7433B9 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9A86390B145EEBD969ED5 /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		979A228CF03140D4A76A5057 /* hal */ = {
+			isa = PBXGroup;
+			children = (
+				58FD2F3934BB4D2E9853A894 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d/hal/interface.h */,
+			);
+			name = hal;
+			sourceTree = "<group>";
+		};
+		983769BFFC484279B7BD8C81 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				D6347A1BA1264CFB91272E7E /* features2d */,
+				CD88B323AD0141B08E57F482 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		B06F7CFFC908417DB544020A /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				AA96BAD294B84BF5A5FC70F7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_invariance_utils.hpp */,
+				A0FEDC540E8948C58247E48D /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		BDE253AB957645C085F86E02 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				4C640A2CD7604D4E94F53960 /* kaze */,
+				8A7C3381A05A454B8B7433B9 /* opencl */,
+				63C5DE12E8054E6DAD065820 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast.cpp */,
+				391B69F90D894BBFA712A82E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.cpp */,
+				A29E66B041C64525B1AB18E6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.hpp */,
+				02A4266C498C456BBB948EB9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/akaze.cpp */,
+				6FBEB2768D6649C4967ACBC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/bagofwords.cpp */,
+				5932B42D652046ACAB85A3CF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/blobdetector.cpp */,
+				3A38BE1621CA46DBB18C01EF /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/brisk.cpp */,
+				9CCCAF0941D740F4803C7CB0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/draw.cpp */,
+				2E212638A57C4DCE975F5A76 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/dynamic.cpp */,
+				44688F04BF254A71A12AAF23 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/evaluation.cpp */,
+				04914ACA69D5442892B3D6C9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.avx2.cpp */,
+				A964256E46134866AE314FC9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.cpp */,
+				8E593544C44043EBBAEB9A83 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.hpp */,
+				6D8D57DFD0514EC08F19D2DA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.cpp */,
+				C0B2D5829A31484785F13005 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.hpp */,
+				2443076CEFE149FB8FEA39E9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/feature2d.cpp */,
+				68D1199F8B834C16911B05BD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/gftt.cpp */,
+				51110304F3CD40D6A5492DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/hal_replacement.hpp */,
+				72F3D6B5A89948AF9EB9EC51 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze.cpp */,
+				C28C0E0FC55E4C2E90E3CDE8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/keypoint.cpp */,
+				A499E7368EDF4C1F896C8CCA /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/main.cpp */,
+				C58E567BBA1D4CE99764E503 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/matchers.cpp */,
+				DF27B62EBA844E58874E77CC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/mser.cpp */,
+				AA684B573D884D218CB3359B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/orb.cpp */,
+				A23737A7506541A39071F77B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		C673C54BCC8B4713B6299E19 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				F01350A1FC7A448FA81A0A29 /* opencl */,
+				3C635AE1364E40CBA09AB7BE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_batchDistance.cpp */,
+				6F03C944B2A64D23AC628516 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.cpp */,
+				019588EF6E584E7592E929A6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_main.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		D5E9A86390B145EEBD969ED5 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				662DA071FC85429D82AFCA33 /* autogenerated */,
+				D742FF6F71D5448FB27BD850 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/akaze.cl */,
+				6A9834D618794264BC47E3E7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/brute_force_match.cl */,
+				127C727356B748229725983A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/fast.cl */,
+				1272E01292E24F5193EB8607 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/opencl/orb.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		D6347A1BA1264CFB91272E7E /* features2d */ = {
+			isa = PBXGroup;
+			children = (
+				979A228CF03140D4A76A5057 /* hal */,
+				E7D40D7EAEEB4F5EA17F2CC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include/opencv2/features2d/features2d.hpp */,
+			);
+			name = features2d;
+			sourceTree = "<group>";
+		};
+		D6B54B00BFC249DBB2D841AE /* ocl */ = {
+			isa = PBXGroup;
+			children = (
+				B276E9396F4248F4B989DA7F /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_brute_force_matcher.cpp */,
+				325D2FCD655643D9B60F72A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_feature2d.cpp */,
+			);
+			name = ocl;
+			sourceTree = "<group>";
+		};
+		F01350A1FC7A448FA81A0A29 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				82421C61E2C04383BD3546B7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */,
+				3D23E3277B1D4A0992B3B04E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_feature2d.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		F362445ED2C04F0CA01A9355 /* opencv_test_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD1E435CD341B29933DD5D /* Src */,
+				B06F7CFFC908417DB544020A /* Include */,
+				D240D191BB864251BDBFE9A4 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_test_features2d;
+			sourceTree = "<group>";
+		};
+		FC13ED1557824E70AD9AD93A /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				83951B96008D480094F67FB4 /* opencv_features2d */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EF83D6585044F4CAD05D71D /* opencv_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1F217FD54A4855A6B406E9 /* Build configuration list for PBXNativeTarget "opencv_features2d" */;
+			buildPhases = (
+				A23D510BE2EA467BA8468B83 /* CMake Rules */,
+				257079CC08D24112B5D45C4C /* Sources */,
+				936A684F2B3C40C99036BDE4 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FAD345AAD914BD2BC8BB980 /* PBXTargetDependency */,
+			);
+			name = opencv_features2d;
+			productName = opencv_features2d;
+			productReference = 703E910FCD744A0AB97CA5F5 /* opencv_features2d */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		93B33C0052E3412CA9EB992F /* opencv_test_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E045A010ED6047D28A7AEB93 /* Build configuration list for PBXNativeTarget "opencv_test_features2d" */;
+			buildPhases = (
+				7BBCB164C9FD4BC0B764029E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74ADA9647C34E2BB7EB0C1E /* PBXTargetDependency */,
+				8078C5FEE7C240A1835FD044 /* PBXTargetDependency */,
+			);
+			name = opencv_test_features2d;
+			productName = opencv_test_features2d;
+			productReference = 25D07FC2F13941E7B280D979 /* opencv_test_features2d */;
+			productType = "com.apple.product-type.tool";
+		};
+		F82FD4DEBFD44D82AF4DF637 /* opencv_perf_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA53A62121AB4B8BA7C070C0 /* Build configuration list for PBXNativeTarget "opencv_perf_features2d" */;
+			buildPhases = (
+				0DF74979014347EEBEEBCDC5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90275097B0546FE8A67AB67 /* PBXTargetDependency */,
+				1712FEF15FD44C3DBC6A78D9 /* PBXTargetDependency */,
+			);
+			name = opencv_perf_features2d;
+			productName = opencv_perf_features2d;
+			productReference = 890C21CAAFDE40A1BB2324B8 /* opencv_perf_features2d */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9743039AD23841D58FF6EE8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = B961B526E8F944AEB58E2D27 /* Build configuration list for PBXProject "opencv_features2d" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				728B2E39C81945CDAD2A8155 /* Debug */,
+				F88356369086473F9790E139 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 658C07B96BA54C019915997A;
+			projectDirPath = ../../../modules/features2d;
+			projectRoot = "";
+			targets = (
+				5F493E2D02754AC383412611 /* ALL_BUILD */,
+				EBA73D7D8D4D4EF594850BAB /* RUN_TESTS */,
+				FA335D46BE514AE188ACC538 /* ZERO_CHECK */,
+				5A7B416EE38944FFBEF9479B /* install */,
+				1EF83D6585044F4CAD05D71D /* opencv_features2d */,
+				F82FD4DEBFD44D82AF4DF637 /* opencv_perf_features2d */,
+				93B33C0052E3412CA9EB992F /* opencv_test_features2d */,
+				BC2F3F2B44CC478B94BE33EB /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FE0446BF7C4417F89B59F11 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		244E7F946FC740068DC9EEE9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		2E2D2964088440FAAD738CC6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2EE527B6502D4DC6B8297501 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7406F42F24E24AB3AC9BE29A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		74A8157D8A204A13A6AFEDAF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		936A684F2B3C40C99036BDE4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/CMakeScripts/opencv_features2d_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9ADB050EFC044F1D977F24CF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9F0E02CC1D1E4037A77CAC51 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A23D510BE2EA467BA8468B83 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/CMakeScripts/opencv_features2d_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C4502310B358404CAEED30C1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F19EA3E76C0546E19DEDE268 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d -f /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DF74979014347EEBEEBCDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC80900BBBE44B628ECC83B2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */,
+				78C2C6027812401C9E05FA10 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/opencl/perf_feature2d.cpp */,
+				E6DC2E6C1E1447A7A45DBDE6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_batchDistance.cpp */,
+				61E64F5A0A6F436485A67F26 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_feature2d.cpp */,
+				30BDEAEB8C1A43EB9612BE43 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/perf/perf_main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257079CC08D24112B5D45C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F65F9DC5B0449EF89724F83 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/opencl_kernels_features2d.cpp */,
+				6384D8CDC14144D28B825CF6 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast.cpp */,
+				1EA7B810563E466F88C64326 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/agast_score.cpp */,
+				2670D76EAAB541369AC2EEF7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/akaze.cpp */,
+				8764E0480E654CAEA8DD6B29 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/bagofwords.cpp */,
+				159237574E7944939D5BD6C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/blobdetector.cpp */,
+				CCF6AB950E874BD7869A0D79 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/brisk.cpp */,
+				F04F243680C4407F8C92E6EC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/draw.cpp */,
+				EB09666EEDBB4FF3AB10A4D0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/dynamic.cpp */,
+				1D3C18CD8D974181B65291F0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/evaluation.cpp */,
+				AAB307B1F084487F940CADC1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.avx2.cpp */,
+				D352510D74E141439C2DEFD9 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast.cpp */,
+				FD7965112F0748668E0AD181 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/fast_score.cpp */,
+				27CC52453C97487BAC95042E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/feature2d.cpp */,
+				91BEB9581036473B9B35127B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/gftt.cpp */,
+				057E77C8B85542B69A8EDD55 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze.cpp */,
+				20E0DDCC516E47B1B64B5852 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/AKAZEFeatures.cpp */,
+				01EAF2819A7F43C48E005F1C /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/KAZEFeatures.cpp */,
+				D0AF79FFFFED45658FA07DC7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/fed.cpp */,
+				4A745B5F628F4C429D295DB5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/kaze/nldiffusion_functions.cpp */,
+				8017CB8888ED4D299F79FD8E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/keypoint.cpp */,
+				D99D21842D7540948CCEDAFC /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/main.cpp */,
+				9D4381A8C0E34776ACB321F1 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/matchers.cpp */,
+				1348B6CC542D4A62993E838B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/mser.cpp */,
+				880A53D2C4A34696BA9C667A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src/orb.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBCB164C9FD4BC0B764029E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A4F676B4DB455ABF2D842B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_brute_force_matcher.cpp */,
+				7A46AA60A7554D91953BCADD /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/ocl/test_feature2d.cpp */,
+				2CA08B797CA04B4D9D4EA596 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_agast.cpp */,
+				633566F28B0F4396BFFF9EB7 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_akaze.cpp */,
+				0CBF3F4BB2C54373B0196A25 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_brisk.cpp */,
+				0CE1C3A17A414847AC157585 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_invariance.cpp */,
+				9F4E019FE3D44104BBC37767 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_descriptors_regression.cpp */,
+				6246EB39BD4846559C383691 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_invariance.cpp */,
+				D5B4BDF235E245269BFFFA7B /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_detectors_regression.cpp */,
+				68E31A5DA3F5416195567045 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_drawing.cpp */,
+				31728AD05D5B4B4AAF4A60E2 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_fast.cpp */,
+				0D6CF697378C4281909CF69E /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_keypoints.cpp */,
+				5F46765273B94104BA5266DE /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_main.cpp */,
+				9868806A5E1A4F2A98D41127 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_matchers_algorithmic.cpp */,
+				EECD66104BF14172903B1E4A /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_mser.cpp */,
+				9BF6E2A735B24E379D4FE3B8 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_nearestneighbors.cpp */,
+				C30355352477452EBFC391C0 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_orb.cpp */,
+				6020DF74569E43389833E9E5 /* /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/test/test_utils.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1712FEF15FD44C3DBC6A78D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF83D6585044F4CAD05D71D /* opencv_features2d */;
+			targetProxy = 42449732BDBD43B6BA8BC1F2 /* PBXContainerItemProxy */;
+		};
+		33FA5BE7FBDB4A4C973C65B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B33C0052E3412CA9EB992F /* opencv_test_features2d */;
+			targetProxy = A6D9C070A1944EBB8359EBE1 /* PBXContainerItemProxy */;
+		};
+		5CD3D983DA834F7891D36767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = 61869A36C7884B37A09317C1 /* PBXContainerItemProxy */;
+		};
+		8078C5FEE7C240A1835FD044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF83D6585044F4CAD05D71D /* opencv_features2d */;
+			targetProxy = 9758C01882D344D59E8DB8B1 /* PBXContainerItemProxy */;
+		};
+		8E10DEFE6DCF4C3A87075B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F493E2D02754AC383412611 /* ALL_BUILD */;
+			targetProxy = E786DD8AACC94FEA89993DA0 /* PBXContainerItemProxy */;
+		};
+		8FAD345AAD914BD2BC8BB980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 8908105BC6854E87A847987C /* PBXContainerItemProxy */;
+		};
+		B90275097B0546FE8A67AB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = B2244750A1F44BC2A5B25B34 /* PBXContainerItemProxy */;
+		};
+		DDEFDE2EA8C64C219709218C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF83D6585044F4CAD05D71D /* opencv_features2d */;
+			targetProxy = 33681C75166A4BA2A23CFE96 /* PBXContainerItemProxy */;
+		};
+		F74ADA9647C34E2BB7EB0C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = 9A65A81D03CC4B68A26CDF5A /* PBXContainerItemProxy */;
+		};
+		F9279E8534B5448DAC8C7561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA335D46BE514AE188ACC538 /* ZERO_CHECK */;
+			targetProxy = DEF763C2186D4D1184039077 /* PBXContainerItemProxy */;
+		};
+		FF044A4DBCDD401AA1F28D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82FD4DEBFD44D82AF4DF637 /* opencv_perf_features2d */;
+			targetProxy = 8D53876393E34B89A17BC2D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C13A91F80674E51AD6C695D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		10D603CB4E1747FEA47A2E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.4.0;
+				DYLIB_CURRENT_VERSION = 3.4.6;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_features2d.3.4.dylib  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_features2d.3.4.6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1E0BE524E5FE43A486A6D4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1F3C3043B2D04DD49C47ABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2B2DC757DF7E43D2AAD639F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		393D8A5101D6447FAA6D9B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/build";
+			};
+			name = Debug;
+		};
+		48C52162EA1B42DEB020CB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4C87698388C441FEAA21366C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		61836D96C52C451E982D355E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d/build";
+			};
+			name = Release;
+		};
+		66BA4D7983F54D9C987A3215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6FC8EE9ABD7747B097C0E8B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7278162A91424602825F1F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		78A0657839B24E219D9A6F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.4.0;
+				DYLIB_CURRENT_VERSION = 3.4.6;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CVAPI_EXPORTS,"'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/src","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -dynamiclib -Wl,-headerpad_max_install_names -install_name @rpath/libopencv_features2d.3.4.dylib  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_features2d.3.4.6;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		935B52E7D6E84C31AFC8C964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_TESTS=1'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Release/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Release/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9BFC816A075D494BB86AF526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B16673EBC41A460DA5F85F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EF33630DF03C4C84B6B9AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FDBD1CDEEF5C47A083533296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'__OPENCV_BUILD=1'",_USE_MATH_DEFINES,__STDC_CONSTANT_MACROS,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/iw/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/ts/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/features2d/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgcodecs/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/core/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/flann/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/imgproc/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/videoio/include","/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/modules/highgui/include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIE  ";
+				OTHER_LDFLAGS = "  -Wl,-dead_strip   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_ts.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_features2d.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_flann.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_highgui.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/lib/Debug/libippiw.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/3rdparty/ippicv/ippicv_mac/icv/lib/intel64/libippicv.a /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_videoio.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgcodecs.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_imgproc.3.4.6.dylib /Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/lib/Debug/libopencv_core.3.4.6.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/Documents/GitHub/MacLearn/Source/opencv-3.4.6/BuildXcode/modules/features2d";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF9ED28D9E342918F24876D /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7278162A91424602825F1F1A /* Debug */,
+				2B2DC757DF7E43D2AAD639F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D1F217FD54A4855A6B406E9 /* Build configuration list for PBXNativeTarget "opencv_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A0657839B24E219D9A6F66 /* Debug */,
+				10D603CB4E1747FEA47A2E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		59D92B121F2A464397E7A1BD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16673EBC41A460DA5F85F9D /* Debug */,
+				9BFC816A075D494BB86AF526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5EDD70B1387842609DE1740D /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0BE524E5FE43A486A6D4FD /* Debug */,
+				1F3C3043B2D04DD49C47ABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A529B8FB1A14557A2E4F697 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C87698388C441FEAA21366C /* Debug */,
+				0C13A91F80674E51AD6C695D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B961B526E8F944AEB58E2D27 /* Build configuration list for PBXProject "opencv_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393D8A5101D6447FAA6D9B39 /* Debug */,
+				61836D96C52C451E982D355E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA21EA231BF44B8EAE69667F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C52162EA1B42DEB020CB91 /* Debug */,
+				EF33630DF03C4C84B6B9AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E045A010ED6047D28A7AEB93 /* Build configuration list for PBXNativeTarget "opencv_test_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BA4D7983F54D9C987A3215 /* Debug */,
+				935B52E7D6E84C31AFC8C964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA53A62121AB4B8BA7C070C0 /* Build configuration list for PBXNativeTarget "opencv_perf_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBD1CDEEF5C47A083533296 /* Debug */,
+				6FC8EE9ABD7747B097C0E8B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9743039AD23841D58FF6EE8B /* Project object */;
+}
